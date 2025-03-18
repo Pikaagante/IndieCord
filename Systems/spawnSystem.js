@@ -1,5 +1,6 @@
 let currentSpawn = null;
 const { mob } = require('../main.js');
+const path = require('path'); // Importation de path pour utiliser __dirname
 
 const spawnChances = {
     common: 85,
@@ -37,31 +38,22 @@ module.exports = async (bot, message, profil, mob) => {
             name: selectedName,
             rarity,
             img: selected.img,
-            channel: message.channel.id
+            channel: message.channel.id // Le salon où le personnage apparaît
         };
 
-        const guildName = message.guild.name;
-        const guildId = "1211604943686082610"; // ID du serveur
-        const channelId = "1236780828239990946"; // ID du salon
+        // Utilisation de __dirname pour le chemin relatif des images
+        const imagePath = path.resolve(__dirname, '..', 'assets', 'images', selected.img);
 
-        // Récupérer le serveur et le salon via l'ID
-        const guild = bot.guilds.cache.get(guildId);
-        const channel = guild.channels.cache.get(channelId);
-
-        // Vérification que le salon existe avant d'envoyer le message
-        if (!channel) {
-            return message.channel.send('Le salon spécifié est introuvable.');
-        }
-
-        // Envoi du message dans le salon spécifique
-        await channel.send({
-            content: `Un personnage de rareté **${rarity}** est apparu dans le serveur **${guildName}** ! Tapez \`!capture <nom du personnage>\` pour tenter de l\'attraper !`,
-            files: [`./assets/images/${selected.img}`] // Adapte selon ton dossier image
+        // Envoi du message de spawn dans le même salon
+        await message.channel.send({
+            content: `Un personnage de rareté **${rarity}** est apparu ! Tapez \`!capture <nom du personnage>\` pour tenter de l\'attraper !`,
+            files: [imagePath] // Adapte le chemin d'accès à l'image
         });
     }
 
     // === Gestion du CAPTURE ===
     const captureCommand = message.content.toLowerCase().startsWith('!capture ');
+
     if (captureCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
         const nameAttempted = message.content.slice('!capture '.length).trim(); // Récupère le nom après la commande
 

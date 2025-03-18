@@ -1,4 +1,5 @@
-const { profil } = require('../main.js'); // Importer correctement 'profil'
+const path = require('path');
+const { profil } = require(path.resolve(__dirname, '..', 'main.js')); // Importer correctement 'profil'
 
 module.exports = {
     name: "inventaire",

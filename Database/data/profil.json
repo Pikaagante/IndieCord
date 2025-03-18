@@ -48,6 +48,51 @@
 				"name": "Cuphead",
 				"rarity": "COMMON",
 				"img": "1.png"
+			},
+			{
+				"name": "Madeline",
+				"rarity": "COMMON",
+				"img": "2.png"
+			},
+			{
+				"name": "Shovel Knight",
+				"rarity": "COMMON",
+				"img": "3.png"
+			},
+			{
+				"name": "Shovel Knight",
+				"rarity": "COMMON",
+				"img": "3.png"
+			},
+			{
+				"name": "Shovel Knight",
+				"rarity": "COMMON",
+				"img": "3.png"
+			},
+			{
+				"name": "Papyrus",
+				"rarity": "RARE",
+				"img": "5.png"
+			},
+			{
+				"name": "Undyne",
+				"rarity": "EPIC",
+				"img": "6.png"
+			},
+			{
+				"name": "Cuphead",
+				"rarity": "COMMON",
+				"img": "1.png"
+			},
+			{
+				"name": "Madeline",
+				"rarity": "COMMON",
+				"img": "2.png"
+			},
+			{
+				"name": "Undyne",
+				"rarity": "EPIC",
+				"img": "6.png"
 			}
 		]
 	}
