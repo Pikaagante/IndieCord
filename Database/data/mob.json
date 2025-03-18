@@ -1,0 +1,31 @@
+{
+    "COMMON": {
+        "Cuphead": {
+            "img": "1.png"
+        },
+        "Madeline": {
+            "img": "2.png"
+        },
+        "Shovel Knight": {
+            "img": "3.png"
+        }
+    },
+    "RARE": {
+        "Hollow Knight": {
+            "img": "4.png"
+        },
+        "Papyrus": {
+            "img": "5.png"
+        }
+    },
+    "EPIC": {
+        "Undyne" : {
+            "img": "6.png"
+        }
+    },
+    "LEGENDARY": {
+        "Sans": {
+            "img": "7.png"
+        }
+    }
+}

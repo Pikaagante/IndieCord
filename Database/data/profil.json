@@ -1,3 +1,54 @@
 {
-    
+	"365039602882445312": {
+		"characters": [
+			{
+				"name": "Madeline",
+				"rarity": "COMMON",
+				"img": "2.png",
+				"channel": "1211604944160030752"
+			},
+			{
+				"name": "Sans",
+				"rarity": "LEGENDARY",
+				"img": "7.png",
+				"channel": "1211604944160030752"
+			},
+			{
+				"name": "Hollow Knight",
+				"rarity": "RARE",
+				"img": "4.png",
+				"channel": "1211604944160030752"
+			},
+			{
+				"name": "Cuphead",
+				"rarity": "COMMON",
+				"img": "1.png"
+			},
+			{
+				"name": "Cuphead",
+				"rarity": "COMMON",
+				"img": "1.png"
+			},
+			{
+				"name": "Shovel Knight",
+				"rarity": "COMMON",
+				"img": "3.png"
+			},
+			{
+				"name": "Papyrus",
+				"rarity": "RARE",
+				"img": "5.png"
+			},
+			{
+				"name": "Cuphead",
+				"rarity": "COMMON",
+				"img": "1.png"
+			},
+			{
+				"name": "Cuphead",
+				"rarity": "COMMON",
+				"img": "1.png"
+			}
+		]
+	}
 }
