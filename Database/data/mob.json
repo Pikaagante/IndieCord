@@ -1,190 +1,250 @@
 {
     "COMMON": {
         "Froggit" : {
-            "img": "9.png"
+            "img": "9.png",
+            "hint" : "Licence : Undertale"
         },
         "Whimsun" : {
-            "img" : "11.png"
+            "img" : "11.png",
+            "hint" : "Licence : Undertale"
         },
         "Loox" : {
-            "img" : "12.png"
+            "img" : "12.png",
+            "hint" : "Licence : Undertale"
         },
         "Vegetoid" : {
-            "img" : "13.png"
+            "img" : "13.png",
+            "hint" : "Licence : Undertale"
         },
         "Migosp" : {
-            "img" : "23.png"
+            "img" : "23.png",
+            "hint" : "Licence : Undertale"
         },
         "Ice Cap" : {
-            "img" : "24.png"
+            "img" : "24.png",
+            "hint" : "Licence : Undertale"
         },
         "Aaron" : {
-            "img" : "28.png"
+            "img" : "28.png",
+            "hint" : "Licence : Undertale"
         },
         "Vulkin" : {
-            "img" : "35.png"
+            "img" : "35.png",
+            "hint" : "Licence : Undertale"
         },
         "Snowman" : {
-            "img" : "40.png"
+            "img" : "40.png",
+            "hint" : "Licence : Undertale"
         },
         "OnionSan" : {
-            "img" : "42.png"
+            "img" : "42.png",
+            "hint" : "Licence : Undertale"
         },
         "Moldsmal" : {
-            "img" : "44.png"
+            "img" : "44.png",
+            "hint" : "Licence : Undertale"
         },
         "Astigmatism": {
-            "img": "16.png"
+            "img": "16.png",
+            "hint" : "Licence : Undertale"
         },
         "Snowdrake":{
-            "img": "17.png"
+            "img": "17.png",
+            "hint" : "Licence : Undertale"
         },
         "Tsunderplane":{
-            "img": "48.png"
+            "img": "48.png",
+            "hint" : "Licence : Undertale"
         },
         "Pyrope":{
-            "img": "49.png"
+            "img": "49.png",
+            "hint" : "Licence : Undertale"
         },
         "Madjick":{
-            "img": "50.png"
+            "img": "50.png",
+            "hint" : "Licence : Undertale"
         },
         "Toy Knife":{
-            "img": "56.png"
+            "img": "56.png",
+            "hint" : "Licence : Undertale"
         },
         "Spider Donut":{
-            "img": "57.png"
+            "img": "57.png",
+            "hint" : "Licence : Undertale"
         },
         "Old Tutu":{
-            "img": "59.png"
+            "img": "59.png",
+            "hint" : "Licence : Undertale"
         }
     },
     "RARE": {
-        "Final Froggit" : {
-            "img": "10.png"
-        },
         "Greater Dog": {
-            "img": "14.png"
+            "img": "14.png",
+            "hint" : "Licence : Undertale"
         },
         "Dummy":{
-            "img": "21.png"
+            "img": "21.png",
+            "hint" : "Licence : Undertale"
         },
         "Doggo":{
-            "img": "25.png"
+            "img": "25.png",
+            "hint" : "Licence : Undertale"
         },
         "Gyftrot":{
-            "img": "26.png"
+            "img": "26.png",
+            "hint" : "Licence : Undertale"
         },
         "Mad Mew Mew":{
-            "img": "27.png"
+            "img": "27.png",
+            "hint" : "Licence : Undertale"
         },
         "Monster Kid":{
-            "img": "30.png"
+            "img": "30.png",
+            "hint" : "Licence : Undertale"
         },
         "Whimsalot":{
-            "img": "34.png"
+            "img": "34.png",
+            "hint" : "Licence : Undertale"
         },
         "Grillby":{
-            "img": "41.png"
+            "img": "41.png",
+            "hint" : "Licence : Undertale"
         },
         "Lesser Dog":{
-            "img": "45.png"
+            "img": "45.png",
+            "hint" : "Licence : Undertale"
         },
         "Jerry":{
-            "img": "46.png"
+            "img": "46.png",
+            "hint" : "Licence : Undertale"
         },
         "Chilldrake":{
-            "img": "47.png"
+            "img": "47.png",
+            "hint" : "Licence : Undertale"
         },
         "Memoryhead":{
-            "img": "51.png"
+            "img": "51.png",
+            "hint" : "Licence : Undertale"
         },
         "Reaper Bird":{
-            "img": "52.png"
+            "img": "52.png",
+            "hint" : "Licence : Undertale"
         },
         "Endogeny":{
-            "img": "53.png"
+            "img": "53.png",
+            "hint" : "Licence : Undertale"
         },
         "Lemon Bread":{
-            "img": "54.png"
+            "img": "54.png",
+            "hint" : "Licence : Undertale"
         },
         "Snowdrake's Mother":{
-            "img": "55.png"
+            "img": "55.png",
+            "hint" : "Licence : Undertale"
         },
         "Temmie Flakes":{
-            "img": "58.png"
+            "img": "58.png",
+            "hint" : "Licence : Undertale"
         },
         "Annoying Dog":{
-            "img": "60.png"
+            "img": "60.png",
+            "hint" : "Licence : Undertale"
+        },
+        "Final Froggit" : {
+            "img": "10.png",
+            "hint" : "Licence : Undertale"
         }
     },
     "EPIC": {
         "Undyne" : {
-            "img": "6.png"
+            "img": "6.png",
+            "hint" : "Licence : Undertale"
         },
         "Papyrus": {
-            "img": "5.png"
+            "img": "5.png",
+            "hint" : "Licence : Undertale"
         },
         "Shovel Knight": {
-            "img": "3.png"
+            "img": "3.png",
+            "hint" : "Licence : Undertale"
         },
         "Madeline": {
-            "img": "2.png"
+            "img": "2.png",
+            "hint" : "Licence : Undertale"
         },
         "Napstablook" : {
-            "img": "19.png"
+            "img": "19.png",
+            "hint" : "Licence : Undertale"
         },
         "Toriel" : {
-            "img": "20.png"
+            "img": "20.png",
+            "hint" : "Licence : Undertale"
         },
         "Mad Dummy" : {
-            "img": "21.png"
+            "img": "21.png",
+            "hint" : "Licence : Undertale"
         },
         "Mettaton" : {
-            "img": "32.png"
+            "img": "32.png",
+            "hint" : "Licence : Undertale"
         },
         "Muffet" : {
-            "img": "36.png"
+            "img": "36.png",
+            "hint" : "Licence : Undertale"
         },
         "Alphys" : {
-            "img": "38.png"
+            "img": "38.png",
+            "hint" : "Licence : Undertale"
         }
     },
     "LEGENDARY": {
         "Sans": {
-            "img": "7.png"
+            "img": "7.png",
+            "hint" : "Licence : Undertale"
         },
         "Hollow Knight": {
-            "img": "4.png"
+            "img": "4.png",
+            "hint" : "Licence : Undertale"
         },
         "Cuphead": {
-            "img": "1.png"
+            "img": "1.png",
+            "hint" : "Licence : Undertale"
         },
         "Undyne the undying": {
-            "img": "8.png"
+            "img": "8.png",
+            "hint" : "Licence : Undertale"
         },
         "Asgore": {
-            "img": "15.png"
+            "img": "15.png",
+            "hint" : "Licence : Undertale"
         },
         "Flowey": {
-            "img": "18.png"
+            "img": "18.png",
+            "hint" : "Licence : Undertale"
         },
         "Temmie": {
-            "img": "29.png"
+            "img": "29.png",
+            "hint" : "Licence : Undertale"
         },
         "Mettaton Ex": {
-            "img": "31.png"
+            "img": "31.png",
+            "hint" : "Licence : Undertale"
         },
         "Asriel Dreemur": {
-            "img": "33.png"
+            "img": "33.png",
+            "hint" : "Licence : Undertale"
         },
         "Frisk": {
-            "img": "37.png"
+            "img": "37.png",
+            "hint" : "Licence : Undertale"
         },
         "Chara": {
-            "img": "39.png"
+            "img": "39.png",
+            "hint" : "Licence : Undertale"
         },
         "Gaster": {
-            "img": "43.png"
+            "img": "43.png",
+            "hint" : "Licence : Undertale"
         }
     }
 }

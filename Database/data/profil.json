@@ -36,6 +36,18 @@
 				"rarity": "RARE",
 				"img": "5.png",
 				"nbr": 1
+			},
+			{
+				"name": "Aaron",
+				"rarity": "COMMON",
+				"img": "28.png",
+				"nbr": 1
+			},
+			{
+				"name": "Reaper Bird",
+				"rarity": "RARE",
+				"img": "52.png",
+				"nbr": 1
 			}
 		]
 	},

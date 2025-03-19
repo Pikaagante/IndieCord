@@ -65,7 +65,8 @@ module.exports = async (bot, message, profil, mob) => {
     }
 
     // === Gestion du CAPTURE ===
-    const captureCommand = message.content.toLowerCase().startsWith('!capture ');
+    const captureCommand = message.content.toLowerCase().startsWith('!capture');
+    const captureCommand2 = message.content.toLowerCase().startsWith('!hint');
 
     if (captureCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
         const nameAttempted = message.content.slice('!capture '.length).trim();
@@ -89,6 +90,17 @@ module.exports = async (bot, message, profil, mob) => {
             clearSpawn();
         } else {
             await message.channel.send(`Pas le bon nom.`);
+        }
+    }
+
+    // === Gestion indice ===
+    if (captureCommand2 && currentSpawn && currentSpawn.channel === message.channel.id) {
+        const hint = mob.getMob(currentSpawn.rarity)[currentSpawn.name].hint;
+
+        if (hint) {
+            await message.channel.send(`Indice : ${hint}`);
+        } else {
+            await message.channel.send(`Aucun indice disponible pour ce personnage.`);
         }
     }
 };
