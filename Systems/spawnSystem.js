@@ -34,7 +34,7 @@ module.exports = async (bot, message, profil, mob) => {
     if (message.author.bot || !message.guild) return;
 
     // === Gestion du SPAWN ===
-    if (!currentSpawn && Math.random() < 1) {
+    if (!currentSpawn && Math.random() < 0.1) {
         const rarity = rollRarity();
         const allMobs = mob.getMob(rarity);
         if (!allMobs || Object.keys(allMobs).length === 0) return;
@@ -53,7 +53,7 @@ module.exports = async (bot, message, profil, mob) => {
         const imagePath = path.resolve(__dirname, '..', 'assets', 'images', selected.img);
 
         await message.channel.send({
-            content: `Un personnage de rareté **${rarity}** est apparu ! Tapez \`!capture <nom du personnage>\` pour tenter de l'attraper !`,
+            content: `Un personnage de rareté **${rarity}** est apparu ! Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`,
             files: [imagePath]
         });
 
@@ -65,7 +65,7 @@ module.exports = async (bot, message, profil, mob) => {
     }
 
     // === Gestion du CAPTURE ===
-    const captureCommand = message.content.toLowerCase().startsWith('!capture');
+    const captureCommand = message.content.toLowerCase().startsWith('!c');
     const captureCommand2 = message.content.toLowerCase().startsWith('!hint');
 
     if (captureCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
