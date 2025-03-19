@@ -5,94 +5,53 @@
 				"name": "Madeline",
 				"rarity": "COMMON",
 				"img": "2.png",
-				"channel": "1211604944160030752"
+				"nbr": 3
 			},
 			{
-				"name": "Sans",
-				"rarity": "LEGENDARY",
-				"img": "7.png",
-				"channel": "1211604944160030752"
+				"name": "Shovel Knight",
+				"rarity": "COMMON",
+				"img": "3.png",
+				"nbr": 1
+			},
+			{
+				"name": "Cuphead",
+				"rarity": "COMMON",
+				"img": "1.png",
+				"nbr": 2
 			},
 			{
 				"name": "Hollow Knight",
 				"rarity": "RARE",
 				"img": "4.png",
-				"channel": "1211604944160030752"
-			},
-			{
-				"name": "Cuphead",
-				"rarity": "COMMON",
-				"img": "1.png"
-			},
-			{
-				"name": "Cuphead",
-				"rarity": "COMMON",
-				"img": "1.png"
-			},
-			{
-				"name": "Shovel Knight",
-				"rarity": "COMMON",
-				"img": "3.png"
-			},
-			{
-				"name": "Papyrus",
-				"rarity": "RARE",
-				"img": "5.png"
-			},
-			{
-				"name": "Cuphead",
-				"rarity": "COMMON",
-				"img": "1.png"
-			},
-			{
-				"name": "Cuphead",
-				"rarity": "COMMON",
-				"img": "1.png"
-			},
-			{
-				"name": "Madeline",
-				"rarity": "COMMON",
-				"img": "2.png"
-			},
-			{
-				"name": "Shovel Knight",
-				"rarity": "COMMON",
-				"img": "3.png"
-			},
-			{
-				"name": "Shovel Knight",
-				"rarity": "COMMON",
-				"img": "3.png"
-			},
-			{
-				"name": "Shovel Knight",
-				"rarity": "COMMON",
-				"img": "3.png"
-			},
-			{
-				"name": "Papyrus",
-				"rarity": "RARE",
-				"img": "5.png"
+				"nbr": 1
 			},
 			{
 				"name": "Undyne",
 				"rarity": "EPIC",
-				"img": "6.png"
+				"img": "6.png",
+				"nbr": 1
 			},
+			{
+				"name": "Papyrus",
+				"rarity": "RARE",
+				"img": "5.png",
+				"nbr": 1
+			}
+		]
+	},
+	"734405755436007435": {
+		"characters": [
 			{
 				"name": "Cuphead",
 				"rarity": "COMMON",
-				"img": "1.png"
+				"img": "1.png",
+				"nbr": 1
 			},
 			{
-				"name": "Madeline",
+				"name": "Shovel Knight",
 				"rarity": "COMMON",
-				"img": "2.png"
-			},
-			{
-				"name": "Undyne",
-				"rarity": "EPIC",
-				"img": "6.png"
+				"img": "3.png",
+				"nbr": 1
 			}
 		]
 	}

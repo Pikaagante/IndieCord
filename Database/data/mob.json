@@ -1,31 +1,190 @@
 {
     "COMMON": {
-        "Cuphead": {
-            "img": "1.png"
+        "Froggit" : {
+            "img": "9.png"
         },
-        "Madeline": {
-            "img": "2.png"
+        "Whimsun" : {
+            "img" : "11.png"
         },
-        "Shovel Knight": {
-            "img": "3.png"
-        }
+        "Loox" : {
+            "img" : "12.png"
+        },
+        "Vegetoid" : {
+            "img" : "13.png"
+        },
+        "Migosp" : {
+            "img" : "23.png"
+        },
+        "Ice Cap" : {
+            "img" : "24.png"
+        },
+        "Aaron" : {
+            "img" : "28.png"
+        },
+        "Vulkin" : {
+            "img" : "35.png"
+        },
+        "Snowman" : {
+            "img" : "40.png"
+        },
+        "OnionSan" : {
+            "img" : "42.png"
+        },
+        "Moldsmal" : {
+            "img" : "44.png"
+        },
+        "Astigmatism": {
+            "img": "16.png"
+        },
+        "Snowdrake":{
+            "img": "17.png"
+        },
+        "Tsunderplane":{
+            "img": "48.png"
+        },
+        "Pyrope":{
+            "img": "49.png"
+        },
+        "Madjick":{
+            "img": "50.png"
+        },
+        "Toy Knife":{
+            "img": "56.png"
+        },
+        "Spider Donut":{
+            "img": "57.png"
+        },
+        "Old Tutu":{
+            "img": "59.png"
+        },
     },
     "RARE": {
-        "Hollow Knight": {
-            "img": "4.png"
+        "Final Froggit" : {
+            "img": "10.png"
         },
-        "Papyrus": {
-            "img": "5.png"
-        }
+        "Greater Dog": {
+            "img": "14.png"
+        },
+        "Dummy":{
+            "img": "21.png"
+        },
+        "Doggo":{
+            "img": "25.png"
+        },
+        "Gyftrot":{
+            "img": "26.png"
+        },
+        "Mad Mew Mew":{
+            "img": "27.png"
+        },
+        "Monster Kid":{
+            "img": "30.png"
+        },
+        "Whimsalot":{
+            "img": "34.png"
+        },
+        "Grillby":{
+            "img": "41.png"
+        },
+        "Lesser Dog":{
+            "img": "45.png"
+        },
+        "Jerry":{
+            "img": "46.png"
+        },
+        "Chilldrake":{
+            "img": "47.png"
+        },
+        "Memoryhead":{
+            "img": "51.png"
+        },
+        "Reaper Bird":{
+            "img": "52.png"
+        },
+        "Endogeny":{
+            "img": "53.png"
+        },
+        "Lemon Bread":{
+            "img": "54.png"
+        },
+        "Snowdrake's Mother":{
+            "img": "55.png"
+        },
+        "Temmie Flakes":{
+            "img": "58.png"
+        },
+        "Annoying Dog":{
+            "img": "60.png"
+        },
     },
     "EPIC": {
         "Undyne" : {
             "img": "6.png"
+        },
+        "Papyrus": {
+            "img": "5.png"
+        },
+        "Shovel Knight": {
+            "img": "3.png"
+        },
+        "Madeline": {
+            "img": "2.png"
+        },
+        "Napstablook" : {
+            "img": "19.png"
+        },
+        "Toriel" : {
+            "img": "20.png"
+        },
+        "Mad Dummy" : {
+            "img": "21.png"
+        },
+        "Mettaton" : {
+            "img": "32.png"
+        },
+        "Muffet" : {
+            "img": "36.png"
+        },
+        "Alphys" : {
+            "img": "38.png"
         }
     },
     "LEGENDARY": {
         "Sans": {
             "img": "7.png"
+        },
+        "Hollow Knight": {
+            "img": "4.png"
+        },
+        "Cuphead": {
+            "img": "1.png"
+        },
+        "Undyne the undying": {
+            "img": "8.png"
+        },
+        "Asgore": {
+            "img": "15.png"
+        },
+        "Flowey": {
+            "img": "18.png"
+        },
+        "Temmie": {
+            "img": "29.png"
+        },
+        "Mettaton Ex": {
+            "img": "31.png"
+        },
+        "Asriel Dreemur": {
+            "img": "33.png"
+        },
+        "Frisk": {
+            "img": "37.png"
+        },
+        "Chara": {
+            "img": "39.png"
+        },
+        "Gaster": {
+            "img": "43.png"
         }
     }
 }

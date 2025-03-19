@@ -43,7 +43,7 @@ module.exports = {
                 if (characters.length > 0) {
                     inventoryMessage += `\n**${rarityType.charAt(0).toUpperCase() + rarityType.slice(1).toLowerCase()} :**\n`;
                     characters.forEach((character, index) => {
-                        inventoryMessage += `**${index + 1}.** ${character.name} (${character.rarity})\n`;
+                        inventoryMessage += `**${index + 1}.** ${character.name} (${character.rarity}) x${character.nbr}\n`;
                     });
                 }
             }
@@ -65,7 +65,7 @@ module.exports = {
 
         let inventoryMessage = `Voici votre inventaire **${rarity}** :\n`;
         characters.forEach((character, index) => {
-            inventoryMessage += `**${index + 1}.** ${character.name} (${character.rarity})\n`;
+            inventoryMessage += `**${index + 1}.** ${character.name} x${character.nbr}\n`;
         });
 
         // Envoi de l'inventaire

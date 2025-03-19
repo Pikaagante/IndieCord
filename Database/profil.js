@@ -11,43 +11,52 @@ class profil extends JSONHandler {
 
     addCharacter(userId, character) {
         let profile = super.getKey(userId);
-
+    
         // Si le profil n'existe pas, on le crée avec une structure par défaut
         if (!profile) {
             profile = {
                 characters: []  // Une liste vide pour les personnages
             };
         }
-
-        // Assure-toi que la liste "characters" existe avant d'y ajouter le personnage
-        if (!profile.characters) {
-            profile.characters = [];
+    
+        // Recherche si le personnage existe déjà dans le profil
+        const existingCharacter = profile.characters.find(c => c.name.toLowerCase() === character.name.toLowerCase());
+    
+        if (existingCharacter) {
+            // Si le personnage existe déjà, on incrémente le nombre
+            existingCharacter.nbr += 1;
+        } else {
+            // Si le personnage n'existe pas, on l'ajoute avec nbr = 1
+            const { channel, ...characterWithoutChannel } = character;
+            characterWithoutChannel.nbr = 1;  // Initialisation du nombre
+            profile.characters.push(characterWithoutChannel);
         }
-
-        // Retirer `channel` des données du personnage avant de l'ajouter
-        const { channel, ...characterWithoutChannel } = character;
-
-        // On ajoute le personnage sans le channel à la liste des personnages
-        profile.characters.push(characterWithoutChannel);
-
-        // Sauvegarde des modifications dans le fichier
-        super.addData(userId, profile);  // On enregistre directement le profil de l'utilisateur
-        super.saveData();  // Sauvegarde le fichier JSON
-    }
+    
+        // Sauvegarde des modifications dans le fichier JSON
+        super.addData(userId, profile);
+        super.saveData();  // Sauvegarde les modifications dans le fichier JSON
+    }    
 
     getCharacters(userId) {
         const profile = super.getKey(userId);
         return profile ? profile.characters : [];
     }
 
-    // Correction de la méthode getCharactersByRarity
-    getCharactersByRarity(userId, rarity) {
+    getCharacterByName(userId, name) {
         const userProfil = this.data[userId];
-        if (!userProfil || !userProfil.characters) return [];
+        if (!userProfil || !userProfil.characters) return null;
 
-        // Filtrer les personnages par rareté
-        const characters = userProfil.characters.filter(character => character.rarity === rarity);
-        return characters || [];
+        // Cherche le personnage par son nom
+        const character = userProfil.characters.find(character => character.name.toLowerCase() === name.toLowerCase());
+        return character || null;
+    }
+    
+    getCharactersByRarity(userId, rarity) {
+        const profile = super.getKey(userId);
+        if (!profile || !profile.characters) return [];
+
+        // Filtrer les personnages selon la rareté
+        return profile.characters.filter(character => character.rarity.toUpperCase() === rarity.toUpperCase());
     }
 }
 

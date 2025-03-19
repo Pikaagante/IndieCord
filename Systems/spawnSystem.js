@@ -1,6 +1,7 @@
 let currentSpawn = null;
 const { mob } = require('../main.js');
-const path = require('path'); // Importation de path pour utiliser __dirname
+const { profil } = require('../main.js');
+const path = require('path');
 
 const spawnChances = {
     common: 85,
@@ -23,7 +24,7 @@ module.exports = async (bot, message, profil, mob) => {
     if (message.author.bot || !message.guild) return;
 
     // === Gestion du SPAWN ===
-    if (!currentSpawn && Math.random() < 1) {
+    if (!currentSpawn && Math.random() < 0.01) {
         const rarity = rollRarity();
 
         // Récupération de tous les personnages de la rareté depuis mob.json
@@ -58,13 +59,26 @@ module.exports = async (bot, message, profil, mob) => {
         const nameAttempted = message.content.slice('!capture '.length).trim(); // Récupère le nom après la commande
 
         if (nameAttempted.toLowerCase() === currentSpawn.name.toLowerCase()) {
-            // Capture automatique si le nom est correct
-            await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity})`);
+            // Vérification si le personnage est déjà dans le profil de l'utilisateur
+            const existingCharacter = profil.getCharacterByName(message.author.id, currentSpawn.name);
 
-            // Ajout du personnage capturé au profil de l'utilisateur
-            profil.addCharacter(message.author.id, currentSpawn);
+            if (existingCharacter) {
+                // Si le personnage existe déjà, on incrémente le nombre
+                existingCharacter.nbr += 1;
+                await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity}) x${existingCharacter.nbr}`);
+                
+                // Sauvegarde des données après la mise à jour
+                const profile = profil.getProfil(message.author.id);
+                profil.addData(message.author.id, profile);
+                profil.saveData();  // Sauvegarde le fichier JSON
+            } else {
+                // Si le personnage n'est pas encore dans le profil, on l'ajoute
+                profil.addCharacter(message.author.id, currentSpawn);
+                await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity})`);
+            }            
 
-            currentSpawn = null;  // Réinitialisation du spawn
+            // Réinitialisation du spawn
+            currentSpawn = null;
         } else {
             await message.channel.send(`Pas le bon nom.`);
         }
