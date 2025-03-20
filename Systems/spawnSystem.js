@@ -34,7 +34,7 @@ module.exports = async (bot, message, profil, mob) => {
     if (message.author.bot || !message.guild) return;
 
     // === Gestion du SPAWN ===
-    if (!currentSpawn && Math.random() < 0.1) {
+    if (!currentSpawn && Math.random() < 1) {
         const rarity = rollRarity();
         const allMobs = mob.getMob(rarity);
         if (!allMobs || Object.keys(allMobs).length === 0) return;
@@ -47,7 +47,8 @@ module.exports = async (bot, message, profil, mob) => {
             name: selectedName,
             rarity,
             img: selected.img,
-            channel: message.channel.id
+            channel: message.channel.id,
+            licence: selected.hint
         };
 
         const imagePath = path.resolve(__dirname, '..', 'assets', 'images', selected.img);
@@ -69,29 +70,29 @@ module.exports = async (bot, message, profil, mob) => {
     const captureCommand2 = message.content.toLowerCase().startsWith('!hint');
 
     if (captureCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
-        const nameAttempted = message.content.slice('!capture '.length).trim();
-
+        const nameAttempted = message.content.slice('!c '.length).trim();
+    
         if (nameAttempted.toLowerCase() === currentSpawn.name.toLowerCase()) {
             const existingCharacter = profil.getCharacterByName(message.author.id, currentSpawn.name);
-
+    
             if (existingCharacter) {
                 existingCharacter.nbr += 1;
+                existingCharacter.licence = currentSpawn.licence; // ✅ Ajoute/modifie la licence
+    
+                profil.addCharacter(message.author.id, existingCharacter); // ✅ Sauvegarde les changements
+    
                 await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity}) x${existingCharacter.nbr}`);
-
-                const profile = profil.getProfil(message.author.id);
-                profil.addData(message.author.id, profile);
-                profil.saveData();
             } else {
-                profil.addCharacter(message.author.id, currentSpawn);
+                currentSpawn.nbr = 1;
+                profil.addCharacter(message.author.id, currentSpawn); // ✅ Enregistre la licence avec le personnage
                 await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity})`);
             }
-
-            // On annule le timer et reset le spawn
+    
             clearSpawn();
         } else {
             await message.channel.send(`Pas le bon nom.`);
         }
-    }
+    }      
 
     // === Gestion indice ===
     if (captureCommand2 && currentSpawn && currentSpawn.channel === message.channel.id) {

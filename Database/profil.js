@@ -12,30 +12,27 @@ class profil extends JSONHandler {
     addCharacter(userId, character) {
         let profile = super.getKey(userId);
     
-        // Si le profil n'existe pas, on le crée avec une structure par défaut
         if (!profile) {
             profile = {
-                characters: []  // Une liste vide pour les personnages
+                characters: []
             };
         }
     
-        // Recherche si le personnage existe déjà dans le profil
         const existingCharacter = profile.characters.find(c => c.name.toLowerCase() === character.name.toLowerCase());
     
         if (existingCharacter) {
-            // Si le personnage existe déjà, on incrémente le nombre
             existingCharacter.nbr += 1;
+            existingCharacter.licence = character.licence; // ✅ Met à jour la licence
         } else {
-            // Si le personnage n'existe pas, on l'ajoute avec nbr = 1
             const { channel, ...characterWithoutChannel } = character;
-            characterWithoutChannel.nbr = 1;  // Initialisation du nombre
+            characterWithoutChannel.nbr = 1;
+            characterWithoutChannel.licence = character.licence; // ✅ Ajoute la licence au personnage
             profile.characters.push(characterWithoutChannel);
         }
     
-        // Sauvegarde des modifications dans le fichier JSON
         super.addData(userId, profile);
-        super.saveData();  // Sauvegarde les modifications dans le fichier JSON
-    }    
+        super.saveData();
+    }              
 
     getCharacters(userId) {
         const profile = super.getKey(userId);

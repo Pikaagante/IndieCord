@@ -2,67 +2,10 @@
 	"365039602882445312": {
 		"characters": [
 			{
-				"name": "Madeline",
+				"name": "Astigmatism",
 				"rarity": "COMMON",
-				"img": "2.png",
-				"nbr": 3
-			},
-			{
-				"name": "Shovel Knight",
-				"rarity": "COMMON",
-				"img": "3.png",
-				"nbr": 1
-			},
-			{
-				"name": "Cuphead",
-				"rarity": "COMMON",
-				"img": "1.png",
-				"nbr": 2
-			},
-			{
-				"name": "Hollow Knight",
-				"rarity": "RARE",
-				"img": "4.png",
-				"nbr": 1
-			},
-			{
-				"name": "Undyne",
-				"rarity": "EPIC",
-				"img": "6.png",
-				"nbr": 1
-			},
-			{
-				"name": "Papyrus",
-				"rarity": "RARE",
-				"img": "5.png",
-				"nbr": 1
-			},
-			{
-				"name": "Aaron",
-				"rarity": "COMMON",
-				"img": "28.png",
-				"nbr": 1
-			},
-			{
-				"name": "Reaper Bird",
-				"rarity": "RARE",
-				"img": "52.png",
-				"nbr": 1
-			}
-		]
-	},
-	"734405755436007435": {
-		"characters": [
-			{
-				"name": "Cuphead",
-				"rarity": "COMMON",
-				"img": "1.png",
-				"nbr": 1
-			},
-			{
-				"name": "Shovel Knight",
-				"rarity": "COMMON",
-				"img": "3.png",
+				"img": "16.png",
+				"licence": "Undertale",
 				"nbr": 1
 			}
 		]
