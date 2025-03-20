@@ -23,7 +23,6 @@ const initialize = async () => {
     console.log("✅ Profil et Mob chargés !");
 };
 
-// On exécute l'initialisation AVANT de lancer le bot
 initialize().then(() => {
     bot.commands = new Discord.Collection();
 
@@ -41,5 +40,3 @@ initialize().then(() => {
 }).catch(err => {
     console.error("❌ Erreur lors de l'initialisation des données:", err);
 });
-
-// On n'a plus besoin d'exporter un objet ou une promesse

@@ -6,14 +6,14 @@ const { EmbedBuilder } = require("discord.js");
 const path = require("path");
 const fs = require("fs");
 
-const shiny = 0.01;
-const spawn = 1;
+const shiny = 0.02;
+const spawn = 0.01;
 
 const spawnChances = {
-    common: 100,
-    rare: 0,
-    epic: 0,
-    legendary: 0
+    common: 85,
+    rare: 10,
+    epic: 3,
+    legendary: 2
 };
 
 // 🎲 Déterminer la rareté
@@ -27,7 +27,7 @@ function rollRarity() {
     return "COMMON";
 }
 
-// 🌟 Déterminer si c'est un Shiny (1% de chance)
+// 🌟 Déterminer si c'est un Shiny (2% de chance)
 function rollShiny() {
     return Math.random() < shiny;
 }
