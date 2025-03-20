@@ -2,17 +2,18 @@ let currentSpawn = null;
 let spawnTimeout = null;
 let revealTimeout = null;
 
-const shiny = 1;
-const spawn = 1;
-
+const { EmbedBuilder } = require("discord.js");
 const path = require("path");
 const fs = require("fs");
+
+const shiny = 0.01;
+const spawn = 1;
 
 const spawnChances = {
     common: 100,
     rare: 0,
-    epic:0,
-    legendary:0
+    epic: 0,
+    legendary: 0
 };
 
 // 🎲 Déterminer la rareté
@@ -69,6 +70,7 @@ module.exports = async (bot, message) => {
 
         // Vérifie si l'image Shiny existe, sinon utilise l'image normale
         let imagePath = isShiny && fs.existsSync(shinyImagePath) ? shinyImagePath : normalImagePath;
+        let imageUrl = `attachment://${path.basename(imagePath)}`;
 
         currentSpawn = {
             name: selectedName,
@@ -79,17 +81,34 @@ module.exports = async (bot, message) => {
             licence: selected.hint
         };
 
+        const embed = new EmbedBuilder()
+            .setTitle(`Un ${isShiny ? "✨ SHINY " : ""}${rarity} est apparu !`)
+            .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`)
+            .setColor(isShiny ? "#FFD700" : "#3498db")
+            .setImage(imageUrl)
+            .setFooter({ text: "30 secondes avant que le nom soit révélé !" });
+
         await message.channel.send({
-            content: `Un **${isShiny ? "SHINY " : ""}${rarity}** est apparu ! Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`,
-            files: [{ attachment: imagePath }]
+            embeds: [embed],
+            files: [{ attachment: imagePath, name: path.basename(imagePath) }]
         });
 
         revealTimeout = setTimeout(async () => {
-            await message.channel.send(`C'est **${currentSpawn.shiny ? "✨ SHINY " : ""}${currentSpawn.name}**.`);
+            const revealEmbed = new EmbedBuilder()
+                .setTitle(`Révélation`)
+                .setDescription(`C'est **${currentSpawn.shiny ? "✨ SHINY " : ""}${currentSpawn.name}**.`)
+                .setColor("#e74c3c")
+
+            await message.channel.send({ embeds: [revealEmbed] });
         }, 30 * 1000);
 
         spawnTimeout = setTimeout(async () => {
-            await message.channel.send(`**${currentSpawn.name}** s'est enfui...`);
+            const fleeEmbed = new EmbedBuilder()
+                .setTitle(`Fuite`)
+                .setDescription(`**${currentSpawn.name}** s'est enfui...`)
+                .setColor("#95a5a6");
+
+            await message.channel.send({ embeds: [fleeEmbed] });
             clearSpawn();
         }, 60 * 1000);
     }
@@ -104,35 +123,57 @@ module.exports = async (bot, message) => {
         if (nameAttempted.toLowerCase() === currentSpawn.name.toLowerCase()) {
             const existingCharacter = global.profil.getCharacterByName(message.author.id, currentSpawn.name);
 
+            // 🔄 **Recalculer l'image pour affichage dans l'embed de capture**
+            let normalImagePath = path.resolve(__dirname, "..", "assets", "images", currentSpawn.img);
+            let shinyImagePath = path.resolve(__dirname, "..", "assets", "images", "shiny", currentSpawn.img);
+            let imagePath = currentSpawn.shiny && fs.existsSync(shinyImagePath) ? shinyImagePath : normalImagePath;
+            let imageUrl = `attachment://${path.basename(imagePath)}`;
+
             if (existingCharacter) {
                 const wasNotShinyBefore = !existingCharacter.shiny && currentSpawn.shiny;
-            
+
                 if (wasNotShinyBefore) {
                     existingCharacter.shiny = true;
                 }
-            
+
                 existingCharacter.nbr += 1;
-            
-                // ✅ Toujours réenregistrer le personnage après mise à jour
                 global.profil.addCharacter(message.author.id, existingCharacter);
             } else {
                 currentSpawn.nbr = 1;
                 global.profil.addCharacter(message.author.id, {
                     ...currentSpawn,
-                    shiny: currentSpawn.shiny // ✅ Enregistrer si c'est shiny
+                    shiny: currentSpawn.shiny
                 });
-            }                                
+            }
 
-            await message.channel.send(`${message.author.username} a capturé **${currentSpawn.shiny ? "✨ SHINY " : ""}${currentSpawn.name}** (${currentSpawn.rarity})`);
+            const captureEmbed = new EmbedBuilder()
+                .setTitle(`Bravo !`)
+                .setDescription(`${message.author.username} a capturé **${currentSpawn.shiny ? "✨ SHINY " : ""}${currentSpawn.name}** (${currentSpawn.rarity})`)
+                .setColor("#2ecc71")
+
+            await message.channel.send({
+                embeds: [captureEmbed],
+                files: [{ attachment: imagePath, name: path.basename(imagePath) }]
+            });
             clearSpawn();
         } else {
-            await message.channel.send(`Pas le bon nom.`);
+            const wrongEmbed = new EmbedBuilder()
+                .setTitle("Mauvais nom !")
+                .setDescription(`Ce n'est pas le bon personnage.`)
+                .setColor("#e74c3c");
+
+            await message.channel.send({ embeds: [wrongEmbed] });
         }
     }
 
     // 🔍 Gestion des indices
     if (captureCommand2 && currentSpawn && currentSpawn.channel === message.channel.id) {
         const hint = global.mob.getMob(currentSpawn.rarity)[currentSpawn.name].hint;
-        await message.channel.send(`Indice : ${hint ? hint : "Aucun indice disponible."}`);
+        const hintEmbed = new EmbedBuilder()
+            .setTitle(`Indice`)
+            .setDescription(hint ? hint : "Aucun indice disponible.")
+            .setColor("#f1c40f");
+
+        await message.channel.send({ embeds: [hintEmbed] });
     }
 };

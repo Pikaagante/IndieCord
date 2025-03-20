@@ -7,6 +7,74 @@
         "Whimsun" : {
             "img" : "11.png",
             "hint" : "Undertale"
+        },
+        "Loox" : {
+            "img" : "12.png",
+            "hint" : "Undertale"
+        },
+        "Vegetoid" : {
+            "img" : "13.png",
+            "hint" : "Undertale"
+        },
+        "Migosp" : {
+            "img" : "23.png",
+            "hint" : "Undertale"
+        },
+        "Ice Cap" : {
+            "img" : "24.png",
+            "hint" : "Undertale"
+        },
+        "Aaron" : {
+            "img" : "28.png",
+            "hint" : "Undertale"
+        },
+        "Vulkin" : {
+            "img" : "35.png",
+            "hint" : "Undertale"
+        },
+        "Snowman" : {
+            "img" : "40.png",
+            "hint" : "Licence : Undertale"
+        },
+        "OnionSan" : {
+            "img" : "42.png",
+            "hint" : "Undertale"
+        },
+        "Moldsmal" : {
+            "img" : "44.png",
+            "hint" : "Undertale"
+        },
+        "Astigmatism": {
+            "img": "16.png",
+            "hint" : "Undertale"
+        },
+        "Snowdrake":{
+            "img": "17.png",
+            "hint" : "Undertale"
+        },
+        "Tsunderplane":{
+            "img": "48.png",
+            "hint" : "Undertale"
+        },
+        "Pyrope":{
+            "img": "49.png",
+            "hint" : "Undertale"
+        },
+        "Madjick":{
+            "img": "50.png",
+            "hint" : "Undertale"
+        },
+        "Toy Knife":{
+            "img": "56.png",
+            "hint" : "Undertale"
+        },
+        "Spider Donut":{
+            "img": "57.png",
+            "hint" : "Undertale"
+        },
+        "Old Tutu":{
+            "img": "59.png",
+            "hint" : "Undertale"
         }
     },
     "RARE": {
