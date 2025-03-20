@@ -152,8 +152,7 @@ module.exports = async (bot, message) => {
                 .setColor("#2ecc71")
 
             await message.channel.send({
-                embeds: [captureEmbed],
-                files: [{ attachment: imagePath, name: path.basename(imagePath) }]
+                embeds: [captureEmbed]
             });
             clearSpawn();
         } else {
