@@ -39,12 +39,18 @@ module.exports = {
                 { name: "Epic", value: "EPIC" },
                 { name: "Legendary", value: "LEGENDARY" }
             ]
+        },
+        {
+            type: "boolean",
+            name: "shiny",
+            description: "Afficher uniquement les personnages shiny",
+            required: false
         }
     ],
 
     async run(bot, interaction) {
         console.log("🔍 DEBUG - Chargement des données...");
-        
+
         if (!global.profil || !global.mob) {
             return interaction.reply("❌ Erreur : Impossible de récupérer les données.");
         }
@@ -52,21 +58,26 @@ module.exports = {
         const filter = interaction.options.getString("filter") || "all";
         const licence = interaction.options.getString("licence");
         const rarity = interaction.options.getString("rarity");
+        const shinyFilter = interaction.options.getBoolean("shiny");
 
         const userId = interaction.user.id;
         console.log(`🔹 DEBUG - Utilisateur : ${userId}`);
 
-        const userCharacters = global.profil.getCharacters(userId).map(c => c.name);
+        const userCharacters = global.profil.getCharacters(userId);
+
         const allCharacters = [];
 
         for (const [rarityKey, characters] of Object.entries(global.mob.data)) {
             for (const [characterName, characterData] of Object.entries(characters)) {
+                const userCharacter = userCharacters.find(c => c.name === characterName);
+
                 allCharacters.push({
                     name: characterName,
                     rarity: rarityKey.toUpperCase(),
                     img: characterData.img,
                     licence: characterData.hint || "Inconnue",
-                    isUnlocked: userCharacters.includes(characterName)
+                    isUnlocked: !!userCharacter,
+                    isShiny: userCharacter ? userCharacter.shiny : false
                 });
             }
         }
@@ -85,6 +96,10 @@ module.exports = {
 
         if (rarity) {
             filteredCharacters = filteredCharacters.filter(c => c.rarity === rarity);
+        }
+
+        if (shinyFilter) {
+            filteredCharacters = filteredCharacters.filter(c => c.isShiny);
         }
 
         if (filteredCharacters.length === 0) {
@@ -106,9 +121,9 @@ module.exports = {
                 .setColor("#FF0000")
                 .setFooter({ text: `Page ${page + 1} / ${totalPages}` });
 
-            charactersToShow.forEach((char, index) => {
+            charactersToShow.forEach((char) => {
                 embed.addFields({
-                    name: `${char.name} (${char.rarity})`,
+                    name: `${char.isShiny ? "✨ " : ""}${char.name} (${char.rarity})`,
                     value: `Licence: ${char.licence} ${char.isUnlocked ? "✅" : "❌"}`,
                     inline: true
                 });
