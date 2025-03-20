@@ -1,5 +1,6 @@
 let currentSpawn = null;
 let spawnTimeout = null; // Timer pour gérer le cooldown
+let revealTimeout = null; // Timer pour révéler la réponse après 30 secondes
 
 const { mob } = require('../main.js');
 const { profil } = require('../main.js');
@@ -27,6 +28,10 @@ function clearSpawn() {
     if (spawnTimeout) {
         clearTimeout(spawnTimeout);
         spawnTimeout = null;
+    }
+    if (revealTimeout) {
+        clearTimeout(revealTimeout);
+        revealTimeout = null;
     }
 }
 
@@ -58,7 +63,12 @@ module.exports = async (bot, message, profil, mob) => {
             files: [imagePath]
         });
 
-        // Lancement du cooldown de 1 minute
+        // Lancement du timer pour révéler la réponse après 30 secondes
+        revealTimeout = setTimeout(async () => {
+            await message.channel.send(`C'est **${currentSpawn.name}**.`);
+        }, 30 * 1000); // 30 secondes
+
+        // Lancement du cooldown de 1 minute avant qu'il ne s'enfuie
         spawnTimeout = setTimeout(async () => {
             await message.channel.send(`**${currentSpawn.name}** s'est enfui...`);
             clearSpawn();
@@ -71,28 +81,28 @@ module.exports = async (bot, message, profil, mob) => {
 
     if (captureCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
         const nameAttempted = message.content.slice('!c '.length).trim();
-    
+
         if (nameAttempted.toLowerCase() === currentSpawn.name.toLowerCase()) {
             const existingCharacter = profil.getCharacterByName(message.author.id, currentSpawn.name);
-    
+
             if (existingCharacter) {
                 existingCharacter.nbr += 1;
                 existingCharacter.licence = currentSpawn.licence; // ✅ Ajoute/modifie la licence
-    
+
                 profil.addCharacter(message.author.id, existingCharacter); // ✅ Sauvegarde les changements
-    
+
                 await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity}) x${existingCharacter.nbr}`);
             } else {
                 currentSpawn.nbr = 1;
                 profil.addCharacter(message.author.id, currentSpawn); // ✅ Enregistre la licence avec le personnage
                 await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity})`);
             }
-    
-            clearSpawn();
+
+            clearSpawn(); // ✅ Supprime les timers une fois le personnage capturé
         } else {
             await message.channel.send(`Pas le bon nom.`);
         }
-    }      
+    }
 
     // === Gestion indice ===
     if (captureCommand2 && currentSpawn && currentSpawn.channel === message.channel.id) {

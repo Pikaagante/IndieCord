@@ -7,6 +7,20 @@
 				"img": "16.png",
 				"licence": "Undertale",
 				"nbr": 1
+			},
+			{
+				"name": "Pyrope",
+				"rarity": "COMMON",
+				"img": "49.png",
+				"licence": "Undertale",
+				"nbr": 1
+			},
+			{
+				"name": "OnionSan",
+				"rarity": "COMMON",
+				"img": "42.png",
+				"licence": "Undertale",
+				"nbr": 1
 			}
 		]
 	}
