@@ -6,41 +6,40 @@ const path = require("path");
 const config = require(path.join(__dirname, "config"));
 const spawnHandler = require(path.join(__dirname, "Systems", "spawnSystem"));
 
-const loadCommands = require("./Loaders/loadCommands")
-const loadEvents = require("./Loaders/loadEvents")
+const loadCommands = require("./Loaders/loadCommands");
+const loadEvents = require("./Loaders/loadEvents");
 
-let profil, mob;
-
-const main = async () => {
-    const basePath = path.join(__dirname, 'Database', 'data');  // Utilisation de __dirname pour les chemins absolus
+const initialize = async () => {
+    const basePath = path.join(__dirname, 'Database', 'data');
 
     const Profil = require(path.join(__dirname, "Database", "profil.js"));
-    profil = new Profil(path.join(basePath, "profil.json"));
-    await profil.loadFile();
+    global.profil = new Profil(path.join(basePath, "profil.json"));
+    await global.profil.loadFile();
 
     const Mob = require(path.join(__dirname, "Database", "mob.js"));
-    mob = new Mob(path.join(basePath, "mob.json"));
-    await mob.loadFile();
+    global.mob = new Mob(path.join(basePath, "mob.json"));
+    await global.mob.loadFile();
+
+    console.log("✅ Profil et Mob chargés !");
 };
 
-main().then(() => {
+// On exécute l'initialisation AVANT de lancer le bot
+initialize().then(() => {
     bot.commands = new Discord.Collection();
 
-    // Connexion du bot après avoir chargé les données
     bot.login(config.token).then(() => {
         loadCommands(bot);
         loadEvents(bot);
 
-        // On connecte ton système de spawn directement au bot
         bot.on("messageCreate", (message) => {
-            // Ignorer les messages du bot pour éviter les boucles infinies
             if (message.author.bot) return;
-
-            spawnHandler(bot, message, profil, mob);
+            spawnHandler(bot, message, global.profil, global.mob);
         });
     }).catch(err => {
         console.error("Erreur de connexion au bot:", err);
     });
+}).catch(err => {
+    console.error("❌ Erreur lors de l'initialisation des données:", err);
 });
 
-module.exports = { profil, mob }; // On exporte profil et mob une seule fois
+// On n'a plus besoin d'exporter un objet ou une promesse

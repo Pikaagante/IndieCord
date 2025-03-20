@@ -166,11 +166,11 @@
         },
         "Shovel Knight": {
             "img": "3.png",
-            "hint" : "Undertale"
+            "hint" : "Shovel Knight"
         },
         "Madeline": {
             "img": "2.png",
-            "hint" : "Undertale"
+            "hint" : "Celeste"
         },
         "Napstablook" : {
             "img": "19.png",
@@ -204,11 +204,11 @@
         },
         "Hollow Knight": {
             "img": "4.png",
-            "hint" : "Undertale"
+            "hint" : "Hollow Knight"
         },
         "Cuphead": {
             "img": "1.png",
-            "hint" : "Undertale"
+            "hint" : "Cuphead"
         },
         "Undyne the undying": {
             "img": "8.png",

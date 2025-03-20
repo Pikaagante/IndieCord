@@ -2,8 +2,6 @@ let currentSpawn = null;
 let spawnTimeout = null; // Timer pour gérer le cooldown
 let revealTimeout = null; // Timer pour révéler la réponse après 30 secondes
 
-const { mob } = require('../main.js');
-const { profil } = require('../main.js');
 const path = require('path');
 
 const spawnChances = {
@@ -35,13 +33,18 @@ function clearSpawn() {
     }
 }
 
-module.exports = async (bot, message, profil, mob) => {
+module.exports = async (bot, message) => {
     if (message.author.bot || !message.guild) return;
+
+    if (!global.profil || !global.mob) {
+        console.error("❌ SpawnSystem : profil ou mob non chargés.");
+        return;
+    }
 
     // === Gestion du SPAWN ===
     if (!currentSpawn && Math.random() < 1) {
         const rarity = rollRarity();
-        const allMobs = mob.getMob(rarity);
+        const allMobs = global.mob.getMob(rarity);
         if (!allMobs || Object.keys(allMobs).length === 0) return;
 
         const charNames = Object.keys(allMobs);
@@ -65,7 +68,7 @@ module.exports = async (bot, message, profil, mob) => {
 
         // Lancement du timer pour révéler la réponse après 30 secondes
         revealTimeout = setTimeout(async () => {
-            await message.channel.send(`C'est **${currentSpawn.name}**.`);
+            await message.channel.send(`C'était **${currentSpawn.name}**.`);
         }, 30 * 1000); // 30 secondes
 
         // Lancement du cooldown de 1 minute avant qu'il ne s'enfuie
@@ -83,18 +86,18 @@ module.exports = async (bot, message, profil, mob) => {
         const nameAttempted = message.content.slice('!c '.length).trim();
 
         if (nameAttempted.toLowerCase() === currentSpawn.name.toLowerCase()) {
-            const existingCharacter = profil.getCharacterByName(message.author.id, currentSpawn.name);
+            const existingCharacter = global.profil.getCharacterByName(message.author.id, currentSpawn.name);
 
             if (existingCharacter) {
                 existingCharacter.nbr += 1;
                 existingCharacter.licence = currentSpawn.licence; // ✅ Ajoute/modifie la licence
 
-                profil.addCharacter(message.author.id, existingCharacter); // ✅ Sauvegarde les changements
+                global.profil.addCharacter(message.author.id, existingCharacter); // ✅ Sauvegarde les changements
 
                 await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity}) x${existingCharacter.nbr}`);
             } else {
                 currentSpawn.nbr = 1;
-                profil.addCharacter(message.author.id, currentSpawn); // ✅ Enregistre la licence avec le personnage
+                global.profil.addCharacter(message.author.id, currentSpawn); // ✅ Enregistre la licence avec le personnage
                 await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity})`);
             }
 
@@ -106,7 +109,7 @@ module.exports = async (bot, message, profil, mob) => {
 
     // === Gestion indice ===
     if (captureCommand2 && currentSpawn && currentSpawn.channel === message.channel.id) {
-        const hint = mob.getMob(currentSpawn.rarity)[currentSpawn.name].hint;
+        const hint = global.mob.getMob(currentSpawn.rarity)[currentSpawn.name].hint;
 
         if (hint) {
             await message.channel.send(`Indice : ${hint}`);

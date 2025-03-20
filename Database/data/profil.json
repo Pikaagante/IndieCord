@@ -21,6 +21,27 @@
 				"img": "42.png",
 				"licence": "Undertale",
 				"nbr": 1
+			},
+			{
+				"name": "Moldsmal",
+				"rarity": "COMMON",
+				"img": "44.png",
+				"licence": "Undertale",
+				"nbr": 1
+			},
+			{
+				"name": "Old Tutu",
+				"rarity": "COMMON",
+				"img": "59.png",
+				"licence": "Undertale",
+				"nbr": 1
+			},
+			{
+				"name": "Jerry",
+				"rarity": "RARE",
+				"img": "46.png",
+				"licence": "Undertale",
+				"nbr": 1
 			}
 		]
 	}

@@ -1,6 +1,3 @@
-const path = require('path');
-const { profil } = require(path.resolve(__dirname, '..', 'main.js')); // Importer correctement 'profil'
-
 module.exports = {
     name: "inventaire",
     description: "Affiche l'inventaire des personnages selon la rareté ou la licence.",
@@ -18,7 +15,7 @@ module.exports = {
                 { name: "Legendary", value: "legendary" },
                 { name: "All", value: "all" }
             ],
-            required: false // Rareté devient optionnelle
+            required: false
         },
         {
             type: "string",
@@ -27,21 +24,19 @@ module.exports = {
             choices: [
                 { name: "Undertale", value: "undertale" }
             ],
-            required: false // Licence est aussi optionnelle
+            required: false
         }
     ],
 
     async run(bot, interaction) {
-        const rarity = interaction.options.getString("rarity");  // Récupère l'option "rarity"
-        const licence = interaction.options.getString("licence"); // Récupère l'option "licence"
+        const rarity = interaction.options.getString("rarity");
+        const licence = interaction.options.getString("licence");
 
-        // Vérification si profil existe
-        if (!profil) {
+        if (!global.profil) {
             return interaction.reply("Pas de profil.");
         }
 
-        // Récupérer tous les personnages du joueur
-        const allCharacters = profil.getCharacters(interaction.user.id);
+        const allCharacters = global.profil.getCharacters(interaction.user.id);
 
         if (allCharacters.length === 0) {
             return interaction.reply("Votre inventaire est vide.");
@@ -49,7 +44,6 @@ module.exports = {
 
         let filteredCharacters = allCharacters;
 
-        // Si l'utilisateur a précisé une rareté, on filtre par rareté
         if (rarity) {
             const normalizedRarity = rarity.toUpperCase();
             if (normalizedRarity !== "ALL" && !['COMMON', 'RARE', 'EPIC', 'LEGENDARY'].includes(normalizedRarity)) {
@@ -61,7 +55,6 @@ module.exports = {
             }
         }
 
-        // Si l'utilisateur a précisé une licence, on filtre par licence
         if (licence) {
             filteredCharacters = filteredCharacters.filter(char => char.licence && char.licence.toLowerCase() === licence.toLowerCase());
         }
@@ -70,13 +63,11 @@ module.exports = {
             return interaction.reply("Aucun personnage ne correspond à votre recherche.");
         }
 
-        // Génération du message d'inventaire
         let inventoryMessage = "Voici votre inventaire :\n";
         filteredCharacters.forEach((character, index) => {
             inventoryMessage += `**${index + 1}.** ${character.name} (${character.rarity}) x${character.nbr} - Licence: ${character.licence || "Aucune"}\n`;
         });
 
-        // Envoi de l'inventaire
         await interaction.reply(inventoryMessage);
     }
 };
