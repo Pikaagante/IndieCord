@@ -10,9 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^1.5.0",
+    "@jimp/plugin-color": "^1.6.0",
+    "@jimp/plugin-resize": "^1.6.0",
+    "@jimp/types": "^1.6.0",
     "discord.js": "^14.18.0",
     "discord.js-pagination": "^1.0.3",
     "dotenv": "^10.0.0",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "sharp": "^0.33.5"
   }
 }

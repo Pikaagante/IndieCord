@@ -1,16 +1,21 @@
 let currentSpawn = null;
-let spawnTimeout = null; // Timer pour gérer le cooldown
-let revealTimeout = null; // Timer pour révéler la réponse après 30 secondes
+let spawnTimeout = null;
+let revealTimeout = null;
 
-const path = require('path');
+const shiny = 1;
+const spawn = 1;
+
+const path = require("path");
+const fs = require("fs");
 
 const spawnChances = {
-    common: 85,
-    rare: 10,
-    epic: 3,
-    legendary: 2
+    common: 100,
+    rare: 0,
+    epic:0,
+    legendary:0
 };
 
+// 🎲 Déterminer la rareté
 function rollRarity() {
     const roll = Math.random() * 100;
     let cumulative = 0;
@@ -18,9 +23,15 @@ function rollRarity() {
         cumulative += chance;
         if (roll < cumulative) return rarity.toUpperCase();
     }
-    return 'COMMON';
+    return "COMMON";
 }
 
+// 🌟 Déterminer si c'est un Shiny (1% de chance)
+function rollShiny() {
+    return Math.random() < shiny;
+}
+
+// 🧹 Réinitialiser le spawn
 function clearSpawn() {
     currentSpawn = null;
     if (spawnTimeout) {
@@ -33,6 +44,7 @@ function clearSpawn() {
     }
 }
 
+// 🎮 Système de Spawn
 module.exports = async (bot, message) => {
     if (message.author.bot || !message.guild) return;
 
@@ -41,8 +53,7 @@ module.exports = async (bot, message) => {
         return;
     }
 
-    // === Gestion du SPAWN ===
-    if (!currentSpawn && Math.random() < 1) {
+    if (!currentSpawn && Math.random() < spawn) {
         const rarity = rollRarity();
         const allMobs = global.mob.getMob(rarity);
         if (!allMobs || Object.keys(allMobs).length === 0) return;
@@ -51,70 +62,77 @@ module.exports = async (bot, message) => {
         const selectedName = charNames[Math.floor(Math.random() * charNames.length)];
         const selected = allMobs[selectedName];
 
+        const isShiny = rollShiny();
+
+        let normalImagePath = path.resolve(__dirname, "..", "assets", "images", selected.img);
+        let shinyImagePath = path.resolve(__dirname, "..", "assets", "images", "shiny", selected.img);
+
+        // Vérifie si l'image Shiny existe, sinon utilise l'image normale
+        let imagePath = isShiny && fs.existsSync(shinyImagePath) ? shinyImagePath : normalImagePath;
+
         currentSpawn = {
             name: selectedName,
             rarity,
             img: selected.img,
+            shiny: isShiny,
             channel: message.channel.id,
             licence: selected.hint
         };
 
-        const imagePath = path.resolve(__dirname, '..', 'assets', 'images', selected.img);
-
         await message.channel.send({
-            content: `Un personnage de rareté **${rarity}** est apparu ! Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`,
-            files: [imagePath]
+            content: `Un **${isShiny ? "SHINY " : ""}${rarity}** est apparu ! Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`,
+            files: [{ attachment: imagePath }]
         });
 
-        // Lancement du timer pour révéler la réponse après 30 secondes
         revealTimeout = setTimeout(async () => {
-            await message.channel.send(`C'était **${currentSpawn.name}**.`);
-        }, 30 * 1000); // 30 secondes
+            await message.channel.send(`C'est **${currentSpawn.shiny ? "✨ SHINY " : ""}${currentSpawn.name}**.`);
+        }, 30 * 1000);
 
-        // Lancement du cooldown de 1 minute avant qu'il ne s'enfuie
         spawnTimeout = setTimeout(async () => {
             await message.channel.send(`**${currentSpawn.name}** s'est enfui...`);
             clearSpawn();
-        }, 60 * 1000); // 60 secondes
+        }, 60 * 1000);
     }
 
-    // === Gestion du CAPTURE ===
-    const captureCommand = message.content.toLowerCase().startsWith('!c');
-    const captureCommand2 = message.content.toLowerCase().startsWith('!hint');
+    // 🎯 Gestion de la capture
+    const captureCommand = message.content.toLowerCase().startsWith("!c");
+    const captureCommand2 = message.content.toLowerCase().startsWith("!hint");
 
     if (captureCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
-        const nameAttempted = message.content.slice('!c '.length).trim();
+        const nameAttempted = message.content.slice("!c ".length).trim();
 
         if (nameAttempted.toLowerCase() === currentSpawn.name.toLowerCase()) {
             const existingCharacter = global.profil.getCharacterByName(message.author.id, currentSpawn.name);
 
             if (existingCharacter) {
+                const wasNotShinyBefore = !existingCharacter.shiny && currentSpawn.shiny;
+            
+                if (wasNotShinyBefore) {
+                    existingCharacter.shiny = true;
+                }
+            
                 existingCharacter.nbr += 1;
-                existingCharacter.licence = currentSpawn.licence; // ✅ Ajoute/modifie la licence
-
-                global.profil.addCharacter(message.author.id, existingCharacter); // ✅ Sauvegarde les changements
-
-                await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity}) x${existingCharacter.nbr}`);
+            
+                // ✅ Toujours réenregistrer le personnage après mise à jour
+                global.profil.addCharacter(message.author.id, existingCharacter);
             } else {
                 currentSpawn.nbr = 1;
-                global.profil.addCharacter(message.author.id, currentSpawn); // ✅ Enregistre la licence avec le personnage
-                await message.channel.send(`${message.author.username} a capturé **${currentSpawn.name}** (${currentSpawn.rarity})`);
-            }
+                global.profil.addCharacter(message.author.id, {
+                    ...currentSpawn,
+                    shiny: currentSpawn.shiny // ✅ Enregistrer si c'est shiny
+                });
+            }                                
 
-            clearSpawn(); // ✅ Supprime les timers une fois le personnage capturé
+            await message.channel.send(`${message.author.username} a capturé **${currentSpawn.shiny ? "✨ SHINY " : ""}${currentSpawn.name}** (${currentSpawn.rarity})`);
+            clearSpawn();
         } else {
             await message.channel.send(`Pas le bon nom.`);
         }
     }
 
-    // === Gestion indice ===
+    // 🔍 Gestion des indices
     if (captureCommand2 && currentSpawn && currentSpawn.channel === message.channel.id) {
         const hint = global.mob.getMob(currentSpawn.rarity)[currentSpawn.name].hint;
-
-        if (hint) {
-            await message.channel.send(`Indice : ${hint}`);
-        } else {
-            await message.channel.send(`Aucun indice disponible pour ce personnage.`);
-        }
+        await message.channel.send(`Indice : ${hint ? hint : "Aucun indice disponible."}`);
     }
 };

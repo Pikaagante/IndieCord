@@ -1,4 +1,4 @@
-const JSONHandler = require('./JsonHandler')
+const JSONHandler = require('./JsonHandler');
 
 class profil extends JSONHandler {
     constructor(path) {
@@ -11,25 +11,26 @@ class profil extends JSONHandler {
 
     addCharacter(userId, character) {
         let profile = super.getKey(userId);
-    
+
         if (!profile) {
             profile = {
                 characters: []
             };
         }
-    
-        const existingCharacter = profile.characters.find(c => c.name.toLowerCase() === character.name.toLowerCase());
-    
+
+        const existingCharacter = profile.characters.find(c => 
+            c.name.toLowerCase() === character.name.toLowerCase() && 
+            c.shiny === character.shiny // Vérifie si c'est bien le même shiny/non-shiny
+        );
+
         if (existingCharacter) {
             existingCharacter.nbr += 1;
-            existingCharacter.licence = character.licence; // ✅ Met à jour la licence
         } else {
             const { channel, ...characterWithoutChannel } = character;
             characterWithoutChannel.nbr = 1;
-            characterWithoutChannel.licence = character.licence; // ✅ Ajoute la licence au personnage
             profile.characters.push(characterWithoutChannel);
         }
-    
+
         super.addData(userId, profile);
         super.saveData();
     }              
@@ -43,16 +44,13 @@ class profil extends JSONHandler {
         const userProfil = this.data[userId];
         if (!userProfil || !userProfil.characters) return null;
 
-        // Cherche le personnage par son nom
-        const character = userProfil.characters.find(character => character.name.toLowerCase() === name.toLowerCase());
-        return character || null;
+        return userProfil.characters.find(character => character.name.toLowerCase() === name.toLowerCase()) || null;
     }
     
     getCharactersByRarity(userId, rarity) {
         const profile = super.getKey(userId);
         if (!profile || !profile.characters) return [];
 
-        // Filtrer les personnages selon la rareté
         return profile.characters.filter(character => character.rarity.toUpperCase() === rarity.toUpperCase());
     }
 }

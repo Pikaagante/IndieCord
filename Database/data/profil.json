@@ -2,46 +2,20 @@
 	"365039602882445312": {
 		"characters": [
 			{
-				"name": "Astigmatism",
+				"name": "Whimsun",
 				"rarity": "COMMON",
-				"img": "16.png",
+				"img": "11.png",
+				"shiny": true,
 				"licence": "Undertale",
-				"nbr": 1
+				"nbr": 9
 			},
 			{
-				"name": "Pyrope",
+				"name": "Froggit",
 				"rarity": "COMMON",
-				"img": "49.png",
+				"img": "9.png",
+				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 1
-			},
-			{
-				"name": "OnionSan",
-				"rarity": "COMMON",
-				"img": "42.png",
-				"licence": "Undertale",
-				"nbr": 1
-			},
-			{
-				"name": "Moldsmal",
-				"rarity": "COMMON",
-				"img": "44.png",
-				"licence": "Undertale",
-				"nbr": 1
-			},
-			{
-				"name": "Old Tutu",
-				"rarity": "COMMON",
-				"img": "59.png",
-				"licence": "Undertale",
-				"nbr": 1
-			},
-			{
-				"name": "Jerry",
-				"rarity": "RARE",
-				"img": "46.png",
-				"licence": "Undertale",
-				"nbr": 1
+				"nbr": 5
 			}
 		]
 	}
