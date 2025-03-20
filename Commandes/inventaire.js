@@ -3,13 +3,13 @@ const { profil } = require(path.resolve(__dirname, '..', 'main.js')); // Importe
 
 module.exports = {
     name: "inventaire",
-    description: "Affiche l'inventaire des personnages selon la rareté.",
-    permission: "Aucune",  // Si tu souhaites un contrôle d'autorisation, tu peux changer
-    dm: false,  // Si tu veux autoriser cette commande en DM
+    description: "Affiche l'inventaire des personnages selon la rareté ou la licence.",
+    permission: "Aucune",
+    dm: false,
     options: [
         {
-            type: "string",  // Type de l'argument
-            name: "rarity",  // Nom de l'argument
+            type: "string",
+            name: "rarity",
             description: "Sélectionnez la rareté des personnages à afficher",
             choices: [
                 { name: "Common", value: "common" },
@@ -17,55 +17,63 @@ module.exports = {
                 { name: "Epic", value: "epic" },
                 { name: "Legendary", value: "legendary" },
                 { name: "All", value: "all" }
-            ]
+            ],
+            required: false // Rareté devient optionnelle
+        },
+        {
+            type: "string",
+            name: "licence",
+            description: "Sélectionnez une licence pour filtrer les personnages",
+            choices: [
+                { name: "Undertale", value: "undertale" }
+            ],
+            required: false // Licence est aussi optionnelle
         }
     ],
 
     async run(bot, interaction) {
         const rarity = interaction.options.getString("rarity");  // Récupère l'option "rarity"
+        const licence = interaction.options.getString("licence"); // Récupère l'option "licence"
 
         // Vérification si profil existe
         if (!profil) {
-            return interaction.reply("Pas de profil");
+            return interaction.reply("Pas de profil.");
         }
 
-        // Convertir la rareté en majuscule pour la comparaison avec le JSON
-        const normalizedRarity = rarity.toUpperCase();  // Normalise la rareté en majuscule
+        // Récupérer tous les personnages du joueur
+        const allCharacters = profil.getCharacters(interaction.user.id);
 
-        if (normalizedRarity === "ALL") {
-            // Afficher tout l'inventaire
-            let inventoryMessage = "Inventaire complet :\n";
+        if (allCharacters.length === 0) {
+            return interaction.reply("Votre inventaire est vide.");
+        }
 
-            const allRarities = ['COMMON', 'RARE', 'EPIC', 'LEGENDARY'];
-            for (const rarityType of allRarities) {
-                const characters = profil.getCharactersByRarity(interaction.user.id, rarityType);
+        let filteredCharacters = allCharacters;
 
-                if (characters.length > 0) {
-                    inventoryMessage += `\n**${rarityType.charAt(0).toUpperCase() + rarityType.slice(1).toLowerCase()} :**\n`;
-                    characters.forEach((character, index) => {
-                        inventoryMessage += `**${index + 1}.** ${character.name} (${character.rarity}) x${character.nbr}\n`;
-                    });
-                }
+        // Si l'utilisateur a précisé une rareté, on filtre par rareté
+        if (rarity) {
+            const normalizedRarity = rarity.toUpperCase();
+            if (normalizedRarity !== "ALL" && !['COMMON', 'RARE', 'EPIC', 'LEGENDARY'].includes(normalizedRarity)) {
+                return interaction.reply('Rareté invalide : utilisez common, rare, epic, legendary ou "all" pour tout voir.');
             }
 
-            return interaction.reply(inventoryMessage);
+            if (normalizedRarity !== "ALL") {
+                filteredCharacters = filteredCharacters.filter(char => char.rarity.toUpperCase() === normalizedRarity);
+            }
         }
 
-        // Vérifier que la rareté est valide
-        if (!['COMMON', 'RARE', 'EPIC', 'LEGENDARY'].includes(normalizedRarity)) {
-            return interaction.reply('rareté valide : common, rare, epic, legendary ou "all" pour tout voir.');
+        // Si l'utilisateur a précisé une licence, on filtre par licence
+        if (licence) {
+            filteredCharacters = filteredCharacters.filter(char => char.licence && char.licence.toLowerCase() === licence.toLowerCase());
         }
 
-        // Récupérer les personnages du profil de l'utilisateur pour la rareté spécifiée
-        const characters = profil.getCharactersByRarity(interaction.user.id, normalizedRarity);
-
-        if (characters.length === 0) {
-            return interaction.reply(`Vous n\'avez aucun personnage de rareté **${rarity}**.`);
+        if (filteredCharacters.length === 0) {
+            return interaction.reply("Aucun personnage ne correspond à votre recherche.");
         }
 
-        let inventoryMessage = `Voici votre inventaire **${rarity}** :\n`;
-        characters.forEach((character, index) => {
-            inventoryMessage += `**${index + 1}.** ${character.name} x${character.nbr}\n`;
+        // Génération du message d'inventaire
+        let inventoryMessage = "Voici votre inventaire :\n";
+        filteredCharacters.forEach((character, index) => {
+            inventoryMessage += `**${index + 1}.** ${character.name} (${character.rarity}) x${character.nbr} - Licence: ${character.licence || "Aucune"}\n`;
         });
 
         // Envoi de l'inventaire

@@ -22,45 +22,54 @@ module.exports = async (bot) => {
 
                 switch (option.type) {
                     case 'string':
-                        slashcommand.addStringOption(optionBuilder =>
+                        slashcommand.addStringOption(optionBuilder => {
                             optionBuilder.setName(option.name)
-                                         .setDescription(option.description)
-                                         .setRequired(option.required || false)  // Ajout d'une valeur par défaut
-                        );
+                                .setDescription(option.description)
+                                .setRequired(option.required || false);
+
+                            // Ajout des `choices` si disponibles
+                            if (option.choices) {
+                                for (const choice of option.choices) {
+                                    optionBuilder.addChoices({ name: choice.name, value: choice.value });
+                                }
+                            }
+
+                            return optionBuilder;
+                        });
                         break;
                     case 'boolean':
                         slashcommand.addBooleanOption(optionBuilder =>
                             optionBuilder.setName(option.name)
-                                         .setDescription(option.description)
-                                         .setRequired(option.required || false)  // Ajout d'une valeur par défaut
+                                .setDescription(option.description)
+                                .setRequired(option.required || false)  // Ajout d'une valeur par défaut
                         );
                         break;
                     case 'integer':
                         slashcommand.addIntegerOption(optionBuilder =>
                             optionBuilder.setName(option.name)
-                                         .setDescription(option.description)
-                                         .setRequired(option.required || false)  // Ajout d'une valeur par défaut
+                                .setDescription(option.description)
+                                .setRequired(option.required || false)  // Ajout d'une valeur par défaut
                         );
                         break;
                     case 'user':
                         slashcommand.addUserOption(optionBuilder =>
                             optionBuilder.setName(option.name)
-                                         .setDescription(option.description)
-                                         .setRequired(option.required || false)  // Ajout d'une valeur par défaut
+                                .setDescription(option.description)
+                                .setRequired(option.required || false)  // Ajout d'une valeur par défaut
                         );
                         break;
                     case 'channel':
                         slashcommand.addChannelOption(optionBuilder =>
                             optionBuilder.setName(option.name)
-                                         .setDescription(option.description)
-                                         .setRequired(option.required || false)  // Ajout d'une valeur par défaut
+                                .setDescription(option.description)
+                                .setRequired(option.required || false)  // Ajout d'une valeur par défaut
                         );
                         break;
                     case 'role':
                         slashcommand.addRoleOption(optionBuilder =>
                             optionBuilder.setName(option.name)
-                                         .setDescription(option.description)
-                                         .setRequired(option.required || false)  // Ajout d'une valeur par défaut
+                                .setDescription(option.description)
+                                .setRequired(option.required || false)  // Ajout d'une valeur par défaut
                         );
                         break;
                     default:
