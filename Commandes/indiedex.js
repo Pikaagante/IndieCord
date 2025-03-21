@@ -49,6 +49,7 @@ module.exports = {
     ],
 
     async run(bot, interaction) {
+        try {
         console.log("🔍 DEBUG - Chargement des données...");
 
         if (!global.profil || !global.mob) {
@@ -188,5 +189,8 @@ module.exports = {
         collector.on("end", async () => {
             await interaction.editReply({ components: [] });
         });
+    } catch (error) {
+        console.error("Erreur en éditant l'interaction : ", error);
     }
+} 
 };
