@@ -6,8 +6,8 @@ const { EmbedBuilder } = require("discord.js");
 const path = require("path");
 const fs = require("fs");
 
-const shiny = 0.02;
-const spawn = 0.01;
+const shiny = 1;
+const spawn = 1;
 
 const spawnChances = {
     common: 85,
@@ -16,7 +16,7 @@ const spawnChances = {
     legendary: 2
 };
 
-// 🎲 Déterminer la rareté
+// ?? Déterminer la rareté
 function rollRarity() {
     const roll = Math.random() * 100;
     let cumulative = 0;
@@ -27,12 +27,12 @@ function rollRarity() {
     return "COMMON";
 }
 
-// 🌟 Déterminer si c'est un Shiny (2% de chance)
+// ?? Déterminer si c'est un Shiny (2% de chance)
 function rollShiny() {
     return Math.random() < shiny;
 }
 
-// 🧹 Réinitialiser le spawn
+// ?? Réinitialiser le spawn
 function clearSpawn() {
     currentSpawn = null;
     if (spawnTimeout) {
@@ -45,12 +45,12 @@ function clearSpawn() {
     }
 }
 
-// 🎮 Système de Spawn
+// ?? Système de Spawn
 module.exports = async (bot, message) => {
     if (message.author.bot || !message.guild) return;
 
     if (!global.profil || !global.mob) {
-        console.error("❌ SpawnSystem : profil ou mob non chargés.");
+        console.error("? SpawnSystem : profil ou mob non chargés.");
         return;
     }
 
@@ -82,10 +82,10 @@ module.exports = async (bot, message) => {
         };
 
         const embed = new EmbedBuilder()
-            .setTitle(`Un ${isShiny ? "✨ SHINY " : ""}${rarity} est apparu !`)
+            .setTitle(`Un ${isShiny ? "? SHINY " : ""}${rarity} est apparu !`)
             .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`)
             .setColor(isShiny ? "#FFD700" : "#3498db")
-            .setImage(imageUrl)
+            .setThumbnail(imageUrl)
             .setFooter({ text: "30 secondes avant que le nom soit révélé !" });
 
         await message.channel.send({
@@ -96,7 +96,7 @@ module.exports = async (bot, message) => {
         revealTimeout = setTimeout(async () => {
             const revealEmbed = new EmbedBuilder()
                 .setTitle(`Révélation`)
-                .setDescription(`C'est **${currentSpawn.shiny ? "✨ SHINY " : ""}${currentSpawn.name}**.`)
+                .setDescription(`C'est **${currentSpawn.shiny ? "? SHINY " : ""}${currentSpawn.name}**.`)
                 .setColor("#e74c3c")
 
             await message.channel.send({ embeds: [revealEmbed] });
@@ -113,7 +113,7 @@ module.exports = async (bot, message) => {
         }, 60 * 1000);
     }
 
-    // 🎯 Gestion de la capture
+    // ?? Gestion de la capture
     const captureCommand = message.content.toLowerCase().startsWith("!c");
     const captureCommand2 = message.content.toLowerCase().startsWith("!hint");
 
@@ -123,7 +123,7 @@ module.exports = async (bot, message) => {
         if (nameAttempted.toLowerCase() === currentSpawn.name.toLowerCase()) {
             const existingCharacter = global.profil.getCharacterByName(message.author.id, currentSpawn.name);
 
-            // 🔄 **Recalculer l'image pour affichage dans l'embed de capture**
+            // ?? **Recalculer l'image pour affichage dans l'embed de capture**
             let normalImagePath = path.resolve(__dirname, "..", "assets", "images", currentSpawn.img);
             let shinyImagePath = path.resolve(__dirname, "..", "assets", "images", "shiny", currentSpawn.img);
             let imagePath = currentSpawn.shiny && fs.existsSync(shinyImagePath) ? shinyImagePath : normalImagePath;
@@ -148,7 +148,7 @@ module.exports = async (bot, message) => {
 
             const captureEmbed = new EmbedBuilder()
                 .setTitle(`Bravo !`)
-                .setDescription(`${message.author.username} a capturé **${currentSpawn.shiny ? "✨ SHINY " : ""}${currentSpawn.name}** (${currentSpawn.rarity})`)
+                .setDescription(`${message.author.username} a capturé **${currentSpawn.shiny ? "? SHINY " : ""}${currentSpawn.name}** (${currentSpawn.rarity})`)
                 .setColor("#2ecc71")
 
             await message.channel.send({
@@ -161,11 +161,16 @@ module.exports = async (bot, message) => {
                 .setDescription(`Ce n'est pas le bon personnage.`)
                 .setColor("#e74c3c");
 
-            await message.channel.send({ embeds: [wrongEmbed] });
+            const wrongMessage = await message.reply({ embeds: [wrongEmbed] });
+
+            // Supprime le message après 5 secondes pour éviter le spam
+            setTimeout(() => {
+                wrongMessage.delete().catch(() => { });
+            }, 5000);
         }
     }
 
-    // 🔍 Gestion des indices
+    // ?? Gestion des indices
     if (captureCommand2 && currentSpawn && currentSpawn.channel === message.channel.id) {
         const hint = global.mob.getMob(currentSpawn.rarity)[currentSpawn.name].hint;
         const hintEmbed = new EmbedBuilder()

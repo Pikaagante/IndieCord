@@ -24,6 +24,14 @@
 				"shiny": false,
 				"licence": "Undertale",
 				"nbr": 1
+			},
+			{
+				"name": "Astigmatism",
+				"rarity": "COMMON",
+				"img": "16.png",
+				"shiny": true,
+				"licence": "Undertale",
+				"nbr": 1
 			}
 		]
 	}
