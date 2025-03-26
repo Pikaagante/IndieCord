@@ -2,34 +2,10 @@
 	"365039602882445312": {
 		"characters": [
 			{
-				"name": "Snowman",
-				"rarity": "COMMON",
-				"img": "40.png",
-				"shiny": true,
-				"licence": "Licence : Undertale",
-				"nbr": 1
-			},
-			{
-				"name": "Whimsun",
-				"rarity": "COMMON",
-				"img": "11.png",
-				"shiny": false,
-				"licence": "Undertale",
-				"nbr": 1
-			},
-			{
 				"name": "Toy Knife",
 				"rarity": "COMMON",
 				"img": "56.png",
 				"shiny": false,
-				"licence": "Undertale",
-				"nbr": 1
-			},
-			{
-				"name": "Astigmatism",
-				"rarity": "COMMON",
-				"img": "16.png",
-				"shiny": true,
 				"licence": "Undertale",
 				"nbr": 1
 			}

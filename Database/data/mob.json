@@ -34,7 +34,7 @@
         },
         "Snowman" : {
             "img" : "40.png",
-            "hint" : "Licence : Undertale"
+            "hint" : "Undertale"
         },
         "OnionSan" : {
             "img" : "42.png",
@@ -75,6 +75,34 @@
         "Old Tutu":{
             "img": "59.png",
             "hint" : "Undertale"
+        },
+        "Wolf":{
+            "img": "66.png",
+            "hint" : "Inscryption"
+        },
+        "Bee":{
+            "img": "68.png",
+            "hint" : "Inscryption"
+        },
+        "Mantis":{
+            "img": "69.png",
+            "hint" : "Inscryption"
+        },
+        "Squirrel":{
+            "img": "71.png",
+            "hint" : "Inscryption"
+        },
+        "Cat":{
+            "img": "72.png",
+            "hint" : "Inscryption"
+        },
+        "Exeskeleton":{
+            "img": "76.png",
+            "hint" : "Inscryption"
+        },
+        "Stinkbug":{
+            "img": "78.png",
+            "hint" : "Inscryption"
         }
     },
     "RARE": {
@@ -153,6 +181,62 @@
         "Final Froggit" : {
             "img": "10.png",
             "hint" : "Undertale"
+        },
+        "Sayuri" : {
+            "img": "62.png",
+            "hint" : "DDLC"
+        },
+        "Napstablook" : {
+            "img": "19.png",
+            "hint" : "Undertale"
+        },
+        "Muffet" : {
+            "img": "36.png",
+            "hint" : "Undertale"
+        },
+        "Mettaton" : {
+            "img": "32.png",
+            "hint" : "Undertale"
+        },
+        "Raven":{
+            "img": "65.png",
+            "hint" : "Inscryption"
+        },
+        "Black Goat":{
+            "img": "67.png",
+            "hint" : "Inscryption"
+        },
+        "Stoat":{
+            "img": "73.png",
+            "hint" : "Inscryption"
+        },
+        "Grizz":{
+            "img": "75.png",
+            "hint" : "Inscryption"
+        },
+        "Sculpteur de Bois":{
+            "img": "83.png",
+            "hint" : "Inscryption"
+        },
+        "Mycologues":{
+            "img": "84.png",
+            "hint" : "Inscryption"
+        },
+        "Chercheur d'Or":{
+            "img": "85.png",
+            "hint" : "Inscryption"
+        },
+        "Pecheur":{
+            "img": "86.png",
+            "hint" : "Inscryption"
+        },
+        "Piegeur":{
+            "img": "87.png",
+            "hint" : "Inscryption"
+        },
+        "Marchand":{
+            "img": "88.png",
+            "hint" : "Inscryption"
         }
     },
     "EPIC": {
@@ -172,10 +256,6 @@
             "img": "2.png",
             "hint" : "Celeste"
         },
-        "Napstablook" : {
-            "img": "19.png",
-            "hint" : "Undertale"
-        },
         "Toriel" : {
             "img": "20.png",
             "hint" : "Undertale"
@@ -184,17 +264,37 @@
             "img": "21.png",
             "hint" : "Undertale"
         },
-        "Mettaton" : {
-            "img": "32.png",
-            "hint" : "Undertale"
-        },
-        "Muffet" : {
-            "img": "36.png",
-            "hint" : "Undertale"
-        },
         "Alphys" : {
             "img": "38.png",
             "hint" : "Undertale"
+        },
+        "Natsuki" : {
+            "img": "64.png",
+            "hint" : "DDLC"
+        },
+        "Yuri" : {
+            "img": "61.png",
+            "hint" : "DDLC"
+        },
+        "Mettaton Ex": {
+            "img": "31.png",
+            "hint" : "Undertale"
+        },
+        "Ouroboros":{
+            "img": "70.png",
+            "hint" : "Inscryption"
+        },
+        "Grimora":{
+            "img": "80.png",
+            "hint" : "Inscryption"
+        },
+        "Magnificus":{
+            "img": "81.png",
+            "hint" : "Inscryption"
+        },
+        "P03":{
+            "img": "82.png",
+            "hint" : "Inscryption"
         }
     },
     "LEGENDARY": {
@@ -226,10 +326,6 @@
             "img": "29.png",
             "hint" : "Undertale"
         },
-        "Mettaton Ex": {
-            "img": "31.png",
-            "hint" : "Undertale"
-        },
         "Asriel Dreemur": {
             "img": "33.png",
             "hint" : "Undertale"
@@ -245,6 +341,22 @@
         "Gaster": {
             "img": "43.png",
             "hint" : "Undertale"
+        },
+        "Monika" : {
+            "img": "63.png",
+            "hint" : "DDLC"
+        },
+        "Moon":{
+            "img": "74.png",
+            "hint" : "Inscryption"
+        },
+        "Luke Carder":{
+            "img": "77.png",
+            "hint" : "Inscryption"
+        },
+        "Leshy":{
+            "img": "79.png",
+            "hint" : "Inscryption"
         }
     }
 }

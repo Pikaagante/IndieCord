@@ -25,7 +25,9 @@ module.exports = {
             choices: [
                 { name: "Undertale", value: "undertale" },
                 { name: "Shovel Knight", value: "shovel knight" },
-                { name: "Celeste", value: "celeste" }
+                { name: "Celeste", value: "celeste" },
+                { name: "DDLC", value: "DDLC" },
+                { name: "Inscryption", value: "inscryption" }
             ]
         },
         {
