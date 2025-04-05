@@ -1,5 +1,13 @@
 {
     "COMMON": {
+        "Rock": {
+            "img": "2.png",
+            "hint" : "Undertale"
+        },
+        "Woshua": {
+            "img": "3.png",
+            "hint" : "Undertale"
+        },
         "Froggit" : {
             "img": "9.png",
             "hint" : "Undertale"
@@ -103,6 +111,334 @@
         "Stinkbug":{
             "img": "78.png",
             "hint" : "Inscryption"
+        },
+        "Bird":{
+            "img": "94.png",
+            "hint" : "Celeste"
+        },
+        "Cassette":{
+            "img": "95.png",
+            "hint" : "Celeste"
+        },
+        "Fraise":{
+            "img": "96.png",
+            "hint" : "Celeste"
+        },
+        "Coeur Rouge":{
+            "img": "99.png",
+            "hint" : "Celeste"
+        },
+        "Plume":{
+            "img": "100.png",
+            "hint" : "Celeste"
+        },
+        "Poule":{
+            "img": "101.png",
+            "hint" : "Stardew Valley"
+        },
+        "Canards":{
+            "img": "102.png",
+            "hint" : "Stardew Valley"
+        },
+        "Lapin":{
+            "img": "103.png",
+            "hint" : "Stardew Valley"
+        },
+        "Dinosaure":{
+            "img": "104.png",
+            "hint" : "Stardew Valley"
+        },
+        "Vache":{
+            "img": "105.png",
+            "hint" : "Stardew Valley"
+        },
+        "Cochon":{
+            "img": "106.png",
+            "hint" : "Stardew Valley"
+        },
+        "Mouton":{
+            "img": "107.png",
+            "hint" : "Stardew Valley"
+        },
+        "Chat":{
+            "img": "108.png",
+            "hint" : "Stardew Valley"
+        },
+        "Chien":{
+            "img": "109.png",
+            "hint" : "Stardew Valley"
+        },
+        "Blé":{
+            "img": "110.png",
+            "hint" : "Stardew Valley"
+        },
+        "Mais":{
+            "img": "111.png",
+            "hint" : "Stardew Valley"
+        },
+        "Tournesol":{
+            "img": "112.png",
+            "hint" : "Stardew Valley"
+        },
+        "Citrouille":{
+            "img": "113.png",
+            "hint" : "Stardew Valley"
+        },
+        "Clint":{
+            "img": "127.png",
+            "hint" : "Stardew Valley"
+        },
+        "Demetrius":{
+            "img": "128.png",
+            "hint" : "Stardew Valley"
+        },
+        "George":{
+            "img": "129.png",
+            "hint" : "Stardew Valley"
+        },
+        "Willy":{
+            "img": "136.png",
+            "hint" : "Stardew Valley"
+        },
+        "Tofu Boy":{
+            "img": "143.png",
+            "hint" : "Super Meat Boy"
+        },
+        "Tinker Knight":{
+            "img": "149.png",
+            "hint" : "Shovel Knight"
+        },
+        "Puzzle Knight":{
+            "img": "152.png",
+            "hint" : "Shovel Knight"
+        },
+        "Prism Knight":{
+            "img": "154.png",
+            "hint" : "Shovel Knight"
+        },
+        "Reize":{
+            "img": "162.png",
+            "hint" : "Shovel Knight"
+        },
+        "Scarp Knight":{
+            "img": "166.png",
+            "hint" : "Shovel Knight"
+        },
+        "Ballon Boy":{
+            "img": "167.png",
+            "hint" : "FNAF"
+        },
+        "Ballora":{
+            "img": "168.png",
+            "hint" : "FNAF"
+        },
+        "Bidybab":{
+            "img": "169.png",
+            "hint" : "FNAF"
+        },
+        "Mangle":{
+            "img": "182.png",
+            "hint" : "FNAF"
+        },
+        "Minireena":{
+            "img": "183.png",
+            "hint" : "FNAF"
+        },
+        "Music Man":{
+            "img": "185.png",
+            "hint" : "FNAF"
+        },
+        "Nightmare Bonnie":{
+            "img": "187.png",
+            "hint" : "FNAF"
+        },
+        "Nightmare Chica":{
+            "img": "188.png",
+            "hint" : "FNAF"
+        },
+        "Nightmare Foxy":{
+            "img": "189.png",
+            "hint" : "FNAF"
+        },
+        "Nightmare Freddy":{
+            "img": "191.png",
+            "hint" : "FNAF"
+        },
+        "Nightmare Mangle":{
+            "img": "192.png",
+            "hint" : "FNAF"
+        },
+        "Paperpals":{
+            "img": "193.png",
+            "hint" : "FNAF"
+        },
+        "Plushtrap":{
+            "img": "194.png",
+            "hint" : "FNAF"
+        },
+        "Bully":{
+            "img": "207.png",
+            "hint" : "Little Nightmare"
+        },
+        "Doctor":{
+            "img": "208.png",
+            "hint" : "Little Nightmare"
+        },
+        "Espectadores":{
+            "img": "209.png",
+            "hint" : "Little Nightmare"
+        },
+        "Granny":{
+            "img": "210.png",
+            "hint" : "Little Nightmare"
+        },
+        "Guests":{
+            "img": "211.png",
+            "hint" : "Little Nightmare"
+        },
+        "Hunter":{
+            "img": "212.png",
+            "hint" : "Little Nightmare"
+        },
+        "Nome":{
+            "img": "216.png",
+            "hint" : "Little Nightmare"
+        },
+        "Patient":{
+            "img": "217.png",
+            "hint" : "Little Nightmare"
+        },
+        "Teacher":{
+            "img": "219.png",
+            "hint" : "Little Nightmare"
+        },
+        "Poele":{
+            "img": "226.png",
+            "hint" : "Eastward"
+        },
+        "Bomb":{
+            "img": "227.png",
+            "hint" : "Eastward"
+        },
+        "Pistolet Bang-Bang":{
+            "img": "228.png",
+            "hint" : "Eastward"
+        },
+        "Sceptre de Flamme":{
+            "img": "229.png",
+            "hint" : "Eastward"
+        },
+        "Bella":{
+            "img": "243.png",
+            "hint" : "Eastward"
+        },
+        "Seaman":{
+            "img": "244.png",
+            "hint" : "Eastward"
+        },
+        "Chage":{
+            "img": "245.png",
+            "hint" : "Eastward"
+        },
+        "Emily":{
+            "img": "247.png",
+            "hint" : "Eastward"
+        },
+        "Favoloso":{
+            "img": "248.png",
+            "hint" : "Eastward"
+        },
+        "Madame Tayama":{
+            "img": "253.png",
+            "hint" : "Eastward"
+        },
+        "Miller":{
+            "img": "254.png",
+            "hint" : "Eastward"
+        },
+        "Limace":{
+            "img": "261.png",
+            "hint" : "Eastward"
+        },
+        "Corbeau":{
+            "img": "262.png",
+            "hint" : "Eastward"
+        },
+        "Matango":{
+            "img": "264.png",
+            "hint" : "Eastward"
+        },
+        "Furie Etoilee":{
+            "img": "267.png",
+            "hint" : "Terraria"
+        },
+        "Apiculture":{
+            "img": "268.png",
+            "hint" : "Terraria"
+        },
+        "Roi des gelees":{
+            "img": "275.png",
+            "hint" : "Terraria"
+        },
+        "Oeil de Cthulhu":{
+            "img": "276.png",
+            "hint" : "Terraria"
+        },
+        "Reine des abeilles":{
+            "img": "279.png",
+            "hint" : "Terraria"
+        },
+        "Squeletron":{
+            "img": "280.png",
+            "hint" : "Terraria"
+        },
+        "Reine des gelees":{
+            "img": "282.png",
+            "hint" : "Terraria"
+        },
+        "Ogre":{
+            "img": "292.png",
+            "hint" : "Terraria"
+        },
+        "Betsy":{
+            "img": "293.png",
+            "hint" : "Terraria"
+        },
+        "Bois Terrifiant":{
+            "img": "295.png",
+            "hint" : "Terraria"
+        },
+        "Gelee":{
+            "img": "301.png",
+            "hint" : "Terraria"
+        },
+        "Oeil de demon":{
+            "img": "302.png",
+            "hint" : "Terraria"
+        },
+        "Harpie":{
+            "img": "303.png",
+            "hint" : "Terraria"
+        },
+        "Squelette":{
+            "img": "304.png",
+            "hint" : "Terraria"
+        },
+        "Zombie":{
+            "img": "305.png",
+            "hint" : "Terraria"
+        },
+        "Corrupteur":{
+            "img": "306.png",
+            "hint" : "Terraria"
+        },
+        "Licorne":{
+            "img": "307.png",
+            "hint" : "Terraria"
+        },
+        "Foreuse":{
+            "img": "308.png",
+            "hint" : "Terraria"
         }
     },
     "RARE": {
@@ -237,6 +573,246 @@
         "Marchand":{
             "img": "88.png",
             "hint" : "Inscryption"
+        },
+        "Granny":{
+            "img": "92.png",
+            "hint" : "Celeste"
+        },
+        "Mr. Oshiro":{
+            "img": "93.png",
+            "hint" : "Celeste"
+        },
+        "Mom":{
+            "img": "97.png",
+            "hint" : "Celeste"
+        },
+        "Alex":{
+            "img": "114.png",
+            "hint" : "Stardew Valley"
+        },
+        "Elliott":{
+            "img": "115.png",
+            "hint" : "Stardew Valley"
+        },
+        "Harvey":{
+            "img": "116.png",
+            "hint" : "Stardew Valley"
+        },
+        "Shane":{
+            "img": "119.png",
+            "hint" : "Stardew Valley"
+        },
+        "Emily":{
+            "img": "121.png",
+            "hint" : "Stardew Valley"
+        },
+        "Haley":{
+            "img": "122.png",
+            "hint" : "Stardew Valley"
+        },
+        "Maru":{
+            "img": "124.png",
+            "hint" : "Stardew Valley"
+        },
+        "Caroline":{
+            "img": "126.png",
+            "hint" : "Stardew Valley"
+        },
+        "Jodi":{
+            "img": "130.png",
+            "hint" : "Stardew Valley"
+        },
+        "Marnie":{
+            "img": "132.png",
+            "hint" : "Stardew Valley"
+        },
+        "Pierre":{
+            "img": "133.png",
+            "hint" : "Stardew Valley"
+        },
+        "Gunther":{
+            "img": "135.png",
+            "hint" : "Stardew Valley"
+        },
+        "Manic":{
+            "img": "138.png",
+            "hint" : "Super Meat Boy"
+        },
+        "Gish":{
+            "img": "142.png",
+            "hint" : "Super Meat Boy"
+        },
+        "Mole Knight":{
+            "img": "148.png",
+            "hint" : "Shovel Knight"
+        },
+        "Propeller Knight":{
+            "img": "151.png",
+            "hint" : "Shovel Knight"
+        },
+        "Phantom Striker":{
+            "img": "157.png",
+            "hint" : "Shovel Knight"
+        },
+        "Polar Knight":{
+            "img": "158.png",
+            "hint" : "Shovel Knight"
+        },
+        "Treasure Knight":{
+            "img": "159.png",
+            "hint" : "Shovel Knight"
+        },
+        "Troupple King":{
+            "img": "161.png",
+            "hint" : "Shovel Knight"
+        },
+        "Mr. Hat":{
+            "img": "164.png",
+            "hint" : "Shovel Knight"
+        },
+        "Candy Cadet":{
+            "img": "171.png",
+            "hint" : "FNAF"
+        },
+        "Funtime Foxy":{
+            "img": "178.png",
+            "hint" : "FNAF"
+        },
+        "Funtime Freddy":{
+            "img": "179.png",
+            "hint" : "FNAF"
+        },
+        "Golden Freddy" :{
+            "img": "181.png",
+            "hint" : "FNAF"
+        },
+        "Molten":{
+            "img": "184.png",
+            "hint" : "FNAF"
+        },
+        "Scraptrap":{
+            "img": "198.png",
+            "hint" : "FNAF"
+        },
+        "Whitered Bonnie":{
+            "img": "202.png",
+            "hint" : "FNAF"
+        },
+        "Whitered Chica":{
+            "img": "203.png",
+            "hint" : "FNAF"
+        },
+        "Whitered Foxy":{
+            "img": "204.png",
+            "hint" : "FNAF"
+        },
+        "Whitered Freddy":{
+            "img": "205.png",
+            "hint" : "FNAF"
+        },
+        "Big Six":{
+            "img": "206.png",
+            "hint" : "Little Nightmare"
+        },
+        "Janitor":{
+            "img": "213.png",
+            "hint" : "Little Nightmare"
+        },
+        "Kid":{
+            "img": "214.png",
+            "hint" : "Little Nightmare"
+        },
+        "The Twin Chefs":{
+            "img": "221.png",
+            "hint" : "Little Nightmare"
+        },
+        "HER":{
+            "img": "223.png",
+            "hint" : "IMSCARED"
+        },
+        "The Hand":{
+            "img": "230.png",
+            "hint" : "Eastward"
+        },
+        "Pot Crab King":{
+            "img": "231.png",
+            "hint" : "Eastward"
+        },
+        "Tremblor Fish":{
+            "img": "232.png",
+            "hint" : "Eastward"
+        },
+        "Fist of Courage":{
+            "img": "233.png",
+            "hint" : "Eastward"
+        },
+        "Infected Behemoth":{
+            "img": "234.png",
+            "hint" : "Eastward"
+        },
+        "Panzer of Power":{
+            "img": "235.png",
+            "hint" : "Eastward"
+        },
+        "Beetle Queen":{
+            "img": "242.png",
+            "hint" : "Eastward"
+        },
+        "Frank":{
+            "img": "249.png",
+            "hint" : "Eastward"
+        },
+        "Mung":{
+            "img": "255.png",
+            "hint" : "Eastward"
+        },
+        "Producer Padrino":{
+            "img": "256.png",
+            "hint" : "Eastward"
+        },
+        "Tar":{
+            "img": "263.png",
+            "hint" : "Eastward"
+        },
+        "Semeuse":{
+            "img": "269.png",
+            "hint" : "Terraria"
+        },
+        "Starlight":{
+            "img": "270.png",
+            "hint" : "Terraria"
+        },
+        "Devoreur des mondes":{
+            "img": "277.png",
+            "hint" : "Terraria"
+        },
+        "Cerveau de Cthulhu":{
+            "img": "278.png",
+            "hint" : "Terraria"
+        },
+        "Mur de Chair":{
+            "img": "281.png",
+            "hint" : "Terraria"
+        },
+        "Les Jumeaux":{
+            "img": "283.png",
+            "hint" : "Terraria"
+        },
+        "Hollandais Volant":{
+            "img": "294.png",
+            "hint" : "Terraria"
+        },
+        "Potiroi":{
+            "img": "296.png",
+            "hint" : "Terraria"
+        },
+        "Hurleternel":{
+            "img": "298.png",
+            "hint" : "Terraria"
+        },
+        "Pere Noel-NK1":{
+            "img": "299.png",
+            "hint" : "Terraria"
         }
     },
     "EPIC": {
@@ -247,14 +823,6 @@
         "Papyrus": {
             "img": "5.png",
             "hint" : "Undertale"
-        },
-        "Shovel Knight": {
-            "img": "3.png",
-            "hint" : "Shovel Knight"
-        },
-        "Madeline": {
-            "img": "2.png",
-            "hint" : "Celeste"
         },
         "Toriel" : {
             "img": "20.png",
@@ -295,6 +863,206 @@
         "P03":{
             "img": "82.png",
             "hint" : "Inscryption"
+        },
+        "Theo":{
+            "img": "90.png",
+            "hint" : "Celeste"
+        },
+        "Badeline":{
+            "img": "91.png",
+            "hint" : "Celeste"
+        },
+        "Fraise en Or":{
+            "img": "98.png",
+            "hint" : "Celeste"
+        },
+        "Sam":{
+            "img": "117.png",
+            "hint" : "Stardew Valley"
+        },
+        "Sebastian":{
+            "img": "118.png",
+            "hint" : "Stardew Valley"
+        },
+        "Leah":{
+            "img": "123.png",
+            "hint" : "Stardew Valley"
+        },
+        "Penny":{
+            "img": "125.png",
+            "hint" : "Stardew Valley"
+        },
+        "Lewis":{
+            "img": "131.png",
+            "hint" : "Stardew Valley"
+        },
+        "Juminos":{
+            "img": "137.png",
+            "hint" : "Stardew Valley"
+        },
+        "Bandage Girl":{
+            "img": "139.png",
+            "hint" : "Super Meat Boy"
+        },
+        "Dr. Fetus":{
+            "img": "141.png",
+            "hint" : "Super Meat Boy"
+        },
+        "King Knight":{
+            "img": "145.png",
+            "hint" : "Shovel Knight"
+        },
+        "SpecterKnight":{
+            "img": "146.png",
+            "hint" : "Shovel Knight"
+        },
+        "Black Knight":{
+            "img": "147.png",
+            "hint" : "Shovel Knight"
+        },
+        "Plague Knight":{
+            "img": "150.png",
+            "hint" : "Shovel Knight"
+        },
+        "Chester":{
+            "img": "153.png",
+            "hint" : "Shovel Knight"
+        },
+        "Baz":{
+            "img": "156.png",
+            "hint" : "Shovel Knight"
+        },
+        "Mona":{
+            "img": "163.png",
+            "hint" : "Shovel Knight"
+        },
+        "Dark Reize":{
+            "img": "165.png",
+            "hint" : "Shovel Knight"
+        },
+        "Bonnie":{
+            "img": "170.png",
+            "hint" : "FNAF"
+        },
+        "Chica":{
+            "img": "172.png",
+            "hint" : "FNAF"
+        },
+        "Circus Baby":{
+            "img": "173.png",
+            "hint" : "FNAF"
+        },
+        "Dreadbear":{
+            "img": "174.png",
+            "hint" : "FNAF"
+        },
+        "Ennard":{
+            "img": "175.png",
+            "hint" : "FNAF"
+        },
+        "Nightmare Fredbear":{
+            "img": "190.png",
+            "hint" : "FNAF"
+        },
+        "ScrapBaby":{
+            "img": "197.png",
+            "hint" : "FNAF"
+        },
+        "Shadow Freddy":{
+            "img": "199.png",
+            "hint" : "FNAF"
+        },
+        "Springtrap":{
+            "img": "201.png",
+            "hint" : "FNAF"
+        },
+        "The Lady":{
+            "img": "220.png",
+            "hint" : "Little Nightmare"
+        },
+        "Thinman":{
+            "img": "222.png",
+            "hint" : "Little Nightmare"
+        },
+        "The Protagonis":{
+            "img": "225.png",
+            "hint" : "IMSCARED"
+        },
+        "Eye of Wisdom":{
+            "img": "236.png",
+            "hint" : "Eastward"
+        },
+        "Daniel":{
+            "img": "246.png",
+            "hint" : "Eastward"
+        },
+        "Jasper":{
+            "img": "251.png",
+            "hint" : "Eastward"
+        },
+        "Lee":{
+            "img": "252.png",
+            "hint" : "Eastward"
+        },
+        "Salomon":{
+            "img": "257.png",
+            "hint" : "Eastward"
+        },
+        "Rebelle Sonique":{
+            "img": "258.png",
+            "hint" : "Eastward"
+        },
+        "Uve":{
+            "img": "259.png",
+            "hint" : "Eastward"
+        },
+        "William":{
+            "img": "260.png",
+            "hint" : "Eastward"
+        },
+        "Lame Terra":{
+            "img": "265.png",
+            "hint" : "Terraria"
+        },
+        "Excalibur":{
+            "img": "271.png",
+            "hint" : "Terraria"
+        },
+        "Colere Etoilee":{
+            "img": "272.png",
+            "hint" : "Terraria"
+        },
+        "Le Destructeur":{
+            "img": "284.png",
+            "hint" : "Terraria"
+        },
+        "Grand Squeletron":{
+            "img": "285.png",
+            "hint" : "Terraria"
+        },
+        "Plantera":{
+            "img": "286.png",
+            "hint" : "Terraria"
+        },
+        "Golem":{
+            "img": "288.png",
+            "hint" : "Terraria"
+        },
+        "Duc Dracosson":{
+            "img": "289.png",
+            "hint" : "Terraria"
+        },
+        "Adepte Lunatique":{
+            "img": "290.png",
+            "hint" : "Terraria"
+        },
+        "Soucoupe Martienne":{
+            "img": "297.png",
+            "hint" : "Terraria"
+        },
+        "Reine des Glaces":{
+            "img": "300.png",
+            "hint" : "Terraria"
         }
     },
     "LEGENDARY": {
@@ -357,6 +1125,118 @@
         "Leshy":{
             "img": "79.png",
             "hint" : "Inscryption"
+        },
+        "Madeline":{
+            "img": "89.png",
+            "hint" : "Celeste"
+        },
+        "Abigail":{
+            "img": "120.png",
+            "hint" : "Stardew Valley"
+        },
+        "Robine":{
+            "img": "134.png",
+            "hint" : "Stardew Valley"
+        },
+        "Meat Boy":{
+            "img": "140.png",
+            "hint" : "Super Meat Boy"
+        },
+        "Shovel Knight":{
+            "img": "144.png",
+            "hint" : "Shovel Knight"
+        },
+        "Enchantress":{
+            "img": "155.png",
+            "hint" : "Shovel Knight"
+        },
+        "Shield Knight":{
+            "img": "160.png",
+            "hint" : "Shovel Knight"
+        },
+        "Foxy":{
+            "img": "176.png",
+            "hint" : "FNAF"
+        },
+        "Freddy":{
+            "img": "177.png",
+            "hint" : "FNAF"
+        },
+        "Glitchtrap":{
+            "img": "180.png",
+            "hint" : "FNAF"
+        },
+        "Nightmare":{
+            "img": "186.png",
+            "hint" : "FNAF"
+        },
+        "Puppet":{
+            "img": "195.png",
+            "hint" : "FNAF"
+        },
+        "Scott Cawthon":{
+            "img": "196.png",
+            "hint" : "FNAF"
+        },
+        "Shadow Bonnie":{
+            "img": "200.png",
+            "hint" : "FNAF"
+        },
+        "Mono":{
+            "img": "215.png",
+            "hint" : "Little Nightmare"
+        },
+        "Six":{
+            "img": "218.png",
+            "hint" : "Little Nightmare"
+        },
+        "IMSCARED":{
+            "img": "224.png",
+            "hint" : "IMSCARED"
+        },
+        "Charon":{
+            "img": "237.png",
+            "hint" : "Eastward"
+        },
+        "John":{
+            "img": "238.png",
+            "hint" : "Eastward"
+        },
+        "John et Sam":{
+            "img": "239.png",
+            "hint" : "Eastward"
+        },
+        "Sam":{
+            "img": "240.png",
+            "hint" : "Eastward"
+        },
+        "Alva":{
+            "img": "241.png",
+            "hint" : "Eastward"
+        },
+        "Isabel":{
+            "img": "250.png",
+            "hint" : "Eastward"
+        },
+        "Zenith":{
+            "img": "266.png",
+            "hint" : "Terraria"
+        },
+        "Terraprisma":{
+            "img": "273.png",
+            "hint" : "Terraria"
+        },
+        "Sceptre de dragon astral":{
+            "img": "274.png",
+            "hint" : "Terraria"
+        },
+        "Imperatrice de la lumiere":{
+            "img": "287.png",
+            "hint" : "Terraria"
+        },
+        "Seigneur de la lune":{
+            "img": "291.png",
+            "hint" : "Terraria"
         }
     }
 }

@@ -8,7 +8,7 @@ const path = require("path");
 const fs = require("fs");
 
 const shiny = 0.02;
-const spawn = 0.05;
+const spawn = 0.1;
 
 const spawnChances = {
     common: 80,
