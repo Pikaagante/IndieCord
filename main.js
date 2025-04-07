@@ -38,5 +38,5 @@ initialize().then(() => {
         console.error("Erreur de connexion au bot:", err);
     });
 }).catch(err => {
-    console.error("❌ Erreur lors de l'initialisation des données:", err);
+    console.error("Erreur lors de l'initialisation des données:", err);
 });

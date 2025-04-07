@@ -7,7 +7,7 @@
 				"img": "56.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 1
+				"nbr": 99
 			},
 			{
 				"name": "Spider Donut",
@@ -23,6 +23,74 @@
 				"img": "113.png",
 				"shiny": false,
 				"licence": "Stardew Valley",
+				"nbr": 1
+			},
+			{
+				"name": "Janitor",
+				"rarity": "RARE",
+				"img": "213.png",
+				"shiny": false,
+				"licence": "Little Nightmare",
+				"nbr": 1
+			},
+			{
+				"name": "Squeletron",
+				"rarity": "COMMON",
+				"img": "280.png",
+				"shiny": false,
+				"licence": "Terraria",
+				"nbr": 1
+			},
+			{
+				"name": "Bird",
+				"rarity": "COMMON",
+				"img": "94.png",
+				"shiny": true,
+				"licence": "Celeste",
+				"nbr": 1
+			},
+			{
+				"name": "Miller",
+				"rarity": "COMMON",
+				"img": "254.png",
+				"shiny": false,
+				"licence": "Eastward",
+				"nbr": 3
+			},
+			{
+				"name": "Mouton",
+				"rarity": "COMMON",
+				"img": "107.png",
+				"shiny": false,
+				"licence": "Stardew Valley",
+				"nbr": 1
+			},
+			{
+				"name": "Nome",
+				"rarity": "COMMON",
+				"img": "216.png",
+				"shiny": false,
+				"licence": "Little Nightmare",
+				"nbr": 3
+			},
+			{
+				"name": "Foreuse",
+				"rarity": "COMMON",
+				"img": "308.png",
+				"shiny": false,
+				"licence": "Terraria",
+				"nbr": 1
+			}
+		]
+	},
+	"585470737859739658": {
+		"characters": [
+			{
+				"name": "Mom",
+				"rarity": "RARE",
+				"img": "97.png",
+				"shiny": false,
+				"licence": "Celeste",
 				"nbr": 1
 			}
 		]

@@ -3,12 +3,16 @@ let spawnMessage = null;
 let spawnTimeout = null;
 let revealTimeout = null;
 
+let messageCount = 0;
+const minMessages = 15;
+const maxMessages = 100;
+
 const { EmbedBuilder } = require("discord.js");
 const path = require("path");
 const fs = require("fs");
 
 const shiny = 0.02;
-const spawn = 0.1;
+const spawn = 0.05;
 
 const spawnChances = {
     common: 80,
@@ -17,7 +21,6 @@ const spawnChances = {
     legendary: 3
 };
 
-// Déterminer la rareté
 function rollRarity() {
     const roll = Math.random() * 100;
     let cumulative = 0;
@@ -28,26 +31,19 @@ function rollRarity() {
     return "COMMON";
 }
 
-// Déterminer si c'est un Shiny (2% de chance)
 function rollShiny() {
     return Math.random() < shiny;
 }
 
-// Réinitialiser le spawn
 function clearSpawn() {
     currentSpawn = null;
     spawnMessage = null;
-    if (spawnTimeout) {
-        clearTimeout(spawnTimeout);
-        spawnTimeout = null;
-    }
-    if (revealTimeout) {
-        clearTimeout(revealTimeout);
-        revealTimeout = null;
-    }
+    if (spawnTimeout) clearTimeout(spawnTimeout);
+    if (revealTimeout) clearTimeout(revealTimeout);
+    spawnTimeout = null;
+    revealTimeout = null;
 }
 
-// Système de Spawn
 module.exports = async (bot, message) => {
     if (message.author.bot || !message.guild) return;
 
@@ -56,70 +52,78 @@ module.exports = async (bot, message) => {
         return;
     }
 
-    if (!currentSpawn && Math.random() < spawn) {
-        const rarity = rollRarity();
-        const allMobs = global.mob.getMob(rarity);
-        if (!allMobs || Object.keys(allMobs).length === 0) return;
+    if (!currentSpawn) {
+        messageCount++;
 
-        const charNames = Object.keys(allMobs);
-        const selectedName = charNames[Math.floor(Math.random() * charNames.length)];
-        const selected = allMobs[selectedName];
+        const canSpawn = messageCount >= minMessages && Math.random() < spawn;
+        const mustSpawn = messageCount >= maxMessages;
 
-        const isShiny = rollShiny();
+        if (canSpawn || mustSpawn) {
+            if (mustSpawn) console.log("Spawn forcé après 100 messages !");
+            messageCount = 0;
 
-        let normalImagePath = path.resolve(__dirname, "..", "assets", "images", selected.img);
-        let shinyImagePath = path.resolve(__dirname, "..", "assets", "images", "shiny", selected.img);
+            const rarity = rollRarity();
+            const allMobs = global.mob.getMob(rarity);
+            if (!allMobs || Object.keys(allMobs).length === 0) return;
 
-        let imagePath = isShiny && fs.existsSync(shinyImagePath) ? shinyImagePath : normalImagePath;
-        let imageUrl = `attachment://${path.basename(imagePath)}`;
+            const charNames = Object.keys(allMobs);
+            const selectedName = charNames[Math.floor(Math.random() * charNames.length)];
+            const selected = allMobs[selectedName];
 
-        currentSpawn = {
-            name: selectedName,
-            rarity,
-            img: selected.img,
-            shiny: isShiny,
-            channel: message.channel.id,
-            licence: selected.hint
-        };
+            const isShiny = rollShiny();
 
-        const embed = new EmbedBuilder()
-            .setTitle(`Un ${isShiny ? "? SHINY " : ""}${rarity} est apparu !`)
-            .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`)
-            .setColor(isShiny ? "#FFD700" : "#3498db")
-            .setThumbnail(imageUrl)
-            .setFooter({ text: "30 secondes avant que le nom soit révélé !" });
+            let normalImagePath = path.resolve(__dirname, "..", "assets", "images", selected.img);
+            let shinyImagePath = path.resolve(__dirname, "..", "assets", "images", "shiny", selected.img);
+            let imagePath = isShiny && fs.existsSync(shinyImagePath) ? shinyImagePath : normalImagePath;
+            let imageUrl = `attachment://${path.basename(imagePath)}`;
 
-        spawnMessage = await message.channel.send({
-            embeds: [embed],
-            files: [{ attachment: imagePath, name: path.basename(imagePath) }]
-        });
+            currentSpawn = {
+                name: selectedName,
+                rarity,
+                img: selected.img,
+                shiny: isShiny,
+                channel: message.channel.id,
+                licence: selected.hint
+            };
 
-        revealTimeout = setTimeout(async () => {
-            if (!spawnMessage) return;
+            const embed = new EmbedBuilder()
+                .setTitle(`Un ${isShiny ? "? SHINY " : ""}${rarity} est apparu !`)
+                .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`)
+                .setColor(isShiny ? "#FFD700" : "#3498db")
+                .setThumbnail(imageUrl)
+                .setFooter({ text: "30 secondes avant que le nom soit révélé !" });
 
-            const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
-                .setThumbnail(`attachment://${currentSpawn.img}`)
-                .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !\n\n> C'est **${currentSpawn.shiny ? "? SHINY " : ""}${currentSpawn.name}** !`)
-                .setFooter({ text: "Encore 30 secondes avant qu'il ne s'enfuie..." });
+            spawnMessage = await message.channel.send({
+                embeds: [embed],
+                files: [{ attachment: imagePath, name: path.basename(imagePath) }]
+            });
 
-            await spawnMessage.edit({ embeds: [updatedEmbed] });
-        }, 30 * 1000);
+            revealTimeout = setTimeout(async () => {
+                if (!spawnMessage) return;
 
-        spawnTimeout = setTimeout(async () => {
-            if (spawnMessage) {
                 const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
                     .setThumbnail(`attachment://${currentSpawn.img}`)
-                    .setColor("#95a5a6")
-                    .setDescription(`**${currentSpawn.name}** s'est enfui...`);
+                    .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !\n\n> C'est **${currentSpawn.shiny ? "? SHINY " : ""}${currentSpawn.name}** !`)
+                    .setFooter({ text: "Encore 30 secondes avant qu'il ne s'enfuie..." });
+
                 await spawnMessage.edit({ embeds: [updatedEmbed] });
-            }
-            clearSpawn();
-        }, 60 * 1000);
+            }, 30 * 1000);
+
+            spawnTimeout = setTimeout(async () => {
+                if (spawnMessage) {
+                    const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
+                        .setThumbnail(`attachment://${currentSpawn.img}`)
+                        .setColor("#95a5a6")
+                        .setDescription(`**${currentSpawn.name}** s'est enfui...`);
+                    await spawnMessage.edit({ embeds: [updatedEmbed] });
+                }
+                clearSpawn();
+            }, 60 * 1000);
+        }
     }
 
-    // Gestion de la capture
     const captureCommand = message.content.toLowerCase().startsWith("!c");
-    const captureCommand2 = message.content.toLowerCase().startsWith("!hint");
+    const hintCommand = message.content.toLowerCase().startsWith("!hint");
 
     if (captureCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
         const nameAttempted = message.content.slice("!c ".length).trim();
@@ -164,15 +168,11 @@ module.exports = async (bot, message) => {
                 .setColor("#e74c3c");
 
             const wrongMessage = await message.reply({ embeds: [wrongEmbed] });
-
-            setTimeout(() => {
-                wrongMessage.delete().catch(() => {});
-            }, 5000);
+            setTimeout(() => wrongMessage.delete().catch(() => {}), 5000);
         }
     }
 
-    // Gestion des indices
-    if (captureCommand2 && currentSpawn && currentSpawn.channel === message.channel.id) {
+    if (hintCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
         const hint = global.mob.getMob(currentSpawn.rarity)[currentSpawn.name].hint;
         const hintEmbed = new EmbedBuilder()
             .setTitle(`Indice`)
