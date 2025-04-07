@@ -8,6 +8,22 @@
 				"shiny": false,
 				"licence": "Undertale",
 				"nbr": 1
+			},
+			{
+				"name": "Spider Donut",
+				"rarity": "COMMON",
+				"img": "57.png",
+				"shiny": false,
+				"licence": "Undertale",
+				"nbr": 1
+			},
+			{
+				"name": "Citrouille",
+				"rarity": "COMMON",
+				"img": "113.png",
+				"shiny": false,
+				"licence": "Stardew Valley",
+				"nbr": 1
 			}
 		]
 	}
