@@ -166,14 +166,14 @@ module.exports = async (bot, message) => {
                     .setThumbnail(`attachment://${currentSpawn.img}`)
                     .setColor("#2ecc71")
                     .setDescription(`**${message.author.username}** a capturé **${currentSpawn.shiny ? "? SHINY " : ""}${currentSpawn.name}** (${currentSpawn.rarity}) !`);
-                    try {
-                        await spawnMessage.edit({ embeds: [updatedEmbed] });
-                    } catch (err) {
-                        if (err.code === 10008) console.warn("Message supprimé avant capture.");
-                    }
-
-                await spawnMessage.edit({ embeds: [updatedEmbed] });
+                
+                try {
+                    await spawnMessage.edit({ embeds: [updatedEmbed] });
+                } catch (err) {
+                    if (err.code === 10008) console.warn("Message supprimé avant capture.");
+                }
             }
+
             clearSpawn();
         } else {
             const wrongEmbed = new EmbedBuilder()
