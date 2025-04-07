@@ -2,88 +2,32 @@
 	"365039602882445312": {
 		"characters": [
 			{
-				"name": "Toy Knife",
-				"rarity": "COMMON",
-				"img": "56.png",
-				"shiny": false,
-				"licence": "Undertale",
-				"nbr": 99
-			},
-			{
-				"name": "Spider Donut",
-				"rarity": "COMMON",
-				"img": "57.png",
-				"shiny": false,
-				"licence": "Undertale",
-				"nbr": 1
-			},
-			{
-				"name": "Citrouille",
-				"rarity": "COMMON",
-				"img": "113.png",
-				"shiny": false,
-				"licence": "Stardew Valley",
-				"nbr": 1
-			},
-			{
-				"name": "Janitor",
-				"rarity": "RARE",
-				"img": "213.png",
-				"shiny": false,
-				"licence": "Little Nightmare",
-				"nbr": 1
-			},
-			{
-				"name": "Squeletron",
-				"rarity": "COMMON",
-				"img": "280.png",
-				"shiny": false,
-				"licence": "Terraria",
-				"nbr": 1
-			},
-			{
-				"name": "Bird",
-				"rarity": "COMMON",
-				"img": "94.png",
-				"shiny": true,
-				"licence": "Celeste",
-				"nbr": 1
-			},
-			{
-				"name": "Miller",
-				"rarity": "COMMON",
-				"img": "254.png",
-				"shiny": false,
-				"licence": "Eastward",
-				"nbr": 3
-			},
-			{
 				"name": "Mouton",
 				"rarity": "COMMON",
 				"img": "107.png",
 				"shiny": false,
 				"licence": "Stardew Valley",
-				"nbr": 1
+				"nbr": 996
 			},
 			{
-				"name": "Nome",
-				"rarity": "COMMON",
-				"img": "216.png",
+				"name": "Mom",
+				"rarity": "RARE",
+				"img": "97.png",
 				"shiny": false,
-				"licence": "Little Nightmare",
-				"nbr": 3
+				"licence": "Celeste",
+				"nbr": 2
 			},
 			{
-				"name": "Foreuse",
+				"name": "Nightmare Foxy",
 				"rarity": "COMMON",
-				"img": "308.png",
+				"img": "189.png",
 				"shiny": false,
-				"licence": "Terraria",
+				"licence": "FNAF",
 				"nbr": 1
 			}
 		]
 	},
-	"585470737859739658": {
+	"734405755436007435": {
 		"characters": [
 			{
 				"name": "Mom",
@@ -91,7 +35,15 @@
 				"img": "97.png",
 				"shiny": false,
 				"licence": "Celeste",
-				"nbr": 1
+				"nbr": 996
+			},
+			{
+				"name": "Mouton",
+				"rarity": "COMMON",
+				"img": "107.png",
+				"shiny": false,
+				"licence": "Stardew Valley",
+				"nbr": 2
 			}
 		]
 	}

@@ -53,6 +53,27 @@ class profil extends JSONHandler {
 
         return profile.characters.filter(character => character.rarity.toUpperCase() === rarity.toUpperCase());
     }
+
+    removeCharacter(userId, name, shiny = false) {
+        const profile = super.getKey(userId);
+        if (!profile || !profile.characters) return;
+    
+        const index = profile.characters.findIndex(c =>
+            c.name.toLowerCase() === name.toLowerCase() &&
+            c.shiny === shiny
+        );
+    
+        if (index === -1) return;
+    
+        if (profile.characters[index].nbr > 1) {
+            profile.characters[index].nbr -= 1;
+        } else {
+            profile.characters.splice(index, 1);
+        }
+    
+        super.addData(userId, profile);
+        super.saveData();
+    }    
 }
 
 module.exports = profil;
