@@ -439,6 +439,74 @@
         "Foreuse":{
             "img": "308.png",
             "hint" : "Terraria"
+        },
+        "Candy":{
+            "img": "309.png",
+            "hint" : "FNAF"
+        },
+        "Chickling":{
+            "img": "310.png",
+            "hint" : "FNAF"
+        },
+        "JR'S Balloon Boy":{
+            "img": "312.png",
+            "hint" : "FNAF"
+        },
+        "Key":{
+            "img": "316.png",
+            "hint" : "Lethal Company"
+        },
+        "Employee":{
+            "img": "317.png",
+            "hint" : "Lethal Company"
+        },
+        "The Ship":{
+            "img": "318.png",
+            "hint" : "Lethal Company"
+        },
+        "Terminal":{
+            "img": "319.png",
+            "hint" : "Lethal Company"
+        },
+        "Tulip Snake":{
+            "img": "323.png",
+            "hint" : "Lethal Company"
+        },
+        "Masked":{
+            "img": "328.png",
+            "hint" : "Lethal Company"
+        },
+        "Bunker Spider":{
+            "img": "331.png",
+            "hint" : "Lethal Company"
+        },
+        "Hydrogere":{
+            "img": "333.png",
+            "hint" : "Lethal Company"
+        },
+        "Snare Flea":{
+            "img": "335.png",
+            "hint" : "Lethal Company"
+        },
+        "Spore Lizard":{
+            "img": "336.png",
+            "hint" : "Lethal Company"
+        },
+        "Baboon Hawk":{
+            "img": "337.png",
+            "hint" : "Lethal Company"
+        },
+        "Circuit Bee":{
+            "img": "341.png",
+            "hint" : "Lethal Company"
+        },
+        "Manticoil":{
+            "img": "342.png",
+            "hint" : "Lethal Company"
+        },
+        "Roaming Locust":{
+            "img": "343.png",
+            "hint" : "Lethal Company"
         }
     },
     "RARE": {
@@ -813,6 +881,38 @@
         "Pere Noel-NK1":{
             "img": "299.png",
             "hint" : "Terraria"
+        },
+        "Talkshow Foxy":{
+            "img": "314.png",
+            "hint" : "FNAF"
+        },
+        "Maneater":{
+            "img": "320.png",
+            "hint" : "Lethal Company"
+        },
+        "Butler":{
+            "img": "322.png",
+            "hint" : "Lethal Company"
+        },
+        "Thumper":{
+            "img": "327.png",
+            "hint" : "Lethal Company"
+        },
+        "Forest Keeper":{
+            "img": "329.png",
+            "hint" : "Lethal Company"
+        },
+        "Coil-Head":{
+            "img": "330.png",
+            "hint" : "Lethal Company"
+        },
+        "Earth Leviathan":{
+            "img": "338.png",
+            "hint" : "Lethal Company"
+        },
+        "Eyeless Dog":{
+            "img": "339.png",
+            "hint" : "Lethal Company"
         }
     },
     "EPIC": {
@@ -1063,6 +1163,30 @@
         "Reine des Glaces":{
             "img": "300.png",
             "hint" : "Terraria"
+        },
+        "Pogoes":{
+            "img": "313.png",
+            "hint" : "FNAF"
+        },
+        "Barber":{
+            "img": "321.png",
+            "hint" : "Lethal Company"
+        },
+        "Ghost Girl":{
+            "img": "325.png",
+            "hint" : "Lethal Company"
+        },
+        "Jester":{
+            "img": "326.png",
+            "hint" : "Lethal Company"
+        },
+        "Nutcrackers":{
+            "img": "334.png",
+            "hint" : "Lethal Company"
+        },
+        "Old Bird":{
+            "img": "340.png",
+            "hint" : "Lethal Company"
         }
     },
     "LEGENDARY": {
@@ -1237,6 +1361,22 @@
         "Seigneur de la lune":{
             "img": "291.png",
             "hint" : "Terraria"
+        },
+        "Flumpty":{
+            "img": "311.png",
+            "hint" : "FNAF"
+        },
+        "The Creation":{
+            "img": "315.png",
+            "hint" : "FNAF"
+        },
+        "Bracken":{
+            "img": "324.png",
+            "hint" : "Lethal Company"
+        },
+        "Hoarding Bug":{
+            "img": "332.png",
+            "hint" : "Lethal Company"
         }
     }
 }
