@@ -507,6 +507,166 @@
         "Roaming Locust":{
             "img": "343.png",
             "hint" : "Lethal Company"
+        },
+        "Roi Widow":{
+            "img": "344.png",
+            "hint" : "Bendy"
+        },
+        "Wilson Arch":{
+            "img": "345.png",
+            "hint" : "Bendy"
+        },
+        "Bertrum Piedmont":{
+            "img": "346.png",
+            "hint" : "Bendy"
+        },
+        "Gardien":{
+            "img": "347.png",
+            "hint" : "Bendy"
+        },
+        "Chercheur":{
+            "img": "351.png",
+            "hint" : "Bendy"
+        },
+        "Betty":{
+            "img": "363.png",
+            "hint" : "Bendy"
+        },
+        "BOb":{
+            "img": "373.png",
+            "hint" : "Slime Rancher"
+        },
+        "Viktor Humphries":{
+            "img": "376.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Baudroie":{
+            "img": "383.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Coton":{
+            "img": "384.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Sauvage":{
+            "img": "390.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Ardent":{
+            "img": "395.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Aqueux":{
+            "img": "401.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Boum":{
+            "img": "402.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Rocheux":{
+            "img": "403.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Mielleux":{
+            "img": "404.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Phosphorescent":{
+            "img": "405.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Tigre":{
+            "img": "406.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Rose":{
+            "img": "407.png",
+            "hint" : "Slime Rancher"
+        },
+        "Manchounet":{
+            "img": "419.png",
+            "hint" : "Subnautica"
+        },
+        "Manchouaile":{
+            "img": "420.png",
+            "hint" : "Subnautica"
+        },
+        "Peeper Articque":{
+            "img": "421.png",
+            "hint" : "Subnautica"
+        },
+        "Singe de Mer":{
+            "img": "422.png",
+            "hint" : "Subnautica"
+        },
+        "Meduse Orbitale":{
+            "img": "423.png",
+            "hint" : "Subnautica"
+        },
+        "Holefish Geant":{
+            "img": "424.png",
+            "hint" : "Subnautica"
+        },
+        "Rodeur":{
+            "img": "435.png",
+            "hint" : "Subnautica"
+        },
+        "Requin des Sables":{
+            "img": "436.png",
+            "hint" : "Subnautica"
+        },
+        "Shuttlebug":{
+            "img": "441.png",
+            "hint" : "Subnautica"
+        },
+        "Spinefish":{
+            "img": "442.png",
+            "hint" : "Subnautica"
+        },
+        "Spadefish":{
+            "img": "443.png",
+            "hint" : "Subnautica"
+        },
+        "Reginald":{
+            "img": "444.png",
+            "hint" : "Subnautica"
+        },
+        "Raie Lapin":{
+            "img": "445.png",
+            "hint" : "Subnautica"
+        },
+        "Pochon":{
+            "img": "446.png",
+            "hint" : "Subnautica"
+        },
+        "Peeper":{
+            "img": "447.png",
+            "hint" : "Subnautica"
+        },
+        "Neunoeil":{
+            "img": "448.png",
+            "hint" : "Subnautica"
+        },
+        "Magmarang":{
+            "img": "449.png",
+            "hint" : "Subnautica"
+        },
+        "Hoverfish":{
+            "img": "450.png",
+            "hint" : "Subnautica"
+        },
+        "Holefish":{
+            "img": "451.png",
+            "hint" : "Subnautica"
+        },
+        "Garryfish":{
+            "img": "452.png",
+            "hint" : "Subnautica"
+        },
+        "Boomerang":{
+            "img": "453.png",
+            "hint" : "Subnautica"
         }
     },
     "RARE": {
@@ -913,6 +1073,134 @@
         "Eyeless Dog":{
             "img": "339.png",
             "hint" : "Lethal Company"
+        },
+        "Striker":{
+            "img": "349.png",
+            "hint" : "Bendy"
+        },
+        "Slicer":{
+            "img": "350.png",
+            "hint" : "Bendy"
+        },
+        "Piper":{
+            "img": "355.png",
+            "hint" : "Bendy"
+        },
+        "Steve":{
+            "img": "356.png",
+            "hint" : "Bendy"
+        },
+        "Lord Amok":{
+            "img": "357.png",
+            "hint" : "Bendy"
+        },
+        "Bendy Animatronique":{
+            "img": "364.png",
+            "hint" : "Bendy"
+        },
+        "Audrey Drew":{
+            "img": "369.png",
+            "hint" : "Bendy"
+        },
+        "Mochi Miles":{
+            "img": "374.png",
+            "hint" : "Slime Rancher"
+        },
+        "Ogden Ortiz":{
+            "img": "375.png",
+            "hint" : "Slime Rancher"
+        },
+        "Thora West":{
+            "img": "377.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Chiroptere":{
+            "img": "381.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Papillon":{
+            "img": "382.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Chasseur":{
+            "img": "393.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Mosaique":{
+            "img": "394.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Cristal":{
+            "img": "396.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Rad":{
+            "img": "397.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Vrillé":{
+            "img": "398.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Derviche":{
+            "img": "399.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Quantique":{
+            "img": "400.png",
+            "hint" : "Slime Rancher"
+        },
+        "Rodeur des Neiges":{
+            "img": "415.png",
+            "hint" : "Subnautica"
+        },
+        "Requien Calmar":{
+            "img": "416.png",
+            "hint" : "Subnautica"
+        },
+        "Requin Brute":{
+            "img": "417.png",
+            "hint" : "Subnautica"
+        },
+        "Cryposaurien":{
+            "img": "418.png",
+            "hint" : "Subnautica"
+        },
+        "Serpent Crabe":{
+            "img": "430.png",
+            "hint" : "Subnautica"
+        },
+        "Calmar Crabe":{
+            "img": "431.png",
+            "hint" : "Subnautica"
+        },
+        "Reefback":{
+            "img": "432.png",
+            "hint" : "Subnautica"
+        },
+        "Pelerin des Mers":{
+            "img": "433.png",
+            "hint" : "Subnautica"
+        },
+        "Gasopode":{
+            "img": "434.png",
+            "hint" : "Subnautica"
+        },
+        "Poisson Torpille":{
+            "img": "437.png",
+            "hint" : "Subnautica"
+        },
+        "Lezard de lave":{
+            "img": "438.png",
+            "hint" : "Subnautica"
+        },
+        "Envouteur":{
+            "img": "439.png",
+            "hint" : "Subnautica"
+        },
+        "Anguille Tesla":{
+            "img": "440.png",
+            "hint" : "Subnautica"
         }
     },
     "EPIC": {
@@ -1187,6 +1475,86 @@
         "Old Bird":{
             "img": "340.png",
             "hint" : "Lethal Company"
+        },
+        "Shipahoy Wilson":{
+            "img": "348.png",
+            "hint" : "Bendy"
+        },
+        "Projectionniste":{
+            "img": "353.png",
+            "hint" : "Bendy"
+        },
+        "Porter":{
+            "img": "354.png",
+            "hint" : "Bendy"
+        },
+        "Joey Drew":{
+            "img": "358.png",
+            "hint" : "Bendy"
+        },
+        "Pecheur":{
+            "img": "360.png",
+            "hint" : "Bendy"
+        },
+        "Brute Boris":{
+            "img": "362.png",
+            "hint" : "Bendy"
+        },
+        "Allison":{
+            "img": "370.png",
+            "hint" : "Bendy"
+        },
+        "Alice":{
+            "img": "372.png",
+            "hint" : "Bendy"
+        },
+        "Slime Oeuf":{
+            "img": "379.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Raton":{
+            "img": "380.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Ombre":{
+            "img": "378.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Bugge":{
+            "img": "389.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Vif Argent":{
+            "img": "391.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Sabre":{
+            "img": "392.png",
+            "hint" : "Slime Rancher"
+        },
+        "Jardin Event":{
+            "img": "409.png",
+            "hint" : "Subnautica"
+        },
+        "Baleine Lumineuse":{
+            "img": "410.png",
+            "hint" : "Subnautica"
+        },
+        "Leviathan Gelee":{
+            "img": "414.png",
+            "hint" : "Subnautica"
+        },
+        "Ver des Glaces":{
+            "img": "413.png",
+            "hint" : "Subnautica"
+        },
+        "Chelicere":{
+            "img": "411.png",
+            "hint" : "Subnautica"
+        },
+        "Warper":{
+            "img": "429.png",
+            "hint" : "Subnautica"
         }
     },
     "LEGENDARY": {
@@ -1377,6 +1745,82 @@
         "Hoarding Bug":{
             "img": "332.png",
             "hint" : "Lethal Company"
+        },
+        "Sammy Lawrence":{
+            "img": "352.png",
+            "hint" : "Bendy"
+        },
+        "Henry Stein":{
+            "img": "359.png",
+            "hint" : "Bendy"
+        },
+        "Boris":{
+            "img": "361.png",
+            "hint" : "Bendy"
+        },
+        "Petit Bendy":{
+            "img": "365.png",
+            "hint" : "Bendy"
+        },
+        "Demon Encre":{
+            "img": "366.png",
+            "hint" : "Bendy"
+        },
+        "Bendy la bete":{
+            "img": "367.png",
+            "hint" : "Bendy"
+        },
+        "Bendy":{
+            "img": "368.png",
+            "hint" : "Bendy"
+        },
+        "Alice Angel":{
+            "img": "371.png",
+            "hint" : "Bendy"
+        },
+        "Thora West":{
+            "img": "377.png",
+            "hint" : "Slime Rancher"
+        },
+        "Goudron":{
+            "img": "385.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Scintillant":{
+            "img": "386.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Porte Bonheur":{
+            "img": "387.png",
+            "hint" : "Slime Rancher"
+        },
+        "Slime Dore":{
+            "img": "388.png",
+            "hint" : "Slime Rancher"
+        },
+        "Dragon des Mers":{
+            "img": "408.png",
+            "hint" : "Subnautica"
+        },
+        "Leviathan tenebreux":{
+            "img": "412.png",
+            "hint" : "Subnautica"
+        },
+        "Calineur":{
+            "img": "425.png",
+            "hint" : "Subnautica"
+        },
+        "Leviathan Faucheur":{
+            "img": "426.png",
+            "hint" : "Subnautica"
+        },
+        "Leviathan Fantome":{
+            "img": "427.png",
+            "hint" : "Subnautica"
+        },
+        "Empereur des Mers":{
+            "img": "428.png",
+            "hint" : "Subnautica"
         }
     }
 }
