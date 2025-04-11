@@ -695,6 +695,86 @@
         "Spewer":{
             "img": "469.png",
             "hint" : "REPO"
+        },
+        "Pretre":{
+            "img": "476.png",
+            "hint" : "Cuphead"
+        },
+        "Chevalier":{
+            "img": "477.png",
+            "hint" : "Cuphead"
+        },
+        "Pion":{
+            "img": "478.png",
+            "hint" : "Cuphead"
+        },
+        "Mr.Chimes":{
+            "img": "479.png",
+            "hint" : "Cuphead"
+        },
+        "Mangoustan":{
+            "img": "480.png",
+            "hint" : "Cuphead"
+        },
+        "Canassos":{
+            "img": "481.png",
+            "hint" : "Cuphead"
+        },
+        "Passe-Passe":{
+            "img": "482.png",
+            "hint" : "Cuphead"
+        },
+        "Dom et Mino":{
+            "img": "483.png",
+            "hint" : "Cuphead"
+        },
+        "Cigari Jaune":{
+            "img": "484.png",
+            "hint" : "Cuphead"
+        },
+        "Faux Jeton":{
+            "img": "485.png",
+            "hint" : "Cuphead"
+        },
+        "Trio Temens":{
+            "img": "486.png",
+            "hint" : "Cuphead"
+        },
+        "Pirouletta":{
+            "img": "487.png",
+            "hint" : "Cuphead"
+        },
+        "Les Bandistilleurs":{
+            "img": "490.png",
+            "hint" : "Cuphead"
+        },
+        "Beppi":{
+            "img": "505.png",
+            "hint" : "Cuphead"
+        },
+        "Djinn":{
+            "img": "506.png",
+            "hint" : "Cuphead"
+        },
+        "Baronne":{
+            "img": "507.png",
+            "hint" : "Cuphead"
+        },
+        "Hilda Berg":{
+            "img": "509.png",
+            "hint" : "Cuphead"
+        },
+        "Coasse et Batrace":{
+            "img": "510.png",
+            "hint" : "Cuphead"
+        },
+        "Victor Visqueux":{
+            "img": "511.png",
+            "hint" : "Cuphead"
+        },
+        "La Bande des Tubercules":{
+            "img": "512.png",
+            "hint" : "Cuphead"
         }
     },
     "RARE": {
@@ -1249,6 +1329,42 @@
         "Upscream":{
             "img": "471.png",
             "hint" : "REPO"
+        },
+        "Tour":{
+            "img": "475.png",
+            "hint" : "Cuphead"
+        },
+        "Marguerite Winchester":{
+            "img": "489.png",
+            "hint" : "Cuphead"
+        },
+        "Les Cadors Volants":{
+            "img": "491.png",
+            "hint" : "Cuphead"
+        },
+        "Grandbougon le Geant":{
+            "img": "493.png",
+            "hint" : "Cuphead"
+        },
+        "Loco-Fantome":{
+            "img": "496.png",
+            "hint" : "Cuphead"
+        },
+        "Biscard Gerbil":{
+            "img": "498.png",
+            "hint" : "Cuphead"
+        },
+        "Capitaine Barbedecume":{
+            "img": "499.png",
+            "hint" : "Cuphead"
+        },
+        "Robot du Docteur Kahl":{
+            "img": "501.png",
+            "hint" : "Cuphead"
+        },
+        "Corbin Claquebec":{
+            "img": "504.png",
+            "hint" : "Cuphead"
         }
     },
     "EPIC": {
@@ -1619,6 +1735,34 @@
         "Trudge":{
             "img": "470.png",
             "hint" : "REPO"
+        },
+        "Reine":{
+            "img": "474.png",
+            "hint" : "Cuphead"
+        },
+        "Mortimer Deglace":{
+            "img": "492.png",
+            "hint" : "Cuphead"
+        },
+        "Roi Dede":{
+            "img": "495.png",
+            "hint" : "Cuphead"
+        },
+        "Cala Maria":{
+            "img": "497.png",
+            "hint" : "Cuphead"
+        },
+        "Babette Descene":{
+            "img": "500.png",
+            "hint" : "Cuphead"
+        },
+        "Regina Nectar":{
+            "img": "502.png",
+            "hint" : "Cuphead"
+        },
+        "Fred Aster":{
+            "img": "508.png",
+            "hint" : "Cuphead"
         }
     },
     "LEGENDARY": {
@@ -1897,6 +2041,30 @@
         "Player":{
             "img": "472.png",
             "hint" : "REPO"
+        },
+        "Mme Chalice":{
+            "img": "473.png",
+            "hint" : "Cuphead"
+        },
+        "Ange et Demon":{
+            "img": "488.png",
+            "hint" : "Cuphead"
+        },
+        "Diable":{
+            "img": "494.png",
+            "hint" : "Cuphead"
+        },
+        "Allumette":{
+            "img": "503.png",
+            "hint" : "Cuphead"
+        },
+        "Chef Lasaliere":{
+            "img": "513.png",
+            "hint" : "Cuphead"
+        },
+        "Mugman":{
+            "img": "514.png",
+            "hint" : "Cuphead"
         }
     }
 }
