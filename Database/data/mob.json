@@ -667,6 +667,34 @@
         "Boomerang":{
             "img": "453.png",
             "hint" : "Subnautica"
+        },
+        "Animal":{
+            "img": "454.png",
+            "hint" : "REPO"
+        },
+        "Banger":{
+            "img": "456.png",
+            "hint" : "REPO"
+        },
+        "Clown":{
+            "img": "459.png",
+            "hint" : "REPO"
+        },
+        "Gnome":{
+            "img": "460.png",
+            "hint" : "REPO"
+        },
+        "Reaper":{
+            "img": "465.png",
+            "hint" : "REPO"
+        },
+        "Shadow Child":{
+            "img": "468.png",
+            "hint" : "REPO"
+        },
+        "Spewer":{
+            "img": "469.png",
+            "hint" : "REPO"
         }
     },
     "RARE": {
@@ -1201,6 +1229,26 @@
         "Anguille Tesla":{
             "img": "440.png",
             "hint" : "Subnautica"
+        },
+        "Apex Predator":{
+            "img": "455.png",
+            "hint" : "REPO"
+        },
+        "Chef":{
+            "img": "458.png",
+            "hint" : "REPO"
+        },
+        "Peeper":{
+            "img": "463.png",
+            "hint" : "REPO"
+        },
+        "Rugrat":{
+            "img": "467.png",
+            "hint" : "REPO"
+        },
+        "Upscream":{
+            "img": "471.png",
+            "hint" : "REPO"
         }
     },
     "EPIC": {
@@ -1555,6 +1603,22 @@
         "Warper":{
             "img": "429.png",
             "hint" : "Subnautica"
+        },
+        "Bowtle":{
+            "img": "457.png",
+            "hint" : "REPO"
+        },
+        "Huntsman":{
+            "img": "462.png",
+            "hint" : "REPO"
+        },
+        "Mentalist":{
+            "img": "464.png",
+            "hint" : "REPO"
+        },
+        "Trudge":{
+            "img": "470.png",
+            "hint" : "REPO"
         }
     },
     "LEGENDARY": {
@@ -1821,6 +1885,18 @@
         "Empereur des Mers":{
             "img": "428.png",
             "hint" : "Subnautica"
+        },
+        "Headman":{
+            "img": "461.png",
+            "hint" : "REPO"
+        },
+        "Robe":{
+            "img": "466.png",
+            "hint" : "REPO"
+        },
+        "Player":{
+            "img": "472.png",
+            "hint" : "REPO"
         }
     }
 }
