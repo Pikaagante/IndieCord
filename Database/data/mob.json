@@ -220,7 +220,7 @@
             "img": "162.png",
             "hint" : "Shovel Knight"
         },
-        "Scarp Knight":{
+        "Scrap Knight":{
             "img": "166.png",
             "hint" : "Shovel Knight"
         },
@@ -372,7 +372,7 @@
             "img": "267.png",
             "hint" : "Terraria"
         },
-        "Apiculture":{
+        "Apicultrice":{
             "img": "268.png",
             "hint" : "Terraria"
         },
@@ -1202,7 +1202,7 @@
             "img": "357.png",
             "hint" : "Bendy"
         },
-        "Bendy Animatronique":{
+        "Bendy Animatronic":{
             "img": "364.png",
             "hint" : "Bendy"
         },
@@ -1270,7 +1270,7 @@
             "img": "417.png",
             "hint" : "Subnautica"
         },
-        "Cryposaurien":{
+        "Cryptosaurien":{
             "img": "418.png",
             "hint" : "Subnautica"
         },
@@ -1290,7 +1290,7 @@
             "img": "433.png",
             "hint" : "Subnautica"
         },
-        "Gasopode":{
+        "Gazopode":{
             "img": "434.png",
             "hint" : "Subnautica"
         },
@@ -1350,7 +1350,7 @@
             "img": "496.png",
             "hint" : "Cuphead"
         },
-        "Biscard Gerbil":{
+        "Briscard Gerbil":{
             "img": "498.png",
             "hint" : "Cuphead"
         },
@@ -1365,6 +1365,14 @@
         "Corbin Claquebec":{
             "img": "504.png",
             "hint" : "Cuphead"
+        },
+        "Dogamy and Doaressa":{
+            "img": "1.png",
+            "hint" : "Undertale"
+        },
+        "Royal Guards":{
+            "img": "4.png",
+            "hint" : "Undertale"
         }
     },
     "EPIC": {
@@ -1564,7 +1572,7 @@
             "img": "258.png",
             "hint" : "Eastward"
         },
-        "Uve":{
+        "Uva":{
             "img": "259.png",
             "hint" : "Eastward"
         },
@@ -1770,12 +1778,12 @@
             "img": "7.png",
             "hint" : "Undertale"
         },
-        "Hollow Knight": {
-            "img": "4.png",
+        "Chevalier": {
+            "img": "747.png",
             "hint" : "Hollow Knight"
         },
         "Cuphead": {
-            "img": "1.png",
+            "img": "748.png",
             "hint" : "Cuphead"
         },
         "Undyne the undying": {
@@ -1974,7 +1982,7 @@
             "img": "366.png",
             "hint" : "Bendy"
         },
-        "Bendy la bete":{
+        "Bendy the beast":{
             "img": "367.png",
             "hint" : "Bendy"
         },
