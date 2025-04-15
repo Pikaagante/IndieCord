@@ -15,7 +15,15 @@
 				"img": "6.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 7
+				"nbr": 9
+			},
+			{
+				"name": "Sculpteur de Bois",
+				"rarity": "RARE",
+				"img": "83.png",
+				"shiny": false,
+				"licence": "Inscryption",
+				"nbr": 1
 			}
 		]
 	}

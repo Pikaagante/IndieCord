@@ -4,7 +4,7 @@ let spawnTimeout = null;
 let revealTimeout = null;
 
 let messageCount = 0;
-const minMessages = 2;
+const minMessages = 15;
 const maxMessages = 100;
 
 const { EmbedBuilder } = require("discord.js");
@@ -12,13 +12,13 @@ const path = require("path");
 const fs = require("fs");
 
 const shiny = 0.02;
-const spawn = 100;
+const spawn = 0.05;
 
 const spawnChances = {
-    common: 0,
-    rare: 0,
-    epic: 100,
-    legendary: 0
+    common: 70,
+    rare: 15,
+    epic: 10,
+    legendary: 5
 };
 
 function rollRarity() {
@@ -151,8 +151,10 @@ module.exports = async (bot, message) => {
                     existingCharacter.shiny = true;
                 }
 
-                existingCharacter.nbr += 1;
-                global.profil.addCharacter(message.author.id, existingCharacter);
+                global.profil.addCharacter(message.author.id, {
+                    ...existingCharacter,
+                    shiny: existingCharacter.shiny || currentSpawn.shiny
+                });                
             } else {
                 currentSpawn.nbr = 1;
                 global.profil.addCharacter(message.author.id, {
