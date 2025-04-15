@@ -24,6 +24,30 @@
 				"shiny": false,
 				"licence": "FNAF",
 				"nbr": 1
+			},
+			{
+				"name": "Slime Papillon",
+				"rarity": "RARE",
+				"img": "382.png",
+				"shiny": false,
+				"licence": "Slime Rancher",
+				"nbr": 1
+			},
+			{
+				"name": "Pyrope",
+				"rarity": "COMMON",
+				"img": "49.png",
+				"shiny": false,
+				"licence": "Undertale",
+				"nbr": 1
+			},
+			{
+				"name": "Blé",
+				"rarity": "COMMON",
+				"img": "110.png",
+				"shiny": false,
+				"licence": "Stardew Valley",
+				"nbr": 1
 			}
 		]
 	},

@@ -4,7 +4,7 @@ let spawnTimeout = null;
 let revealTimeout = null;
 
 let messageCount = 0;
-const minMessages = 15;
+const minMessages = 2;
 const maxMessages = 100;
 
 const { EmbedBuilder } = require("discord.js");
@@ -12,7 +12,7 @@ const path = require("path");
 const fs = require("fs");
 
 const shiny = 0.02;
-const spawn = 0.05;
+const spawn = 100;
 
 const spawnChances = {
     common: 80,
