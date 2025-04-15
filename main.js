@@ -17,7 +17,7 @@ const initialize = async () => {
     await global.profil.loadFile();
 
     const Mob = require(path.join(__dirname, "Database", "mob.js"));
-    global.mob = new Mob(path.join(basePath, "mob.json"));
+    global.mob = new Mob(basePath);
     await global.mob.loadFile();
 
     console.log("✅ Profil et Mob chargés !");

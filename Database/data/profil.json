@@ -2,72 +2,20 @@
 	"365039602882445312": {
 		"characters": [
 			{
-				"name": "Mouton",
-				"rarity": "COMMON",
-				"img": "107.png",
+				"name": "Babette Descene",
+				"rarity": "EPIC",
+				"img": "500.png",
 				"shiny": false,
-				"licence": "Stardew Valley",
-				"nbr": 996
-			},
-			{
-				"name": "Mom",
-				"rarity": "RARE",
-				"img": "97.png",
-				"shiny": false,
-				"licence": "Celeste",
-				"nbr": 2
-			},
-			{
-				"name": "Nightmare Foxy",
-				"rarity": "COMMON",
-				"img": "189.png",
-				"shiny": false,
-				"licence": "FNAF",
+				"licence": "Cuphead",
 				"nbr": 1
 			},
 			{
-				"name": "Slime Papillon",
-				"rarity": "RARE",
-				"img": "382.png",
-				"shiny": false,
-				"licence": "Slime Rancher",
-				"nbr": 1
-			},
-			{
-				"name": "Pyrope",
-				"rarity": "COMMON",
-				"img": "49.png",
+				"name": "Undyne",
+				"rarity": "EPIC",
+				"img": "6.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 1
-			},
-			{
-				"name": "Blé",
-				"rarity": "COMMON",
-				"img": "110.png",
-				"shiny": false,
-				"licence": "Stardew Valley",
-				"nbr": 1
-			}
-		]
-	},
-	"734405755436007435": {
-		"characters": [
-			{
-				"name": "Mom",
-				"rarity": "RARE",
-				"img": "97.png",
-				"shiny": false,
-				"licence": "Celeste",
-				"nbr": 996
-			},
-			{
-				"name": "Mouton",
-				"rarity": "COMMON",
-				"img": "107.png",
-				"shiny": false,
-				"licence": "Stardew Valley",
-				"nbr": 2
+				"nbr": 7
 			}
 		]
 	}

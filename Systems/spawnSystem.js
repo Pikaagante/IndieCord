@@ -15,10 +15,10 @@ const shiny = 0.02;
 const spawn = 100;
 
 const spawnChances = {
-    common: 80,
-    rare: 12,
-    epic: 4,
-    legendary: 3
+    common: 0,
+    rare: 0,
+    epic: 100,
+    legendary: 0
 };
 
 function rollRarity() {
@@ -100,18 +100,18 @@ module.exports = async (bot, message) => {
 
             revealTimeout = setTimeout(async () => {
                 if (!spawnMessage) return;
-            
+
                 const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
                     .setThumbnail(`attachment://${currentSpawn.img}`)
                     .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !\n\n> C'est **${currentSpawn.shiny ? "? SHINY " : ""}${currentSpawn.name}** !`)
                     .setFooter({ text: "Encore 30 secondes avant qu'il ne s'enfuie..." });
-            
+
                 try {
                     await spawnMessage.edit({ embeds: [updatedEmbed] });
                 } catch (err) {
                     if (err.code === 10008) console.warn("Message supprimé avant reveal.");
                 }
-            }, 30 * 1000);            
+            }, 30 * 1000);
 
             spawnTimeout = setTimeout(async () => {
                 if (spawnMessage) {
@@ -119,7 +119,7 @@ module.exports = async (bot, message) => {
                         .setThumbnail(`attachment://${currentSpawn.img}`)
                         .setColor("#95a5a6")
                         .setDescription(`**${currentSpawn.name}** s'est enfui...`);
-            
+
                     try {
                         await spawnMessage.edit({ embeds: [updatedEmbed] });
                     } catch (err) {
@@ -127,7 +127,7 @@ module.exports = async (bot, message) => {
                     }
                 }
                 clearSpawn();
-            }, 60 * 1000);            
+            }, 60 * 1000);
         }
     }
 
@@ -166,7 +166,7 @@ module.exports = async (bot, message) => {
                     .setThumbnail(`attachment://${currentSpawn.img}`)
                     .setColor("#2ecc71")
                     .setDescription(`**${message.author.username}** a capturé **${currentSpawn.shiny ? "? SHINY " : ""}${currentSpawn.name}** (${currentSpawn.rarity}) !`);
-                
+
                 try {
                     await spawnMessage.edit({ embeds: [updatedEmbed] });
                 } catch (err) {

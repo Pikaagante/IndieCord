@@ -1,13 +1,33 @@
-const JSONHandler = require('./JsonHandler')
+const fs = require('fs');
+const path = require('path');
 
-class mob extends JSONHandler {
-    constructor(path){
-        super(path)
+class Mob {
+    constructor(baseDir) {
+        this.baseDir = baseDir;
+        this.mobs = {
+            COMMON: {},
+            RARE: {},
+            EPIC: {},
+            LEGENDARY: {}
+        };
     }
 
-    getMob(nom) {
-        return super.getKey(nom) ?? 'Ce mob n\'existe pas'
+    async loadFile() {
+        const rarities = Object.keys(this.mobs);
+        for (const rarity of rarities) {
+            const filePath = path.join(this.baseDir, `${rarity.toLowerCase()}.json`);
+            if (fs.existsSync(filePath)) {
+                const raw = fs.readFileSync(filePath, 'utf-8');
+                this.mobs[rarity] = JSON.parse(raw);
+            } else {
+                console.warn(`❌ Fichier manquant : ${filePath}`);
+            }
+        }
+    }
+
+    getMob(rarity) {
+        return this.mobs[rarity] || {};
     }
 }
 
-module.exports = mob
+module.exports = Mob;

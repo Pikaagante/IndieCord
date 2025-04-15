@@ -1,0 +1,778 @@
+{
+    "Rock": {
+        "img": "2.png",
+        "hint" : "Undertale"
+    },
+    "Woshua": {
+        "img": "3.png",
+        "hint" : "Undertale"
+    },
+    "Froggit" : {
+        "img": "9.png",
+        "hint" : "Undertale"
+    },
+    "Whimsun" : {
+        "img" : "11.png",
+        "hint" : "Undertale"
+    },
+    "Loox" : {
+        "img" : "12.png",
+        "hint" : "Undertale"
+    },
+    "Vegetoid" : {
+        "img" : "13.png",
+        "hint" : "Undertale"
+    },
+    "Migosp" : {
+        "img" : "23.png",
+        "hint" : "Undertale"
+    },
+    "Ice Cap" : {
+        "img" : "24.png",
+        "hint" : "Undertale"
+    },
+    "Aaron" : {
+        "img" : "28.png",
+        "hint" : "Undertale"
+    },
+    "Vulkin" : {
+        "img" : "35.png",
+        "hint" : "Undertale"
+    },
+    "Snowman" : {
+        "img" : "40.png",
+        "hint" : "Undertale"
+    },
+    "OnionSan" : {
+        "img" : "42.png",
+        "hint" : "Undertale"
+    },
+    "Moldsmal" : {
+        "img" : "44.png",
+        "hint" : "Undertale"
+    },
+    "Astigmatism": {
+        "img": "16.png",
+        "hint" : "Undertale"
+    },
+    "Snowdrake":{
+        "img": "17.png",
+        "hint" : "Undertale"
+    },
+    "Tsunderplane":{
+        "img": "48.png",
+        "hint" : "Undertale"
+    },
+    "Pyrope":{
+        "img": "49.png",
+        "hint" : "Undertale"
+    },
+    "Madjick":{
+        "img": "50.png",
+        "hint" : "Undertale"
+    },
+    "Toy Knife":{
+        "img": "56.png",
+        "hint" : "Undertale"
+    },
+    "Spider Donut":{
+        "img": "57.png",
+        "hint" : "Undertale"
+    },
+    "Old Tutu":{
+        "img": "59.png",
+        "hint" : "Undertale"
+    },
+    "Wolf":{
+        "img": "66.png",
+        "hint" : "Inscryption"
+    },
+    "Bee":{
+        "img": "68.png",
+        "hint" : "Inscryption"
+    },
+    "Mantis":{
+        "img": "69.png",
+        "hint" : "Inscryption"
+    },
+    "Squirrel":{
+        "img": "71.png",
+        "hint" : "Inscryption"
+    },
+    "Cat":{
+        "img": "72.png",
+        "hint" : "Inscryption"
+    },
+    "Exeskeleton":{
+        "img": "76.png",
+        "hint" : "Inscryption"
+    },
+    "Stinkbug":{
+        "img": "78.png",
+        "hint" : "Inscryption"
+    },
+    "Bird":{
+        "img": "94.png",
+        "hint" : "Celeste"
+    },
+    "Cassette":{
+        "img": "95.png",
+        "hint" : "Celeste"
+    },
+    "Fraise":{
+        "img": "96.png",
+        "hint" : "Celeste"
+    },
+    "Coeur Rouge":{
+        "img": "99.png",
+        "hint" : "Celeste"
+    },
+    "Plume":{
+        "img": "100.png",
+        "hint" : "Celeste"
+    },
+    "Poule":{
+        "img": "101.png",
+        "hint" : "Stardew Valley"
+    },
+    "Canards":{
+        "img": "102.png",
+        "hint" : "Stardew Valley"
+    },
+    "Lapin":{
+        "img": "103.png",
+        "hint" : "Stardew Valley"
+    },
+    "Dinosaure":{
+        "img": "104.png",
+        "hint" : "Stardew Valley"
+    },
+    "Vache":{
+        "img": "105.png",
+        "hint" : "Stardew Valley"
+    },
+    "Cochon":{
+        "img": "106.png",
+        "hint" : "Stardew Valley"
+    },
+    "Mouton":{
+        "img": "107.png",
+        "hint" : "Stardew Valley"
+    },
+    "Chat":{
+        "img": "108.png",
+        "hint" : "Stardew Valley"
+    },
+    "Chien":{
+        "img": "109.png",
+        "hint" : "Stardew Valley"
+    },
+    "Ble":{
+        "img": "110.png",
+        "hint" : "Stardew Valley"
+    },
+    "Mais":{
+        "img": "111.png",
+        "hint" : "Stardew Valley"
+    },
+    "Tournesol":{
+        "img": "112.png",
+        "hint" : "Stardew Valley"
+    },
+    "Citrouille":{
+        "img": "113.png",
+        "hint" : "Stardew Valley"
+    },
+    "Clint":{
+        "img": "127.png",
+        "hint" : "Stardew Valley"
+    },
+    "Demetrius":{
+        "img": "128.png",
+        "hint" : "Stardew Valley"
+    },
+    "George":{
+        "img": "129.png",
+        "hint" : "Stardew Valley"
+    },
+    "Willy":{
+        "img": "136.png",
+        "hint" : "Stardew Valley"
+    },
+    "Tofu Boy":{
+        "img": "143.png",
+        "hint" : "Super Meat Boy"
+    },
+    "Tinker Knight":{
+        "img": "149.png",
+        "hint" : "Shovel Knight"
+    },
+    "Puzzle Knight":{
+        "img": "152.png",
+        "hint" : "Shovel Knight"
+    },
+    "Prism Knight":{
+        "img": "154.png",
+        "hint" : "Shovel Knight"
+    },
+    "Reize":{
+        "img": "162.png",
+        "hint" : "Shovel Knight"
+    },
+    "Scrap Knight":{
+        "img": "166.png",
+        "hint" : "Shovel Knight"
+    },
+    "Ballon Boy":{
+        "img": "167.png",
+        "hint" : "FNAF"
+    },
+    "Ballora":{
+        "img": "168.png",
+        "hint" : "FNAF"
+    },
+    "Bidybab":{
+        "img": "169.png",
+        "hint" : "FNAF"
+    },
+    "Mangle":{
+        "img": "182.png",
+        "hint" : "FNAF"
+    },
+    "Minireena":{
+        "img": "183.png",
+        "hint" : "FNAF"
+    },
+    "Music Man":{
+        "img": "185.png",
+        "hint" : "FNAF"
+    },
+    "Nightmare Bonnie":{
+        "img": "187.png",
+        "hint" : "FNAF"
+    },
+    "Nightmare Chica":{
+        "img": "188.png",
+        "hint" : "FNAF"
+    },
+    "Nightmare Foxy":{
+        "img": "189.png",
+        "hint" : "FNAF"
+    },
+    "Nightmare Freddy":{
+        "img": "191.png",
+        "hint" : "FNAF"
+    },
+    "Nightmare Mangle":{
+        "img": "192.png",
+        "hint" : "FNAF"
+    },
+    "Paperpals":{
+        "img": "193.png",
+        "hint" : "FNAF"
+    },
+    "Plushtrap":{
+        "img": "194.png",
+        "hint" : "FNAF"
+    },
+    "Bully":{
+        "img": "207.png",
+        "hint" : "Little Nightmare"
+    },
+    "Doctor":{
+        "img": "208.png",
+        "hint" : "Little Nightmare"
+    },
+    "Espectadores":{
+        "img": "209.png",
+        "hint" : "Little Nightmare"
+    },
+    "Granny":{
+        "img": "210.png",
+        "hint" : "Little Nightmare"
+    },
+    "Guests":{
+        "img": "211.png",
+        "hint" : "Little Nightmare"
+    },
+    "Hunter":{
+        "img": "212.png",
+        "hint" : "Little Nightmare"
+    },
+    "Nome":{
+        "img": "216.png",
+        "hint" : "Little Nightmare"
+    },
+    "Patient":{
+        "img": "217.png",
+        "hint" : "Little Nightmare"
+    },
+    "Teacher":{
+        "img": "219.png",
+        "hint" : "Little Nightmare"
+    },
+    "Poele":{
+        "img": "226.png",
+        "hint" : "Eastward"
+    },
+    "Bomb":{
+        "img": "227.png",
+        "hint" : "Eastward"
+    },
+    "Pistolet Bang-Bang":{
+        "img": "228.png",
+        "hint" : "Eastward"
+    },
+    "Sceptre de Flamme":{
+        "img": "229.png",
+        "hint" : "Eastward"
+    },
+    "Bella":{
+        "img": "243.png",
+        "hint" : "Eastward"
+    },
+    "Seaman":{
+        "img": "244.png",
+        "hint" : "Eastward"
+    },
+    "Chage":{
+        "img": "245.png",
+        "hint" : "Eastward"
+    },
+    "Emily":{
+        "img": "247.png",
+        "hint" : "Eastward"
+    },
+    "Favoloso":{
+        "img": "248.png",
+        "hint" : "Eastward"
+    },
+    "Madame Tayama":{
+        "img": "253.png",
+        "hint" : "Eastward"
+    },
+    "Miller":{
+        "img": "254.png",
+        "hint" : "Eastward"
+    },
+    "Limace":{
+        "img": "261.png",
+        "hint" : "Eastward"
+    },
+    "Corbeau":{
+        "img": "262.png",
+        "hint" : "Eastward"
+    },
+    "Matango":{
+        "img": "264.png",
+        "hint" : "Eastward"
+    },
+    "Furie Etoilee":{
+        "img": "267.png",
+        "hint" : "Terraria"
+    },
+    "Apicultrice":{
+        "img": "268.png",
+        "hint" : "Terraria"
+    },
+    "Roi des gelees":{
+        "img": "275.png",
+        "hint" : "Terraria"
+    },
+    "Oeil de Cthulhu":{
+        "img": "276.png",
+        "hint" : "Terraria"
+    },
+    "Reine des abeilles":{
+        "img": "279.png",
+        "hint" : "Terraria"
+    },
+    "Squeletron":{
+        "img": "280.png",
+        "hint" : "Terraria"
+    },
+    "Reine des gelees":{
+        "img": "282.png",
+        "hint" : "Terraria"
+    },
+    "Ogre":{
+        "img": "292.png",
+        "hint" : "Terraria"
+    },
+    "Betsy":{
+        "img": "293.png",
+        "hint" : "Terraria"
+    },
+    "Bois Terrifiant":{
+        "img": "295.png",
+        "hint" : "Terraria"
+    },
+    "Gelee":{
+        "img": "301.png",
+        "hint" : "Terraria"
+    },
+    "Oeil de demon":{
+        "img": "302.png",
+        "hint" : "Terraria"
+    },
+    "Harpie":{
+        "img": "303.png",
+        "hint" : "Terraria"
+    },
+    "Squelette":{
+        "img": "304.png",
+        "hint" : "Terraria"
+    },
+    "Zombie":{
+        "img": "305.png",
+        "hint" : "Terraria"
+    },
+    "Corrupteur":{
+        "img": "306.png",
+        "hint" : "Terraria"
+    },
+    "Licorne":{
+        "img": "307.png",
+        "hint" : "Terraria"
+    },
+    "Foreuse":{
+        "img": "308.png",
+        "hint" : "Terraria"
+    },
+    "Candy":{
+        "img": "309.png",
+        "hint" : "FNAF"
+    },
+    "Chickling":{
+        "img": "310.png",
+        "hint" : "FNAF"
+    },
+    "JR'S Balloon Boy":{
+        "img": "312.png",
+        "hint" : "FNAF"
+    },
+    "Key":{
+        "img": "316.png",
+        "hint" : "Lethal Company"
+    },
+    "Employee":{
+        "img": "317.png",
+        "hint" : "Lethal Company"
+    },
+    "The Ship":{
+        "img": "318.png",
+        "hint" : "Lethal Company"
+    },
+    "Terminal":{
+        "img": "319.png",
+        "hint" : "Lethal Company"
+    },
+    "Tulip Snake":{
+        "img": "323.png",
+        "hint" : "Lethal Company"
+    },
+    "Masked":{
+        "img": "328.png",
+        "hint" : "Lethal Company"
+    },
+    "Bunker Spider":{
+        "img": "331.png",
+        "hint" : "Lethal Company"
+    },
+    "Hydrogere":{
+        "img": "333.png",
+        "hint" : "Lethal Company"
+    },
+    "Snare Flea":{
+        "img": "335.png",
+        "hint" : "Lethal Company"
+    },
+    "Spore Lizard":{
+        "img": "336.png",
+        "hint" : "Lethal Company"
+    },
+    "Baboon Hawk":{
+        "img": "337.png",
+        "hint" : "Lethal Company"
+    },
+    "Circuit Bee":{
+        "img": "341.png",
+        "hint" : "Lethal Company"
+    },
+    "Manticoil":{
+        "img": "342.png",
+        "hint" : "Lethal Company"
+    },
+    "Roaming Locust":{
+        "img": "343.png",
+        "hint" : "Lethal Company"
+    },
+    "Roi Widow":{
+        "img": "344.png",
+        "hint" : "Bendy"
+    },
+    "Wilson Arch":{
+        "img": "345.png",
+        "hint" : "Bendy"
+    },
+    "Bertrum Piedmont":{
+        "img": "346.png",
+        "hint" : "Bendy"
+    },
+    "Gardien":{
+        "img": "347.png",
+        "hint" : "Bendy"
+    },
+    "Chercheur":{
+        "img": "351.png",
+        "hint" : "Bendy"
+    },
+    "Betty":{
+        "img": "363.png",
+        "hint" : "Bendy"
+    },
+    "BOb":{
+        "img": "373.png",
+        "hint" : "Slime Rancher"
+    },
+    "Viktor Humphries":{
+        "img": "376.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Baudroie":{
+        "img": "383.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Coton":{
+        "img": "384.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Sauvage":{
+        "img": "390.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Ardent":{
+        "img": "395.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Aqueux":{
+        "img": "401.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Boum":{
+        "img": "402.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Rocheux":{
+        "img": "403.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Mielleux":{
+        "img": "404.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Phosphorescent":{
+        "img": "405.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Tigre":{
+        "img": "406.png",
+        "hint" : "Slime Rancher"
+    },
+    "Slime Rose":{
+        "img": "407.png",
+        "hint" : "Slime Rancher"
+    },
+    "Manchounet":{
+        "img": "419.png",
+        "hint" : "Subnautica"
+    },
+    "Manchouaile":{
+        "img": "420.png",
+        "hint" : "Subnautica"
+    },
+    "Peeper Articque":{
+        "img": "421.png",
+        "hint" : "Subnautica"
+    },
+    "Singe de Mer":{
+        "img": "422.png",
+        "hint" : "Subnautica"
+    },
+    "Meduse Orbitale":{
+        "img": "423.png",
+        "hint" : "Subnautica"
+    },
+    "Holefish Geant":{
+        "img": "424.png",
+        "hint" : "Subnautica"
+    },
+    "Rodeur":{
+        "img": "435.png",
+        "hint" : "Subnautica"
+    },
+    "Requin des Sables":{
+        "img": "436.png",
+        "hint" : "Subnautica"
+    },
+    "Shuttlebug":{
+        "img": "441.png",
+        "hint" : "Subnautica"
+    },
+    "Spinefish":{
+        "img": "442.png",
+        "hint" : "Subnautica"
+    },
+    "Spadefish":{
+        "img": "443.png",
+        "hint" : "Subnautica"
+    },
+    "Reginald":{
+        "img": "444.png",
+        "hint" : "Subnautica"
+    },
+    "Raie Lapin":{
+        "img": "445.png",
+        "hint" : "Subnautica"
+    },
+    "Pochon":{
+        "img": "446.png",
+        "hint" : "Subnautica"
+    },
+    "Peeper":{
+        "img": "447.png",
+        "hint" : "Subnautica"
+    },
+    "Neunoeil":{
+        "img": "448.png",
+        "hint" : "Subnautica"
+    },
+    "Magmarang":{
+        "img": "449.png",
+        "hint" : "Subnautica"
+    },
+    "Hoverfish":{
+        "img": "450.png",
+        "hint" : "Subnautica"
+    },
+    "Holefish":{
+        "img": "451.png",
+        "hint" : "Subnautica"
+    },
+    "Garryfish":{
+        "img": "452.png",
+        "hint" : "Subnautica"
+    },
+    "Boomerang":{
+        "img": "453.png",
+        "hint" : "Subnautica"
+    },
+    "Animal":{
+        "img": "454.png",
+        "hint" : "REPO"
+    },
+    "Banger":{
+        "img": "456.png",
+        "hint" : "REPO"
+    },
+    "Clown":{
+        "img": "459.png",
+        "hint" : "REPO"
+    },
+    "Gnome":{
+        "img": "460.png",
+        "hint" : "REPO"
+    },
+    "Reaper":{
+        "img": "465.png",
+        "hint" : "REPO"
+    },
+    "Shadow Child":{
+        "img": "468.png",
+        "hint" : "REPO"
+    },
+    "Spewer":{
+        "img": "469.png",
+        "hint" : "REPO"
+    },
+    "Pretre":{
+        "img": "476.png",
+        "hint" : "Cuphead"
+    },
+    "Chevalier":{
+        "img": "477.png",
+        "hint" : "Cuphead"
+    },
+    "Pion":{
+        "img": "478.png",
+        "hint" : "Cuphead"
+    },
+    "Mr.Chimes":{
+        "img": "479.png",
+        "hint" : "Cuphead"
+    },
+    "Mangoustan":{
+        "img": "480.png",
+        "hint" : "Cuphead"
+    },
+    "Canassos":{
+        "img": "481.png",
+        "hint" : "Cuphead"
+    },
+    "Passe-Passe":{
+        "img": "482.png",
+        "hint" : "Cuphead"
+    },
+    "Dom et Mino":{
+        "img": "483.png",
+        "hint" : "Cuphead"
+    },
+    "Cigari Jaune":{
+        "img": "484.png",
+        "hint" : "Cuphead"
+    },
+    "Faux Jeton":{
+        "img": "485.png",
+        "hint" : "Cuphead"
+    },
+    "Trio Temens":{
+        "img": "486.png",
+        "hint" : "Cuphead"
+    },
+    "Pirouletta":{
+        "img": "487.png",
+        "hint" : "Cuphead"
+    },
+    "Les Bandistilleurs":{
+        "img": "490.png",
+        "hint" : "Cuphead"
+    },
+    "Beppi":{
+        "img": "505.png",
+        "hint" : "Cuphead"
+    },
+    "Djinn":{
+        "img": "506.png",
+        "hint" : "Cuphead"
+    },
+    "Baronne":{
+        "img": "507.png",
+        "hint" : "Cuphead"
+    },
+    "Hilda Berg":{
+        "img": "509.png",
+        "hint" : "Cuphead"
+    },
+    "Coasse et Batrace":{
+        "img": "510.png",
+        "hint" : "Cuphead"
+    },
+    "Victor Visqueux":{
+        "img": "511.png",
+        "hint" : "Cuphead"
+    },
+    "La Bande des Tubercules":{
+        "img": "512.png",
+        "hint" : "Cuphead"
+    }
+}
