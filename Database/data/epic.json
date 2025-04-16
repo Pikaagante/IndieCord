@@ -394,5 +394,237 @@
     "Fred Aster":{
         "img": "508.png",
         "hint" : "Cuphead"
+    },
+    "Mantis Lord":{
+        "img": "516.png",
+        "hint" : "Hollow Knight"
+    },
+    "Grimm":{
+        "img": "520.png",
+        "hint" : "Hollow Knight"
+    },
+    "Collector":{
+        "img": "528.png",
+        "hint" : "Hollow Knight"
+    },
+    "Sheo":{
+        "img": "531.png",
+        "hint" : "Hollow Knight"
+    },
+    "Radiance":{
+        "img": "537.png",
+        "hint" : "Hollow Knight"
+    },
+    "Vaisseau Corrompu":{
+        "img": "540.png",
+        "hint" : "Hollow Knight"
+    },
+    "Zote":{
+        "img": "542.png",
+        "hint" : "Hollow Knight"
+    },
+    "Marmu":{
+        "img": "547.png",
+        "hint" : "Hollow Knight"
+    },
+    "Winged Nosk":{
+        "img": "551.png",
+        "hint" : "Hollow Knight"
+    },
+    "White Defender":{
+        "img": "552.png",
+        "hint" : "Hollow Knight"
+    },
+    "Hollow Knight":{
+        "img": "526.png",
+        "hint" : "Hollow Knight"
+    },
+    "Iselda":{
+        "img": "583.png",
+        "hint" : "Hollow Knight"
+    },
+    "Nailsmith":{
+        "img": "586.png",
+        "hint" : "Hollow Knight"
+    },
+    "Last Stag":{
+        "img": "589.png",
+        "hint" : "Hollow Knight"
+    },
+    "Mato":{
+        "img": "591.png",
+        "hint" : "Hollow Knight"
+    },
+    "Oro":{
+        "img": "592.png",
+        "hint" : "Hollow Knight"
+    },
+    "Cornifer":{
+        "img": "594.png",
+        "hint" : "Hollow Knight"
+    },
+    "Quirrel":{
+        "img": "595.png",
+        "hint" : "Hollow Knight"
+    },
+    "Grey Mourner":{
+        "img": "598.png",
+        "hint" : "Hollow Knight"
+    },
+    "Hunter":{
+        "img": "599.png",
+        "hint" : "Hollow Knight"
+    },
+    "White Lady":{
+        "img": "607.png",
+        "hint" : "Hollow Knight"
+    },
+    "Mask Maker":{
+        "img": "610.png",
+        "hint" : "Hollow Knight"
+    },
+    "Midwife":{
+        "img": "611.png",
+        "hint" : "Hollow Knight"
+    },
+    "Goodseeker":{
+        "img": "617.png",
+        "hint" : "Hollow Knight"
+    },
+    "Gurdy":{
+        "img": "649.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Dark One":{
+        "img": "657.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Rag Mega":{
+        "img": "665.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Satan":{
+        "img": "666.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Big Horn":{
+        "img": "667.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Gish":{
+        "img": "676.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Loki":{
+        "img": "679.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Adversary":{
+        "img": "680.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Mom":{
+        "img": "684.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Siren":{
+        "img": "687.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Lokii":{
+        "img": "696.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Death":{
+        "img": "700.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Conquest":{
+        "img": "701.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Scourge":{
+        "img": "704.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Mother":{
+        "img": "706.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Lamb":{
+        "img": "708.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Ultra Famine":{
+        "img": "711.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Ultra Pestillence":{
+        "img": "712.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Ultra War":{
+        "img": "714.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Ultra Death":{
+        "img": "715.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Magdalene":{
+        "img": "719.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Cain":{
+        "img": "720.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Judas":{
+        "img": "721.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Eve":{
+        "img": "722.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Samson":{
+        "img": "723.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Azazel":{
+        "img": "724.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Lazarus":{
+        "img": "725.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Lilith":{
+        "img": "728.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Keeper":{
+        "img": "729.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Apollyon":{
+        "img": "730.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Soul":{
+        "img": "732.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Bethany":{
+        "img": "733.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Jacob":{
+        "img": "734.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Esau":{
+        "img": "735.png",
+        "hint" : "The Binding of Isaac"
     }
 }

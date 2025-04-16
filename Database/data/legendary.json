@@ -298,5 +298,105 @@
         "Mugman":{
             "img": "514.png",
             "hint" : "Cuphead"
+        },
+        "Sly":{
+            "img": "523.png",
+            "hint" : "Hollow Knight"
+        },
+        "Hornet":{
+            "img": "527.png",
+            "hint" : "Hollow Knight"
+        },
+        "Soul Warrior":{
+            "img": "525.png",
+            "hint" : "Hollow Knight"
+        },
+        "Oro & Mato":{
+            "img": "530.png",
+            "hint" : "Hollow Knight"
+        },
+        "Abvolute Radiance":{
+            "img": "553.png",
+            "hint" : "Hollow Knight"
+        },
+        "Nitgmare King Grimm":{
+            "img": "554.png",
+            "hint" : "Hollow Knight"
+        },
+        "Pure Vessel":{
+            "img": "555.png",
+            "hint" : "Hollow Knight"
+        },
+        "Invincible Fearless Sensual Mysterious Enchanting Vigorous Diligente Overwhelming Grogeous Passionate Terrifying Beautiful Powerful Grey Prince Zote":{
+            "img": "556.png",
+            "hint" : "Hollow Knight"
+        },
+        "Pale King":{
+            "img": "606.png",
+            "hint" : "Hollow Knight"
+        },
+        "Mom's Heart":{
+            "img": "691.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "It Lives":{
+            "img": "702.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Hush":{
+            "img": "703.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "???":{
+            "img": "707.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Mega Satan":{
+            "img": "709.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Delirium":{
+            "img": "710.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Dogma":{
+            "img": "713.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Beast":{
+            "img": "716.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Ultra Avarice":{
+            "img": "717.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Isaac":{
+            "img": "718.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Eden":{
+            "img": "726.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Lost":{
+            "img": "727.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Forgotten":{
+            "img": "731.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Tainted Judas":{
+            "img": "736.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Tainted Lilith":{
+            "img": "737.png",
+            "hint" : "The Binding of Isaac"
+        },
+        "Tainted Apollyon":{
+            "img": "738.png",
+            "hint" : "The Binding of Isaac"
         }
     }

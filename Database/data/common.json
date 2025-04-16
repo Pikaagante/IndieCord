@@ -774,5 +774,293 @@
     "La Bande des Tubercules":{
         "img": "512.png",
         "hint" : "Cuphead"
+    },
+    "Massive Moss Charger":{
+        "img": "519.png",
+        "hint" : "Hollow Knight"
+    },
+    "False Knight":{
+        "img": "520.png",
+        "hint" : "Hollow Knight"
+    },
+    "Flukerman":{
+        "img": "521.png",
+        "hint" : "Hollow Knight"
+    },
+    "Gruz Mother":{
+        "img": "533.png",
+        "hint" : "Hollow Knight"
+    },
+    "Vengly King":{
+        "img": "534.png",
+        "hint" : "Hollow Knight"
+    },
+    "Oblobble":{
+        "img": "536.png",
+        "hint" : "Hollow Knight"
+    },
+    "Gorb":{
+        "img": "544.png",
+        "hint" : "Hollow Knight"
+    },
+    "Failed Champion":{
+        "img": "550.png",
+        "hint" : "Hollow Knight"
+    },
+    "Tiktik":{
+        "img": "557.png",
+        "hint" : "Hollow Knight"
+    },
+    "Goam":{
+        "img": "558.png",
+        "hint" : "Hollow Knight"
+    },
+    "Crawlid":{
+        "img": "559.png",
+        "hint" : "Hollow Knight"
+    },
+    "Husk Guard":{
+        "img": "560.png",
+        "hint" : "Hollow Knight"
+    },
+    "Baldur":{
+        "img": "561.png",
+        "hint" : "Hollow Knight"
+    },
+    "Mosskin":{
+        "img": "562.png",
+        "hint" : "Hollow Knight"
+    },
+    "Mangesot":{
+        "img": "563.png",
+        "hint" : "Hollow Knight"
+    },
+    "Moss Knight":{
+        "img": "564.png",
+        "hint" : "Hollow Knight"
+    },
+    "Sirumal Warrior":{
+        "img": "565.png",
+        "hint" : "Hollow Knight"
+    },
+    "Mistake":{
+        "img": "566.png",
+        "hint" : "Hollow Knight"
+    },
+    "Folly":{
+        "img": "567.png",
+        "hint" : "Hollow Knight"
+    },
+    "Glimback":{
+        "img": "568.png",
+        "hint" : "Hollow Knight"
+    },
+    "Infected Balloon":{
+        "img": "569.png",
+        "hint" : "Hollow Knight"
+    },
+    "Hopper":{
+        "img": "570.png",
+        "hint" : "Hollow Knight"
+    },
+    "Hive Guardian":{
+        "img": "571.png",
+        "hint" : "Hollow Knight"
+    },
+    "Gruzzer":{
+        "img": "575.png",
+        "hint" : "Hollow Knight"
+    },
+    "Aluba":{
+        "img": "577.png",
+        "hint" : "Hollow Knight"
+    },
+    "Grub Mimic":{
+        "img": "578.png",
+        "hint" : "Hollow Knight"
+    },
+    "Grub":{
+        "img": "602.png",
+        "hint" : "Hollow Knight"
+    },
+    "Myla":{
+        "img": "604.png",
+        "hint" : "Hollow Knight"
+    },
+    "Simple Key":{
+        "img": "618.png",
+        "hint" : "Hollow Knight"
+    },
+    "Delicate Flower":{
+        "img": "619.png",
+        "hint" : "Hollow Knight"
+    },
+    "Monstro":{
+        "img": "620.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Gemini":{
+        "img": "621.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Dingle":{
+        "img": "623.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Gurglings":{
+        "img": "624.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Larry Jr.":{
+        "img": "625.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Duke of Flies":{
+        "img": "626.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Widow":{
+        "img": "627.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Pin":{
+        "img": "630.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Headlees Horseman":{
+        "img": "633.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Turdlings":{
+        "img": "635.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Baby Plum":{
+        "img": "638.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Lil Blub":{
+        "img": "641.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Clog":{
+        "img": "643.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Turdlet":{
+        "img": "644.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Fistula":{
+        "img": "646.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Peep":{
+        "img": "653.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Husk":{
+        "img": "654.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Hollow":{
+        "img": "655.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Carrion Queen":{
+        "img": "656.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Frail":{
+        "img": "662.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Bumbino":{
+        "img": "664.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Great Gideon":{
+        "img": "671.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Pile":{
+        "img": "672.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Shell":{
+        "img": "673.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Cage":{
+        "img": "677.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Mask of Infamy":{
+        "img": "682.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Brownie":{
+        "img": "685.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Horny Boys":{
+        "img": "690.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Blastocyste":{
+        "img": "692.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Scolex":{
+        "img": "694.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Teratoma":{
+        "img": "697.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Daddy Long Legs":{
+        "img": "698.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Triachnid":{
+        "img": "699.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Rotgut":{
+        "img": "705.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Horf":{
+        "img": "739.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Fly":{
+        "img": "740.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Coagule":{
+        "img": "741.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Muligan":{
+        "img": "742.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Globin":{
+        "img": "743.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Maw":{
+        "img": "744.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Vis":{
+        "img": "745.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Bony":{
+        "img": "746.png",
+        "hint" : "The Binding of Isaac"
     }
 }

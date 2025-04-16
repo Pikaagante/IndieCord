@@ -594,5 +594,313 @@
     "Royal Guards":{
         "img": "4.png",
         "hint" : "Undertale"
+    },
+    "Hive Knight":{
+        "img": "515.png",
+        "hint" : "Hollow Knight"
+    },
+    "Dung Defender":{
+        "img": "517.png",
+        "hint" : "Hollow Knight"
+    },
+    "God Tamer":{
+        "img": "518.png",
+        "hint" : "Hollow Knight"
+    },
+    "Crystal Guardian":{
+        "img": "522.png",
+        "hint" : "Hollow Knight"
+    },
+    "Soul Warrior":{
+        "img": "525.png",
+        "hint" : "Hollow Knight"
+    },
+    "Soul Master":{
+        "img": "529.png",
+        "hint" : "Hollow Knight"
+    },
+    "Mawlek Maussade":{
+        "img": "532.png",
+        "hint" : "Hollow Knight"
+    },
+     "Nosk":{
+        "img": "535.png",
+        "hint" : "Hollow Knight"
+    },
+    "Traitor Lord":{
+        "img": "538.png",
+        "hint" : "Hollow Knight"
+    },
+    "Uumuu":{
+        "img": "539.png",
+        "hint" : "Hollow Knight"
+    },
+    "Watcher Knight":{
+        "img": "541.png",
+        "hint" : "Hollow Knight"
+    },
+    "Galien":{
+        "img": "543.png",
+        "hint" : "Hollow Knight"
+    },
+    "Elder Hu":{
+        "img": "545.png",
+        "hint" : "Hollow Knight"
+    },
+    "No Eyes":{
+        "img": "548.png",
+        "hint" : "Hollow Knight"
+    },
+    "Xero":{
+        "img": "549.png",
+        "hint" : "Hollow Knight"
+    },
+    "Shade":{
+        "img": "572.png",
+        "hint" : "Hollow Knight"
+    },
+    "Kingsmould":{
+        "img": "573.png",
+        "hint" : "Hollow Knight"
+    },
+    "MendeurBug":{
+        "img": "574.png",
+        "hint" : "Hollow Knight"
+    },
+    "Maggot":{
+        "img": "576.png",
+        "hint" : "Hollow Knight"
+    },
+    "Sturdy Fool":{
+        "img": "579.png",
+        "hint" : "Hollow Knight"
+    },
+    "Shielded Fool":{
+        "img": "580.png",
+        "hint" : "Hollow Knight"
+    },
+    "Winged Fool":{
+        "img": "581.png",
+        "hint" : "Hollow Knight"
+    },
+    "Confessor Jiji":{
+        "img": "582.png",
+        "hint" : "Hollow Knight"
+    },
+    "Leg Eater":{
+        "img": "584.png",
+        "hint" : "Hollow Knight"
+    },
+    "Milibelle":{
+        "img": "585.png",
+        "hint" : "Hollow Knight"
+    },
+    "Lemm":{
+        "img": "587.png",
+        "hint" : "Hollow Knight"
+    },
+    "Salubra":{
+        "img": "588.png",
+        "hint" : "Hollow Knight"
+    },
+    "Tuk":{
+        "img": "590.png",
+        "hint" : "Hollow Knight"
+    },
+    "Cloth":{
+        "img": "593.png",
+        "hint" : "Hollow Knight"
+    },
+    "Tiso":{
+        "img": "596.png",
+        "hint" : "Hollow Knight"
+    },
+    "Bretta":{
+        "img": "597.png",
+        "hint" : "Hollow Knight"
+    },
+    "Seer":{
+        "img": "600.png",
+        "hint" : "Hollow Knight"
+    },
+    "Grubfather":{
+        "img": "601.png",
+        "hint" : "Hollow Knight"
+    },
+    "Elderbug":{
+        "img": "603.png",
+        "hint" : "Hollow Knight"
+    },
+    "Snail Shaman":{
+        "img": "605.png",
+        "hint" : "Hollow Knight"
+    },
+    "Willoh":{
+        "img": "608.png",
+        "hint" : "Hollow Knight"
+    },
+    "Emilitia":{
+        "img": "609.png",
+        "hint" : "Hollow Knight"
+    },
+    "Moss Prophet":{
+        "img": "612.png",
+        "hint" : "Hollow Knight"
+    },
+    "Bruum":{
+        "img": "613.png",
+        "hint" : "Hollow Knight"
+    },
+    "Divine":{
+        "img": "614.png",
+        "hint" : "Hollow Knight"
+    },
+    "Grimsteed":{
+        "img": "615.png",
+        "hint" : "Hollow Knight"
+    },
+    "Nymm":{
+        "img": "616.png",
+        "hint" : "Hollow Knight"
+    },
+    "Steven":{
+        "img": "622.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Bighted Ovum":{
+        "img": "628.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Haunt":{
+        "img": "629.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Fallen":{
+        "img": "632.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Famine":{
+        "img": "631.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Dangle":{
+        "img": "634.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Little Horn":{
+        "img": "636.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Rag Man":{
+        "img": "637.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Rainmaker":{
+        "img": "639.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Min-Min":{
+        "img": "640.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Wormwood":{
+        "img": "642.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Colostomia":{
+        "img": "645.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Chub":{
+        "img": "647.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "C.H.A.B":{
+        "img": "648.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Mega Fatty":{
+        "img": "650.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Mega Maw":{
+        "img": "651.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Gurdy Jr.":{
+        "img": "652.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Polycephalus":{
+        "img": "658.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Wretched":{
+        "img": "659.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Pestillence":{
+        "img": "660.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Stain":{
+        "img": "661.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Forsaken":{
+        "img": "663.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Reap Creep":{
+        "img": "668.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Tuff Twins":{
+        "img": "669.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Hornfel":{
+        "img": "670.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Singe":{
+        "img": "674.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Monstro II":{
+        "img": "675.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Gate":{
+        "img": "678.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Bloat":{
+        "img": "681.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "War":{
+        "img": "683.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Sister Vis":{
+        "img": "686.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Heretic":{
+        "img": "688.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Visage":{
+        "img": "689.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Mama Gurdy":{
+        "img": "693.png",
+        "hint" : "The Binding of Isaac"
+    },
+    "Mr. Fred":{
+        "img": "695.png",
+        "hint" : "The Binding of Isaac"
     }
 }
