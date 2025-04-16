@@ -1,65 +1,753 @@
 {
 	"365039602882445312": {
-		"characters": [
-			{
-				"name": {
-					"fr": "Roche",
-					"en": "Rock"
-				},
-				"rarity": "LEGENDARY",
-				"img": "2.png",
-				"shiny": false,
-				"licence": "Undertale",
-				"nbr": 96
-			},
-			{
-				"name": {
-					"fr": "Monstro",
-					"en": "Monstro"
-				},
-				"rarity": "COMMON",
-				"img": "620.png",
-				"shiny": false,
-				"licence": "The Binding of Isaac",
-				"nbr": 3
-			}
-		]
+	  "characters": [
+		{
+		  "name": {
+			"fr": "Couteau en plastique",
+			"en": "Toy Knife"
+		  },
+		  "rarity": "COMMON",
+		  "img": "56.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 2
+		},
+		{
+		  "name": {
+			"fr": "Aaron",
+			"en": "Aaron"
+		  },
+		  "rarity": "COMMON",
+		  "img": "28.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 5
+		},
+		{
+		  "name": {
+			"fr": "Jelly",
+			"en": "Moldsmal"
+		  },
+		  "rarity": "COMMON",
+		  "img": "44.png",
+		  "shiny": true,
+		  "licence": "Undertale",
+		  "nbr": 7
+		},
+		{
+		  "name": {
+			"fr": "Calotte Glacee",
+			"en": "Ice Cap"
+		  },
+		  "rarity": "COMMON",
+		  "img": "24.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Temmie Flakes",
+			"en": "Temmie Flakes"
+		  },
+		  "rarity": "RARE",
+		  "img": "58.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Malicien",
+			"en": "Madjick"
+		  },
+		  "rarity": "COMMON",
+		  "img": "50.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 5
+		},
+		{
+		  "name": {
+			"fr": "Legumoide",
+			"en": "Vegetoid"
+		  },
+		  "rarity": "COMMON",
+		  "img": "13.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 13
+		},
+		{
+		  "name": {
+			"fr": "Emoplasme",
+			"en": "Whimsun"
+		  },
+		  "rarity": "COMMON",
+		  "img": "11.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Alphys",
+			"en": "Alphys"
+		  },
+		  "rarity": "EPIC",
+		  "img": "38.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Vieux Tutu",
+			"en": "Old Tutu"
+		  },
+		  "rarity": "COMMON",
+		  "img": "59.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 5
+		},
+		{
+		  "name": {
+			"fr": "Head-Memoire",
+			"en": "Memoryhead"
+		  },
+		  "rarity": "RARE",
+		  "img": "51.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Annoying Dog",
+			"en": "Annoying Dog"
+		  },
+		  "rarity": "RARE",
+		  "img": "60.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Papyrus",
+			"en": "Papyrus"
+		  },
+		  "rarity": "EPIC",
+		  "img": "5.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Tsunderplane",
+			"en": "Tsunderplane"
+		  },
+		  "rarity": "COMMON",
+		  "img": "48.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 9
+		},
+		{
+		  "name": {
+			"fr": "Maxichien",
+			"en": "Greater Dog"
+		  },
+		  "rarity": "RARE",
+		  "img": "14.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Exeskeleton",
+			"en": "Exeskeleton"
+		  },
+		  "rarity": "COMMON",
+		  "img": "76.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 3
+		},
+		{
+		  "name": {
+			"fr": "Stinkbug",
+			"en": "Stinkibug"
+		  },
+		  "rarity": "COMMON",
+		  "img": "78.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 3
+		},
+		{
+		  "name": {
+			"fr": "Mante Religieuse",
+			"en": "Mantis"
+		  },
+		  "rarity": "COMMON",
+		  "img": "69.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 3
+		},
+		{
+		  "name": {
+			"fr": "Volcalin",
+			"en": "Vulkin"
+		  },
+		  "rarity": "COMMON",
+		  "img": "35.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Colhivert",
+			"en": "Snowdrake"
+		  },
+		  "rarity": "COMMON",
+		  "img": "17.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 7
+		},
+		{
+		  "name": {
+			"fr": "Arachnodonut",
+			"en": "Spider Donut"
+		  },
+		  "rarity": "COMMON",
+		  "img": "57.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 3
+		},
+		{
+		  "name": {
+			"fr": "Abeille",
+			"en": "Bee"
+		  },
+		  "rarity": "COMMON",
+		  "img": "68.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Coolhivert",
+			"en": "Chilldrake"
+		  },
+		  "rarity": "RARE",
+		  "img": "47.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Stoat",
+			"en": "Stoat"
+		  },
+		  "rarity": "RARE",
+		  "img": "73.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Ecureuil",
+			"en": "Squirrel"
+		  },
+		  "rarity": "COMMON",
+		  "img": "71.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 3
+		},
+		{
+		  "name": {
+			"fr": "Pyrolie",
+			"en": "Pyrope"
+		  },
+		  "rarity": "COMMON",
+		  "img": "49.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 3
+		},
+		{
+		  "name": {
+			"fr": "Chat",
+			"en": "Cat"
+		  },
+		  "rarity": "COMMON",
+		  "img": "72.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Astigmate",
+			"en": "Astigmatism"
+		  },
+		  "rarity": "COMMON",
+		  "img": "16.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 3
+		},
+		{
+		  "name": {
+			"fr": "Francil",
+			"en": "Loox"
+		  },
+		  "rarity": "COMMON",
+		  "img": "12.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Chienmois",
+			"en": "Endogeny"
+		  },
+		  "rarity": "RARE",
+		  "img": "53.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Mycologues",
+			"en": "Mycologists"
+		  },
+		  "rarity": "RARE",
+		  "img": "84.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "OnionSan",
+			"en": "OnionSan"
+		  },
+		  "rarity": "COMMON",
+		  "img": "42.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Mannequin",
+			"en": "Dummy"
+		  },
+		  "rarity": "EPIC",
+		  "img": "21.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		}
+	  ]
+	},
+	"144830519027171328": {
+	  "characters": [
+		{
+		  "name": {
+			"fr": "Bonhomme de Neige",
+			"en": "Snowman"
+		  },
+		  "rarity": "COMMON",
+		  "img": "40.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Pyrolie",
+			"en": "Pyrope"
+		  },
+		  "rarity": "COMMON",
+		  "img": "49.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Roche",
+			"en": "Rock"
+		  },
+		  "rarity": "EPIC",
+		  "img": "2.png",
+		  "shiny": false,
+		  "licence": "Celeste",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Jelly",
+			"en": "Moldsmal"
+		  },
+		  "rarity": "COMMON",
+		  "img": "44.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Aaron",
+			"en": "Aaron"
+		  },
+		  "rarity": "COMMON",
+		  "img": "28.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Volcalin",
+			"en": "Vulkin"
+		  },
+		  "rarity": "COMMON",
+		  "img": "35.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Asgore",
+			"en": "Asgore"
+		  },
+		  "rarity": "LEGENDARY",
+		  "img": "15.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Loup",
+			"en": "Wolf"
+		  },
+		  "rarity": "COMMON",
+		  "img": "66.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		}
+	  ]
+	},
+	"190208361633939466": {
+	  "characters": [
+		{
+		  "name": {
+			"fr": "Jelly",
+			"en": "Moldsmal"
+		  },
+		  "rarity": "COMMON",
+		  "img": "44.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		}
+	  ]
+	},
+	"410415420567322624": {
+	  "characters": [
+		{
+		  "name": {
+			"fr": "Couteau en plastique",
+			"en": "Toy Knife"
+		  },
+		  "rarity": "COMMON",
+		  "img": "56.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 5
+		},
+		{
+		  "name": {
+			"fr": "Bonhomme de Neige",
+			"en": "Snowman"
+		  },
+		  "rarity": "COMMON",
+		  "img": "40.png",
+		  "shiny": false,
+		  "licence": "Licence : Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Jelly",
+			"en": "Moldsmal"
+		  },
+		  "rarity": "COMMON",
+		  "img": "44.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 3
+		},
+		{
+		  "name": {
+			"fr": "Croapaud",
+			"en": "Froggit"
+		  },
+		  "rarity": "COMMON",
+		  "img": "9.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Aaron",
+			"en": "Aaron"
+		  },
+		  "rarity": "COMMON",
+		  "img": "28.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Legumoide",
+			"en": "Vegetoid"
+		  },
+		  "rarity": "COMMON",
+		  "img": "13.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Migosp",
+			"en": "Migosp"
+		  },
+		  "rarity": "COMMON",
+		  "img": "23.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Vieux Tutu",
+			"en": "Old Tutu"
+		  },
+		  "rarity": "COMMON",
+		  "img": "59.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		}
+	  ]
+	},
+	"191288341004681216": {
+	  "characters": [
+		{
+		  "name": {
+			"fr": "Ecureuil",
+			"en": "Squirrel"
+		  },
+		  "rarity": "COMMON",
+		  "img": "71.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		}
+	  ]
+	},
+	"585470737859739658": {
+	  "characters": [
+		{
+		  "name": {
+			"fr": "Exeskeleton",
+			"en": "Exeskeleton"
+		  },
+		  "rarity": "COMMON",
+		  "img": "76.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Sculpteur de Bois",
+			"en": "Woodcarver"
+		  },
+		  "rarity": "RARE",
+		  "img": "83.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Mante Religieuse",
+			"en": "Mantis"
+		  },
+		  "rarity": "COMMON",
+		  "img": "69.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Gaster",
+			"en": "Gaster"
+		  },
+		  "rarity": "LEGENDARY",
+		  "img": "43.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Vieux Tutu",
+			"en": "Old Tutu"
+		  },
+		  "rarity": "COMMON",
+		  "img": "59.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Abeille",
+			"en": "Bee"
+		  },
+		  "rarity": "COMMON",
+		  "img": "68.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		}
+	  ]
 	},
 	"734405755436007435": {
-		"characters": [
-			{
-				"name": {
-					"fr": "Monstro",
-					"en": "Monstro"
-				},
-				"rarity": "COMMON",
-				"img": "620.png",
-				"shiny": false,
-				"licence": "The Binding of Isaac",
-				"nbr": 96
-			},
-			{
-				"name": {
-					"fr": "Sans",
-					"en": "Sans"
-				},
-				"rarity": "LEGENDARY",
-				"img": "7.png",
-				"shiny": false,
-				"licence": "Undertale",
-				"nbr": 1
-			},
-			{
-				"name": {
-					"fr": "Roche",
-					"en": "Rock"
-				},
-				"rarity": "LEGENDARY",
-				"img": "2.png",
-				"shiny": false,
-				"licence": "Undertale",
-				"nbr": 2
-			}
-		]
+	  "characters": [
+		{
+		  "name": {
+			"fr": "Vieux Tutu",
+			"en": "Old Tutu"
+		  },
+		  "rarity": "COMMON",
+		  "img": "59.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		}
+	  ]
+	},
+	"1296175853105053791": {
+	  "characters": [
+		{
+		  "name": {
+			"fr": "Stoat",
+			"en": "Stoat"
+		  },
+		  "rarity": "RARE",
+		  "img": "73.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Abeille",
+			"en": "Bee"
+		  },
+		  "rarity": "COMMON",
+		  "img": "68.png",
+		  "shiny": false,
+		  "licence": "Inscryption",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Legumoide",
+			"en": "Vegetoid"
+		  },
+		  "rarity": "COMMON",
+		  "img": "13.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Colhivert",
+			"en": "Snowdrake"
+		  },
+		  "rarity": "COMMON",
+		  "img": "17.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		}
+	  ]
+	},
+	"328585121928314881": {
+	  "characters": [
+		{
+		  "name": {
+			"fr": "Arachnodonut",
+			"en": "Spider Donut"
+		  },
+		  "rarity": "COMMON",
+		  "img": "57.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "Colhivert",
+			"en": "Snowdrake"
+		  },
+		  "rarity": "COMMON",
+		  "img": "17.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		},
+		{
+		  "name": {
+			"fr": "OnionSan",
+			"en": "OnionSan"
+		  },
+		  "rarity": "COMMON",
+		  "img": "42.png",
+		  "shiny": false,
+		  "licence": "Undertale",
+		  "nbr": 1
+		}
+	  ]
 	}
-}
+  }
