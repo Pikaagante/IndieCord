@@ -1,5 +1,19 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
 
+function guessCharacterObject(inputName, characters) {
+    const lowerInput = inputName.toLowerCase();
+    return characters.find(c => {
+        if (typeof c.name === "object") {
+            return (
+                c.name.fr?.toLowerCase() === lowerInput ||
+                c.name.en?.toLowerCase() === lowerInput
+            );
+        } else {
+            return c.name?.toLowerCase() === lowerInput;
+        }
+    })?.name || null;
+}
+
 module.exports = {
     name: "echange",
     description: "Propose un échange de personnage à un autre joueur.",
@@ -38,8 +52,15 @@ module.exports = {
         if (user1.id === user2.id) return interaction.reply("Tu ne peux pas échanger avec toi-même.");
         if (user2.bot) return interaction.reply("Tu ne peux pas échanger avec un bot.");
 
-        const p1Has = profil.getCharacterByName(user1.id, persoDonne);
-        const p2Has = profil.getCharacterByName(user2.id, persoRecoit);
+        const user1Characters = profil.getCharacters(user1.id);
+        const user2Characters = profil.getCharacters(user2.id);
+
+        const charName1 = guessCharacterObject(persoDonne, user1Characters);
+        const charName2 = guessCharacterObject(persoRecoit, user2Characters);
+
+        const p1Has = profil.getCharacterByName(user1.id, charName1);
+        const p2Has = profil.getCharacterByName(user2.id, charName2);
+
 
         if (!p1Has) return interaction.reply(`Tu ne possèdes pas ${persoDonne}.`);
         if (!p2Has) return interaction.reply(`${user2.username} ne possède pas ${persoRecoit}.`);

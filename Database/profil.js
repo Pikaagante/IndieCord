@@ -18,10 +18,20 @@ class profil extends JSONHandler {
             };
         }
 
-        const existingCharacter = profile.characters.find(c => 
-            c.name.toLowerCase() === character.name.toLowerCase() && 
-            c.shiny === character.shiny // Vérifie si c'est bien le même shiny/non-shiny
-        );
+        const existingCharacter = profile.characters.find(c =>
+            (
+                typeof c.name === 'object'
+                    ? (
+                        c.name.fr?.toLowerCase() === character.name.fr?.toLowerCase() ||
+                        c.name.en?.toLowerCase() === character.name.en?.toLowerCase()
+                    )
+                    : (
+                        c.name?.toLowerCase() === character.name.fr?.toLowerCase() ||
+                        c.name?.toLowerCase() === character.name.en?.toLowerCase()
+                    )
+            ) &&
+            c.shiny === character.shiny
+        );               
 
         if (existingCharacter) {
             existingCharacter.nbr += 1;
@@ -40,12 +50,22 @@ class profil extends JSONHandler {
         return profile ? profile.characters : [];
     }
 
-    getCharacterByName(userId, name) {
+    getCharacterByName(userId, nameObj) {
         const userProfil = this.data[userId];
         if (!userProfil || !userProfil.characters) return null;
-
-        return userProfil.characters.find(character => character.name.toLowerCase() === name.toLowerCase()) || null;
-    }
+    
+        return userProfil.characters.find(c => {
+            if (typeof c.name === 'object') {
+                return (
+                    c.name.fr.toLowerCase() === nameObj.fr.toLowerCase() ||
+                    c.name.en.toLowerCase() === nameObj.en.toLowerCase()
+                );
+            } else {
+                return c.name.toLowerCase() === nameObj.fr.toLowerCase() ||
+                       c.name.toLowerCase() === nameObj.en.toLowerCase();
+            }
+        }) || null;
+    }    
     
     getCharactersByRarity(userId, rarity) {
         const profile = super.getKey(userId);
@@ -58,10 +78,22 @@ class profil extends JSONHandler {
         const profile = super.getKey(userId);
         if (!profile || !profile.characters) return;
     
-        const index = profile.characters.findIndex(c =>
-            c.name.toLowerCase() === name.toLowerCase() &&
-            c.shiny === shiny
-        );
+        const index = profile.characters.findIndex(c => {
+            const inputFr = name.fr?.toLowerCase?.();
+            const inputEn = name.en?.toLowerCase?.();
+        
+            if (typeof c.name === "object") {
+                return (
+                    (c.name.fr?.toLowerCase() === inputFr || c.name.en?.toLowerCase() === inputEn)
+                    && c.shiny === shiny
+                );
+            } else {
+                return (
+                    (c.name?.toLowerCase() === inputFr || c.name?.toLowerCase() === inputEn)
+                    && c.shiny === shiny
+                );
+            }
+        });               
     
         if (index === -1) return;
     

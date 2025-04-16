@@ -21,6 +21,11 @@ const spawnChances = {
     legendary: 5
 };
 
+function getDisplayName(nameObj) {
+    if (!nameObj || typeof nameObj !== 'object') return "Nom inconnu";
+    return `${nameObj.en ?? nameObj.fr ?? "?"} / ${nameObj.fr ?? nameObj.en ?? "?"}`;
+}
+
 function rollRarity() {
     const roll = Math.random() * 100;
     let cumulative = 0;
@@ -78,7 +83,7 @@ module.exports = async (bot, message) => {
             let imageUrl = `attachment://${path.basename(imagePath)}`;
 
             currentSpawn = {
-                name: selectedName,
+                name: selected.names ?? { fr: selectedName, en: selectedName },
                 rarity,
                 img: selected.img,
                 shiny: isShiny,
@@ -93,6 +98,8 @@ module.exports = async (bot, message) => {
                 .setThumbnail(imageUrl)
                 .setFooter({ text: "30 secondes avant que le nom soit révélé !" });
 
+
+
             spawnMessage = await message.channel.send({
                 embeds: [embed],
                 files: [{ attachment: imagePath, name: path.basename(imagePath) }]
@@ -103,8 +110,9 @@ module.exports = async (bot, message) => {
 
                 const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
                     .setThumbnail(`attachment://${currentSpawn.img}`)
-                    .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !\n\n> C'est **${currentSpawn.shiny ? "? SHINY " : ""}${currentSpawn.name}** !`)
+                    .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !\n\n> C'est **${getDisplayName(currentSpawn.name)}** !`)
                     .setFooter({ text: "Encore 30 secondes avant qu'il ne s'enfuie..." });
+
 
                 try {
                     await spawnMessage.edit({ embeds: [updatedEmbed] });
@@ -118,7 +126,8 @@ module.exports = async (bot, message) => {
                     const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
                         .setThumbnail(`attachment://${currentSpawn.img}`)
                         .setColor("#95a5a6")
-                        .setDescription(`**${currentSpawn.name}** s'est enfui...`);
+                        .setDescription(`**${getDisplayName(currentSpawn.name)}** s'est enfui...`);
+
 
                     try {
                         await spawnMessage.edit({ embeds: [updatedEmbed] });
@@ -137,7 +146,10 @@ module.exports = async (bot, message) => {
     if (captureCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
         const nameAttempted = message.content.slice("!c ".length).trim();
 
-        if (nameAttempted.toLowerCase() === currentSpawn.name.toLowerCase()) {
+        if (
+            nameAttempted.toLowerCase() === currentSpawn.name.fr.toLowerCase() ||
+            nameAttempted.toLowerCase() === currentSpawn.name.en.toLowerCase()
+        ) {
             const existingCharacter = global.profil.getCharacterByName(message.author.id, currentSpawn.name);
 
             let normalImagePath = path.resolve(__dirname, "..", "assets", "images", currentSpawn.img);
@@ -154,7 +166,7 @@ module.exports = async (bot, message) => {
                 global.profil.addCharacter(message.author.id, {
                     ...existingCharacter,
                     shiny: existingCharacter.shiny || currentSpawn.shiny
-                });                
+                });
             } else {
                 currentSpawn.nbr = 1;
                 global.profil.addCharacter(message.author.id, {
@@ -167,7 +179,8 @@ module.exports = async (bot, message) => {
                 const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
                     .setThumbnail(`attachment://${currentSpawn.img}`)
                     .setColor("#2ecc71")
-                    .setDescription(`**${message.author.username}** a capturé **${currentSpawn.shiny ? "? SHINY " : ""}${currentSpawn.name}** (${currentSpawn.rarity}) !`);
+                    .setDescription(`**${message.author.username}** a capturé **${currentSpawn.shiny ? "? SHINY " : ""}${getDisplayName(currentSpawn.name)}** (${currentSpawn.rarity}) !`);
+
 
                 try {
                     await spawnMessage.edit({ embeds: [updatedEmbed] });
@@ -184,7 +197,7 @@ module.exports = async (bot, message) => {
                 .setColor("#e74c3c");
 
             const wrongMessage = await message.reply({ embeds: [wrongEmbed] });
-            setTimeout(() => wrongMessage.delete().catch(() => {}), 5000);
+            setTimeout(() => wrongMessage.delete().catch(() => { }), 5000);
         }
     }
 

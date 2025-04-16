@@ -2,28 +2,63 @@
 	"365039602882445312": {
 		"characters": [
 			{
-				"name": "Babette Descene",
-				"rarity": "EPIC",
-				"img": "500.png",
-				"shiny": false,
-				"licence": "Cuphead",
-				"nbr": 1
-			},
-			{
-				"name": "Undyne",
-				"rarity": "EPIC",
-				"img": "6.png",
+				"name": {
+					"fr": "Roche",
+					"en": "Rock"
+				},
+				"rarity": "LEGENDARY",
+				"img": "2.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 9
+				"nbr": 96
 			},
 			{
-				"name": "Sculpteur de Bois",
-				"rarity": "RARE",
-				"img": "83.png",
+				"name": {
+					"fr": "Monstro",
+					"en": "Monstro"
+				},
+				"rarity": "COMMON",
+				"img": "620.png",
 				"shiny": false,
-				"licence": "Inscryption",
+				"licence": "The Binding of Isaac",
+				"nbr": 3
+			}
+		]
+	},
+	"734405755436007435": {
+		"characters": [
+			{
+				"name": {
+					"fr": "Monstro",
+					"en": "Monstro"
+				},
+				"rarity": "COMMON",
+				"img": "620.png",
+				"shiny": false,
+				"licence": "The Binding of Isaac",
+				"nbr": 96
+			},
+			{
+				"name": {
+					"fr": "Sans",
+					"en": "Sans"
+				},
+				"rarity": "LEGENDARY",
+				"img": "7.png",
+				"shiny": false,
+				"licence": "Undertale",
 				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Roche",
+					"en": "Rock"
+				},
+				"rarity": "LEGENDARY",
+				"img": "2.png",
+				"shiny": false,
+				"licence": "Undertale",
+				"nbr": 2
 			}
 		]
 	}

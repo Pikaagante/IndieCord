@@ -79,20 +79,25 @@ module.exports = {
 
         const allCharacters = [];
 
-        for (const [rarityKey, characters] of Object.entries(global.mob.data)) {
+        for (const rarityKey of ["COMMON", "RARE", "EPIC", "LEGENDARY"]) {
+            const characters = global.mob.getMob(rarityKey);
             for (const [characterName, characterData] of Object.entries(characters)) {
-                const userCharacter = userCharacters.find(c => c.name === characterName);
-
+                const userCharacter = userCharacters.find(c =>
+                    typeof c.name === "object"
+                        ? c.name.fr === characterName || c.name.en === characterName
+                        : c.name === characterName
+                );
+        
                 allCharacters.push({
-                    name: characterName,
-                    rarity: rarityKey.toUpperCase(),
+                    name: `${characterData.names?.en ?? characterName}`,
+                    rarity: rarityKey,
                     img: characterData.img,
                     licence: characterData.hint || "Inconnue",
                     isUnlocked: !!userCharacter,
                     isShiny: userCharacter ? userCharacter.shiny : false
                 });
             }
-        }
+        }        
 
         let filteredCharacters = allCharacters;
 
