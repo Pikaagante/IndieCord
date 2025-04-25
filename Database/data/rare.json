@@ -215,9 +215,9 @@
       "img": "75.png",
       "hint": "Inscryption"
     },
-    "Sculpteur de Bois": {
+    "Woodcarver": {
       "names": {
-        "fr": "Sculpteur de Bois",
+        "fr": "Sculpteuse de Bois",
         "en": "Woodcarver"
       },
       "img": "83.png",
@@ -231,9 +231,9 @@
       "img": "84.png",
       "hint": "Inscryption"
     },
-    "Chercheur d'Or": {
+    "Prospector": {
       "names": {
-        "fr": "Chercheur d'Or",
+        "fr": "Trappeur",
         "en": "Prospector"
       },
       "img": "85.png",
@@ -255,9 +255,9 @@
       "img": "87.png",
       "hint": "Inscryption"
     },
-    "Marchand": {
+    "Trader": {
       "names": {
-        "fr": "Marchand",
+        "fr": "Marchande",
         "en": "Trader"
       },
       "img": "88.png",

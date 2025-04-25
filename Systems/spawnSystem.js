@@ -111,7 +111,7 @@ module.exports = async (bot, message) => {
                 const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
                     .setThumbnail(`attachment://${currentSpawn.img}`)
                     .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !\n\n> C'est **${getDisplayName(currentSpawn.name)}** !`)
-                    .setFooter({ text: "Encore 30 secondes avant qu'il ne s'enfuie..." });
+                    .setFooter({ text: "Encore 60 secondes avant qu'il ne s'enfuie..." });
 
 
                 try {
@@ -119,7 +119,7 @@ module.exports = async (bot, message) => {
                 } catch (err) {
                     if (err.code === 10008) console.warn("Message supprimé avant reveal.");
                 }
-            }, 30 * 1000);
+            }, 60 * 1000);
 
             spawnTimeout = setTimeout(async () => {
                 if (spawnMessage) {
@@ -136,7 +136,7 @@ module.exports = async (bot, message) => {
                     }
                 }
                 clearSpawn();
-            }, 60 * 1000);
+            }, 120 * 1000);
         }
     }
 
