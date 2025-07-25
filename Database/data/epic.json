@@ -1358,5 +1358,37 @@
       },
       "img": "824.png",
       "hint": "Broforce"
+    },
+    "Rasmus": {
+      "names": {
+        "fr": "Rasmus",
+        "en": "Rasmus"
+      },
+      "img": "831.png",
+      "hint": "Hotline Miami"
+    },
+    "Girlfriend": {
+      "names": {
+        "fr": "Girlfriend",
+        "en": "Girlfriend"
+      },
+      "img": "832.png",
+      "hint": "Hotline Miami"
+    },
+    "The Father": {
+      "names": {
+        "fr": "Father",
+        "en": "The Father"
+      },
+      "img": "833.png",
+      "hint": "Hotline Miami"
+    },
+    "The Son": {
+      "names": {
+        "fr": "Son",
+        "en": "The Son"
+      },
+      "img": "848.png",
+      "hint": "Hotline Miami"
     }
   }

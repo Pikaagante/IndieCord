@@ -1974,5 +1974,61 @@
       },
       "img": "823.png",
       "hint": "Broforce"
+    },
+    "Richter Berg": {
+      "names": {
+        "fr": "Richter",
+        "en": "Richter Berg"
+      },
+      "img": "827.png",
+      "hint": "Hotline Miami"
+    },
+    "Beard": {
+      "names": {
+        "fr": "Beard",
+        "en": "Beard"
+      },
+      "img": "828.png",
+      "hint": "Hotline Miami"
+    },
+    "Jake": {
+      "names": {
+        "fr": "Jake",
+        "en": "Jake"
+      },
+      "img": "838.png",
+      "hint": "Hotline Miami"
+    },
+    "Manny Padro": {
+      "names": {
+        "fr": "Manny Padro",
+        "en": "Manny Padro"
+      },
+      "img": "840.png",
+      "hint": "Hotline Miami"
+    },
+    "Corey": {
+      "names": {
+        "fr": "Corey",
+        "en": "Corey"
+      },
+      "img": "842.png",
+      "hint": "Hotline Miami"
+    },
+    "Tony": {
+      "names": {
+        "fr": "Tony",
+        "en": "Tony"
+      },
+      "img": "843.png",
+      "hint": "Hotline Miami"
+    },
+    "Mark": {
+      "names": {
+        "fr": "Mark",
+        "en": "Mark"
+      },
+      "img": "846.png",
+      "hint": "Hotline Miami"
     }
   }

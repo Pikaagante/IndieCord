@@ -2358,5 +2358,77 @@
       },
       "img": "822.png",
       "hint": "Broforce"
+    },
+    "Janitors Dennis": {
+      "names": {
+        "fr": "Janitors Dennis",
+        "en": "Janitors Dennis"
+      },
+      "img": "834.png",
+      "hint": "Hotline Miami"
+    },
+    "Janitors Jonatan": {
+      "names": {
+        "fr": "Janitors Jonatan",
+        "en": "Janitors Jonatan"
+      },
+      "img": "835.png",
+      "hint": "Hotline Miami"
+    },
+    "Bodyguard": {
+      "names": {
+        "fr": "Bodyguard",
+        "en": "Bodyguard"
+      },
+      "img": "836.png",
+      "hint": "Hotline Miami"
+    },
+    "Bum": {
+      "names": {
+        "fr": "Bum",
+        "en": "Bum"
+      },
+      "img": "837.png",
+      "hint": "Hotline Miami"
+    },
+    "Parker": {
+      "names": {
+        "fr": "Parker",
+        "en": "Parker"
+      },
+      "img": "839.png",
+      "hint": "Hotline Miami"
+    },
+    "Evan Wright": {
+      "names": {
+        "fr": "Evan Wright",
+        "en": "Evan Wright"
+      },
+      "img": "841.png",
+      "hint": "Hotline Miami"
+    },
+    "Alex Davis": {
+      "names": {
+        "fr": "Alex Davis",
+        "en": "Alex Davis"
+      },
+      "img": "844.png",
+      "hint": "Hotline Miami"
+    },
+    "Ash Davis": {
+      "names": {
+        "fr": "Ash Davis",
+        "en": "Ash Davis"
+      },
+      "img": "845.png",
+      "hint": "Hotline Miami"
+    },
+    "The Henchman": {
+      "names": {
+        "fr": "Henchman",
+        "en": "The Henchman"
+      },
+      "img": "847.png",
+      "hint": "Hotline Miami"
     }
   }

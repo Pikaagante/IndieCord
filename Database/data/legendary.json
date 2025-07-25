@@ -894,5 +894,37 @@
       },
       "img": "819.png",
       "hint": "Broforce"
+    },
+    "Jacket": {
+      "names": {
+        "fr": "Jacket",
+        "en": "Jacket"
+      },
+      "img": "825.png",
+      "hint": "Hotline Miami"
+    },
+    "Biker": {
+      "names": {
+        "fr": "Biker",
+        "en": "Biker"
+      },
+      "img": "826.png",
+      "hint": "Hotline Miami"
+    },
+    "Richard": {
+      "names": {
+        "fr": "Richard",
+        "en": "Richard"
+      },
+      "img": "829.png",
+      "hint": "Hotline Miami"
+    },
+    "Don Juan": {
+      "names": {
+        "fr": "Don Juan",
+        "en": "Don Juan"
+      },
+      "img": "830.png",
+      "hint": "Hotline Miami"
     }
   }
