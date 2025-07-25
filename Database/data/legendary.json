@@ -806,5 +806,29 @@
       },
       "img": "753.png",
       "hint": "Fez"
+    },
+    "Fox": {
+      "names": {
+        "fr": "Renard",
+        "en": "Fox"
+      },
+      "img": "760.png",
+      "hint": "Tunic"
+    },
+    "Spectral Seller": {
+      "names": {
+        "fr": "Vendeur Fantomatique",
+        "en": "Spectral Seller"
+      },
+      "img": "761.png",
+      "hint": "Tunic"
+    },
+    "The Heir": {
+      "names": {
+        "fr": "Heir",
+        "en": "The Heir"
+      },
+      "img": "770.png",
+      "hint": "Tunic"
     }
   }

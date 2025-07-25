@@ -1262,5 +1262,53 @@
       },
       "img": "757.png",
       "hint": "Fez"
+    },
+    "Fox Ghost": {
+      "names": {
+        "fr": "Renard Fantome",
+        "en": "Fox Ghost"
+      },
+      "img": "762.png",
+      "hint": "Tunic"
+    },
+    "Disquiet Being": {
+      "names": {
+        "fr": "Disquiet Being",
+        "en": "Disquiet Being"
+      },
+      "img": "764.png",
+      "hint": "Tunic"
+    },
+    "Garden Knight": {
+      "names": {
+        "fr": "Garden Knight",
+        "en": "Garden Knight"
+      },
+      "img": "766.png",
+      "hint": "Tunic"
+    },
+    "Siege Engine": {
+      "names": {
+        "fr": "Siege Engine",
+        "en": "Siege Engine"
+      },
+      "img": "767.png",
+      "hint": "Tunic"
+    },
+    "Librarian": {
+      "names": {
+        "fr": "Libraire",
+        "en": "Librarian"
+      },
+      "img": "768.png",
+      "hint": "Tunic"
+    },
+    "Boss Scavenger": {
+      "names": {
+        "fr": "Boss Scavenger",
+        "en": "Boss Scavenger"
+      },
+      "img": "769.png",
+      "hint": "Tunic"
     }
   }

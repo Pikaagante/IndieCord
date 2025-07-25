@@ -1846,5 +1846,45 @@
       },
       "img": "755.png",
       "hint": "Fez"
+    },
+    "Fairy": {
+      "names": {
+        "fr": "Fee",
+        "en": "Fairy"
+      },
+      "img": "763.png",
+      "hint": "Tunic"
+    },
+    "Guard Captain": {
+      "names": {
+        "fr": "Guard Captain",
+        "en": "Guard Captain"
+      },
+      "img": "765.png",
+      "hint": "Tunic"
+    },
+    "Envoy": {
+      "names": {
+        "fr": "Envoy",
+        "en": "Envoy"
+      },
+      "img": "774.png",
+      "hint": "Tunic"
+    },
+    "Husher": {
+      "names": {
+        "fr": "Husher",
+        "en": "Husher"
+      },
+      "img": "776.png",
+      "hint": "Tunic"
+    },
+    "Voidling": {
+      "names": {
+        "fr": "Voidling",
+        "en": "Voidling"
+      },
+      "img": "778.png",
+      "hint": "Tunic"
     }
   }

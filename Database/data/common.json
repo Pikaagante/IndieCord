@@ -2158,5 +2158,69 @@
       },
       "img": "759.png",
       "hint": "Fez"
+    },
+    "Blob": {
+      "names": {
+        "fr": "Blob",
+        "en": "Blob"
+      },
+      "img": "771.png",
+      "hint": "Tunic"
+    },
+    "Rudeling": {
+      "names": {
+        "fr": "Rudeling",
+        "en": "Rudeling"
+      },
+      "img": "772.png",
+      "hint": "Tunic"
+    },
+    "Hedgehog": {
+      "names": {
+        "fr": "Hedgehog",
+        "en": "Hedgehog"
+      },
+      "img": "773.png",
+      "hint": "Tunic"
+    },
+    "Chompignom": {
+      "names": {
+        "fr": "Chompignom",
+        "en": "Chompignom"
+      },
+      "img": "775.png",
+      "hint": "Tunic"
+    },
+    "Frog": {
+      "names": {
+        "fr": "Grenouille",
+        "en": "Frog"
+      },
+      "img": "777.png",
+      "hint": "Tunic"
+    },
+    "Shield": {
+      "names": {
+        "fr": "Bouclier",
+        "en": "Shield"
+      },
+      "img": "779.png",
+      "hint": "Tunic"
+    },
+    "Lure": {
+      "names": {
+        "fr": "Leurre",
+        "en": "Lure"
+      },
+      "img": "780.png",
+      "hint": "Tunic"
+    },
+    "Sword": {
+      "names": {
+        "fr": "Epee",
+        "en": "Sword"
+      },
+      "img": "781.png",
+      "hint": "Tunic"
     }
   }
