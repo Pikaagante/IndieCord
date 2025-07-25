@@ -926,5 +926,21 @@
       },
       "img": "830.png",
       "hint": "Hotline Miami"
+    },
+    "Wilson": {
+      "names": {
+        "fr": "Wilson",
+        "en": "Wilson"
+      },
+      "img": "849.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wendy": {
+      "names": {
+        "fr": "Wendy",
+        "en": "Wendy"
+      },
+      "img": "852.png",
+      "hint": "Dont Starve Together"
     }
   }

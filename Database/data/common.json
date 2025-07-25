@@ -2430,5 +2430,69 @@
       },
       "img": "847.png",
       "hint": "Hotline Miami"
+    },
+    "Willow": {
+      "names": {
+        "fr": "Willow",
+        "en": "Willow"
+      },
+      "img": "850.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wolfgang": {
+      "names": {
+        "fr": "Wolfgang",
+        "en": "Wolfgang"
+      },
+      "img": "851.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wickerbottom": {
+      "names": {
+        "fr": "Wickerbottom",
+        "en": "Wickerbottom"
+      },
+      "img": "854.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wigfrid": {
+      "names": {
+        "fr": "Wigfrid",
+        "en": "Wigfrid"
+      },
+      "img": "857.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wilba": {
+      "names": {
+        "fr": "Wilba",
+        "en": "Wilba"
+      },
+      "img": "860.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wormwood": {
+      "names": {
+        "fr": "Wormwood",
+        "en": "Wormwood"
+      },
+      "img": "861.png",
+      "hint": "Dont Starve Together"
+    },
+    "Spider": {
+      "names": {
+        "fr": "Araignee",
+        "en": "Spider"
+      },
+      "img": "868.png",
+      "hint": "Dont Starve Together"
+    },
+    "Ghost": {
+      "names": {
+        "fr": "Fantome",
+        "en": "Ghost"
+      },
+      "img": "870.png",
+      "hint": "Dont Starve Together"
     }
   }

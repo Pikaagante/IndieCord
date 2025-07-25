@@ -1390,5 +1390,69 @@
       },
       "img": "848.png",
       "hint": "Hotline Miami"
+    },
+    "Webber": {
+      "names": {
+        "fr": "Webber",
+        "en": "Webber"
+      },
+      "img": "858.png",
+      "hint": "Dont Starve Together"
+    },
+    "Winoma": {
+      "names": {
+        "fr": "Winoma",
+        "en": "Winoma"
+      },
+      "img": "862.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wortox": {
+      "names": {
+        "fr": "Wortox",
+        "en": "Wortox"
+      },
+      "img": "863.png",
+      "hint": "Dont Starve Together"
+    },
+    "Krampus": {
+      "names": {
+        "fr": "Krampus",
+        "en": "Krampus"
+      },
+      "img": "869.png",
+      "hint": "Dont Starve Together"
+    },
+    "Treeguard": {
+      "names": {
+        "fr": "Treeguard",
+        "en": "Treeguard"
+      },
+      "img": "872.png",
+      "hint": "Dont Starve Together"
+    },
+    "Spider Queen": {
+      "names": {
+        "fr": "Reine Araignee",
+        "en": "Spider Queen"
+      },
+      "img": "872.png",
+      "hint": "Dont Starve Together"
+    },
+    "Deerclops": {
+      "names": {
+        "fr": "Deerclops",
+        "en": "Deerclops"
+      },
+      "img": "874.png",
+      "hint": "Dont Starve Together"
+    },
+    "Ancient Guardian": {
+      "names": {
+        "fr": "Gardien Ancien",
+        "en": "Ancient Guardian"
+      },
+      "img": "875.png",
+      "hint": "Dont Starve Together"
     }
   }

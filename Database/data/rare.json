@@ -2030,5 +2030,85 @@
       },
       "img": "846.png",
       "hint": "Hotline Miami"
+    },
+    "WX-78": {
+      "names": {
+        "fr": "WX-78",
+        "en": "WX-78"
+      },
+      "img": "853.png",
+      "hint": "Dont Starve Together"
+    },
+    "Woodie": {
+      "names": {
+        "fr": "Woodie",
+        "en": "Woodie"
+      },
+      "img": "855.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wagstaff": {
+      "names": {
+        "fr": "Wagstaff",
+        "en": "Wagstaff"
+      },
+      "img": "856.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wilbur": {
+      "names": {
+        "fr": "Wilbur",
+        "en": "Wilbur"
+      },
+      "img": "859.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wurt": {
+      "names": {
+        "fr": "Wurt",
+        "en": "Wurt"
+      },
+      "img": "864.png",
+      "hint": "Dont Starve Together"
+    },
+    "Beefalo": {
+      "names": {
+        "fr": "Boeufalo",
+        "en": "Beefalo"
+      },
+      "img": "865.png",
+      "hint": "Dont Starve Together"
+    },
+    "Teenbird": {
+      "names": {
+        "fr": "Teenbird",
+        "en": "Teenbird"
+      },
+      "img": "866.png",
+      "hint": "Dont Starve Together"
+    },
+    "Bunnyman": {
+      "names": {
+        "fr": "Lapin Geant",
+        "en": "Bunnyman"
+      },
+      "img": "867.png",
+      "hint": "Dont Starve Together"
+    },
+    "Crawling Horror": {
+      "names": {
+        "fr": "Horreur rampante",
+        "en": "Crawling Horror"
+      },
+      "img": "871.png",
+      "hint": "Dont Starve Together"
+    },
+    "Dragonfly": {
+      "names": {
+        "fr": "Dragon Mouche",
+        "en": "Dragonfly"
+      },
+      "img": "876.png",
+      "hint": "Dont Starve Together"
     }
   }
