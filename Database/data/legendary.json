@@ -830,5 +830,21 @@
       },
       "img": "770.png",
       "hint": "Tunic"
+    },
+    "Crewnmate": {
+      "names": {
+        "fr": "Coequipier",
+        "en": "Crewnmate"
+      },
+      "img": "782.png",
+      "hint": "Among Us"
+    },
+    "Impostor": {
+      "names": {
+        "fr": "Imposteur",
+        "en": "Impostor"
+      },
+      "img": "783.png",
+      "hint": "Among Us"
     }
   }
