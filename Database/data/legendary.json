@@ -846,5 +846,53 @@
       },
       "img": "783.png",
       "hint": "Among Us"
+    },
+    "Brobocop": {
+      "names": {
+        "fr": "Brobocop",
+        "en": "Brobocop"
+      },
+      "img": "794.png",
+      "hint": "Broforce"
+    },
+    "Brodell Walker": {
+      "names": {
+        "fr": "Brodell Walker",
+        "en": "Brodell Walker"
+      },
+      "img": "796.png",
+      "hint": "Broforce"
+    },
+    "Indiana Brones": {
+      "names": {
+        "fr": "Indiana Brones",
+        "en": "Indiana Brones"
+      },
+      "img": "814.png",
+      "hint": "Broforce"
+    },
+    "Jesus": {
+      "names": {
+        "fr": "Jesus",
+        "en": "Jesus"
+      },
+      "img": "815.png",
+      "hint": "Broforce"
+    },
+    "Rambro": {
+      "names": {
+        "fr": "Rambro",
+        "en": "Rambro"
+      },
+      "img": "818.png",
+      "hint": "Broforce"
+    },
+    "Satan": {
+      "names": {
+        "fr": "Satan",
+        "en": "Satan"
+      },
+      "img": "819.png",
+      "hint": "Broforce"
     }
   }

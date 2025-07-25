@@ -2222,5 +2222,141 @@
       },
       "img": "781.png",
       "hint": "Tunic"
+    },
+    "Xenomorph": {
+      "names": {
+        "fr": "Xenomorph",
+        "en": "Xenomorph"
+      },
+      "img": "785.png",
+      "hint": "Broforce"
+    },
+    "Facehugger": {
+      "names": {
+        "fr": "Facehugger",
+        "en": "Facehugger"
+      },
+      "img": "786.png",
+      "hint": "Broforce"
+    },
+    "Ash Brolliams": {
+      "names": {
+        "fr": "Ash Brolliams",
+        "en": "Ash Brolliams"
+      },
+      "img": "787.png",
+      "hint": "Broforce"
+    },
+    "B. A. Broracus": {
+      "names": {
+        "fr": "B. A. Broracus",
+        "en": "B. A. Broracus"
+      },
+      "img": "788.png",
+      "hint": "Broforce"
+    },
+    "Basic Mook": {
+      "names": {
+        "fr": "Basic Mook",
+        "en": "Basic Mook"
+      },
+      "img": "789.png",
+      "hint": "Broforce"
+    },
+    "Bro Max": {
+      "names": {
+        "fr": "Bro Max",
+        "en": "Bro Max"
+      },
+      "img": "793.png",
+      "hint": "Broforce"
+    },
+    "Brochete": {
+      "names": {
+        "fr": "Brochete",
+        "en": "Brochete"
+      },
+      "img": "795.png",
+      "hint": "Broforce"
+    },
+    "Broheart": {
+      "names": {
+        "fr": "Broheart",
+        "en": "Broheart"
+      },
+      "img": "799.png",
+      "hint": "Broforce"
+    },
+    "Broniversal Soldier": {
+      "names": {
+        "fr": "Broniversal Soldier",
+        "en": "Broniversal Soldier"
+      },
+      "img": "800.png",
+      "hint": "Broforce"
+    },
+    "Brommando": {
+      "names": {
+        "fr": "Brommando",
+        "en": "Brommando"
+      },
+      "img": "802.png",
+      "hint": "Broforce"
+    },
+    "Xebro": {
+      "names": {
+        "fr": "Xebro",
+        "en": "Xebro"
+      },
+      "img": "805.png",
+      "hint": "Broforce"
+    },
+    "Time Bro": {
+      "names": {
+        "fr": "Time Bro",
+        "en": "Time Bro"
+      },
+      "img": "806.png",
+      "hint": "Broforce"
+    },
+    "Colonnel James Broddock": {
+      "names": {
+        "fr": "Colonnel James Broddock",
+        "en": "Colonnel James Broddock"
+      },
+      "img": "808.png",
+      "hint": "Broforce"
+    },
+    "Demolition Bro": {
+      "names": {
+        "fr": "Demolition Bro",
+        "en": "Demolition Bro"
+      },
+      "img": "809.png",
+      "hint": "Broforce"
+    },
+    "Dogs": {
+      "names": {
+        "fr": "Dogs",
+        "en": "Dogs"
+      },
+      "img": "810.png",
+      "hint": "Broforce"
+    },
+    "Grenadier Mook": {
+      "names": {
+        "fr": "Grenadier Mook",
+        "en": "Grenadier Mook"
+      },
+      "img": "813.png",
+      "hint": "Broforce"
+    },
+    "Suicide Bomber Mook": {
+      "names": {
+        "fr": "Suicide Bomber Mook",
+        "en": "Suicide Bomber Mook"
+      },
+      "img": "822.png",
+      "hint": "Broforce"
     }
   }

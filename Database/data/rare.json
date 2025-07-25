@@ -1886,5 +1886,93 @@
       },
       "img": "778.png",
       "hint": "Tunic"
+    },
+    "Acid Crawler": {
+      "names": {
+        "fr": "Acid Crawler",
+        "en": "Acid Crawler"
+      },
+      "img": "784.png",
+      "hint": "Broforce"
+    },
+    "Bro Dredd": {
+      "names": {
+        "fr": "Bro Dredd",
+        "en": "Bro Dredd"
+      },
+      "img": "790.png",
+      "hint": "Broforce"
+    },
+    "Bro Hard": {
+      "names": {
+        "fr": "Bro Hard",
+        "en": "Bro Hard"
+      },
+      "img": "791.png",
+      "hint": "Broforce"
+    },
+    "Bronan the Brobarian": {
+      "names": {
+        "fr": "Bronan the Brobarian",
+        "en": "Bronan the Brobarian"
+      },
+      "img": "804.png",
+      "hint": "Broforce"
+    },
+    "Cherry Broling": {
+      "names": {
+        "fr": "Cherry Broling",
+        "en": "Cherry Broling"
+      },
+      "img": "807.png",
+      "hint": "Broforce"
+    },
+    "Ellen Ripbro": {
+      "names": {
+        "fr": "Ellen Ripbro",
+        "en": "Ellen Ripbro"
+      },
+      "img": "811.png",
+      "hint": "Broforce"
+    },
+    "GR666": {
+      "names": {
+        "fr": "GR666",
+        "en": "GR666"
+      },
+      "img": "812.png",
+      "hint": "Broforce"
+    },
+    "MacBrover": {
+      "names": {
+        "fr": "MacBrover",
+        "en": "MacBrover"
+      },
+      "img": "816.png",
+      "hint": "Broforce"
+    },
+    "Snake Broskin": {
+      "names": {
+        "fr": "Snake Broskin",
+        "en": "Snake Broskin"
+      },
+      "img": "820.png",
+      "hint": "Broforce"
+    },
+    "Stealth Tank": {
+      "names": {
+        "fr": "Stealth Tank",
+        "en": "Stealth Tank"
+      },
+      "img": "821.png",
+      "hint": "Broforce"
+    },
+    "The Boondock Bros": {
+      "names": {
+        "fr": "Boondock Bros",
+        "en": "The Boondock Bros"
+      },
+      "img": "823.png",
+      "hint": "Broforce"
     }
   }

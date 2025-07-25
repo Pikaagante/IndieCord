@@ -1310,5 +1310,53 @@
       },
       "img": "769.png",
       "hint": "Tunic"
+    },
+    "Bro In Black": {
+      "names": {
+        "fr": "Bro In Black",
+        "en": "Bro In Black"
+      },
+      "img": "792.png",
+      "hint": "Broforce"
+    },
+    "Broden": {
+      "names": {
+        "fr": "Broden",
+        "en": "Broden"
+      },
+      "img": "797.png",
+      "hint": "Broforce"
+    },
+    "Broffy": {
+      "names": {
+        "fr": "Broffy",
+        "en": "Broffy"
+      },
+      "img": "798.png",
+      "hint": "Broforce"
+    },
+    "Brominator": {
+      "names": {
+        "fr": "Brominator",
+        "en": "Brominator"
+      },
+      "img": "801.png",
+      "hint": "Broforce"
+    },
+    "Mr. Anderbro": {
+      "names": {
+        "fr": "Mr. Anderbro",
+        "en": "Mr. Anderbro"
+      },
+      "img": "817.png",
+      "hint": "Broforce"
+    },
+    "The Brode": {
+      "names": {
+        "fr": "Brode",
+        "en": "The Brode"
+      },
+      "img": "824.png",
+      "hint": "Broforce"
     }
   }
