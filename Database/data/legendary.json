@@ -950,5 +950,45 @@
       },
       "img": "878.png",
       "hint": "Ori"
+    },
+    "The Lamb": {
+      "names": {
+        "fr": "Lamb",
+        "en": "The Lamb"
+      },
+      "img": "899.png",
+      "hint": "Cult of the Lamb"
+    },
+    "The Goat": {
+      "names": {
+        "fr": "Goat",
+        "en": "The Goat"
+      },
+      "img": "900.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Narinder": {
+      "names": {
+        "fr": "Narinder",
+        "en": "Narinder"
+      },
+      "img": "921.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Aym": {
+      "names": {
+        "fr": "Aym",
+        "en": "Aym"
+      },
+      "img": "922.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Baal": {
+      "names": {
+        "fr": "Baal",
+        "en": "Baal"
+      },
+      "img": "923.png",
+      "hint": "Cult of the Lamb"
     }
   }

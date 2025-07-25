@@ -2574,5 +2574,149 @@
       },
       "img": "898.png",
       "hint": "Ori"
+    },
+    "Gusion": {
+      "names": {
+        "fr": "Gusion",
+        "en": "Gusion"
+      },
+      "img": "912.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Eligos": {
+      "names": {
+        "fr": "Eligos",
+        "en": "Eligos"
+      },
+      "img": "913.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Zepar": {
+      "names": {
+        "fr": "Zepar",
+        "en": "Zepar"
+      },
+      "img": "914.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Saleos": {
+      "names": {
+        "fr": "Saleos",
+        "en": "Saleos"
+      },
+      "img": "915.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Forneus": {
+      "names": {
+        "fr": "Forneus",
+        "en": "Forneus"
+      },
+      "img": "925.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Fisherman": {
+      "names": {
+        "fr": "Fisherman",
+        "en": "Fisherman"
+      },
+      "img": "926.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Kudaai": {
+      "names": {
+        "fr": "Kudaai",
+        "en": "Kudaai"
+      },
+      "img": "927.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Plimbo": {
+      "names": {
+        "fr": "Plimbo",
+        "en": "Plimbo"
+      },
+      "img": "929.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Helob": {
+      "names": {
+        "fr": "Helob",
+        "en": "Helob"
+      },
+      "img": "930.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Berith": {
+      "names": {
+        "fr": "Berith",
+        "en": "Berith"
+      },
+      "img": "933.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Monch": {
+      "names": {
+        "fr": "Monch",
+        "en": "Monch"
+      },
+      "img": "934.png",
+      "hint": "Cult of the Lamb"
+    },
+    "The Fox": {
+      "names": {
+        "fr": "Fox",
+        "en": "The Fox"
+      },
+      "img": "937.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Haro": {
+      "names": {
+        "fr": "Haro",
+        "en": "Haro"
+      },
+      "img": "938.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Swordman": {
+      "names": {
+        "fr": "Swordman",
+        "en": "Swordman"
+      },
+      "img": "939.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Archer": {
+      "names": {
+        "fr": "Archer",
+        "en": "Archer"
+      },
+      "img": "940.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Healer": {
+      "names": {
+        "fr": "Healer",
+        "en": "Healer"
+      },
+      "img": "941.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Summoner": {
+      "names": {
+        "fr": "Summoner",
+        "en": "Summoner"
+      },
+      "img": "942.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Skeleton": {
+      "names": {
+        "fr": "Skeleton",
+        "en": "Skeleton"
+      },
+      "img": "943.png",
+      "hint": "Cult of the Lamb"
     }
   }

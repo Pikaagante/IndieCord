@@ -1478,5 +1478,61 @@
       },
       "img": "895.png",
       "hint": "Ori"
+    },
+    "Heket": {
+      "names": {
+        "fr": "Heket",
+        "en": "Heket"
+      },
+      "img": "901.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Kallamar": {
+      "names": {
+        "fr": "Kallamar",
+        "en": "Kallamar"
+      },
+      "img": "902.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Shamura": {
+      "names": {
+        "fr": "Shamura",
+        "en": "Shamura"
+      },
+      "img": "903.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Leshy": {
+      "names": {
+        "fr": "Leshy",
+        "en": "Leshy"
+      },
+      "img": "904.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Ratau": {
+      "names": {
+        "fr": "Ratau",
+        "en": "Ratau"
+      },
+      "img": "905.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Clauneck": {
+      "names": {
+        "fr": "Clauneck",
+        "en": "Clauneck"
+      },
+      "img": "924.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Mystic Seller": {
+      "names": {
+        "fr": "Mystic Seller",
+        "en": "Mystic Seller"
+      },
+      "img": "932.png",
+      "hint": "Cult of the Lamb"
     }
   }

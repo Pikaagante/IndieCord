@@ -2166,5 +2166,125 @@
       },
       "img": "891.png",
       "hint": "Ori"
+    },
+    "Flinky": {
+      "names": {
+        "fr": "Flinky",
+        "en": "Flinky"
+      },
+      "img": "906.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Klunko and Bop": {
+      "names": {
+        "fr": "Klunko and Bop",
+        "en": "Klunko and Bop"
+      },
+      "img": "907.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Shrumy": {
+      "names": {
+        "fr": "Shrumy",
+        "en": "Shrumy"
+      },
+      "img": "908.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Amdusias": {
+      "names": {
+        "fr": "Amdusias",
+        "en": "Amdusias"
+      },
+      "img": "909.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Valefar": {
+      "names": {
+        "fr": "Valefar",
+        "en": "Valefar"
+      },
+      "img": "910.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Barbatos": {
+      "names": {
+        "fr": "Barbatos",
+        "en": "Barbatos"
+      },
+      "img": "911.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Haborym": {
+      "names": {
+        "fr": "Haborym",
+        "en": "Haborym"
+      },
+      "img": "916.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Baalzebub": {
+      "names": {
+        "fr": "Baalzebub",
+        "en": "Baalzebub"
+      },
+      "img": "917.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Focalor": {
+      "names": {
+        "fr": "Focalor",
+        "en": "Focalor"
+      },
+      "img": "918.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Vephar": {
+      "names": {
+        "fr": "Vephar",
+        "en": "Vephar"
+      },
+      "img": "919.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Hauras": {
+      "names": {
+        "fr": "Hauras",
+        "en": "Hauras"
+      },
+      "img": "920.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Rakshasa": {
+      "names": {
+        "fr": "Rakshasa",
+        "en": "Rakshasa"
+      },
+      "img": "928.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Chemach": {
+      "names": {
+        "fr": "Chemach",
+        "en": "Chemach"
+      },
+      "img": "931.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Sozo": {
+      "names": {
+        "fr": "Sozo",
+        "en": "Sozo"
+      },
+      "img": "935.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Midas": {
+      "names": {
+        "fr": "Midas",
+        "en": "Midas"
+      },
+      "img": "936.png",
+      "hint": "Cult of the Lamb"
     }
   }
