@@ -2110,5 +2110,61 @@
       },
       "img": "876.png",
       "hint": "Dont Starve Together"
+    },
+    "Kuro": {
+      "names": {
+        "fr": "Kuro",
+        "en": "Kuro"
+      },
+      "img": "879.png",
+      "hint": "Ori"
+    },
+    "Naru Father": {
+      "names": {
+        "fr": "Naru Father",
+        "en": "Naru Father"
+      },
+      "img": "881.png",
+      "hint": "Ori"
+    },
+    "Baur": {
+      "names": {
+        "fr": "Baur",
+        "en": "Baur"
+      },
+      "img": "884.png",
+      "hint": "Ori"
+    },
+    "Foul Presence": {
+      "names": {
+        "fr": "Foul Presence",
+        "en": "Foul Presence"
+      },
+      "img": "885.png",
+      "hint": "Ori"
+    },
+    "Howl": {
+      "names": {
+        "fr": "Howl",
+        "en": "Howl"
+      },
+      "img": "888.png",
+      "hint": "Ori"
+    },
+    "Kwolok": {
+      "names": {
+        "fr": "Kwolok",
+        "en": "Kwolok"
+      },
+      "img": "889.png",
+      "hint": "Ori"
+    },
+    "Mora": {
+      "names": {
+        "fr": "Mora",
+        "en": "Mora"
+      },
+      "img": "891.png",
+      "hint": "Ori"
     }
   }

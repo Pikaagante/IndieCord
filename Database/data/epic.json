@@ -1454,5 +1454,29 @@
       },
       "img": "875.png",
       "hint": "Dont Starve Together"
+    },
+    "Gumo": {
+      "names": {
+        "fr": "Gumo",
+        "en": "Gumo"
+      },
+      "img": "877.png",
+      "hint": "Ori"
+    },
+    "Naru": {
+      "names": {
+        "fr": "Naru",
+        "en": "Naru"
+      },
+      "img": "880.png",
+      "hint": "Ori"
+    },
+    "Shriek": {
+      "names": {
+        "fr": "Shriek",
+        "en": "Shriek"
+      },
+      "img": "895.png",
+      "hint": "Ori"
     }
   }

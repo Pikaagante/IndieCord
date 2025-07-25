@@ -942,5 +942,13 @@
       },
       "img": "852.png",
       "hint": "Dont Starve Together"
+    },
+    "Ku": {
+      "names": {
+        "fr": "Ku",
+        "en": "Ku"
+      },
+      "img": "878.png",
+      "hint": "Ori"
     }
   }

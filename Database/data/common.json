@@ -2487,12 +2487,92 @@
       "img": "868.png",
       "hint": "Dont Starve Together"
     },
-    "Ghost": {
+    "Fantome": {
       "names": {
         "fr": "Fantome",
         "en": "Ghost"
       },
       "img": "870.png",
       "hint": "Dont Starve Together"
+    },
+    "Sein": {
+      "names": {
+        "fr": "Sein",
+        "en": "Sein"
+      },
+      "img": "883.png",
+      "hint": "Ori"
+    },
+    "Grol": {
+      "names": {
+        "fr": "Grol",
+        "en": "Grol"
+      },
+      "img": "886.png",
+      "hint": "Ori"
+    },
+    "Grom": {
+      "names": {
+        "fr": "Grom",
+        "en": "Grom"
+      },
+      "img": "887.png",
+      "hint": "Ori"
+    },
+    "Lupo": {
+      "names": {
+        "fr": "Lupo",
+        "en": "Lupo"
+      },
+      "img": "890.png",
+      "hint": "Ori"
+    },
+    "Motay": {
+      "names": {
+        "fr": "Motay",
+        "en": "Motay"
+      },
+      "img": "892.png",
+      "hint": "Ori"
+    },
+    "Opher": {
+      "names": {
+        "fr": "Opher",
+        "en": "Opher"
+      },
+      "img": "893.png",
+      "hint": "Ori"
+    },
+    "Seir": {
+      "names": {
+        "fr": "Seir",
+        "en": "Seir"
+      },
+      "img": "894.png",
+      "hint": "Ori"
+    },
+    "Tokk": {
+      "names": {
+        "fr": "Tokk",
+        "en": "Tokk"
+      },
+      "img": "896.png",
+      "hint": "Ori"
+    },
+    "Tuley": {
+      "names": {
+        "fr": "Tuley",
+        "en": "Tuley"
+      },
+      "img": "897.png",
+      "hint": "Ori"
+    },
+    "Twilien": {
+      "names": {
+        "fr": "Twilien",
+        "en": "Twilien"
+      },
+      "img": "898.png",
+      "hint": "Ori"
     }
   }
