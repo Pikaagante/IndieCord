@@ -87,7 +87,7 @@
 				"img": "11.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 2
+				"nbr": 3
 			},
 			{
 				"name": {
@@ -1187,6 +1187,17 @@
 				"img": "401.png",
 				"shiny": false,
 				"licence": "Slime Rancher",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Sam",
+					"en": "Sam"
+				},
+				"rarity": "LEGENDARY",
+				"img": "240.png",
+				"shiny": false,
+				"licence": "Eastward",
 				"nbr": 1
 			}
 		]

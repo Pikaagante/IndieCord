@@ -2126,5 +2126,37 @@
       },
       "img": "746.png",
       "hint": "The Binding of Isaac"
+    },
+    "Ghost": {
+      "names": {
+        "fr": "Ghost",
+        "en": "Ghost"
+      },
+      "img": "752.png",
+      "hint": "Fez"
+    },
+    "Mayor McMayor": {
+      "names": {
+        "fr": "Mayor McMayor",
+        "en": "Mayor McMayor"
+      },
+      "img": "756.png",
+      "hint": "Fez"
+    },
+    "Oldy": {
+      "names": {
+        "fr": "Oldy",
+        "en": "Oldy"
+      },
+      "img": "758.png",
+      "hint": "Fez"
+    },
+    "Owls": {
+      "names": {
+        "fr": "Owls",
+        "en": "Owls"
+      },
+      "img": "759.png",
+      "hint": "Fez"
     }
   }

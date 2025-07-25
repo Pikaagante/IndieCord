@@ -1806,5 +1806,45 @@
       },
       "img": "695.png",
       "hint": "The Binding of Isaac"
+    },
+    "Blonde": {
+      "names": {
+        "fr": "Blonde",
+        "en": "Blonde"
+      },
+      "img": "749.png",
+      "hint": "Fez"
+    },
+    "Brunette": {
+      "names": {
+        "fr": "Brunette",
+        "en": "Brunette"
+      },
+      "img": "750.png",
+      "hint": "Fez"
+    },
+    "Geezer": {
+      "names": {
+        "fr": "Geezer",
+        "en": "Geezer"
+      },
+      "img": "751.png",
+      "hint": "Fez"
+    },
+    "Ivy": {
+      "names": {
+        "fr": "Ivy",
+        "en": "Ivy"
+      },
+      "img": "754.png",
+      "hint": "Fez"
+    },
+    "Izaac": {
+      "names": {
+        "fr": "Izaac",
+        "en": "Izaac"
+      },
+      "img": "755.png",
+      "hint": "Fez"
     }
   }

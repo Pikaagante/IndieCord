@@ -804,7 +804,7 @@
         "fr": "Grimm",
         "en": "Grimm"
       },
-      "img": "520.png",
+      "img": "524.png",
       "hint": "Hollow Knight"
     },
     "Collector": {
@@ -1254,5 +1254,13 @@
       },
       "img": "735.png",
       "hint": "The Binding of Isaac"
+    },
+    "Ninja": {
+      "names": {
+        "fr": "Ninja",
+        "en": "Ninja"
+      },
+      "img": "757.png",
+      "hint": "Fez"
     }
   }

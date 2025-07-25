@@ -798,5 +798,13 @@
       },
       "img": "738.png",
       "hint": "The Binding of Isaac"
+    },
+    "Gomez": {
+      "names": {
+        "fr": "Gomez",
+        "en": "Gomez"
+      },
+      "img": "753.png",
+      "hint": "Fez"
     }
   }
