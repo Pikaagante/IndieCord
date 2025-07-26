@@ -2734,5 +2734,37 @@
       },
       "img": "949.png",
       "hint": "Deep Rock Galatic"
+    },
+    "Mafia Goons": {
+      "names": {
+        "fr": "Mafia Goons",
+        "en": "Mafia Goons"
+      },
+      "img": "959.png",
+      "hint": "A Hat in Time"
+    },
+    "Mafia Boss": {
+      "names": {
+        "fr": "Mafia Boss",
+        "en": "Mafia Boss"
+      },
+      "img": "960.png",
+      "hint": "A Hat in Time"
+    },
+    "Goats": {
+      "names": {
+        "fr": "Goats",
+        "en": "Goats"
+      },
+      "img": "965.png",
+      "hint": "A Hat in Time"
+    },
+    "Nomad": {
+      "names": {
+        "fr": "Nomad",
+        "en": "Nomad"
+      },
+      "img": "966.png",
+      "hint": "A Hat in Time"
     }
   }

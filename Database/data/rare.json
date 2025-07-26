@@ -2350,5 +2350,53 @@
       },
       "img": "955.png",
       "hint": "Sol Cesto"
+    },
+    "The Conductor": {
+      "names": {
+        "fr": "Conductor",
+        "en": "The Conductor"
+      },
+      "img": "961.png",
+      "hint": "A Hat in Time"
+    },
+    "DJ Grooves": {
+      "names": {
+        "fr": "DJ Grooves",
+        "en": "DJ Grooves"
+      },
+      "img": "962.png",
+      "hint": "A Hat in Time"
+    },
+    "Queen Vanessa": {
+      "names": {
+        "fr": "Queen Vanessa",
+        "en": "Queen Vanessa"
+      },
+      "img": "964.png",
+      "hint": "A Hat in Time"
+    },
+    "Walrus Captain": {
+      "names": {
+        "fr": "Walrus Captain",
+        "en": "Walrus Captain"
+      },
+      "img": "967.png",
+      "hint": "A Hat in Time"
+    },
+    "The Empress": {
+      "names": {
+        "fr": "The Empress",
+        "en": "The Empress"
+      },
+      "img": "968.png",
+      "hint": "A Hat in Time"
+    },
+    "Badge Seller": {
+      "names": {
+        "fr": "Badge Seller",
+        "en": "Badge Seller"
+      },
+      "img": "969.png",
+      "hint": "A Hat in Time"
     }
   }

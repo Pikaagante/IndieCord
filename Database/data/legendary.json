@@ -998,5 +998,21 @@
       },
       "img": "951.png",
       "hint": "Deep Rock Galatic"
+    },
+    "Hat Kid": {
+      "names": {
+        "fr": "Hat Kid",
+        "en": "Hat Kid"
+      },
+      "img": "956.png",
+      "hint": "A Hat in Time"
+    },
+    "Mustache Girl": {
+      "names": {
+        "fr": "Mustache Girl",
+        "en": "Mustache Girl"
+      },
+      "img": "957.png",
+      "hint": "A Hat in Time"
     }
   }

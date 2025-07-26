@@ -1542,5 +1542,21 @@
       },
       "img": "950.png",
       "hint": "Deep Rock Galatic"
+    },
+    "Bow Kid": {
+      "names": {
+        "fr": "Bow Kid",
+        "en": "Bow Kid"
+      },
+      "img": "958.png",
+      "hint": "A Hat in Time"
+    },
+    "The Snatcher": {
+      "names": {
+        "fr": "Snatcher",
+        "en": "The Snatcher"
+      },
+      "img": "963.png",
+      "hint": "A Hat in Time"
     }
   }
