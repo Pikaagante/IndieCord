@@ -2286,5 +2286,37 @@
       },
       "img": "936.png",
       "hint": "Cult of the Lamb"
+    },
+    "Driller": {
+      "names": {
+        "fr": "Foreur",
+        "en": "Driller"
+      },
+      "img": "944.png",
+      "hint": "Deep Rock Galatic"
+    },
+    "Engineer": {
+      "names": {
+        "fr": "Ingenieur",
+        "en": "Engineer"
+      },
+      "img": "945.png",
+      "hint": "Deep Rock Galatic"
+    },
+    "Gunner": {
+      "names": {
+        "fr": "Soldat",
+        "en": "Gunner"
+      },
+      "img": "946.png",
+      "hint": "Deep Rock Galatic"
+    },
+    "Scout": {
+      "names": {
+        "fr": "Scout",
+        "en": "Scout"
+      },
+      "img": "947.png",
+      "hint": "Deep Rock Galatic"
     }
   }

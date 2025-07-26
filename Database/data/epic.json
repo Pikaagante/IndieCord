@@ -1534,5 +1534,13 @@
       },
       "img": "932.png",
       "hint": "Cult of the Lamb"
+    },
+    "Mission Control": {
+      "names": {
+        "fr": "Mission Control",
+        "en": "Mission Control"
+      },
+      "img": "950.png",
+      "hint": "Deep Rock Galatic"
     }
   }

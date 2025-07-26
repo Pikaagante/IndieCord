@@ -2718,5 +2718,21 @@
       },
       "img": "943.png",
       "hint": "Cult of the Lamb"
+    },
+    "Bosco": {
+      "names": {
+        "fr": "APD-B317",
+        "en": "Bosco"
+      },
+      "img": "948.png",
+      "hint": "Deep Rock Galatic"
+    },
+    "Lloyd": {
+      "names": {
+        "fr": "Lloyd",
+        "en": "Lloyd"
+      },
+      "img": "949.png",
+      "hint": "Deep Rock Galatic"
     }
   }

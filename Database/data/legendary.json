@@ -990,5 +990,13 @@
       },
       "img": "923.png",
       "hint": "Cult of the Lamb"
+    },
+    "Karl": {
+      "names": {
+        "fr": "Karl",
+        "en": "Karl"
+      },
+      "img": "951.png",
+      "hint": "Deep Rock Galatic"
     }
   }
