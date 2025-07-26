@@ -2318,5 +2318,37 @@
       },
       "img": "947.png",
       "hint": "Deep Rock Galatic"
+    },
+    "Knight": {
+      "names": {
+        "fr": "Chevalier",
+        "en": "Knight"
+      },
+      "img": "952.png",
+      "hint": "Sol Cesto"
+    },
+    "Peasant": {
+      "names": {
+        "fr": "Paysan",
+        "en": "Peasant"
+      },
+      "img": "953.png",
+      "hint": "Sol Cesto"
+    },
+    "Warrior": {
+      "names": {
+        "fr": "Guerriere",
+        "en": "Warrior"
+      },
+      "img": "954.png",
+      "hint": "Sol Cesto"
+    },
+    "Wizard": {
+      "names": {
+        "fr": "Magicien",
+        "en": "Wizard"
+      },
+      "img": "955.png",
+      "hint": "Sol Cesto"
     }
   }
