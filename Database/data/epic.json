@@ -1590,5 +1590,21 @@
       },
       "img": "985.png",
       "hint": "Astalon Tears of the Earth"
+    },
+    "Monk": {
+      "names": {
+        "fr": "Monk",
+        "en": "Monk"
+      },
+      "img": "990.png",
+      "hint": "Rain World"
+    },
+    "Leviathan": {
+      "names": {
+        "fr": "Leviathan",
+        "en": "Leviathan"
+      },
+      "img": "1000.png",
+      "hint": "Rain World"
     }
   }

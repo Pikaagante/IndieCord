@@ -2822,5 +2822,53 @@
       },
       "img": "989.png",
       "hint": "Astalon Tears of the Earth"
+    },
+    "Artificer": {
+      "names": {
+        "fr": "Artificer",
+        "en": "Artificer"
+      },
+      "img": "994.png",
+      "hint": "Rain World"
+    },
+    "Rivulet": {
+      "names": {
+        "fr": "Rivulet",
+        "en": "Rivulet"
+      },
+      "img": "995.png",
+      "hint": "Rain World"
+    },
+    "Watcher": {
+      "names": {
+        "fr": "Watcher",
+        "en": "Watcher"
+      },
+      "img": "998.png",
+      "hint": "Rain World"
+    },
+    "Vulture": {
+      "names": {
+        "fr": "Vulture",
+        "en": "Vulture"
+      },
+      "img": "999.png",
+      "hint": "Rain World"
+    },
+    "Rain Deer": {
+      "names": {
+        "fr": "Rain Deer",
+        "en": "Rain Deer"
+      },
+      "img": "1001.png",
+      "hint": "Rain World"
+    },
+    "Cyan Lizard": {
+      "names": {
+        "fr": "Cyan Lizard",
+        "en": "Cyan Lizard"
+      },
+      "img": "1004.png",
+      "hint": "Rain World"
     }
   }

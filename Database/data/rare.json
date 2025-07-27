@@ -2446,5 +2446,53 @@
       },
       "img": "987.png",
       "hint": "Astalon Tears of the Earth"
+    },
+    "Gourmand": {
+      "names": {
+        "fr": "Gourmand",
+        "en": "Gourmand"
+      },
+      "img": "993.png",
+      "hint": "Rain World"
+    },
+    "Spearmaster": {
+      "names": {
+        "fr": "Spearmaster",
+        "en": "Spearmaster"
+      },
+      "img": "996.png",
+      "hint": "Rain World"
+    },
+    "Saint": {
+      "names": {
+        "fr": "Saint",
+        "en": "Saint"
+      },
+      "img": "997.png",
+      "hint": "Rain World"
+    },
+    "King Vulture": {
+      "names": {
+        "fr": "King Vulture",
+        "en": "King Vulture"
+      },
+      "img": "1002.png",
+      "hint": "Rain World"
+    },
+    "Red Centipede": {
+      "names": {
+        "fr": "Red Centipede",
+        "en": "Red Centipede"
+      },
+      "img": "1003.png",
+      "hint": "Rain World"
+    },
+    "Red Lizard": {
+      "names": {
+        "fr": "Red Lizard",
+        "en": "Red Lizard"
+      },
+      "img": "1005.png",
+      "hint": "Rain World"
     }
   }

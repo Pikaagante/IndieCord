@@ -1038,5 +1038,21 @@
       },
       "img": "986.png",
       "hint": "Astalon Tears of the Earth"
+    },
+    "Survivor": {
+      "names": {
+        "fr": "Survivor",
+        "en": "Survivor"
+      },
+      "img": "991.png",
+      "hint": "Rain World"
+    },
+    "Hunter": {
+      "names": {
+        "fr": "Hunter",
+        "en": "Hunter"
+      },
+      "img": "992.png",
+      "hint": "Rain World"
     }
   }
