@@ -2438,5 +2438,13 @@
       },
       "img": "983.png",
       "hint": "Speedrunners"
+    },
+    "Kyuli": {
+      "names": {
+        "fr": "Kyuli",
+        "en": "Kyuli"
+      },
+      "img": "987.png",
+      "hint": "Astalon Tears of the Earth"
     }
   }

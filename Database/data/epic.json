@@ -1582,5 +1582,13 @@
       },
       "img": "984.png",
       "hint": "Speedrunners"
+    },
+    "Algus": {
+      "names": {
+        "fr": "Algus",
+        "en": "Algus"
+      },
+      "img": "985.png",
+      "hint": "Astalon Tears of the Earth"
     }
   }

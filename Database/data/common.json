@@ -2806,5 +2806,21 @@
       },
       "img": "980.png",
       "hint": "Speedrunners"
+    },
+    "Bram": {
+      "names": {
+        "fr": "Bram",
+        "en": "Bram"
+      },
+      "img": "988.png",
+      "hint": "Astalon Tears of the Earth"
+    },
+    "Zeek": {
+      "names": {
+        "fr": "Zeek",
+        "en": "Zeek"
+      },
+      "img": "989.png",
+      "hint": "Astalon Tears of the Earth"
     }
   }

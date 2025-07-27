@@ -1030,5 +1030,13 @@
       },
       "img": "982.png",
       "hint": "Speedrunners"
+    },
+    "Arias": {
+      "names": {
+        "fr": "Arias",
+        "en": "Arias"
+      },
+      "img": "986.png",
+      "hint": "Astalon Tears of the Earth"
     }
   }
