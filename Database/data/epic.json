@@ -1558,5 +1558,29 @@
       },
       "img": "963.png",
       "hint": "A Hat in Time"
+    },
+    "Gil": {
+      "names": {
+        "fr": "Gil",
+        "en": "Gil"
+      },
+      "img": "973.png",
+      "hint": "Speedrunners"
+    },
+    "Hothead": {
+      "names": {
+        "fr": "Hothead",
+        "en": "Hothead"
+      },
+      "img": "974.png",
+      "hint": "Speedrunners"
+    },
+    "Unic": {
+      "names": {
+        "fr": "Unic",
+        "en": "Unic"
+      },
+      "img": "984.png",
+      "hint": "Speedrunners"
     }
   }

@@ -2398,5 +2398,45 @@
       },
       "img": "969.png",
       "hint": "A Hat in Time"
+    },
+    "Buckshot": {
+      "names": {
+        "fr": "Buckshot",
+        "en": "Buckshot"
+      },
+      "img": "970.png",
+      "hint": "Speedrunners"
+    },
+    "Jailbird": {
+      "names": {
+        "fr": "Jailbird",
+        "en": "Jailbird"
+      },
+      "img": "975.png",
+      "hint": "Speedrunners"
+    },
+    "Luc J'adore": {
+      "names": {
+        "fr": "Luc Jadore",
+        "en": "Luc J'adore"
+      },
+      "img": "976.png",
+      "hint": "Speedrunners"
+    },
+    "SkullDuggery": {
+      "names": {
+        "fr": "SkullDuggery",
+        "en": "SkullDuggery"
+      },
+      "img": "981.png",
+      "hint": "Speedrunners"
+    },
+    "The Falcon": {
+      "names": {
+        "fr": "Falcon",
+        "en": "The Falcon"
+      },
+      "img": "983.png",
+      "hint": "Speedrunners"
     }
   }

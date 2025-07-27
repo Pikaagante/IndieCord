@@ -2766,5 +2766,45 @@
       },
       "img": "966.png",
       "hint": "A Hat in Time"
+    },
+    "Dallas": {
+      "names": {
+        "fr": "Dallas",
+        "en": "Dallas"
+      },
+      "img": "971.png",
+      "hint": "Speedrunners"
+    },
+    "Flamenco": {
+      "names": {
+        "fr": "Flamenco",
+        "en": "Flamenco"
+      },
+      "img": "972.png",
+      "hint": "Speedrunners"
+    },
+    "MoonRaker": {
+      "names": {
+        "fr": "MoonRaker",
+        "en": "MoonRaker"
+      },
+      "img": "978.png",
+      "hint": "Speedrunners"
+    },
+    "Salem": {
+      "names": {
+        "fr": "Salem",
+        "en": "Salem"
+      },
+      "img": "979.png",
+      "hint": "Speedrunners"
+    },
+    "Sherlock Bones": {
+      "names": {
+        "fr": "Sherlock Bones",
+        "en": "Sherlock Bones"
+      },
+      "img": "980.png",
+      "hint": "Speedrunners"
     }
   }

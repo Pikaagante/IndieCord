@@ -1014,5 +1014,21 @@
       },
       "img": "957.png",
       "hint": "A Hat in Time"
+    },
+    "Maneki Neko": {
+      "names": {
+        "fr": "Maneki Neko",
+        "en": "Maneki Neko"
+      },
+      "img": "977.png",
+      "hint": "Speedrunners"
+    },
+    "Speedrunner": {
+      "names": {
+        "fr": "Speedrunner",
+        "en": "Speedrunner"
+      },
+      "img": "982.png",
+      "hint": "Speedrunners"
     }
   }
