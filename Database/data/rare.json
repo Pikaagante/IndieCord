@@ -2550,5 +2550,37 @@
       },
       "img": "1020.png",
       "hint": "Darkest Dungeon"
+    },
+    "The Scale": {
+      "names": {
+        "fr": "Scale",
+        "en": "The Scale"
+      },
+      "img": "1030.png",
+      "hint": "Furi"
+    },
+    "The Burst": {
+      "names": {
+        "fr": "Burst",
+        "en": "The Burst"
+      },
+      "img": "1033.png",
+      "hint": "Furi"
+    },
+    "The Edge": {
+      "names": {
+        "fr": "Edge",
+        "en": "The Edge"
+      },
+      "img": "1034.png",
+      "hint": "Furi"
+    },
+    "The Beat": {
+      "names": {
+        "fr": "Beat",
+        "en": "The Beat"
+      },
+      "img": "1035.png",
+      "hint": "Furi"
     }
   }

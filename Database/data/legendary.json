@@ -1070,5 +1070,29 @@
       },
       "img": "1025.png",
       "hint": "Darkest Dungeon"
+    },
+    "The Star": {
+      "names": {
+        "fr": "Star",
+        "en": "The Star"
+      },
+      "img": "1036.png",
+      "hint": "Furi"
+    },
+    "The Stranger": {
+      "names": {
+        "fr": "Rider",
+        "en": "The Stranger"
+      },
+      "img": "1038.png",
+      "hint": "Furi"
+    },
+    "Onnamusha": {
+      "names": {
+        "fr": "Onnamusha",
+        "en": "Onnamusha"
+      },
+      "img": "1040.png",
+      "hint": "Furi"
     }
   }

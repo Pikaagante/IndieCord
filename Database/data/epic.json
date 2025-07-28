@@ -1638,5 +1638,21 @@
       },
       "img": "1026.png",
       "hint": "Darkest Dungeon"
+    },
+    "The Song": {
+      "names": {
+        "fr": "Song",
+        "en": "The Song"
+      },
+      "img": "1032.png",
+      "hint": "Furi"
+    },
+    "The Voice": {
+      "names": {
+        "fr": "Voice",
+        "en": "The Voice"
+      },
+      "img": "1039.png",
+      "hint": "Furi"
     }
   }

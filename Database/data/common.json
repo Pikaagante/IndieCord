@@ -2934,5 +2934,45 @@
       },
       "img": "1023.png",
       "hint": "Darkest Dungeon"
+    },
+    "The Chain": {
+      "names": {
+        "fr": "Chain",
+        "en": "The Chain"
+      },
+      "img": "1027.png",
+      "hint": "Furi"
+    },
+    "The Strap": {
+      "names": {
+        "fr": "Strap",
+        "en": "The Strap"
+      },
+      "img": "1028.png",
+      "hint": "Furi"
+    },
+    "The Line": {
+      "names": {
+        "fr": "Line",
+        "en": "The Line"
+      },
+      "img": "1029.png",
+      "hint": "Furi"
+    },
+    "The Hand": {
+      "names": {
+        "fr": "Hand",
+        "en": "The Hand"
+      },
+      "img": "1031.png",
+      "hint": "Furi"
+    },
+    "The Flame": {
+      "names": {
+        "fr": "Flame",
+        "en": "The Flame"
+      },
+      "img": "1037.png",
+      "hint": "Furi"
     }
   }
