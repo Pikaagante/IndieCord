@@ -2870,5 +2870,69 @@
       },
       "img": "1004.png",
       "hint": "Rain World"
+    },
+    "Arbalest": {
+      "names": {
+        "fr": "Arbalest",
+        "en": "Arbalest"
+      },
+      "img": "1008.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Bounty Hunter": {
+      "names": {
+        "fr": "Bounty Hunter",
+        "en": "Bounty Hunter"
+      },
+      "img": "1009.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Crusader": {
+      "names": {
+        "fr": "Crusader",
+        "en": "Crusader"
+      },
+      "img": "1010.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Hellion": {
+      "names": {
+        "fr": "Hellion",
+        "en": "Hellion"
+      },
+      "img": "1013.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Highwayman": {
+      "names": {
+        "fr": "Highwayman",
+        "en": "Highwayman"
+      },
+      "img": "1014.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Musketeer": {
+      "names": {
+        "fr": "Musketeer",
+        "en": "Musketeer"
+      },
+      "img": "1019.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Shieldbreaker": {
+      "names": {
+        "fr": "Shieldbreaker",
+        "en": "Shieldbreaker"
+      },
+      "img": "1022.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Vestal": {
+      "names": {
+        "fr": "Vestal",
+        "en": "Vestal"
+      },
+      "img": "1023.png",
+      "hint": "Darkest Dungeon"
     }
   }

@@ -1054,5 +1054,21 @@
       },
       "img": "992.png",
       "hint": "Rain World"
+    },
+    "Abomination": {
+      "names": {
+        "fr": "Abomination",
+        "en": "Abomination"
+      },
+      "img": "1006.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Death": {
+      "names": {
+        "fr": "Death",
+        "en": "Death"
+      },
+      "img": "1025.png",
+      "hint": "Darkest Dungeon"
     }
   }

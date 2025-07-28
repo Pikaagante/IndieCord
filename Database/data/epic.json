@@ -1606,5 +1606,37 @@
       },
       "img": "1000.png",
       "hint": "Rain World"
+    },
+    "Flagellant": {
+      "names": {
+        "fr": "Flagellant",
+        "en": "Flagellant"
+      },
+      "img": "1011.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Plague Doctor": {
+      "names": {
+        "fr": "Plague Doctor",
+        "en": "Plague Doctor"
+      },
+      "img": "1021.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Shambler": {
+      "names": {
+        "fr": "Shambler",
+        "en": "Shambler"
+      },
+      "img": "1024.png",
+      "hint": "Darkest Dungeon"
+    },
+    "The Collector": {
+      "names": {
+        "fr": "Collector",
+        "en": "The Collector"
+      },
+      "img": "1026.png",
+      "hint": "Darkest Dungeon"
     }
   }

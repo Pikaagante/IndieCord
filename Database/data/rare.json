@@ -2494,5 +2494,61 @@
       },
       "img": "1005.png",
       "hint": "Rain World"
+    },
+    "Antiquarium": {
+      "names": {
+        "fr": "Antiquarium",
+        "en": "Antiquarium"
+      },
+      "img": "1007.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Grave Robber": {
+      "names": {
+        "fr": "Grave Robber",
+        "en": "Grave Robber"
+      },
+      "img": "1012.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Houndmaster": {
+      "names": {
+        "fr": "Houndmaster",
+        "en": "Houndmaster"
+      },
+      "img": "1015.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Jester": {
+      "names": {
+        "fr": "Jester",
+        "en": "Jester"
+      },
+      "img": "1016.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Leper": {
+      "names": {
+        "fr": "Leper",
+        "en": "Leper"
+      },
+      "img": "1017.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Man-at-Arms": {
+      "names": {
+        "fr": "Man-at-Arms",
+        "en": "Man-at-Arms"
+      },
+      "img": "1018.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Occultist": {
+      "names": {
+        "fr": "Occultist",
+        "en": "Occultist"
+      },
+      "img": "1020.png",
+      "hint": "Darkest Dungeon"
     }
   }
