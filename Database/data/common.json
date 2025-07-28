@@ -2974,5 +2974,141 @@
       },
       "img": "1037.png",
       "hint": "Furi"
+    },
+    "Save Point": {
+      "names": {
+        "fr": "Point de Sauvegarde",
+        "en": "Save Point"
+      },
+      "img": "1044.png",
+      "hint": "Everhood"
+    },
+    "Reese": {
+      "names": {
+        "fr": "Reese",
+        "en": "Reese"
+      },
+      "img": "1045.png",
+      "hint": "Everhood"
+    },
+    "Knight Lost-a-lot": {
+      "names": {
+        "fr": "Chevalier Lost-a-lot",
+        "en": "Knight Lost-a-lot"
+      },
+      "img": "1047.png",
+      "hint": "Everhood"
+    },
+    "Barbot": {
+      "names": {
+        "fr": "Barbot",
+        "en": "Barbot"
+      },
+      "img": "1049.png",
+      "hint": "Everhood"
+    },
+    "Lost Spirits": {
+      "names": {
+        "fr": "Esprits Perdus",
+        "en": "Lost Spirits"
+      },
+      "img": "1052.png",
+      "hint": "Everhood"
+    },
+    "Gnomes": {
+      "names": {
+        "fr": "Gnomes",
+        "en": "Gnomes"
+      },
+      "img": "1056.png",
+      "hint": "Everhood"
+    },
+    "Mushrooms": {
+      "names": {
+        "fr": "Champignons",
+        "en": "Mushrooms"
+      },
+      "img": "1057.png",
+      "hint": "Everhood"
+    },
+    "Shopkeeper": {
+      "names": {
+        "fr": "Shopkeeper",
+        "en": "Shopkeeper"
+      },
+      "img": "1060.png",
+      "hint": "Everhood"
+    },
+    "GRUNDALL": {
+      "names": {
+        "fr": "GRUNDALL",
+        "en": "GRUNDALL"
+      },
+      "img": "1065.png",
+      "hint": "Everhood"
+    },
+    "Maze Monster": {
+      "names": {
+        "fr": "Maze Monster",
+        "en": "Maze Monster"
+      },
+      "img": "1068.png",
+      "hint": "Everhood"
+    },
+    "Zob": {
+      "names": {
+        "fr": "Zob",
+        "en": "Zob"
+      },
+      "img": "1069.png",
+      "hint": "Everhood"
+    },
+    "Rob": {
+      "names": {
+        "fr": "Rob",
+        "en": "Rob"
+      },
+      "img": "1070.png",
+      "hint": "Everhood"
+    },
+    "Bobo": {
+      "names": {
+        "fr": "Bobo",
+        "en": "Bobo"
+      },
+      "img": "1071.png",
+      "hint": "Everhood"
+    },
+    "Chase": {
+      "names": {
+        "fr": "Chase",
+        "en": "Chase"
+      },
+      "img": "1075.png",
+      "hint": "Everhood"
+    },
+    "DMITRI": {
+      "names": {
+        "fr": "DMITRI",
+        "en": "DMITRI"
+      },
+      "img": "1076.png",
+      "hint": "Everhood"
+    },
+    "Evren": {
+      "names": {
+        "fr": "Evren",
+        "en": "Evren"
+      },
+      "img": "1077.png",
+      "hint": "Everhood"
+    },
+    "Riley": {
+      "names": {
+        "fr": "Riley",
+        "en": "Riley"
+      },
+      "img": "1080.png",
+      "hint": "Everhood"
     }
   }

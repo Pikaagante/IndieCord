@@ -2582,5 +2582,117 @@
       },
       "img": "1035.png",
       "hint": "Furi"
+    },
+    "Vampire": {
+      "names": {
+        "fr": "Vampire",
+        "en": "Vampire"
+      },
+      "img": "1046.png",
+      "hint": "Everhood"
+    },
+    "Rasta Beast": {
+      "names": {
+        "fr": "Rasta Beast",
+        "en": "Rasta Beast"
+      },
+      "img": "1048.png",
+      "hint": "Everhood"
+    },
+    "Noseferatchu": {
+      "names": {
+        "fr": "Noseferatchu",
+        "en": "Noseferatchu"
+      },
+      "img": "1050.png",
+      "hint": "Everhood"
+    },
+    "Zigg": {
+      "names": {
+        "fr": "Zigg",
+        "en": "Zigg"
+      },
+      "img": "1051.png",
+      "hint": "Everhood"
+    },
+    "Muck": {
+      "names": {
+        "fr": "Muck",
+        "en": "Muck"
+      },
+      "img": "1061.png",
+      "hint": "Everhood"
+    },
+    "Flan": {
+      "names": {
+        "fr": "Flan",
+        "en": "Flan"
+      },
+      "img": "1062.png",
+      "hint": "Everhood"
+    },
+    "Green Mage": {
+      "names": {
+        "fr": "Mage Vert",
+        "en": "Green Mage"
+      },
+      "img": "1063.png",
+      "hint": "Everhood"
+    },
+    "Professor Orange": {
+      "names": {
+        "fr": "Professeur Orange",
+        "en": "Professor Orange"
+      },
+      "img": "1064.png",
+      "hint": "Everhood"
+    },
+    "Irvine": {
+      "names": {
+        "fr": "Irvine",
+        "en": "Irvine"
+      },
+      "img": "1067.png",
+      "hint": "Everhood"
+    },
+    "Brown Mage": {
+      "names": {
+        "fr": "Mage Marron",
+        "en": "Brown Mage"
+      },
+      "img": "1071.png",
+      "hint": "Everhood"
+    },
+    "Cazok": {
+      "names": {
+        "fr": "Cazok",
+        "en": "Cazok"
+      },
+      "img": "1074.png",
+      "hint": "Everhood"
+    },
+    "Lucy": {
+      "names": {
+        "fr": "Lucy",
+        "en": "Lucy"
+      },
+      "img": "1079.png",
+      "hint": "Everhood"
+    },
+    "Yellow": {
+      "names": {
+        "fr": "Jaune",
+        "en": "Yellow"
+      },
+      "img": "1082.png",
+      "hint": "Everhood"
+    },
+    "Sam": {
+      "names": {
+        "fr": "Sam",
+        "en": "Sam"
+      },
+      "img": "1081.png",
+      "hint": "Everhood"
     }
   }

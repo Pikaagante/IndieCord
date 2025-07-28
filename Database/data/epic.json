@@ -1654,5 +1654,45 @@
       },
       "img": "1039.png",
       "hint": "Furi"
+    },
+    "Gold Pig": {
+      "names": {
+        "fr": "Gold Pig",
+        "en": "Gold Pig"
+      },
+      "img": "1053.png",
+      "hint": "Everhood"
+    },
+    "Purple Mage": {
+      "names": {
+        "fr": "Purple Mage",
+        "en": "Purple Mage"
+      },
+      "img": "1054.png",
+      "hint": "Everhood"
+    },
+    "Buddha": {
+      "names": {
+        "fr": "Buddha",
+        "en": "Buddha"
+      },
+      "img": "1058.png",
+      "hint": "Everhood"
+    },
+    "Masterpiece": {
+      "names": {
+        "fr": "Masterpiece",
+        "en": "Masterpiece"
+      },
+      "img": "1066.png",
+      "hint": "Everhood"
+    },
+    "Cat God": {
+      "names": {
+        "fr": "Cat God",
+        "en": "Cat God"
+      },
+      "img": "1073.png",
+      "hint": "Everhood"
     }
   }

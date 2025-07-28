@@ -1094,5 +1094,53 @@
       },
       "img": "1040.png",
       "hint": "Furi"
+    },
+    "Red": {
+      "names": {
+        "fr": "Rouge",
+        "en": "Red"
+      },
+      "img": "1041.png",
+      "hint": "Everhood"
+    },
+    "Blue Thief": {
+      "names": {
+        "fr": "Blue",
+        "en": "Blue Thief"
+      },
+      "img": "1042.png",
+      "hint": "Everhood"
+    },
+    "Frog": {
+      "names": {
+        "fr": "Grenouille",
+        "en": "Frog"
+      },
+      "img": "1043.png",
+      "hint": "Everhood"
+    },
+    "Pink": {
+      "names": {
+        "fr": "Rose",
+        "en": "Pink"
+      },
+      "img": "1055.png",
+      "hint": "Everhood"
+    },
+    "Cube": {
+      "names": {
+        "fr": "Cube",
+        "en": "Cube"
+      },
+      "img": "1059.png",
+      "hint": "Everhood"
+    },
+    "Light Being": {
+      "names": {
+        "fr": "Light Being",
+        "en": "Light Being"
+      },
+      "img": "1078.png",
+      "hint": "Everhood"
     }
   }
