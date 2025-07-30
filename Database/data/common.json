@@ -3110,5 +3110,261 @@
       },
       "img": "1080.png",
       "hint": "Everhood"
+    },
+    "Bad Rat": {
+      "names": {
+        "fr": "Bad Rat",
+        "en": "Bad Rat"
+      },
+      "img": "1083.png",
+      "hint": "Pizza Tower"
+    },
+    "Bandito Chicken": {
+      "names": {
+        "fr": "Bandito Chicken",
+        "en": "Bandito Chicken"
+      },
+      "img": "1084.png",
+      "hint": "Pizza Tower"
+    },
+    "Big Cheese": {
+      "names": {
+        "fr": "Big Cheese",
+        "en": "Big Cheese"
+      },
+      "img": "1085.png",
+      "hint": "Pizza Tower"
+    },
+    "Box Stamper": {
+      "names": {
+        "fr": "Big Stamper",
+        "en": "Big Stamper"
+      },
+      "img": "1087.png",
+      "hint": "Pizza Tower"
+    },
+    "Burger Golfer": {
+      "names": {
+        "fr": "Burger Golfer",
+        "en": "Burger Golfer"
+      },
+      "img": "1088.png",
+      "hint": "Pizza Tower"
+    },
+    "Camembert Squire": {
+      "names": {
+        "fr": "Camembert Squire",
+        "en": "Camembert Squire"
+      },
+      "img": "1089.png",
+      "hint": "Pizza Tower"
+    },
+    "Cannon Pizza Goblin": {
+      "names": {
+        "fr": "Cannon Pizza Goblin",
+        "en": "Cannon Pizza Goblin"
+      },
+      "img": "1090.png",
+      "hint": "Pizza Tower"
+    },
+    "Captain Pizza Goblin": {
+      "names": {
+        "fr": "Captain Pizza Goblin",
+        "en": "Captain Pizza Goblin"
+      },
+      "img": "1091.png",
+      "hint": "Pizza Tower"
+    },
+    "Clerk": {
+      "names": {
+        "fr": "Clerk",
+        "en": "Clerk"
+      },
+      "img": "1092.png",
+      "hint": "Pizza Tower"
+    },
+    "Clownmato": {
+      "names": {
+        "fr": "Clownmato",
+        "en": "Clownmato"
+      },
+      "img": "1093.png",
+      "hint": "Pizza Tower"
+    },
+    "Forknight": {
+      "names": {
+        "fr": "Forknight",
+        "en": "Forknight"
+      },
+      "img": "1096.png",
+      "hint": "Pizza Tower"
+    },
+    "Gabaghoul": {
+      "names": {
+        "fr": "Gabaghoul",
+        "en": "Gabaghoul"
+      },
+      "img": "1097.png",
+      "hint": "Pizza Tower"
+    },
+    "Gerome": {
+      "names": {
+        "fr": "Gerome",
+        "en": "Gerome"
+      },
+      "img": "1098.png",
+      "hint": "Pizza Tower"
+    },
+    "GhostKnight": {
+      "names": {
+        "fr": "GhostKnight",
+        "en": "GhostKnight"
+      },
+      "img": "1101.png",
+      "hint": "Pizza Tower"
+    },
+    "Goblin": {
+      "names": {
+        "fr": "Goblin",
+        "en": "Goblin"
+      },
+      "img": "1102.png",
+      "hint": "Pizza Tower"
+    },
+    "Kentucky Bomber": {
+      "names": {
+        "fr": "Kentucky Bomber",
+        "en": "Kentucky Bomber"
+      },
+      "img": "1107.png",
+      "hint": "Pizza Tower"
+    },
+    "Kentucky Kenny": {
+      "names": {
+        "fr": "Kentucky Kenny",
+        "en": "Kentucky Kenny"
+      },
+      "img": "1108.png",
+      "hint": "Pizza Tower"
+    },
+    "Mini John": {
+      "names": {
+        "fr": "Mini John",
+        "en": "Mini John"
+      },
+      "img": "1109.png",
+      "hint": "Pizza Tower"
+    },
+    "Noise Bomb": {
+      "names": {
+        "fr": "Noise Bomb",
+        "en": "Noise Bomb"
+      },
+      "img": "1113.png",
+      "hint": "Pizza Tower"
+    },
+    "NTV": {
+      "names": {
+        "fr": "NTV",
+        "en": "NTV"
+      },
+      "img": "1116.png",
+      "hint": "Pizza Tower"
+    },
+    "Pencer": {
+      "names": {
+        "fr": "Pencer",
+        "en": "Pencer"
+      },
+      "img": "1118.png",
+      "hint": "Pizza Tower"
+    },
+    "Pepperman Bomb": {
+      "names": {
+        "fr": "Pepperman Bomb",
+        "en": "Pepperman Bomb"
+      },
+      "img": "1120.png",
+      "hint": "Pizza Tower"
+    },
+    "Peppibot": {
+      "names": {
+        "fr": "Peppibot",
+        "en": "Peppibot"
+      },
+      "img": "1121.png",
+      "hint": "Pizza Tower"
+    },
+    "Peshino": {
+      "names": {
+        "fr": "Peshino",
+        "en": "Peshino"
+      },
+      "img": "1123.png",
+      "hint": "Pizza Tower"
+    },
+    "Pickle": {
+      "names": {
+        "fr": "Pickle",
+        "en": "Pickle"
+      },
+      "img": "1124.png",
+      "hint": "Pizza Tower"
+    },
+    "Pillar John": {
+      "names": {
+        "fr": "Pillar John",
+        "en": "Pillar John"
+      },
+      "img": "1125.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizza Granny": {
+      "names": {
+        "fr": "Pizza Granny",
+        "en": "Pizza Granny"
+      },
+      "img": "1127.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizza Solider": {
+      "names": {
+        "fr": "Pizza Solider",
+        "en": "Pizza Solider"
+      },
+      "img": "1128.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizzard": {
+      "names": {
+        "fr": "Pizzard",
+        "en": "Pizzard"
+      },
+      "img": "1131.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizzice": {
+      "names": {
+        "fr": "Pizzice",
+        "en": "Pizzice"
+      },
+      "img": "1132.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizza Tower Guy": {
+      "names": {
+        "fr": "Pizza Tower Guy",
+        "en": "Pizza Tower Guy"
+      },
+      "img": "1133.png",
+      "hint": "Pizza Tower"
+    },
+    "Shrimp Thug": {
+      "names": {
+        "fr": "Shrimp Thug",
+        "en": "Shrimp Thug"
+      },
+      "img": "1136.png",
+      "hint": "Pizza Tower"
     }
   }

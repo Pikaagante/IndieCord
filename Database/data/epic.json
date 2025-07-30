@@ -1694,5 +1694,61 @@
       },
       "img": "1073.png",
       "hint": "Everhood"
+    },
+    "Grandpa Pepper": {
+      "names": {
+        "fr": "Grandpa Pepper",
+        "en": "Grandpa Pepper"
+      },
+      "img": "1103.png",
+      "hint": "Pizza Tower"
+    },
+    "Mr. Car": {
+      "names": {
+        "fr": "Mr. Car",
+        "en": "Mr. Car"
+      },
+      "img": "1111.png",
+      "hint": "Pizza Tower"
+    },
+    "Noise Satellite": {
+      "names": {
+        "fr": "Noise Satellite",
+        "en": "Noise Satellite"
+      },
+      "img": "1114.png",
+      "hint": "Pizza Tower"
+    },
+    "Pepperman": {
+      "names": {
+        "fr": "Pepperman",
+        "en": "Pepperman"
+      },
+      "img": "1119.png",
+      "hint": "Pizza Tower"
+    },
+    "Ronan de Castel": {
+      "names": {
+        "fr": "Ronan de Castel",
+        "en": "Ronan de Castel"
+      },
+      "img": "1135.png",
+      "hint": "Pizza Tower"
+    },
+    "The Doise": {
+      "names": {
+        "fr": "The Doise",
+        "en": "The Doise"
+      },
+      "img": "1138.png",
+      "hint": "Pizza Tower"
+    },
+    "Teodore Noise": {
+      "names": {
+        "fr": "Teodore Noise",
+        "en": "Teodore Noise"
+      },
+      "img": "1139.png",
+      "hint": "Pizza Tower"
     }
   }

@@ -2694,5 +2694,117 @@
       },
       "img": "1081.png",
       "hint": "Everhood"
+    },
+    "Fake Peppino": {
+      "names": {
+        "fr": "Fake Peppino",
+        "en": "Fake Peppino"
+      },
+      "img": "1086.png",
+      "hint": "Pizza Tower"
+    },
+    "Exorcist": {
+      "names": {
+        "fr": "Exorcist",
+        "en": "Exorcist"
+      },
+      "img": "1094.png",
+      "hint": "Pizza Tower"
+    },
+    "Fake Santa": {
+      "names": {
+        "fr": "Fake Santa",
+        "en": "Fake Santa"
+      },
+      "img": "1095.png",
+      "hint": "Pizza Tower"
+    },
+    "Ghost King": {
+      "names": {
+        "fr": "Ghost King",
+        "en": "Ghost King"
+      },
+      "img": "1100.png",
+      "hint": "Pizza Tower"
+    },
+    "John E. Cheese": {
+      "names": {
+        "fr": "John E. Cheese",
+        "en": "John E. Cheese"
+      },
+      "img": "1105.png",
+      "hint": "Pizza Tower"
+    },
+    "John Ghost": {
+      "names": {
+        "fr": "John Ghost",
+        "en": "John Ghost"
+      },
+      "img": "1106.png",
+      "hint": "Pizza Tower"
+    },
+    "Mort": {
+      "names": {
+        "fr": "Mort",
+        "en": "Mort"
+      },
+      "img": "1110.png",
+      "hint": "Pizza Tower"
+    },
+    "Mr. Stick": {
+      "names": {
+        "fr": "Mr. Stick",
+        "en": "Mr. Stick"
+      },
+      "img": "1112.png",
+      "hint": "Pizza Tower"
+    },
+    "Noisette": {
+      "names": {
+        "fr": "Noisette",
+        "en": "Noisette"
+      },
+      "img": "1115.png",
+      "hint": "Pizza Tower"
+    },
+    "Peddito": {
+      "names": {
+        "fr": "Peddito",
+        "en": "Peddito"
+      },
+      "img": "1117.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizza Boy": {
+      "names": {
+        "fr": "Pizza Boy",
+        "en": "Pizza Boy"
+      },
+      "img": "1126.png",
+      "hint": "Pizza Tower"
+    },
+    "Snick The Procupine": {
+      "names": {
+        "fr": "Snick The Procupine",
+        "en": "Snick The Procupine"
+      },
+      "img": "1137.png",
+      "hint": "Pizza Tower"
+    },
+    "Toppin Warriors": {
+      "names": {
+        "fr": "Toppin Warriors",
+        "en": "Toppin Warriors"
+      },
+      "img": "1140.png",
+      "hint": "Pizza Tower"
+    },
+    "Mr. Orange": {
+      "names": {
+        "fr": "Mr. Orange",
+        "en": "Mr. Orange"
+      },
+      "img": "1141.png",
+      "hint": "Pizza Tower"
     }
   }

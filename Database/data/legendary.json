@@ -1142,5 +1142,53 @@
       },
       "img": "1078.png",
       "hint": "Everhood"
+    },
+    "Geoffroy Lactôt": {
+      "names": {
+        "fr": "Geoffroy Lactôt",
+        "en": "Geoffroy Lactôt"
+      },
+      "img": "1098.png",
+      "hint": "Pizza Tower"
+    },
+    "Gustavo and Brick": {
+      "names": {
+        "fr": "Gustavo and Brick",
+        "en": "Gustavo and Brick"
+      },
+      "img": "1104.png",
+      "hint": "Pizza Tower"
+    },
+    "Peppino Spaghetti": {
+      "names": {
+        "fr": "Peppino Spaghetti",
+        "en": "Peppino Spaghetti"
+      },
+      "img": "1122.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizzaface": {
+      "names": {
+        "fr": "Pizzaface",
+        "en": "Pizzaface"
+      },
+      "img": "1129.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizzahead": {
+      "names": {
+        "fr": "Pizzahead",
+        "en": "Pizzahead"
+      },
+      "img": "1130.png",
+      "hint": "Pizza Tower"
+    },
+    "Pumpkin Ghost": {
+      "names": {
+        "fr": "Pumpkin Ghost",
+        "en": "Pumpkin Ghost"
+      },
+      "img": "1134.png",
+      "hint": "Pizza Tower"
     }
   }
