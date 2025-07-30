@@ -2806,5 +2806,85 @@
       },
       "img": "1141.png",
       "hint": "Pizza Tower"
+    },
+    "Glurch the Abominous Mass": {
+      "names": {
+        "fr": "Glurch",
+        "en": "Glurch the Abominous Mass"
+      },
+      "img": "1142.png",
+      "hint": "Core Keeper"
+    },
+    "Ghorm the Devourer": {
+      "names": {
+        "fr": "Ghorm",
+        "en": "Ghorm the Devourer"
+      },
+      "img": "1143.png",
+      "hint": "Core Keeper"
+    },
+    "King Slime": {
+      "names": {
+        "fr": "King Slime",
+        "en": "King Slime"
+      },
+      "img": "1144.png",
+      "hint": "Core Keeper"
+    },
+    "The Hive Mother": {
+      "names": {
+        "fr": "The Hive Mother",
+        "en": "The Hive Mother"
+      },
+      "img": "1145.png",
+      "hint": "Core Keeper"
+    },
+    "Malugaz the Corrupted": {
+      "names": {
+        "fr": "Malugaz",
+        "en": "Malugaz the Corrupted"
+      },
+      "img": "1146.png",
+      "hint": "Core Keeper"
+    },
+    "Ivy the Poisonous Mass": {
+      "names": {
+        "fr": "Ivy",
+        "en": "Ivy the Poisonous Mass"
+      },
+      "img": "1148.png",
+      "hint": "Core Keeper"
+    },
+    "Morpha the Aquaric Mass": {
+      "names": {
+        "fr": "Morpha",
+        "en": "Morpha the Aquaric Mass"
+      },
+      "img": "1150.png",
+      "hint": "Core Keeper"
+    },
+    "Igneous the Molten Mass": {
+      "names": {
+        "fr": "Igenous",
+        "en": "Igneous the Molten Mass"
+      },
+      "img": "1152.png",
+      "hint": "Core Keeper"
+    },
+    "Haunted Hive Mother": {
+      "names": {
+        "fr": "Haunted Hive Mother",
+        "en": "Haunted Hive Mother"
+      },
+      "img": "1160.png",
+      "hint": "Core Keeper"
+    },
+    "Awakened Azeos": {
+      "names": {
+        "fr": "Awakened Azeos",
+        "en": "Awakened Azeos"
+      },
+      "img": "1161.png",
+      "hint": "Core Keeper"
     }
   }

@@ -1190,5 +1190,53 @@
       },
       "img": "1134.png",
       "hint": "Pizza Tower"
+    },
+    "Druidra the Wild Titan": {
+      "names": {
+        "fr": "Druidra",
+        "en": "Druidra the Wild Titan"
+      },
+      "img": "1154.png",
+      "hint": "Core Keeper"
+    },
+    "Cydra the Ice Titan": {
+      "names": {
+        "fr": "Cydra",
+        "en": "Cydra the Ice Titan"
+      },
+      "img": "1155.png",
+      "hint": "Core Keeper"
+    },
+    "Pyrdra the Fire Titan": {
+      "names": {
+        "fr": "Pyrdra",
+        "en": "Pyrdra the Fire Titan"
+      },
+      "img": "1156.png",
+      "hint": "Core Keeper"
+    },
+    "Core Commander": {
+      "names": {
+        "fr": "Core Commander",
+        "en": "Core Commander"
+      },
+      "img": "1157.png",
+      "hint": "Core Keeper"
+    },
+    "Urschleim": {
+      "names": {
+        "fr": "Urschleim",
+        "en": "Urschleim"
+      },
+      "img": "1158.png",
+      "hint": "Core Keeper"
+    },
+    "Nimruza, Queen of the Burrowed Sands": {
+      "names": {
+        "fr": "Nimruza",
+        "en": "Nimruza, Queen of the Burrowed Sands"
+      },
+      "img": "1159.png",
+      "hint": "Core Keeper"
     }
   }

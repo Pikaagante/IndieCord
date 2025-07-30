@@ -1750,5 +1750,37 @@
       },
       "img": "1139.png",
       "hint": "Pizza Tower"
+    },
+    "Azeos the Sky Titan": {
+      "names": {
+        "fr": "Azeos the Sky Titan",
+        "en": "Azeos the Sky Titan"
+      },
+      "img": "1147.png",
+      "hint": "Core Keeper"
+    },
+    "Omoroth the Sea Titan": {
+      "names": {
+        "fr": "Omoroth the Sea Titan",
+        "en": "Omoroth the Sea Titan"
+      },
+      "img": "1149.png",
+      "hint": "Core Keeper"
+    },
+    "Ra-Akar the Sand Titan": {
+      "names": {
+        "fr": "Ra-Akar",
+        "en": "Ra-Akar the Sand Titan"
+      },
+      "img": "1151.png",
+      "hint": "Core Keeper"
+    },
+    "Atlantea Worm": {
+      "names": {
+        "fr": "Atlantea Worm",
+        "en": "Atlantea Worm"
+      },
+      "img": "1153.png",
+      "hint": "Core Keeper"
     }
   }

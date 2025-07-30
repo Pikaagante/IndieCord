@@ -3366,5 +3366,85 @@
       },
       "img": "1136.png",
       "hint": "Pizza Tower"
+    },
+    "Shrooman": {
+      "names": {
+        "fr": "Shrooman",
+        "en": "Shrooman"
+      },
+      "img": "1162.png",
+      "hint": "Core Keeper"
+    },
+    "Caveling Spearman": {
+      "names": {
+        "fr": "Caveling Spearman",
+        "en": "Caveling Spearman"
+      },
+      "img": "1163.png",
+      "hint": "Core Keeper"
+    },
+    "Caveling Skirmisher": {
+      "names": {
+        "fr": "Caveling Skirmisher",
+        "en": "Caveling Skirmisher"
+      },
+      "img": "1164.png",
+      "hint": "Core Keeper"
+    },
+    "Larva": {
+      "names": {
+        "fr": "Larva",
+        "en": "Larva"
+      },
+      "img": "1165.png",
+      "hint": "Core Keeper"
+    },
+    "Big Larva": {
+      "names": {
+        "fr": "Big Larva",
+        "en": "Big Larva"
+      },
+      "img": "1166.png",
+      "hint": "Core Keeper"
+    },
+    "Caveling": {
+      "names": {
+        "fr": "Caveling",
+        "en": "Caveling"
+      },
+      "img": "1167.png",
+      "hint": "Core Keeper"
+    },
+    "Caveling Shaman": {
+      "names": {
+        "fr": "Caveling Shaman",
+        "en": "Caveling Shaman"
+      },
+      "img": "1168.png",
+      "hint": "Core Keeper"
+    },
+    "Caveling Brute": {
+      "names": {
+        "fr": "Caveling Brute",
+        "en": "Caveling Brute"
+      },
+      "img": "1169.png",
+      "hint": "Core Keeper"
+    },
+    "Caveling Hunter": {
+      "names": {
+        "fr": "Caveling Hunter",
+        "en": "Caveling Hunter"
+      },
+      "img": "1170.png",
+      "hint": "Core Keeper"
+    },
+    "Tentacle": {
+      "names": {
+        "fr": "Tentacle",
+        "en": "Tentacle"
+      },
+      "img": "1171.png",
+      "hint": "Core Keeper"
     }
   }
