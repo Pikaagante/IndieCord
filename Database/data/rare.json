@@ -2886,5 +2886,69 @@
       },
       "img": "1161.png",
       "hint": "Core Keeper"
+    },
+    "Dale's Grandfather": {
+      "names": {
+        "fr": "Dale's Grandfather",
+        "en": "Dale's Grandfather"
+      },
+      "img": "1176.png",
+      "hint": "Rusty Lake"
+    },
+    "Elizabeth Eilander": {
+      "names": {
+        "fr": "Elizabeth",
+        "en": "Elizabeth Eilander"
+      },
+      "img": "1178.png",
+      "hint": "Rusty Lake"
+    },
+    "Emma Vanderboom": {
+      "names": {
+        "fr": "Emma",
+        "en": "Emma Vanderboom"
+      },
+      "img": "1179.png",
+      "hint": "Rusty Lake"
+    },
+    "Leonard Vanderboom": {
+      "names": {
+        "fr": "Leonard",
+        "en": "Leonard Vanderboom"
+      },
+      "img": "1187.png",
+      "hint": "Rusty Lake"
+    },
+    "Mr. Bat": {
+      "names": {
+        "fr": "Mr. Bat",
+        "en": "Mr. Bat"
+      },
+      "img": "1190.png",
+      "hint": "Rusty Lake"
+    },
+    "Mr. Crow": {
+      "names": {
+        "fr": "Mr. Crow",
+        "en": "Mr. Crow"
+      },
+      "img": "1192.png",
+      "hint": "Rusty Lake"
+    },
+    "Mr. Owl": {
+      "names": {
+        "fr": "Mr. Owl",
+        "en": "Mr. Owl"
+      },
+      "img": "1194.png",
+      "hint": "Rusty Lake"
+    },
+    "Robert Hill": {
+      "names": {
+        "fr": "Robert Hill",
+        "en": "Robert Hill"
+      },
+      "img": "1198.png",
+      "hint": "Rusty Lake"
     }
   }

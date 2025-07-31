@@ -1238,5 +1238,21 @@
       },
       "img": "1159.png",
       "hint": "Core Keeper"
+    },
+    "Dale Vandermeer": {
+      "names": {
+        "fr": "Dale Vandermeer",
+        "en": "Dale Vandermeer"
+      },
+      "img": "1175.png",
+      "hint": "Rusty Lake"
+    },
+    "Laura Vanderboom": {
+      "names": {
+        "fr": "Laura",
+        "en": "Laura Vanderboom"
+      },
+      "img": "1186.png",
+      "hint": "Rusty Lake"
     }
   }

@@ -1782,5 +1782,53 @@
       },
       "img": "1153.png",
       "hint": "Core Keeper"
+    },
+    "Corrupted Souls": {
+      "names": {
+        "fr": "Corrupted Souls",
+        "en": "Corrupted Souls"
+      },
+      "img": "1174.png",
+      "hint": "Rusty Lake"
+    },
+    "Haarvey": {
+      "names": {
+        "fr": "Haarvey",
+        "en": "Harvey"
+      },
+      "img": "1182.png",
+      "hint": "Rusty Lake"
+    },
+    "Mr. Deer": {
+      "names": {
+        "fr": "Mr. Deer",
+        "en": "Mr. Deer"
+      },
+      "img": "1193.png",
+      "hint": "Rusty Lake"
+    },
+    "The Cat": {
+      "names": {
+        "fr": "Cat",
+        "en": "The Cat"
+      },
+      "img": "1201.png",
+      "hint": "Rusty Lake"
+    },
+    "The Cow": {
+      "names": {
+        "fr": "Cow",
+        "en": "The Cow"
+      },
+      "img": "1202.png",
+      "hint": "Rusty Lake"
+    },
+    "Vincent van Gogh": {
+      "names": {
+        "fr": "Vincent van Gogh",
+        "en": "Vincent van Gogh"
+      },
+      "img": "1203.png",
+      "hint": "Rusty Lake"
     }
   }
