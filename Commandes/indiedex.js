@@ -20,24 +20,8 @@ module.exports = {
         {
             type: "string",
             name: "licence",
-            description: "Affiche uniquement les personnages d'une licence spécifique",
-            required: false,
-            choices: [
-                { name: "Undertale", value: "undertale" },
-                { name: "Shovel Knight", value: "shovel knight" },
-                { name: "Celeste", value: "celeste" },
-                { name: "DDLC", value: "DDLC" },
-                { name: "Inscryption", value: "inscryption" },
-                { name: "REPO", value: "REPO" },
-                { name: "Subnautica", value: "subnautica" },
-                { name: "Slime Rancher", value: "slime rancher" },
-                { name: "Lethal Company", value: "lethal company" },
-                { name: "Terraria", value: "terraria" },
-                { name: "Little Nightmare", value: "little nightmare" },
-                { name: "FNAF", value: "fnaf" },
-                { name: "Super Meath Boy", value: "super meat boy" },
-                { name: "Stardew Valley", value: "stardew valley" }
-            ]
+            description: "Afficher uniquement les personnages de la licence",
+            required: false
         },
         {
             type: "string",
