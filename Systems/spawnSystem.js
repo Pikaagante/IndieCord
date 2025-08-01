@@ -96,7 +96,7 @@ module.exports = async (bot, message) => {
                 .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`)
                 .setColor(isShiny ? "#FFD700" : "#3498db")
                 .setThumbnail(imageUrl)
-                .setFooter({ text: "30 secondes avant que le nom soit révélé !" });
+                .setFooter({ text: "60 secondes avant que le nom soit révélé !" });
 
 
 
@@ -126,7 +126,9 @@ module.exports = async (bot, message) => {
                     const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
                         .setThumbnail(`attachment://${currentSpawn.img}`)
                         .setColor("#95a5a6")
-                        .setDescription(`**${getDisplayName(currentSpawn.name)}** s'est enfui...`);
+                        .setDescription(`**${getDisplayName(currentSpawn.name)}** s'est enfui...`)
+                        .setFooter(null);
+
 
 
                     try {
@@ -179,8 +181,8 @@ module.exports = async (bot, message) => {
                 const updatedEmbed = EmbedBuilder.from(spawnMessage.embeds[0])
                     .setThumbnail(`attachment://${currentSpawn.img}`)
                     .setColor("#2ecc71")
-                    .setDescription(`**${message.author.username}** a capturé **${currentSpawn.shiny ? "? SHINY " : ""}${getDisplayName(currentSpawn.name)}** (${currentSpawn.rarity}) !`);
-
+                    .setDescription(`**${message.author.username}** a capturé **${currentSpawn.shiny ? "? SHINY " : ""}${getDisplayName(currentSpawn.name)}** (${currentSpawn.rarity}) !`)
+                    .setFooter(null);
 
                 try {
                     await spawnMessage.edit({ embeds: [updatedEmbed] });
