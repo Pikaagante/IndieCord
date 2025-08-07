@@ -19,6 +19,7 @@
     "discord.js-pagination": "^1.0.3",
     "dotenv": "^10.0.0",
     "fs": "^0.0.1-security",
+    "node-cron": "^4.2.1",
     "sharp": "^0.33.5"
   }
 }

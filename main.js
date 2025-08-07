@@ -27,6 +27,14 @@ const initialize = async () => {
     console.log("✅ Profil, Mob et Jeux chargés !");
 };
 
+const scheduleJsonBackup = require("./Systems/Backup");
+
+bot.once("ready", () => {
+    console.log(`${bot.user.tag} est bien en ligne`);
+    scheduleJsonBackup(bot);
+});
+
+
 initialize().then(() => {
     bot.commands = new Discord.Collection();
 
