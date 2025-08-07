@@ -41,6 +41,7 @@ module.exports = {
     ],
 
     async run(bot, interaction) {
+        try {
         const profil = global.profil;
         if (!profil) return interaction.reply("Erreur : impossible de récupérer les données de profil.");
 
@@ -149,5 +150,8 @@ ${user2}, acceptes-tu cet échange ?`)
                 });
             }
         });
+    } catch (error) {
+        console.error("Erreur en éditant l'interaction : ", error);
+    }
     }
 };

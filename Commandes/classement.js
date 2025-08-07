@@ -37,6 +37,7 @@ module.exports = {
     ],
 
     async run(bot, interaction) {
+        try {
         const profil = global.profil;
         if (!profil) return interaction.reply("Impossible de récupérer les données de profil.");
 
@@ -85,5 +86,9 @@ module.exports = {
             );
 
         await interaction.reply({ embeds: [embed] });
+    } catch (error) {
+        console.error("Erreur en éditant l'interaction : ", error);
     }
+    }
+    
 };

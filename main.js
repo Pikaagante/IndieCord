@@ -20,7 +20,11 @@ const initialize = async () => {
     global.mob = new Mob(basePath);
     await global.mob.loadFile();
 
-    console.log("✅ Profil et Mob chargés !");
+    const Jeux = require(path.join(__dirname, "Database", "jeux.js"));
+    global.jeux = new Jeux(path.join(basePath, "jeux.json"));
+    await global.jeux.loadFile();
+
+    console.log("✅ Profil, Mob et Jeux chargés !");
 };
 
 initialize().then(() => {
