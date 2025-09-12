@@ -1,7 +1,6 @@
 const { EmbedBuilder } = require("discord.js");
 const path = require("path");
 
-// Définition des box et de leurs prix
 const boxPrices = {
     "COMMON": 1000,
     "COMMON_SHINY": 1200,
@@ -38,19 +37,17 @@ module.exports = {
     ],
 
     async run(bot, interaction) {
-        // Toujours différer la réponse en tout premier
         await interaction.deferReply();
 
         try {
             const userId = interaction.user.id;
             const box = interaction.options.getString("box");
             const isShiny = box.includes("SHINY");
-            const rarity = box.replace("_SHINY", ""); // ex: COMMON_SHINY -> COMMON
+            const rarity = box.replace("_SHINY", "");
 
             const cost = boxPrices[box];
             const currentMoney = global.argent.getMoney(userId);
 
-            // Vérif argent
             if (currentMoney < cost) {
                 return await interaction.editReply({
                     content: `Tu n'as pas assez d'indiecoins. Il te faut **${cost}** (tu as **${currentMoney}**).`
@@ -81,7 +78,7 @@ module.exports = {
                 licence: mob.hint ?? "Inconnu"
             };
 
-            // Ajouter au profil
+            // Ajout du personnage, profil.js gère le nbr et shiny
             global.profil.addCharacter(userId, character);
 
             // Déterminer le chemin d'image
@@ -94,7 +91,7 @@ module.exports = {
                 .setTitle("Achat de Box")
                 .setDescription(`${interaction.user.username} a acheté une **Box ${rarity}${isShiny ? " Shiny" : ""}** pour **${cost}** indiecoins !`)
                 .addFields(
-                    { name: "Personnage obtenu", value: `${isShiny ? "SHINY " : ""}${character.name.fr || randomName}` },
+                    { name: "Personnage obtenu", value: `${isShiny ? "SHINY " : ""}${character.name.fr}` },
                     { name: "Rareté", value: rarity, inline: true }
                 )
                 .setThumbnail(`attachment://${character.img}`)
@@ -107,12 +104,10 @@ module.exports = {
 
         } catch (error) {
             console.error("Erreur dans la commande /buy :", error);
-
-            // Sécurité pour éviter le crash
             if (interaction.deferred || interaction.replied) {
                 await interaction.editReply({
                     content: "Une erreur est survenue lors de l'achat."
-                }).catch(() => {});
+                }).catch(() => { });
             }
         }
     }

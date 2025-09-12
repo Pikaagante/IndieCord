@@ -14,7 +14,8 @@ function scheduleJsonBackup(bot) {
         try {
             const filesToBackup = [
                 "profil.json",
-                "jeux.json"
+                "jeux.json",
+                "argent.json"
             ];
 
             const attachments = filesToBackup.map(filename => {

@@ -52,7 +52,7 @@ module.exports = {
     async run(bot, interaction) {
         try {
             if (!global.profil || !global.mob) {
-                return interaction.reply("❌ Erreur : Impossible de récupérer les données.");
+                return interaction.reply("Erreur : Impossible de récupérer les données.");
             }
 
             const charSearch = interaction.options.getString("character")?.trim()?.toLowerCase();
@@ -99,7 +99,7 @@ module.exports = {
                     c.name.en.toLowerCase() === charSearch
                 );
                 if (filteredCharacters.length === 0) {
-                    return interaction.reply({ content: `❌ Aucun personnage trouvé avec le nom **${charSearch}**.`, ephemeral: true });
+                    return interaction.reply({ content: `Aucun personnage trouvé avec le nom **${charSearch}**.`, ephemeral: true });
                 }
             } else {
                 // Filtres classiques
@@ -111,7 +111,7 @@ module.exports = {
                 if (shinyFilter) filteredCharacters = filteredCharacters.filter(c => c.isShiny);
 
                 if (filteredCharacters.length === 0) {
-                    return interaction.reply({ content: `❌ Aucun personnage trouvé avec ces filtres.`, ephemeral: true });
+                    return interaction.reply({ content: `Aucun personnage trouvé avec ces filtres.`, ephemeral: true });
                 }
             }
 
@@ -198,7 +198,7 @@ module.exports = {
 
         } catch (error) {
             console.error("Erreur dans /indiedex :", error);
-            await interaction.reply({ content: "❌ Une erreur est survenue lors de l'affichage.", ephemeral: true });
+            await interaction.reply({ content: "Une erreur est survenue lors de l'affichage.", ephemeral: true });
         }
     }
 };
