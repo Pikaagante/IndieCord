@@ -24,6 +24,10 @@ const initialize = async () => {
     global.jeux = new Jeux(path.join(basePath, "jeux.json"));
     await global.jeux.loadFile();
 
+    const Argent = require(path.join(__dirname, "Database", "argent.js"));
+    global.argent = new Argent(path.join(basePath, "argent.json"));
+    await global.argent.loadFile();
+
     console.log("✅ Profil, Mob et Jeux chargés !");
 };
 
@@ -42,10 +46,19 @@ initialize().then(() => {
         loadCommands(bot);
         loadEvents(bot);
 
-        bot.on("messageCreate", (message) => {
-            if (message.author.bot) return;
+        bot.on("messageCreate", async (message) => {
+            if (message.author.bot || !message.guild) return;
+
+            // --- Gain d'argent aléatoire (1 à 10) ---
+            const gain = Math.floor(Math.random() * 10) + 1;
+            const userId = message.author.id;
+
+            global.argent.addMoney(userId, gain);
+
             spawnHandler(bot, message, global.profil, global.mob);
         });
+
+
     }).catch(err => {
         console.error("Erreur de connexion au bot:", err);
     });

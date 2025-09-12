@@ -70,7 +70,7 @@ module.exports = {
         await jeux.saveFile();
 
         const embed = new EmbedBuilder()
-            .setTitle("✅ Nouveau jeu ajouté !")
+            .setTitle("Nouveau jeu ajouté !")
             .addFields(
                 { name: "Nom", value: jeu, inline: true },
                 { name: "Catégorie", value: categorie, inline: true }
