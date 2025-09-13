@@ -4,8 +4,8 @@ const { EmbedBuilder } = require("discord.js");
 const boxPrices = {
     "COMMON": 1000,
     "COMMON_SHINY": 1200,
-    "RARE": 2500,
-    "RARE_SHINY": 3000,
+    "RARE": 2000,
+    "RARE_SHINY": 2500,
     "EPIC": 5000,
     "EPIC_SHINY": 6000,
     "LEGENDARY": 10000,

@@ -4,7 +4,7 @@ const path = require("path");
 const boxPrices = {
     "COMMON": 1000,
     "COMMON_SHINY": 1200,
-    "RARE": 2500,
+    "RARE": 2000,
     "RARE_SHINY": 3000,
     "EPIC": 5000,
     "EPIC_SHINY": 6000,
