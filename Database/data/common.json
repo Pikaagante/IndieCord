@@ -3582,5 +3582,237 @@
       },
       "img": "1204.png",
       "hint": "Rusty Lake"
+    },
+    "Neighbor": {
+      "names": {
+        "fr": "Voisin",
+        "en": "Neighbor"
+      },
+      "img": "1205.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Little Girl": {
+      "names": {
+        "fr": "Petite Fille",
+        "en": "Little Girl"
+      },
+      "img": "1206.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Bar Guy": {
+      "names": {
+        "fr": "Barman",
+        "en": "Bar Guy"
+      },
+      "img": "1207.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Cashier Girl": {
+      "names": {
+        "fr": "Caissiere",
+        "en": "Cashier Girl"
+      },
+      "img": "1208.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Coat Guy": {
+      "names": {
+        "fr": "Type au manteau",
+        "en": "Coat Guy"
+      },
+      "img": "1209.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Sun Guy": {
+      "names": {
+        "fr": "Homme du soleil",
+        "en": "Sun Guy"
+      },
+      "img": "1210.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Babushka": {
+      "names": {
+        "fr": "Babushka",
+        "en": "Babushka"
+      },
+      "img": "1213.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Twin One": {
+      "names": {
+        "fr": "Twin One",
+        "en": "Twin One"
+      },
+      "img": "1218.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Cat Lady": {
+      "names": {
+        "fr": "Femme aux chats",
+        "en": "Cat Lady"
+      },
+      "img": "1219.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Husband and Wife": {
+      "names": {
+        "fr": "Homme et Femme",
+        "en": "Husband and Wife"
+      },
+      "img": "1220.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Wireface": {
+      "names": {
+        "fr": "Wireface",
+        "en": "Wireface"
+      },
+      "img": "1223.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Natalie Crow": {
+      "names": {
+        "fr": "Natalie",
+        "en": "Natalie Crow"
+      },
+      "img": "1228.png",
+      "hint": "Crow Country"
+    },
+    "Daisuke": {
+      "names": {
+        "fr": "Daisuke",
+        "en": "Daisuke"
+      },
+      "img": "1232.png",
+      "hint": "Mouthwashing"
+    },
+    "Polle": {
+      "names": {
+        "fr": "Polle",
+        "en": "Polle"
+      },
+      "img": "1234.png",
+      "hint": "Mouthwashing"
+    },
+    "2D Mita": {
+      "names": {
+        "fr": "2D Mita",
+        "en": "2D Mita"
+      },
+      "img": "1236.png",
+      "hint": "Miside"
+    },
+    "Bug Monster": {
+      "names": {
+        "fr": "Bug Monster",
+        "en": "Bug Monster"
+      },
+      "img": "1237.png",
+      "hint": "Miside"
+    },
+    "Chibi Mita": {
+      "names": {
+        "fr": "Chibi Mita",
+        "en": "Chibi Mita"
+      },
+      "img": "1239.png",
+      "hint": "Miside"
+    },
+    "Dummy Mita": {
+      "names": {
+        "fr": "Dummy Mita",
+        "en": "Dummy Mita"
+      },
+      "img": "1243.png",
+      "hint": "Miside"
+    },
+    "Manga Mita": {
+      "names": {
+        "fr": "Manga Mita",
+        "en": "Manga Mita"
+      },
+      "img": "1246.png",
+      "hint": "Miside"
+    },
+    "Short-Haired Mita": {
+      "names": {
+        "fr": "Mita aux cheveux court",
+        "en": "Short-Haired Mita"
+      },
+      "img": "1249.png",
+      "hint": "Miside"
+    },
+    "Tiny Mita": {
+      "names": {
+        "fr": "Petite Mita",
+        "en": "Tiny Mita"
+      },
+      "img": "1251.png",
+      "hint": "Miside"
+    },
+    "Builder": {
+      "names": {
+        "fr": "Constructeur",
+        "en": "Builder"
+      },
+      "img": "1253.png",
+      "hint": "Dredge"
+    },
+    "Dog": {
+      "names": {
+        "fr": "Chien",
+        "en": "Dog"
+      },
+      "img": "1255.png",
+      "hint": "Dredge"
+    },
+    "Fanatic": {
+      "names": {
+        "fr": "Fanatique",
+        "en": "Fanatic"
+      },
+      "img": "1256.png",
+      "hint": "Dredge"
+    },
+    "Lighthouse Keeper": {
+      "names": {
+        "fr": "Gardienne du phare",
+        "en": "Lighthouse Keeper"
+      },
+      "img": "1261.png",
+      "hint": "Dredge"
+    },
+    "Mayor": {
+      "names": {
+        "fr": "Maire",
+        "en": "Mayor"
+      },
+      "img": "1262.png",
+      "hint": "Dredge"
+    },
+    "Photographer": {
+      "names": {
+        "fr": "Photographe",
+        "en": "Photographer"
+      },
+      "img": "1263.png",
+      "hint": "Dredge"
+    },
+    "Retired Whaler": {
+      "names": {
+        "fr": "Baleinier a la retraite",
+        "en": "Retired Whaler"
+      },
+      "img": "1265.png",
+      "hint": "Dredge"
+    },
+    "Shipwright": {
+      "names": {
+        "fr": "Charpentiere",
+        "en": "Shipwright"
+      },
+      "img": "1266.png",
+      "hint": "Dredge"
     }
   }

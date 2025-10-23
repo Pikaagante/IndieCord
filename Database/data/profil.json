@@ -10,7 +10,7 @@
 				"img": "56.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -21,7 +21,7 @@
 				"img": "28.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 5
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -32,7 +32,7 @@
 				"img": "44.png",
 				"shiny": true,
 				"licence": "Undertale",
-				"nbr": 7
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -65,7 +65,7 @@
 				"img": "50.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 6
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -76,7 +76,7 @@
 				"img": "13.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 13
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -87,7 +87,7 @@
 				"img": "11.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 3
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -109,7 +109,7 @@
 				"img": "59.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 5
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -120,7 +120,7 @@
 				"img": "51.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -153,7 +153,7 @@
 				"img": "48.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 10
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -175,7 +175,7 @@
 				"img": "76.png",
 				"shiny": false,
 				"licence": "Inscryption",
-				"nbr": 4
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -186,7 +186,7 @@
 				"img": "78.png",
 				"shiny": false,
 				"licence": "Inscryption",
-				"nbr": 3
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -197,7 +197,7 @@
 				"img": "69.png",
 				"shiny": false,
 				"licence": "Inscryption",
-				"nbr": 5
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -219,7 +219,7 @@
 				"img": "17.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 7
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -230,7 +230,7 @@
 				"img": "57.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 3
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -241,7 +241,7 @@
 				"img": "68.png",
 				"shiny": false,
 				"licence": "Inscryption",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -274,7 +274,7 @@
 				"img": "71.png",
 				"shiny": false,
 				"licence": "Inscryption",
-				"nbr": 3
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -285,7 +285,7 @@
 				"img": "49.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 4
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -307,7 +307,7 @@
 				"img": "16.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 3
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -494,7 +494,7 @@
 				"img": "228.png",
 				"shiny": false,
 				"licence": "Eastward",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -582,7 +582,7 @@
 				"img": "485.png",
 				"shiny": false,
 				"licence": "Cuphead",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -615,7 +615,7 @@
 				"img": "644.png",
 				"shiny": false,
 				"licence": "The Binding of Isaac",
-				"nbr": 3
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -725,7 +725,7 @@
 				"img": "104.png",
 				"shiny": false,
 				"licence": "Stardew Valley",
-				"nbr": 3
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -736,7 +736,7 @@
 				"img": "536.png",
 				"shiny": false,
 				"licence": "Hollow Knight",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -747,7 +747,7 @@
 				"img": "698.png",
 				"shiny": false,
 				"licence": "The Binding of Isaac",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -791,7 +791,7 @@
 				"img": "664.png",
 				"shiny": false,
 				"licence": "The Binding of Isaac",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -813,7 +813,7 @@
 				"img": "333.png",
 				"shiny": false,
 				"licence": "Lethal Company",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -901,7 +901,7 @@
 				"img": "492.png",
 				"shiny": false,
 				"licence": "Cuphead",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -945,7 +945,7 @@
 				"img": "275.png",
 				"shiny": false,
 				"licence": "Terraria",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -1253,7 +1253,7 @@
 				"img": "111.png",
 				"shiny": false,
 				"licence": "Stardew Valley",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -1330,7 +1330,7 @@
 				"img": "102.png",
 				"shiny": false,
 				"licence": "Stardew Valley",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -1429,7 +1429,7 @@
 				"img": "112.png",
 				"shiny": false,
 				"licence": "Stardew Valley",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -1440,7 +1440,7 @@
 				"img": "188.png",
 				"shiny": false,
 				"licence": "FNAF",
-				"nbr": 3
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -1605,7 +1605,7 @@
 				"img": "162.png",
 				"shiny": false,
 				"licence": "Shovel Knight",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -1715,7 +1715,7 @@
 				"img": "759.png",
 				"shiny": false,
 				"licence": "Fez",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {

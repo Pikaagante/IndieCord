@@ -2950,5 +2950,133 @@
       },
       "img": "1198.png",
       "hint": "Rusty Lake"
+    },
+    "Surgeon": {
+      "names": {
+        "fr": "Chirurgien",
+        "en": "Surgeon"
+      },
+      "img": "1211.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Prophetic Man": {
+      "names": {
+        "fr": "Homme prophetique",
+        "en": "Prophetic Man"
+      },
+      "img": "1214.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Delivery Man": {
+      "names": {
+        "fr": "Livreur",
+        "en": "Delivery Man"
+      },
+      "img": "1215.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Seductive Woman": {
+      "names": {
+        "fr": "Femme seduisante",
+        "en": "Seductive Woman"
+      },
+      "img": "1217.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Disfigured Firefighter": {
+      "names": {
+        "fr": "Pompier defigure",
+        "en": "Disfigured Firefighter"
+      },
+      "img": "1221.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Fortune Teller": {
+      "names": {
+        "fr": "Diseuse de bonne aventure",
+        "en": "Fortune Teller"
+      },
+      "img": "1222.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Edward Crow": {
+      "names": {
+        "fr": "Edward",
+        "en": "Edward Crow"
+      },
+      "img": "1227.png",
+      "hint": "Crow Country"
+    },
+    "Swansea": {
+      "names": {
+        "fr": "Swansea",
+        "en": "Swansea"
+      },
+      "img": "1235.png",
+      "hint": "Mouthwashing"
+    },
+    "Core Mita": {
+      "names": {
+        "fr": "Core Mita",
+        "en": "Core Mita"
+      },
+      "img": "1240.png",
+      "hint": "Miside"
+    },
+    "Creepy Mita": {
+      "names": {
+        "fr": "Creepy Mita",
+        "en": "Creepy Mita"
+      },
+      "img": "1242.png",
+      "hint": "Miside"
+    },
+    "Long-Legged Mita": {
+      "names": {
+        "fr": "Mita a longues pattes",
+        "en": "Long-Legged Mita"
+      },
+      "img": "1245.png",
+      "hint": "Miside"
+    },
+    "Mila": {
+      "names": {
+        "fr": "Mila",
+        "en": "Mila"
+      },
+      "img": "1247.png",
+      "hint": "Miside"
+    },
+    "Airman": {
+      "names": {
+        "fr": "Airman",
+        "en": "Airman"
+      },
+      "img": "1252.png",
+      "hint": "Dredge"
+    },
+    "Fishmonger": {
+      "names": {
+        "fr": "Poissonier",
+        "en": "Fishmonger"
+      },
+      "img": "1258.png",
+      "hint": "Dredge"
+    },
+    "Hooded Figure": {
+      "names": {
+        "fr": "Figure a capuche",
+        "en": "Hooded Figure"
+      },
+      "img": "1259.png",
+      "hint": "Dredge"
+    },
+    "Researcher": {
+      "names": {
+        "fr": "Chercheuse",
+        "en": "Researcher"
+      },
+      "img": "1264.png",
+      "hint": "Dredge"
     }
   }

@@ -1254,5 +1254,61 @@
       },
       "img": "1186.png",
       "hint": "Rusty Lake"
+    },
+    "Pale Visitor": {
+      "names": {
+        "fr": "Visiteur",
+        "en": "Pale Visitor"
+      },
+      "img": "1216.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Mara Forest": {
+      "names": {
+        "fr": "Mara",
+        "en": "Mara Forest"
+      },
+      "img": "1226.png",
+      "hint": "Crow Country"
+    },
+    "Orlon Curly Carling": {
+      "names": {
+        "fr": "Orlon",
+        "en": "Orlon Curly Carling"
+      },
+      "img": "1231.png",
+      "hint": "Mouthwashing"
+    },
+    "Mita": {
+      "names": {
+        "fr": "Mita",
+        "en": "Mita"
+      },
+      "img": "1241.png",
+      "hint": "Miside"
+    },
+    "Player 1": {
+      "names": {
+        "fr": "Joueur 1",
+        "en": "Player 1"
+      },
+      "img": "1248.png",
+      "hint": "Miside"
+    },
+    "Fisherman": {
+      "names": {
+        "fr": "Pecheur",
+        "en": "Fisherman"
+      },
+      "img": "1257.png",
+      "hint": "Dredge"
+    },
+    "The Deity": {
+      "names": {
+        "fr": "Deity",
+        "en": "The Deity"
+      },
+      "img": "1267.png",
+      "hint": "Dredge"
     }
   }

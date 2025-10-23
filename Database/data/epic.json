@@ -1830,5 +1830,101 @@
       },
       "img": "1203.png",
       "hint": "Rusty Lake"
+    },
+    "FEMA Agent": {
+      "names": {
+        "fr": "Agent FEMA",
+        "en": "FEMA Agent"
+      },
+      "img": "1212.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Raincoat Child": {
+      "names": {
+        "fr": "Enfant impermeable",
+        "en": "Raincoat Child"
+      },
+      "img": "1224.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Mushroom Eater": {
+      "names": {
+        "fr": "Mangeur de champignon",
+        "en": "Mushroom Eater"
+      },
+      "img": "1225.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Harrison James": {
+      "names": {
+        "fr": "James",
+        "en": "Harrison James"
+      },
+      "img": "1229.png",
+      "hint": "Crow Country"
+    },
+    "Anya": {
+      "names": {
+        "fr": "Anya",
+        "en": "Anya"
+      },
+      "img": "1230.png",
+      "hint": "Mouthwashing"
+    },
+    "Jimmy": {
+      "names": {
+        "fr": "Jimmy",
+        "en": "Jimmy"
+      },
+      "img": "1233.png",
+      "hint": "Mouthwashing"
+    },
+    "Cap-Wearing Mita": {
+      "names": {
+        "fr": "Mita portant une casquette",
+        "en": "Cap-Wearing Mita"
+      },
+      "img": "1238.png",
+      "hint": "Miside"
+    },
+    "Kind Mita": {
+      "names": {
+        "fr": "Kind Mita",
+        "en": "Kind Mita"
+      },
+      "img": "1244.png",
+      "hint": "Miside"
+    },
+    "Sleepy Mita": {
+      "names": {
+        "fr": "Mita endormie",
+        "en": "Sleepy Mita"
+      },
+      "img": "1250.png",
+      "hint": "Miside"
+    },
+    "Collecteur": {
+      "names": {
+        "fr": "Collecteur",
+        "en": "Collector"
+      },
+      "img": "1254.png",
+      "hint": "Dredge"
+    },
+    "Julie": {
+      "names": {
+        "fr": "Julie",
+        "en": "Julie"
+      },
+      "img": "1260.png",
+      "hint": "Dredge"
+    },
+    "Travelling Merchant": {
+      "names": {
+        "fr": "Marchande ambulante",
+        "en": "Travelling Merchant"
+      },
+      "img": "1268.png",
+      "hint": "Dredge"
     }
   }

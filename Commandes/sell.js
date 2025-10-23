@@ -136,7 +136,7 @@ module.exports = {
             const itemsToShow = sold.slice(0, 10); // seulement les 10 premiers
             for (const s of itemsToShow) {
                 embed.addFields({
-                    name: `${s.shiny ? "SHINY " : ""}${s.name} (${s.rarity})`,
+                    name: `${s.shiny ? " " : ""}${s.name} (${s.rarity})`,
                     value: `Quantité vendue : ${s.amount}`,
                     inline: true
                 });
