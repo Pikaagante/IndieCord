@@ -1,4 +1,6 @@
-const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
+const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, AttachmentBuilder } = require("discord.js");
+const path = require("path");
+const fs = require("fs");
 
 module.exports = {
     name: "indiedex",
@@ -38,7 +40,8 @@ module.exports = {
                 { name: "Common", value: "COMMON" },
                 { name: "Rare", value: "RARE" },
                 { name: "Epic", value: "EPIC" },
-                { name: "Legendary", value: "LEGENDARY" }
+                { name: "Legendary", value: "LEGENDARY" },
+                { name: "Special (Événement)", value: "SPECIAL" }
             ]
         },
         {
@@ -66,14 +69,16 @@ module.exports = {
 
             // Récupération de tous les personnages du bot
             const allCharacters = [];
-            for (const rarityKey of ["COMMON", "RARE", "EPIC", "LEGENDARY"]) {
+            for (const rarityKey of ["COMMON", "RARE", "EPIC", "LEGENDARY", "SPECIAL"]) {
                 const characters = global.mob.getMob(rarityKey);
                 for (const [characterName, characterData] of Object.entries(characters)) {
-                    const userCharacter = userCharacters.find(c =>
-                        typeof c.name === "object"
-                            ? c.name.fr === characterName || c.name.en === characterName
-                            : c.name === characterName
-                    );
+                    const userCharacter = userCharacters.find(c => {
+                        const fr = c.name?.fr?.toLowerCase?.() ?? c.name?.toLowerCase?.();
+                        const en = c.name?.en?.toLowerCase?.() ?? c.name?.toLowerCase?.();
+                        const mobFr = characterData.names?.fr?.toLowerCase?.() ?? characterName.toLowerCase();
+                        const mobEn = characterData.names?.en?.toLowerCase?.() ?? characterName.toLowerCase();
+                        return fr === mobFr || fr === mobEn || en === mobFr || en === mobEn;
+                    });
 
                     allCharacters.push({
                         name: {
@@ -115,7 +120,23 @@ module.exports = {
                 }
             }
 
-            // Pagination
+            // Cas recherche précise : afficher l'image locale
+            if (charSearch && filteredCharacters.length === 1) {
+                const char = filteredCharacters[0];
+                const imagePath = path.resolve(__dirname, "..", "assets", "images", char.img);
+                const file = new AttachmentBuilder(imagePath);
+
+                const embed = new EmbedBuilder()
+                    .setTitle(`${char.name.fr} / ${char.name.en}`)
+                    .setDescription(`Licence: ${char.licence}\nQuantité possédée: ${char.quantity}`)
+                    .setColor("#FF0000")
+                    .setThumbnail(`attachment://${char.img}`)
+                    .setFooter({ text: "IndieDex" });
+
+                return interaction.reply({ embeds: [embed], files: [file] });
+            }
+
+            // Pagination pour plusieurs personnages
             const itemsPerPage = 12;
             let currentPage = 0;
             const totalPages = Math.ceil(filteredCharacters.length / itemsPerPage);

@@ -3,6 +3,9 @@ let spawnMessage = null;
 let spawnTimeout = null;
 let revealTimeout = null;
 
+const eventActive = true;
+const eventChance = 0.15;
+
 let messageCount = 0;
 const minMessages = 15;
 const maxMessages = 100;
@@ -67,7 +70,14 @@ module.exports = async (bot, message) => {
             if (mustSpawn) console.log("Spawn forcé après 100 messages !");
             messageCount = 0;
 
-            const rarity = rollRarity();
+            let rarity;
+            if (eventActive && Math.random() < eventChance) {
+                rarity = "SPECIAL";
+                console.log("🎉 Mob d'événement apparu !");
+            } else {
+                rarity = rollRarity();
+            }
+
             const allMobs = global.mob.getMob(rarity);
             if (!allMobs || Object.keys(allMobs).length === 0) return;
 
@@ -87,18 +97,21 @@ module.exports = async (bot, message) => {
                 rarity,
                 img: selected.img,
                 shiny: isShiny,
-                channel: message.channel.id,
                 licence: selected.hint
             };
 
             const embed = new EmbedBuilder()
-                .setTitle(`Un ${isShiny ? "? SHINY " : ""}${rarity} est apparu !`)
+                .setTitle(
+                    rarity === "SPECIAL"
+                        ? `🎊 Un personnage d'événement est apparu ! 🎊`
+                        : `Un ${isShiny ? "✨ SHINY " : ""}${rarity} est apparu !`
+                )
                 .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`)
-                .setColor(isShiny ? "#FFD700" : "#3498db")
+                .setColor(
+                    rarity === "SPECIAL" ? "#e67e22" : (isShiny ? "#FFD700" : "#3498db")
+                )
                 .setThumbnail(imageUrl)
                 .setFooter({ text: "60 secondes avant que le nom soit révélé !" });
-
-
 
             spawnMessage = await message.channel.send({
                 embeds: [embed],
@@ -145,7 +158,7 @@ module.exports = async (bot, message) => {
     const captureCommand = message.content.toLowerCase().startsWith("!c");
     const hintCommand = message.content.toLowerCase().startsWith("!hint");
 
-    if (captureCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
+    if (captureCommand && currentSpawn) {
         const nameAttempted = message.content.slice("!c ".length).trim();
 
         if (
@@ -203,8 +216,11 @@ module.exports = async (bot, message) => {
         }
     }
 
-    if (hintCommand && currentSpawn && currentSpawn.channel === message.channel.id) {
-        const hint = global.mob.getMob(currentSpawn.rarity)[currentSpawn.name].hint;
+    if (hintCommand && currentSpawn) {
+        const mobList = global.mob.getMob(currentSpawn.rarity);
+        const hint = mobList[currentSpawn.name.fr] ? mobList[currentSpawn.name.fr].hint
+            : mobList[currentSpawn.name.en] ? mobList[currentSpawn.name.en].hint
+                : "Aucun indice disponible.";
         const hintEmbed = new EmbedBuilder()
             .setTitle(`Indice`)
             .setDescription(hint ? hint : "Aucun indice disponible.")

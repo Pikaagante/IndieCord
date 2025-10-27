@@ -1,0 +1,1314 @@
+{
+    "Sans": {
+      "names": {
+        "fr": "Sans",
+        "en": "Sans"
+      },
+      "img": "7.png",
+      "hint": "Undertale"
+    },
+    "Chevalier": {
+      "names": {
+        "fr": "Chevalier",
+        "en": "Knight"
+      },
+      "img": "747.png",
+      "hint": "Hollow Knight"
+    },
+    "Cuphead": {
+      "names": {
+        "fr": "Cuphead",
+        "en": "Cuphead"
+      },
+      "img": "748.png",
+      "hint": "Cuphead"
+    },
+    "Undyne the undying": {
+      "names": {
+        "fr": "Undying",
+        "en": "Undyne the undying"
+      },
+      "img": "8.png",
+      "hint": "Undertale"
+    },
+    "Asgore": {
+      "names": {
+        "fr": "Asgore",
+        "en": "Asgore"
+      },
+      "img": "15.png",
+      "hint": "Undertale"
+    },
+    "Flowey": {
+      "names": {
+        "fr": "Flowey",
+        "en": "Flowey"
+      },
+      "img": "18.png",
+      "hint": "Undertale"
+    },
+    "Temmie": {
+      "names": {
+        "fr": "Temmie",
+        "en": "Temmie"
+      },
+      "img": "29.png",
+      "hint": "Undertale"
+    },
+    "Asriel Dreemur": {
+      "names": {
+        "fr": "Asriel",
+        "en": "Asriel Dreemur"
+      },
+      "img": "33.png",
+      "hint": "Undertale"
+    },
+    "Frisk": {
+      "names": {
+        "fr": "Frisk",
+        "en": "Frisk"
+      },
+      "img": "37.png",
+      "hint": "Undertale"
+    },
+    "Chara": {
+      "names": {
+        "fr": "Chara",
+        "en": "Chara"
+      },
+      "img": "39.png",
+      "hint": "Undertale"
+    },
+    "Gaster": {
+      "names": {
+        "fr": "Gaster",
+        "en": "Gaster"
+      },
+      "img": "43.png",
+      "hint": "Undertale"
+    },
+    "Monika": {
+      "names": {
+        "fr": "Monika",
+        "en": "Monika"
+      },
+      "img": "63.png",
+      "hint": "DDLC"
+    },
+    "Moon": {
+      "names": {
+        "fr": "Lune",
+        "en": "Moon"
+      },
+      "img": "74.png",
+      "hint": "Inscryption"
+    },
+    "Luke Carder": {
+      "names": {
+        "fr": "Luke Carder",
+        "en": "Luke Carder"
+      },
+      "img": "77.png",
+      "hint": "Inscryption"
+    },
+    "Leshy": {
+      "names": {
+        "fr": "Leshy",
+        "en": "Leshy"
+      },
+      "img": "79.png",
+      "hint": "Inscryption"
+    },
+    "Madeline": {
+      "names": {
+        "fr": "Madeline",
+        "en": "Madeline"
+      },
+      "img": "89.png",
+      "hint": "Celeste"
+    },
+    "Abigail": {
+      "names": {
+        "fr": "Abigail",
+        "en": "Abigail"
+      },
+      "img": "120.png",
+      "hint": "Stardew Valley"
+    },
+    "Robine": {
+      "names": {
+        "fr": "Robine",
+        "en": "Robine"
+      },
+      "img": "134.png",
+      "hint": "Stardew Valley"
+    },
+    "Meat Boy": {
+      "names": {
+        "fr": "Meat Boy",
+        "en": "Meat Boy"
+      },
+      "img": "140.png",
+      "hint": "Super Meat Boy"
+    },
+    "Shovel Knight": {
+      "names": {
+        "fr": "Shovel Knight",
+        "en": "Shovel Knight"
+      },
+      "img": "144.png",
+      "hint": "Shovel Knight"
+    },
+    "Enchantress": {
+      "names": {
+        "fr": "Enchantress",
+        "en": "Enchantress"
+      },
+      "img": "155.png",
+      "hint": "Shovel Knight"
+    },
+    "Shield Knight": {
+      "names": {
+        "fr": "Shield Knight",
+        "en": "Shield Knight"
+      },
+      "img": "160.png",
+      "hint": "Shovel Knight"
+    },
+    "Foxy": {
+      "names": {
+        "fr": "Foxy",
+        "en": "Foxy"
+      },
+      "img": "176.png",
+      "hint": "FNAF"
+    },
+    "Freddy": {
+      "names": {
+        "fr": "Freddy",
+        "en": "Freddy"
+      },
+      "img": "177.png",
+      "hint": "FNAF"
+    },
+    "Glitchtrap": {
+      "names": {
+        "fr": "Glitchtrap",
+        "en": "Glitchtrap"
+      },
+      "img": "180.png",
+      "hint": "FNAF"
+    },
+    "Nightmare": {
+      "names": {
+        "fr": "Nightmare",
+        "en": "Nightmare"
+      },
+      "img": "186.png",
+      "hint": "FNAF"
+    },
+    "Puppet": {
+      "names": {
+        "fr": "Puppet",
+        "en": "Puppet"
+      },
+      "img": "195.png",
+      "hint": "FNAF"
+    },
+    "Scott Cawthon": {
+      "names": {
+        "fr": "Scott Cawthon",
+        "en": "Scott Cawthon"
+      },
+      "img": "196.png",
+      "hint": "FNAF"
+    },
+    "Shadow Bonnie": {
+      "names": {
+        "fr": "Shadow Bonnie",
+        "en": "Shadow Bonnie"
+      },
+      "img": "200.png",
+      "hint": "FNAF"
+    },
+    "Mono": {
+      "names": {
+        "fr": "Mono",
+        "en": "Mono"
+      },
+      "img": "215.png",
+      "hint": "Little Nightmare"
+    },
+    "Six": {
+      "names": {
+        "fr": "Six",
+        "en": "Six"
+      },
+      "img": "218.png",
+      "hint": "Little Nightmare"
+    },
+    "IMSCARED": {
+      "names": {
+        "fr": "IMSCARED",
+        "en": "IMSCARED"
+      },
+      "img": "224.png",
+      "hint": "IMSCARED"
+    },
+    "Charon": {
+      "names": {
+        "fr": "Charon",
+        "en": "Charon"
+      },
+      "img": "237.png",
+      "hint": "Eastward"
+    },
+    "John": {
+      "names": {
+        "fr": "John",
+        "en": "John"
+      },
+      "img": "238.png",
+      "hint": "Eastward"
+    },
+    "John et Sam": {
+      "names": {
+        "fr": "John et Sam",
+        "en": "John & Sam"
+      },
+      "img": "239.png",
+      "hint": "Eastward"
+    },
+    "Sam": {
+      "names": {
+        "fr": "Sam",
+        "en": "Sam"
+      },
+      "img": "240.png",
+      "hint": "Eastward"
+    },
+    "Alva": {
+      "names": {
+        "fr": "Alva",
+        "en": "Alva"
+      },
+      "img": "241.png",
+      "hint": "Eastward"
+    },
+    "Isabel": {
+      "names": {
+        "fr": "Isabel",
+        "en": "Isabel"
+      },
+      "img": "250.png",
+      "hint": "Eastward"
+    },
+    "Zenith": {
+      "names": {
+        "fr": "Zenith",
+        "en": "Zenith"
+      },
+      "img": "266.png",
+      "hint": "Terraria"
+    },
+    "Terraprisma": {
+      "names": {
+        "fr": "Terraprisma",
+        "en": "Terraprisma"
+      },
+      "img": "273.png",
+      "hint": "Terraria"
+    },
+    "Sceptre de dragon astral": {
+      "names": {
+        "fr": "Sceptre de dragon astral",
+        "en": "Stardust Dragon Staff"
+      },
+      "img": "274.png",
+      "hint": "Terraria"
+    },
+    "Imperatrice de la lumiere": {
+      "names": {
+        "fr": "Imperatrice de la lumiere",
+        "en": "Empress of Light"
+      },
+      "img": "287.png",
+      "hint": "Terraria"
+    },
+    "Seigneur de la lune": {
+      "names": {
+        "fr": "Seigneur de la lune",
+        "en": "Moon Lord"
+      },
+      "img": "291.png",
+      "hint": "Terraria"
+    },
+    "Flumpty": {
+      "names": {
+        "fr": "Flumpty",
+        "en": "Flumpty"
+      },
+      "img": "311.png",
+      "hint": "FNAF"
+    },
+    "The Creation": {
+      "names": {
+        "fr": "The Creation",
+        "en": "The Creation"
+      },
+      "img": "315.png",
+      "hint": "FNAF"
+    },
+    "Bracken": {
+      "names": {
+        "fr": "Bracken",
+        "en": "Bracken"
+      },
+      "img": "324.png",
+      "hint": "Lethal Company"
+    },
+    "Hoarding Bug": {
+      "names": {
+        "fr": "Hoarding Bug",
+        "en": "Hoarding Bug"
+      },
+      "img": "332.png",
+      "hint": "Lethal Company"
+    },
+    "Sammy Lawrence": {
+      "names": {
+        "fr": "Sammy Lawrence",
+        "en": "Sammy Lawrence"
+      },
+      "img": "352.png",
+      "hint": "Bendy"
+    },
+    "Henry Stein": {
+      "names": {
+        "fr": "Henry Stein",
+        "en": "Henry Stein"
+      },
+      "img": "359.png",
+      "hint": "Bendy"
+    },
+    "Boris": {
+      "names": {
+        "fr": "Boris",
+        "en": "Boris"
+      },
+      "img": "361.png",
+      "hint": "Bendy"
+    },
+    "Petit Bendy": {
+      "names": {
+        "fr": "Petit Bendy",
+        "en": "Small Bendy"
+      },
+      "img": "365.png",
+      "hint": "Bendy"
+    },
+    "Demon Encre": {
+      "names": {
+        "fr": "Demon Encre",
+        "en": "Ink Demon"
+      },
+      "img": "366.png",
+      "hint": "Bendy"
+    },
+    "Bendy the beast": {
+      "names": {
+        "fr": "Bendy la Bete",
+        "en": "Bendy the beast"
+      },
+      "img": "367.png",
+      "hint": "Bendy"
+    },
+    "Bendy": {
+      "names": {
+        "fr": "Bendy",
+        "en": "Bendy"
+      },
+      "img": "368.png",
+      "hint": "Bendy"
+    },
+    "Alice Angel": {
+      "names": {
+        "fr": "Alice Angel",
+        "en": "Alice Angel"
+      },
+      "img": "371.png",
+      "hint": "Bendy"
+    },
+    "Thora West": {
+      "names": {
+        "fr": "Thora West",
+        "en": "Thora West"
+      },
+      "img": "377.png",
+      "hint": "Slime Rancher"
+    },
+    "Goudron": {
+      "names": {
+        "fr": "Goudron",
+        "en": "The Tarr"
+      },
+      "img": "385.png",
+      "hint": "Slime Rancher"
+    },
+    "Slime Scintillant": {
+      "names": {
+        "fr": "Slime Scintillant",
+        "en": "Twinkle Slime"
+      },
+      "img": "386.png",
+      "hint": "Slime Rancher"
+    },
+    "Slime Porte Bonheur": {
+      "names": {
+        "fr": "Slime Porte Bonheur",
+        "en": "Lucky Slime"
+      },
+      "img": "387.png",
+      "hint": "Slime Rancher"
+    },
+    "Slime Dore": {
+      "names": {
+        "fr": "Slime Dore",
+        "en": "Gold Slime"
+      },
+      "img": "388.png",
+      "hint": "Slime Rancher"
+    },
+    "Dragon des Mers": {
+      "names": {
+        "fr": "Dragon des mers",
+        "en": "Sea Dragon Leviathan"
+      },
+      "img": "408.png",
+      "hint": "Subnautica"
+    },
+    "Leviathan tenebreux": {
+      "names": {
+        "fr": "Leviathan Tenebreux",
+        "en": "Shadow Leviathan"
+      },
+      "img": "412.png",
+      "hint": "Subnautica"
+    },
+    "Calineur": {
+      "names": {
+        "fr": "Calineur",
+        "en": "Cuddlefish"
+      },
+      "img": "425.png",
+      "hint": "Subnautica"
+    },
+    "Leviathan Faucheur": {
+      "names": {
+        "fr": "Leviathan Faucheur",
+        "en": "Reaper Leviathan"
+      },
+      "img": "426.png",
+      "hint": "Subnautica"
+    },
+    "Leviathan Fantome": {
+      "names": {
+        "fr": "Leviathan Fantome",
+        "en": "Ghost Leviathan"
+      },
+      "img": "427.png",
+      "hint": "Subnautica"
+    },
+    "Empereur des Mers": {
+      "names": {
+        "fr": "Empereur des Mers",
+        "en": "Sea Emperor Leviathan"
+      },
+      "img": "428.png",
+      "hint": "Subnautica"
+    },
+    "Headman": {
+      "names": {
+        "fr": "Headman",
+        "en": "Headman"
+      },
+      "img": "461.png",
+      "hint": "REPO"
+    },
+    "Robe": {
+      "names": {
+        "fr": "Robe",
+        "en": "Robe"
+      },
+      "img": "466.png",
+      "hint": "REPO"
+    },
+    "Player": {
+      "names": {
+        "fr": "Player",
+        "en": "Player"
+      },
+      "img": "472.png",
+      "hint": "REPO"
+    },
+    "Mme Chalice": {
+      "names": {
+        "fr": "Mme Chalice",
+        "en": "Ms. Chalice"
+      },
+      "img": "473.png",
+      "hint": "Cuphead"
+    },
+    "Angel and Devil": {
+      "names": {
+        "fr": "Ange et Demon",
+        "en": "Angel and Devil"
+      },
+      "img": "488.png",
+      "hint": "Cuphead"
+    },
+    "Diable": {
+      "names": {
+        "fr": "Diable",
+        "en": "Devil"
+      },
+      "img": "494.png",
+      "hint": "Cuphead"
+    },
+    "Allumette": {
+      "names": {
+        "fr": "Allumette",
+        "en": "Grim Matchstick"
+      },
+      "img": "503.png",
+      "hint": "Cuphead"
+    },
+    "Chef Lasaliere": {
+      "names": {
+        "fr": "Chef Lasaliere",
+        "en": "Chef Saltbaker"
+      },
+      "img": "513.png",
+      "hint": "Cuphead"
+    },
+    "Mugman": {
+      "names": {
+        "fr": "Mugman",
+        "en": "Mugman"
+      },
+      "img": "514.png",
+      "hint": "Cuphead"
+    },
+    "Sly": {
+      "names": {
+        "fr": "Sly",
+        "en": "Sly"
+      },
+      "img": "523.png",
+      "hint": "Hollow Knight"
+    },
+    "Hornet": {
+      "names": {
+        "fr": "Hornet",
+        "en": "Hornet"
+      },
+      "img": "527.png",
+      "hint": "Hollow Knight"
+    },
+    "Soul Warrior": {
+      "names": {
+        "fr": "Guerrier de l’ame",
+        "en": "Soul Warrior"
+      },
+      "img": "525.png",
+      "hint": "Hollow Knight"
+    },
+    "Oro & Mato": {
+      "names": {
+        "fr": "Oro et Mato",
+        "en": "Oro & Mato"
+      },
+      "img": "530.png",
+      "hint": "Hollow Knight"
+    },
+    "Abvolute Radiance": {
+      "names": {
+        "fr": "Abvolute Radiance",
+        "en": "Abvolute Radiance"
+      },
+      "img": "553.png",
+      "hint": "Hollow Knight"
+    },
+    "Nitgmare King Grimm": {
+      "names": {
+        "fr": "Nitgmare King Grimm",
+        "en": "Nitgmare King Grimm"
+      },
+      "img": "554.png",
+      "hint": "Hollow Knight"
+    },
+    "Pure Vessel": {
+      "names": {
+        "fr": "Vaisseau Pur",
+        "en": "Pure Vessel"
+      },
+      "img": "555.png",
+      "hint": "Hollow Knight"
+    },
+    "Invincible Fearless Sensual Mysterious Enchanting Vigorous Diligente Overwhelming Grogeous Passionate Terrifying Beautiful Powerful Grey Prince Zote": {
+      "names": {
+        "fr": "Invincible Intrepide Sensuel Mysterieux Enchanteur Vigoureux Assidu Irresistible Magnifique Passionne Terrifiant Beau Puissant Prince Gris Zote",
+        "en": "Invincible Fearless Sensual Mysterious Enchanting Vigorous Diligente Overwhelming Grogeous Passionate Terrifying Beautiful Powerful Grey Prince Zote"
+      },
+      "img": "556.png",
+      "hint": "Hollow Knight"
+    },
+    "Pale King": {
+      "names": {
+        "fr": "Roi Pale",
+        "en": "Pale King"
+      },
+      "img": "606.png",
+      "hint": "Hollow Knight"
+    },
+    "Mom’s Heart": {
+      "names": {
+        "fr": "Coeur de Maman",
+        "en": "Mom’s Heart"
+      },
+      "img": "691.png",
+      "hint": "The Binding of Isaac"
+    },
+    "It Lives": {
+      "names": {
+        "fr": "Il est Vivant",
+        "en": "It Lives"
+      },
+      "img": "702.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Hush": {
+      "names": {
+        "fr": "Murmure",
+        "en": "Hush"
+      },
+      "img": "703.png",
+      "hint": "The Binding of Isaac"
+    },
+    "???": {
+      "names": {
+        "fr": "???",
+        "en": "???"
+      },
+      "img": "707.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Mega Satan": {
+      "names": {
+        "fr": "Mega Satan",
+        "en": "Mega Satan"
+      },
+      "img": "709.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Delirium": {
+      "names": {
+        "fr": "Delirium",
+        "en": "Delirium"
+      },
+      "img": "710.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Dogma": {
+      "names": {
+        "fr": "Dogma",
+        "en": "Dogma"
+      },
+      "img": "713.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Beast": {
+      "names": {
+        "fr": "Bete",
+        "en": "Beast"
+      },
+      "img": "716.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Ultra Avarice": {
+      "names": {
+        "fr": "Ultra Greed",
+        "en": "Ultra Avarice"
+      },
+      "img": "717.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Isaac": {
+      "names": {
+        "fr": "Isaac",
+        "en": "Isaac"
+      },
+      "img": "718.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Eden": {
+      "names": {
+        "fr": "Eden",
+        "en": "Eden"
+      },
+      "img": "726.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Lost": {
+      "names": {
+        "fr": "Egare",
+        "en": "Lost"
+      },
+      "img": "727.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Forgotten": {
+      "names": {
+        "fr": "Delaisse",
+        "en": "Forgotten"
+      },
+      "img": "731.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Tainted Judas": {
+      "names": {
+        "fr": "Judas Impur",
+        "en": "Tainted Judas"
+      },
+      "img": "736.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Tainted Lilith": {
+      "names": {
+        "fr": "Lilith Impur",
+        "en": "Tainted Lilith"
+      },
+      "img": "737.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Tainted Apollyon": {
+      "names": {
+        "fr": "Apollyon Impur",
+        "en": "Tainted Apollyon"
+      },
+      "img": "738.png",
+      "hint": "The Binding of Isaac"
+    },
+    "Gomez": {
+      "names": {
+        "fr": "Gomez",
+        "en": "Gomez"
+      },
+      "img": "753.png",
+      "hint": "Fez"
+    },
+    "Fox": {
+      "names": {
+        "fr": "Renard",
+        "en": "Fox"
+      },
+      "img": "760.png",
+      "hint": "Tunic"
+    },
+    "Spectral Seller": {
+      "names": {
+        "fr": "Vendeur Fantomatique",
+        "en": "Spectral Seller"
+      },
+      "img": "761.png",
+      "hint": "Tunic"
+    },
+    "The Heir": {
+      "names": {
+        "fr": "Heir",
+        "en": "The Heir"
+      },
+      "img": "770.png",
+      "hint": "Tunic"
+    },
+    "Crewnmate": {
+      "names": {
+        "fr": "Coequipier",
+        "en": "Crewnmate"
+      },
+      "img": "782.png",
+      "hint": "Among Us"
+    },
+    "Impostor": {
+      "names": {
+        "fr": "Imposteur",
+        "en": "Impostor"
+      },
+      "img": "783.png",
+      "hint": "Among Us"
+    },
+    "Brobocop": {
+      "names": {
+        "fr": "Brobocop",
+        "en": "Brobocop"
+      },
+      "img": "794.png",
+      "hint": "Broforce"
+    },
+    "Brodell Walker": {
+      "names": {
+        "fr": "Brodell Walker",
+        "en": "Brodell Walker"
+      },
+      "img": "796.png",
+      "hint": "Broforce"
+    },
+    "Indiana Brones": {
+      "names": {
+        "fr": "Indiana Brones",
+        "en": "Indiana Brones"
+      },
+      "img": "814.png",
+      "hint": "Broforce"
+    },
+    "Jesus": {
+      "names": {
+        "fr": "Jesus",
+        "en": "Jesus"
+      },
+      "img": "815.png",
+      "hint": "Broforce"
+    },
+    "Rambro": {
+      "names": {
+        "fr": "Rambro",
+        "en": "Rambro"
+      },
+      "img": "818.png",
+      "hint": "Broforce"
+    },
+    "Satan": {
+      "names": {
+        "fr": "Satan",
+        "en": "Satan"
+      },
+      "img": "819.png",
+      "hint": "Broforce"
+    },
+    "Jacket": {
+      "names": {
+        "fr": "Jacket",
+        "en": "Jacket"
+      },
+      "img": "825.png",
+      "hint": "Hotline Miami"
+    },
+    "Biker": {
+      "names": {
+        "fr": "Biker",
+        "en": "Biker"
+      },
+      "img": "826.png",
+      "hint": "Hotline Miami"
+    },
+    "Richard": {
+      "names": {
+        "fr": "Richard",
+        "en": "Richard"
+      },
+      "img": "829.png",
+      "hint": "Hotline Miami"
+    },
+    "Don Juan": {
+      "names": {
+        "fr": "Don Juan",
+        "en": "Don Juan"
+      },
+      "img": "830.png",
+      "hint": "Hotline Miami"
+    },
+    "Wilson": {
+      "names": {
+        "fr": "Wilson",
+        "en": "Wilson"
+      },
+      "img": "849.png",
+      "hint": "Dont Starve Together"
+    },
+    "Wendy": {
+      "names": {
+        "fr": "Wendy",
+        "en": "Wendy"
+      },
+      "img": "852.png",
+      "hint": "Dont Starve Together"
+    },
+    "Ku": {
+      "names": {
+        "fr": "Ku",
+        "en": "Ku"
+      },
+      "img": "878.png",
+      "hint": "Ori"
+    },
+    "The Lamb": {
+      "names": {
+        "fr": "Lamb",
+        "en": "The Lamb"
+      },
+      "img": "899.png",
+      "hint": "Cult of the Lamb"
+    },
+    "The Goat": {
+      "names": {
+        "fr": "Goat",
+        "en": "The Goat"
+      },
+      "img": "900.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Narinder": {
+      "names": {
+        "fr": "Narinder",
+        "en": "Narinder"
+      },
+      "img": "921.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Aym": {
+      "names": {
+        "fr": "Aym",
+        "en": "Aym"
+      },
+      "img": "922.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Baal": {
+      "names": {
+        "fr": "Baal",
+        "en": "Baal"
+      },
+      "img": "923.png",
+      "hint": "Cult of the Lamb"
+    },
+    "Karl": {
+      "names": {
+        "fr": "Karl",
+        "en": "Karl"
+      },
+      "img": "951.png",
+      "hint": "Deep Rock Galatic"
+    },
+    "Hat Kid": {
+      "names": {
+        "fr": "Hat Kid",
+        "en": "Hat Kid"
+      },
+      "img": "956.png",
+      "hint": "A Hat in Time"
+    },
+    "Mustache Girl": {
+      "names": {
+        "fr": "Mustache Girl",
+        "en": "Mustache Girl"
+      },
+      "img": "957.png",
+      "hint": "A Hat in Time"
+    },
+    "Maneki Neko": {
+      "names": {
+        "fr": "Maneki Neko",
+        "en": "Maneki Neko"
+      },
+      "img": "977.png",
+      "hint": "Speedrunners"
+    },
+    "Speedrunner": {
+      "names": {
+        "fr": "Speedrunner",
+        "en": "Speedrunner"
+      },
+      "img": "982.png",
+      "hint": "Speedrunners"
+    },
+    "Arias": {
+      "names": {
+        "fr": "Arias",
+        "en": "Arias"
+      },
+      "img": "986.png",
+      "hint": "Astalon Tears of the Earth"
+    },
+    "Survivor": {
+      "names": {
+        "fr": "Survivor",
+        "en": "Survivor"
+      },
+      "img": "991.png",
+      "hint": "Rain World"
+    },
+    "Hunter": {
+      "names": {
+        "fr": "Hunter",
+        "en": "Hunter"
+      },
+      "img": "992.png",
+      "hint": "Rain World"
+    },
+    "Abomination": {
+      "names": {
+        "fr": "Abomination",
+        "en": "Abomination"
+      },
+      "img": "1006.png",
+      "hint": "Darkest Dungeon"
+    },
+    "Death": {
+      "names": {
+        "fr": "Death",
+        "en": "Death"
+      },
+      "img": "1025.png",
+      "hint": "Darkest Dungeon"
+    },
+    "The Star": {
+      "names": {
+        "fr": "Star",
+        "en": "The Star"
+      },
+      "img": "1036.png",
+      "hint": "Furi"
+    },
+    "The Stranger": {
+      "names": {
+        "fr": "Rider",
+        "en": "The Stranger"
+      },
+      "img": "1038.png",
+      "hint": "Furi"
+    },
+    "Onnamusha": {
+      "names": {
+        "fr": "Onnamusha",
+        "en": "Onnamusha"
+      },
+      "img": "1040.png",
+      "hint": "Furi"
+    },
+    "Red": {
+      "names": {
+        "fr": "Rouge",
+        "en": "Red"
+      },
+      "img": "1041.png",
+      "hint": "Everhood"
+    },
+    "Blue Thief": {
+      "names": {
+        "fr": "Blue",
+        "en": "Blue Thief"
+      },
+      "img": "1042.png",
+      "hint": "Everhood"
+    },
+    "Frog": {
+      "names": {
+        "fr": "Grenouille",
+        "en": "Frog"
+      },
+      "img": "1043.png",
+      "hint": "Everhood"
+    },
+    "Pink": {
+      "names": {
+        "fr": "Rose",
+        "en": "Pink"
+      },
+      "img": "1055.png",
+      "hint": "Everhood"
+    },
+    "Cube": {
+      "names": {
+        "fr": "Cube",
+        "en": "Cube"
+      },
+      "img": "1059.png",
+      "hint": "Everhood"
+    },
+    "Light Being": {
+      "names": {
+        "fr": "Light Being",
+        "en": "Light Being"
+      },
+      "img": "1078.png",
+      "hint": "Everhood"
+    },
+    "Geoffroy Lactôt": {
+      "names": {
+        "fr": "Geoffroy Lactôt",
+        "en": "Geoffroy Lactôt"
+      },
+      "img": "1098.png",
+      "hint": "Pizza Tower"
+    },
+    "Gustavo and Brick": {
+      "names": {
+        "fr": "Gustavo and Brick",
+        "en": "Gustavo and Brick"
+      },
+      "img": "1104.png",
+      "hint": "Pizza Tower"
+    },
+    "Peppino Spaghetti": {
+      "names": {
+        "fr": "Peppino Spaghetti",
+        "en": "Peppino Spaghetti"
+      },
+      "img": "1122.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizzaface": {
+      "names": {
+        "fr": "Pizzaface",
+        "en": "Pizzaface"
+      },
+      "img": "1129.png",
+      "hint": "Pizza Tower"
+    },
+    "Pizzahead": {
+      "names": {
+        "fr": "Pizzahead",
+        "en": "Pizzahead"
+      },
+      "img": "1130.png",
+      "hint": "Pizza Tower"
+    },
+    "Pumpkin Ghost": {
+      "names": {
+        "fr": "Pumpkin Ghost",
+        "en": "Pumpkin Ghost"
+      },
+      "img": "1134.png",
+      "hint": "Pizza Tower"
+    },
+    "Druidra the Wild Titan": {
+      "names": {
+        "fr": "Druidra",
+        "en": "Druidra the Wild Titan"
+      },
+      "img": "1154.png",
+      "hint": "Core Keeper"
+    },
+    "Cydra the Ice Titan": {
+      "names": {
+        "fr": "Cydra",
+        "en": "Cydra the Ice Titan"
+      },
+      "img": "1155.png",
+      "hint": "Core Keeper"
+    },
+    "Pyrdra the Fire Titan": {
+      "names": {
+        "fr": "Pyrdra",
+        "en": "Pyrdra the Fire Titan"
+      },
+      "img": "1156.png",
+      "hint": "Core Keeper"
+    },
+    "Core Commander": {
+      "names": {
+        "fr": "Core Commander",
+        "en": "Core Commander"
+      },
+      "img": "1157.png",
+      "hint": "Core Keeper"
+    },
+    "Urschleim": {
+      "names": {
+        "fr": "Urschleim",
+        "en": "Urschleim"
+      },
+      "img": "1158.png",
+      "hint": "Core Keeper"
+    },
+    "Nimruza, Queen of the Burrowed Sands": {
+      "names": {
+        "fr": "Nimruza",
+        "en": "Nimruza, Queen of the Burrowed Sands"
+      },
+      "img": "1159.png",
+      "hint": "Core Keeper"
+    },
+    "Dale Vandermeer": {
+      "names": {
+        "fr": "Dale Vandermeer",
+        "en": "Dale Vandermeer"
+      },
+      "img": "1175.png",
+      "hint": "Rusty Lake"
+    },
+    "Laura Vanderboom": {
+      "names": {
+        "fr": "Laura",
+        "en": "Laura Vanderboom"
+      },
+      "img": "1186.png",
+      "hint": "Rusty Lake"
+    },
+    "Pale Visitor": {
+      "names": {
+        "fr": "Visiteur",
+        "en": "Pale Visitor"
+      },
+      "img": "1216.png",
+      "hint": "No, I'm not a Human"
+    },
+    "Mara Forest": {
+      "names": {
+        "fr": "Mara",
+        "en": "Mara Forest"
+      },
+      "img": "1226.png",
+      "hint": "Crow Country"
+    },
+    "Orlon Curly Carling": {
+      "names": {
+        "fr": "Orlon",
+        "en": "Orlon Curly Carling"
+      },
+      "img": "1231.png",
+      "hint": "Mouthwashing"
+    },
+    "Mita": {
+      "names": {
+        "fr": "Mita",
+        "en": "Mita"
+      },
+      "img": "1241.png",
+      "hint": "Miside"
+    },
+    "Player 1": {
+      "names": {
+        "fr": "Joueur 1",
+        "en": "Player 1"
+      },
+      "img": "1248.png",
+      "hint": "Miside"
+    },
+    "Fisherman": {
+      "names": {
+        "fr": "Pecheur",
+        "en": "Fisherman"
+      },
+      "img": "1257.png",
+      "hint": "Dredge"
+    },
+    "The Deity": {
+      "names": {
+        "fr": "Deity",
+        "en": "The Deity"
+      },
+      "img": "1267.png",
+      "hint": "Dredge"
+    }
+  }

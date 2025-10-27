@@ -8,7 +8,8 @@ class Mob {
             COMMON: {},
             RARE: {},
             EPIC: {},
-            LEGENDARY: {}
+            LEGENDARY: {},
+            SPECIAL: {}
         };
     }
 
@@ -22,6 +23,15 @@ class Mob {
             } else {
                 console.warn(`❌ Fichier manquant : ${filePath}`);
             }
+        }
+
+        const specialPath = path.join(this.baseDir, 'special.json');
+        if (fs.existsSync(specialPath)) {
+            const raw = fs.readFileSync(specialPath, 'utf-8');
+            this.mobs.SPECIAL = JSON.parse(raw);
+            console.log("✅ Mobs spéciaux chargés !");
+        } else {
+            console.warn("⚠️ Aucun fichier special.json trouvé.");
         }
     }
 
