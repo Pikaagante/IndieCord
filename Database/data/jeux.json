@@ -302,6 +302,57 @@
     },
     {
       "nom": "World for two"
+    },
+    {
+      "nom": "Noita"
+    },
+    {
+      "nom": "Friends vs Friends"
+    },
+    {
+      "nom": "Titan Souls"
+    },
+    {
+      "nom": "Slime rancher 2"
+    },
+    {
+      "nom": "Outlast"
+    },
+    {
+      "nom": "Terraria"
+    },
+    {
+      "nom": "Vintage story"
+    },
+    {
+      "nom": "Clover pit"
+    },
+    {
+      "nom": "Subnautica"
+    },
+    {
+      "nom": "crow country"
+    },
+    {
+      "nom": "irritated mind"
+    },
+    {
+      "nom": "Cry of Fear"
+    },
+    {
+      "nom": "Little nightmare 2"
+    },
+    {
+      "nom": "What the golf"
+    },
+    {
+      "nom": "Lil Gator Game"
+    },
+    {
+      "nom": "Felvidek"
+    },
+    {
+      "nom": "Rabbit and Steel"
     }
   ],
   "concept_art": [
@@ -331,6 +382,12 @@
     },
     {
       "nom": "Slime Rancher"
+    },
+    {
+      "nom": "Furi"
+    },
+    {
+      "nom": "Metal Hellsinger"
     }
   ],
   "ui": [
@@ -354,6 +411,24 @@
     },
     {
       "nom": "Schedule I"
+    },
+    {
+      "nom": "Human Fall Flat"
+    },
+    {
+      "nom": "Tinykin"
+    },
+    {
+      "nom": "My Time At Portia"
+    },
+    {
+      "nom": "Ball x Pitt"
+    },
+    {
+      "nom": "Spiritfarer"
+    },
+    {
+      "nom": "World of Goo 2"
     }
   ],
   "covers": [
@@ -386,6 +461,39 @@
     },
     {
       "nom": "The Talos Principle"
+    },
+    {
+      "nom": "Necrosmith"
+    },
+    {
+      "nom": "Outcore: Desktop Adventure"
+    },
+    {
+      "nom": "FNaF: into the pit"
+    },
+    {
+      "nom": "Mouthwashing"
+    },
+    {
+      "nom": "the forest"
+    },
+    {
+      "nom": "pit of goblin"
+    },
+    {
+      "nom": "Oxygen not included"
+    },
+    {
+      "nom": "Nubby's Number Factory"
+    },
+    {
+      "nom": "A Little to the Left"
+    },
+    {
+      "nom": "Monument Valley"
+    },
+    {
+      "nom": "Inmost"
     }
   ],
   "personnage": [
@@ -429,11 +537,32 @@
       "context": "grand mère"
     },
     {
-      "nom": "spooky's house of jumscare"
-    },
-    {
       "nom": "that's not my neighbor",
       "context": "Mclooy Rudboys"
+    },
+    {
+      "nom": "Hylics",
+      "context": "Somsnosa"
+    },
+    {
+      "nom": "The Binding Of Isaac",
+      "context": "Isaac"
+    },
+    {
+      "nom": "Don't Starve",
+      "context": "Webber"
+    },
+    {
+      "nom": "Demon Turf",
+      "context": "Beez"
+    },
+    {
+      "nom": "Crashlands",
+      "context": "Flux"
+    },
+    {
+      "nom": "Omori",
+      "context": "Aubrey"
     }
   ],
   "achievement": [
@@ -472,6 +601,24 @@
     },
     {
       "nom": "Cult of the lamb"
+    },
+    {
+      "nom": "Islets"
+    },
+    {
+      "nom": "The bunny graveyard"
+    },
+    {
+      "nom": "Popgoes ARCADE"
+    },
+    {
+      "nom": "Tiny Rogues"
+    },
+    {
+      "nom": "Kill it With Fire"
+    },
+    {
+      "nom": "No Man's Sky"
     }
   ],
   "musique": [
@@ -677,6 +824,57 @@
     },
     {
       "nom": "FNAF World"
+    },
+    {
+      "nom": "The Karters 2",
+      "context": "Main Menu"
+    },
+    {
+      "nom": "Cat Quest",
+      "context": "A Feline Epic"
+    },
+    {
+      "nom": "FNaF 1"
+    },
+    {
+      "nom": "Bendy and the ink machine"
+    },
+    {
+      "nom": "REPO"
+    }
+  ],
+  "logo": [
+    {
+      "nom": "Nubby's Number Factory"
+    },
+    {
+      "nom": "Content Warning"
+    },
+    {
+      "nom": "Clover Pit"
+    },
+    {
+      "nom": "Brotato"
+    }
+  ],
+  "description": [
+    {
+      "nom": "Fruitbus"
+    },
+    {
+      "nom": "The Planet Crafter"
+    },
+    {
+      "nom": "Kill it With Fire"
+    },
+    {
+      "nom": "Foundry"
+    },
+    {
+      "nom": "Bugsnax"
+    },
+    {
+      "nom": "Necesse"
     }
   ]
 }

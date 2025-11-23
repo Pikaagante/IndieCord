@@ -24,7 +24,9 @@ module.exports = {
                 { name: "Covers", value: "covers" },
                 { name: "UI", value: "ui" },
                 { name: "Personnage", value: "personnage" },
-                { name: "Achievement", value: "achievement" }
+                { name: "Achievement", value: "achievement" },
+                { name: "Description", value: "description" },
+                { name: "Logo", value: "logo" }
             ]
         },
         {
