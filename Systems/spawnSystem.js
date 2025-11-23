@@ -3,8 +3,8 @@ let spawnMessage = null;
 let spawnTimeout = null;
 let revealTimeout = null;
 
-const eventActive = true;
-const eventChance = 0.15;
+const eventActive = false;
+const eventChance = 0.2;
 
 let messageCount = 0;
 const minMessages = 15;

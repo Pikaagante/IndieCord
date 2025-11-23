@@ -1,3 +1,6 @@
+const dns = require("node:dns");
+dns.setDefaultResultOrder("ipv4first");
+
 const Discord = require("discord.js");
 const intents = new Discord.IntentsBitField(3276799);
 const bot = new Discord.Client({ intents });
@@ -38,7 +41,6 @@ bot.once("ready", () => {
     scheduleJsonBackup(bot);
 });
 
-
 initialize().then(() => {
     bot.commands = new Discord.Collection();
 
@@ -49,7 +51,6 @@ initialize().then(() => {
         bot.on("messageCreate", async (message) => {
             if (message.author.bot || !message.guild) return;
 
-            // --- Gain d'argent aléatoire (1 à 10) ---
             const gain = Math.floor(Math.random() * 10) + 1;
             const userId = message.author.id;
 
@@ -57,7 +58,6 @@ initialize().then(() => {
 
             spawnHandler(bot, message, global.profil, global.mob);
         });
-
 
     }).catch(err => {
         console.error("Erreur de connexion au bot:", err);
