@@ -4,6 +4,9 @@
       "nom": "Arcade Paradise"
     },
     {
+      "nom": "Lethalmon"
+    },
+    {
       "nom": "Atomicrops"
     },
     {
@@ -353,6 +356,48 @@
     },
     {
       "nom": "Rabbit and Steel"
+    },
+    {
+      "nom": "Stick Fight: The Game"
+    },
+    {
+      "nom": "LOVE"
+    },
+    {
+      "nom": "FlyKnight"
+    },
+    {
+      "nom": "Oxygen not Included"
+    },
+    {
+      "nom": "Souldiers"
+    },
+    {
+      "nom": "Viewfinder"
+    },
+    {
+      "nom": "Exit 8"
+    },
+    {
+      "nom": "Artic Egg"
+    },
+    {
+      "nom": "Ready or Not"
+    },
+    {
+      "nom": "Mold"
+    },
+    {
+      "nom": "Scorn"
+    },
+    {
+      "nom": "Parasite Mutant"
+    },
+    {
+      "nom": "Braid"
+    },
+    {
+      "nom": "Hell Is Other Demons"
     }
   ],
   "concept_art": [
@@ -388,6 +433,9 @@
     },
     {
       "nom": "Metal Hellsinger"
+    },
+    {
+      "nom": "Party Animals"
     }
   ],
   "ui": [
@@ -429,6 +477,18 @@
     },
     {
       "nom": "World of Goo 2"
+    },
+    {
+      "nom": "Party Animals"
+    },
+    {
+      "nom": "Nova Drift"
+    },
+    {
+      "nom": "World of Goo"
+    },
+    {
+      "nom": "Hyper Light Drifter"
     }
   ],
   "covers": [
@@ -494,6 +554,30 @@
     },
     {
       "nom": "Inmost"
+    },
+    {
+      "nom": "Deep Rock Galatic"
+    },
+    {
+      "nom": "Lobotomy Corporation"
+    },
+    {
+      "nom": "Gravity Circuit"
+    },
+    {
+      "nom": "Haste"
+    },
+    {
+      "nom": "Wednesday"
+    },
+    {
+      "nom": "Neon White"
+    },
+    {
+      "nom": "Cryptmaster"
+    },
+    {
+      "nom": "Wheel World"
     }
   ],
   "personnage": [
@@ -563,6 +647,38 @@
     {
       "nom": "Omori",
       "context": "Aubrey"
+    },
+    {
+      "nom": "Five Nights at Candy's",
+      "context": "Candy"
+    },
+    {
+      "nom": "Subnautica"
+    },
+    {
+      "nom": "Hungry Knight"
+    },
+    {
+      "nom": "Dead cells"
+    },
+    {
+      "nom": "Hungry Knight"
+    },
+    {
+      "nom": "Aethermancer",
+      "context": "Catzerker"
+    },
+    {
+      "nom": "Black Skylands"
+    },
+    {
+      "nom": "Parasite Mutant"
+    },
+    {
+      "nom": "Root"
+    },
+    {
+      "nom": "Coromon"
     }
   ],
   "achievement": [
@@ -619,6 +735,9 @@
     },
     {
       "nom": "No Man's Sky"
+    },
+    {
+      "nom": "Forager"
     }
   ],
   "musique": [
@@ -855,6 +974,24 @@
     },
     {
       "nom": "Brotato"
+    },
+    {
+      "nom": "Abiotic Factor"
+    },
+    {
+      "nom": "Peak"
+    },
+    {
+      "nom": "Void Stranger"
+    },
+    {
+      "nom": "Kingdoms of the Dump"
+    },
+    {
+      "nom": "The Witness"
+    },
+    {
+      "nom": "No, I’m Not a Human"
     }
   ],
   "description": [

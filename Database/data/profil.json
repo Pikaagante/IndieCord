@@ -274,7 +274,7 @@
 				"img": "71.png",
 				"shiny": false,
 				"licence": "Inscryption",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -373,7 +373,7 @@
 				"img": "321.png",
 				"shiny": false,
 				"licence": "Lethal Company",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -637,7 +637,7 @@
 				"img": "384.png",
 				"shiny": false,
 				"licence": "Slime Rancher",
-				"nbr": 1
+				"nbr": 2
 			},
 			{
 				"name": {
@@ -1770,7 +1770,7 @@
 				"img": "798.png",
 				"shiny": true,
 				"licence": "Broforce",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -1935,7 +1935,7 @@
 				"img": "510.png",
 				"shiny": false,
 				"licence": "Cuphead",
-				"nbr": 1
+				"nbr": 2
 			},
 			{
 				"name": {
@@ -2065,7 +2065,7 @@
 				"shiny": false,
 				"channel": "1071784411261063178",
 				"licence": "Terraria",
-				"nbr": 1
+				"nbr": 2
 			},
 			{
 				"name": {
@@ -2303,6 +2303,248 @@
 				"img": "152.png",
 				"shiny": false,
 				"licence": "Shovel Knight",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Riley",
+					"en": "Riley"
+				},
+				"rarity": "COMMON",
+				"img": "1080.png",
+				"shiny": true,
+				"licence": "Everhood",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Minireena",
+					"en": "Minireena"
+				},
+				"rarity": "COMMON",
+				"img": "183.png",
+				"shiny": false,
+				"licence": "FNAF",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Boondock Bros",
+					"en": "The Boondock Bros"
+				},
+				"rarity": "RARE",
+				"img": "823.png",
+				"shiny": false,
+				"licence": "Broforce",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Chef",
+					"en": "Chef"
+				},
+				"rarity": "RARE",
+				"img": "458.png",
+				"shiny": false,
+				"licence": "REPO",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Zeek",
+					"en": "Zeek"
+				},
+				"rarity": "COMMON",
+				"img": "989.png",
+				"shiny": false,
+				"licence": "Astalon Tears of the Earth",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "James",
+					"en": "James Vanderboom"
+				},
+				"rarity": "COMMON",
+				"img": "1185.png",
+				"shiny": false,
+				"licence": "Rusty Lake",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Hornet",
+					"en": "lelEnox"
+				},
+				"rarity": "SPECIAL",
+				"img": "S7.png",
+				"shiny": false,
+				"licence": "Noel",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Arbalest",
+					"en": "Arbalest"
+				},
+				"rarity": "COMMON",
+				"img": "1008.png",
+				"shiny": false,
+				"licence": "Darkest Dungeon",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "2D Mita",
+					"en": "2D Mita"
+				},
+				"rarity": "COMMON",
+				"img": "1236.png",
+				"shiny": false,
+				"licence": "Miside",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Miller",
+					"en": "Miller"
+				},
+				"rarity": "COMMON",
+				"img": "254.png",
+				"shiny": false,
+				"licence": "Eastward",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Bug Monster",
+					"en": "Bug Monster"
+				},
+				"rarity": "COMMON",
+				"img": "1237.png",
+				"shiny": false,
+				"licence": "Miside",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Zepar",
+					"en": "Zepar"
+				},
+				"rarity": "COMMON",
+				"img": "914.png",
+				"shiny": false,
+				"licence": "Cult of the Lamb",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Hoverfish",
+					"en": "Hoverfish"
+				},
+				"rarity": "COMMON",
+				"img": "450.png",
+				"shiny": false,
+				"licence": "Subnautica",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Bouclier",
+					"en": "Shield"
+				},
+				"rarity": "COMMON",
+				"img": "779.png",
+				"shiny": false,
+				"licence": "Tunic",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Collector",
+					"en": "The Collector"
+				},
+				"rarity": "EPIC",
+				"img": "1026.png",
+				"shiny": false,
+				"licence": "Darkest Dungeon",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Glitchtrap",
+					"en": "Glitchtrap"
+				},
+				"rarity": "LEGENDARY",
+				"img": "180.png",
+				"shiny": false,
+				"licence": "FNAF",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "La bande des Tubercules",
+					"en": "The Root Pack"
+				},
+				"rarity": "COMMON",
+				"img": "512.png",
+				"shiny": false,
+				"licence": "Cuphead",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Banger",
+					"en": "Banger"
+				},
+				"rarity": "COMMON",
+				"img": "456.png",
+				"shiny": false,
+				"licence": "REPO",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Blastocyste",
+					"en": "Blastocyst"
+				},
+				"rarity": "COMMON",
+				"img": "692.png",
+				"shiny": false,
+				"licence": "The Binding of Isaac",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Chevalier Lost-a-lot",
+					"en": "Knight Lost-a-lot"
+				},
+				"rarity": "COMMON",
+				"img": "1047.png",
+				"shiny": false,
+				"licence": "Everhood",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Camembert Squire",
+					"en": "Camembert Squire"
+				},
+				"rarity": "COMMON",
+				"img": "1089.png",
+				"shiny": false,
+				"licence": "Pizza Tower",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Kudaai",
+					"en": "Kudaai"
+				},
+				"rarity": "COMMON",
+				"img": "927.png",
+				"shiny": false,
+				"licence": "Cult of the Lamb",
 				"nbr": 1
 			}
 		]
@@ -2718,6 +2960,17 @@
 				"channel": "1343679963747848333",
 				"licence": "Speedrunners",
 				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Djinn",
+					"en": "Djimmi"
+				},
+				"rarity": "COMMON",
+				"img": "506.png",
+				"shiny": false,
+				"licence": "Cuphead",
+				"nbr": 1
 			}
 		]
 	},
@@ -2942,7 +3195,7 @@
 				"img": "69.png",
 				"shiny": false,
 				"licence": "Inscryption",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -2975,7 +3228,7 @@
 				"img": "68.png",
 				"shiny": false,
 				"licence": "Inscryption",
-				"nbr": 2
+				"nbr": 1
 			},
 			{
 				"name": {
@@ -3521,6 +3774,28 @@
 				"shiny": false,
 				"licence": "Halloween",
 				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Reefback",
+					"en": "Reefback"
+				},
+				"rarity": "RARE",
+				"img": "432.png",
+				"shiny": false,
+				"licence": "Subnautica",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "The Protagonist",
+					"en": "The Protagonist"
+				},
+				"rarity": "EPIC",
+				"img": "225.png",
+				"shiny": false,
+				"licence": "IMSCARED",
+				"nbr": 1
 			}
 		]
 	},
@@ -3928,6 +4203,17 @@
 				"img": "S4.png",
 				"shiny": false,
 				"licence": "Halloween",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Imperatrice de la lumiere",
+					"en": "Empress of Light"
+				},
+				"rarity": "LEGENDARY",
+				"img": "287.png",
+				"shiny": true,
+				"licence": "Terraria",
 				"nbr": 1
 			}
 		]
@@ -5226,6 +5512,72 @@
 				"shiny": false,
 				"licence": "Hollow Knight",
 				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Holefish",
+					"en": "Holefish"
+				},
+				"rarity": "COMMON",
+				"img": "451.png",
+				"shiny": false,
+				"licence": "Subnautica",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Feather",
+					"en": "Plume"
+				},
+				"rarity": "COMMON",
+				"img": "100.png",
+				"shiny": false,
+				"licence": "Celeste",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Hornet",
+					"en": "lelEnox"
+				},
+				"rarity": "SPECIAL",
+				"img": "S7.png",
+				"shiny": false,
+				"licence": "Noel",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Antiquarium",
+					"en": "Antiquarium"
+				},
+				"rarity": "RARE",
+				"img": "1007.png",
+				"shiny": false,
+				"licence": "Darkest Dungeon",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Dallas",
+					"en": "Dallas"
+				},
+				"rarity": "COMMON",
+				"img": "971.png",
+				"shiny": false,
+				"licence": "Speedrunners",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Slime Rose",
+					"en": "Pink Slime"
+				},
+				"rarity": "COMMON",
+				"img": "407.png",
+				"shiny": false,
+				"licence": "Slime Rancher",
+				"nbr": 1
 			}
 		]
 	},
@@ -5421,6 +5773,28 @@
 				"img": "127.png",
 				"shiny": false,
 				"licence": "Stardew Valley",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Leah",
+					"en": "Leah"
+				},
+				"rarity": "EPIC",
+				"img": "123.png",
+				"shiny": false,
+				"licence": "Stardew Valley",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Bro In Black",
+					"en": "Bro In Black"
+				},
+				"rarity": "EPIC",
+				"img": "792.png",
+				"shiny": false,
+				"licence": "Broforce",
 				"nbr": 1
 			}
 		]
@@ -5713,6 +6087,36 @@
 				"img": "S2.png",
 				"shiny": false,
 				"licence": "Halloween",
+				"nbr": 1
+			}
+		]
+	},
+	"1407781019003654244": {
+		"characters": [
+			{
+				"name": {
+					"fr": "Migosp",
+					"en": "Migosp"
+				},
+				"rarity": "COMMON",
+				"img": "23.png",
+				"shiny": false,
+				"licence": "Undertale",
+				"nbr": 1
+			}
+		]
+	},
+	"1004121541040148491": {
+		"characters": [
+			{
+				"name": {
+					"fr": "Peppibot",
+					"en": "Peppibot"
+				},
+				"rarity": "COMMON",
+				"img": "1121.png",
+				"shiny": false,
+				"licence": "Pizza Tower",
 				"nbr": 1
 			}
 		]
