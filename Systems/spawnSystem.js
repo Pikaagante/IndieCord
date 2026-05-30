@@ -106,7 +106,7 @@ module.exports = async (bot, message) => {
                         ? `🎊 Un personnage d'événement est apparu ! 🎊`
                         : `Un ${isShiny ? "✨ SHINY " : ""}${rarity} est apparu !`
                 )
-                .setDescription(`Tapez \`!c <nom du personnage>\` pour tenter de l'attraper !`)
+                .setDescription(`Tapez \`!c nom du personnage\` pour tenter de l'attraper !`)
                 .setColor(
                     rarity === "SPECIAL" ? "#e67e22" : (isShiny ? "#FFD700" : "#3498db")
                 )

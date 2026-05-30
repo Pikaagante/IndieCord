@@ -398,6 +398,57 @@
     },
     {
       "nom": "Hell Is Other Demons"
+    },
+    {
+      "nom": "Necroking"
+    },
+    {
+      "nom": "Voidtrain"
+    },
+    {
+      "nom":"SteamWorld Dig"
+    },
+    {
+      "nom":"Mewgenics"
+    },
+    {
+      "nom":"UpGun"
+    },
+    {
+      "nom":"Signalis"
+    },
+    {
+      "nom":"Craftopia"
+    },
+    {
+      "nom":"Escape Simulator"
+    },
+    {
+      "nom":"Lightyear Frontier"
+    },
+    {
+      "nom":"Pseudoregalia"
+    },
+    {
+      "nom":"Tiny Thor"
+    },
+    {
+      "nom":"Paquerette Down the Bunburrows"
+    },
+    {
+      "nom":"ENDER MAGNOLIA: Bloom in the Mist"
+    },
+    {
+      "nom":"0°N 0°W"
+    },
+    {
+      "nom":"Honey, I Joined a Cult"
+    },
+    {
+      "nom":"Wizard of Legend"
+    },
+    {
+      "nom":"Overthrown"
     }
   ],
   "concept_art": [
@@ -436,6 +487,9 @@
     },
     {
       "nom": "Party Animals"
+    },
+    {
+      "nom": "Scrap Mechanic"
     }
   ],
   "ui": [
@@ -489,6 +543,33 @@
     },
     {
       "nom": "Hyper Light Drifter"
+    },
+    {
+      "nom": "Rift of the NecroDancer"
+    },
+    {
+      "nom": "Go Mecha Ball"
+    },
+    {
+      "nom": "Guacamelee! 2"
+    },
+    {
+      "nom": "Piece by Piece"
+    },
+    {
+      "nom": "Keeps on mining! - Worlds" 
+    },
+    {
+      "nom": "Snufkin: Melody of Moominvalley"
+    },
+    {
+      "nom": "Spelunky 2"
+    },
+    {
+      "nom": "Grapple Dog"
+    },
+    {
+      "nom": "Alba: A Wildlife Adventure"
     }
   ],
   "covers": [
@@ -578,6 +659,48 @@
     },
     {
       "nom": "Wheel World"
+    },
+    {
+      "nom": "Rusty Lake Roots"
+    },
+    {
+      "nom": "Nidhogg"
+    },
+    {
+      "nom": "Mail Time"
+    },
+    {
+      "nom": "Genesis Noir"
+    },
+    {
+      "nom": "Animal Well"
+    },
+    {
+      "nom": "Islands of Insight"
+    },
+    {
+      "nom": "Fruitbus"
+    },
+    {
+      "nom": "Blue Fire"
+    },
+    {
+      "nom": "Stacklands"
+    },
+    {
+      "nom": "Crisol: Theater of Idols"
+    },
+    {
+      "nom": "RV There Yet ?"
+    },
+    {
+      "nom": "Tenebris Somnia"
+    },
+    {
+      "nom": "Bug Fables: The Everlasting Sapling"
+    },
+    {
+      "nom": "Le Vaillant Petit Page"
     }
   ],
   "personnage": [
@@ -679,6 +802,9 @@
     },
     {
       "nom": "Coromon"
+    },
+    {
+      "nom": "Brotato"
     }
   ],
   "achievement": [
@@ -716,7 +842,7 @@
       "nom": "Garden story"
     },
     {
-      "nom": "Cult of the lamb"
+      "nom": "Cult of the Lamb"
     },
     {
       "nom": "Islets"
@@ -738,6 +864,24 @@
     },
     {
       "nom": "Forager"
+    },
+    {
+      "nom": "Elephantasy"
+    },
+    {
+      "nom": "Slay The Princess"
+    },
+    {
+      "nom": "In Sound Mind"
+    },
+    {
+      "nom": "The Last Hero of Nostalgaia"
+    },
+    {
+      "nom": "Little Inferno"
+    },
+    {
+      "nom": "Graveyard Keeper"
     }
   ],
   "musique": [
@@ -960,6 +1104,10 @@
     },
     {
       "nom": "REPO"
+    },
+    {
+      "nom": "Hotline Miami",
+      "context": "Paris"
     }
   ],
   "logo": [
@@ -992,6 +1140,51 @@
     },
     {
       "nom": "No, I’m Not a Human"
+    },
+    {
+      "nom": "Chants of Sennaar"
+    },
+    {
+      "nom": "Baba is you"
+    },
+    {
+      "nom": "Turnip Boy Commits Tax Evasion"
+    },
+    {
+      "nom": "Project Winter"
+    },
+    {
+      "nom": "Transistor"
+    },
+    {
+      "nom": "Super Battle Golf"
+    },
+    {
+      "nom": "He is Coming"
+    },
+    {
+      "nom": "Slay the spire 2"
+    },
+    {
+      "nom": "Mullet Madjack"
+    },
+    {
+      "nom": "Temtem"
+    },
+    {
+      "nom": "Ultimate Chicken Horse"
+    },
+    {
+      "nom": "ANIMAL WELL"
+    },
+    {
+      "nom": "Black Book"
+    },
+    {
+      "nom": "Off"
+    },
+    {
+      "nom": "Reventure"
     }
   ],
   "description": [
@@ -1012,6 +1205,56 @@
     },
     {
       "nom": "Necesse"
+    },
+    {
+      "nom": "Raft"
+    },
+    {
+      "nom": "Sanabi"
+    },
+    {
+      "nom": "The Talos Principle 2"
+    },
+    {
+      "nom": "One Hand Clapping"
+    },
+    {
+      "nom": "The Unfinished Swan"
+    },
+    {
+      "nom": "Deep Rock Galactic: Survivor"
+    },
+    {
+      "nom": "Noita"
+    },
+    {
+      "nom": "Jotun: Valhalla Edition"
+    },
+    {
+      "nom": "Flock Around"
+    },
+    {
+      "nom": "Lost and Found Co."
+    }
+  ],
+  "Avis": [
+    {
+      "nom": "Factorio"
+    },
+    {
+      "nom": "Balatro"
+    },
+    {
+      "nom": "Cult of the Lamb"
+    },
+    {
+      "nom": "Beholder 2"
+    },
+    {
+      "nom": "Untitled Goose Game"
+    },
+    {
+      "nom": "Overcooked! 2"
     }
   ]
 }
