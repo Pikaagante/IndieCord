@@ -1495,7 +1495,7 @@
 				"img": "3.png",
 				"shiny": false,
 				"licence": "Undertale",
-				"nbr": 1
+				"nbr": 2
 			},
 			{
 				"name": {
@@ -1704,7 +1704,7 @@
 				"img": "656.png",
 				"shiny": true,
 				"licence": "The Binding of Isaac",
-				"nbr": 1
+				"nbr": 2
 			},
 			{
 				"name": {
@@ -2821,6 +2821,41 @@
 				"shiny": false,
 				"licence": "Bendy",
 				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Chara",
+					"en": "Chara"
+				},
+				"rarity": "LEGENDARY",
+				"img": "39.png",
+				"shiny": false,
+				"licence": "Undertale",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Duc Dracosson",
+					"en": "Duke Fishron"
+				},
+				"rarity": "EPIC",
+				"img": "289.png",
+				"shiny": false,
+				"licence": "Terraria",
+				"isIndie": false,
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Type au manteau",
+					"en": "Coat Guy"
+				},
+				"rarity": "COMMON",
+				"img": "1209.png",
+				"shiny": false,
+				"licence": "No, I'm not a Human",
+				"isIndie": false,
+				"nbr": 1
 			}
 		]
 	},
@@ -3245,6 +3280,18 @@
 				"img": "506.png",
 				"shiny": false,
 				"licence": "Cuphead",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Igenous",
+					"en": "Igneous the Molten Mass"
+				},
+				"rarity": "RARE",
+				"img": "1152.png",
+				"shiny": false,
+				"licence": "Core Keeper",
+				"isIndie": false,
 				"nbr": 1
 			}
 		]
@@ -6051,6 +6098,18 @@
 				"shiny": false,
 				"licence": "Terraria",
 				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Stinkbug",
+					"en": "Stinkibug"
+				},
+				"rarity": "COMMON",
+				"img": "78.png",
+				"shiny": false,
+				"licence": "Inscryption",
+				"isIndie": false,
+				"nbr": 1
 			}
 		]
 	},
@@ -6694,6 +6753,18 @@
 				"shiny": false,
 				"licence": "Celeste",
 				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Shuttlebug",
+					"en": "Shuttlebug"
+				},
+				"rarity": "COMMON",
+				"img": "441.png",
+				"shiny": false,
+				"licence": "Subnautica",
+				"isIndie": false,
+				"nbr": 1
 			}
 		]
 	},
@@ -6779,6 +6850,34 @@
 				"img": "1047.png",
 				"shiny": false,
 				"licence": "Everhood",
+				"nbr": 1
+			},
+			{
+				"name": {
+					"fr": "Scout",
+					"en": "Scout"
+				},
+				"rarity": "RARE",
+				"img": "947.png",
+				"shiny": false,
+				"licence": "Deep Rock Galatic",
+				"isIndie": false,
+				"nbr": 1
+			}
+		]
+	},
+	"238646854965788673": {
+		"characters": [
+			{
+				"name": {
+					"fr": "Flinky",
+					"en": "Flinky"
+				},
+				"rarity": "RARE",
+				"img": "906.png",
+				"shiny": false,
+				"licence": "Cult of the Lamb",
+				"isIndie": false,
 				"nbr": 1
 			}
 		]

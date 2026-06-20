@@ -449,6 +449,12 @@
     },
     {
       "nom":"Overthrown"
+    },
+    {
+      "nom":"The Almost Gone"
+    },
+    {
+      "nom":"Symphonia"
     }
   ],
   "concept_art": [
@@ -570,6 +576,15 @@
     },
     {
       "nom": "Alba: A Wildlife Adventure"
+    },
+    {
+      "nom": "Into The Breach"
+    },
+    {
+      "nom": "Demon, Turf"
+    },
+    {
+      "nom": "Choo-Choo Charles"
     }
   ],
   "covers": [
@@ -701,6 +716,9 @@
     },
     {
       "nom": "Le Vaillant Petit Page"
+    },
+    {
+      "nom": "Mail Mole"
     }
   ],
   "personnage": [
@@ -805,6 +823,10 @@
     },
     {
       "nom": "Brotato"
+    },
+    {
+      "nom": "Supraland",
+      "context": "Le Prince Rouge"
     }
   ],
   "achievement": [
@@ -882,6 +904,9 @@
     },
     {
       "nom": "Graveyard Keeper"
+    },
+    {
+      "nom": "Death's Door"
     }
   ],
   "musique": [
@@ -1108,6 +1133,10 @@
     {
       "nom": "Hotline Miami",
       "context": "Paris"
+    },
+    {
+      "nom": "Castle Crashers",
+      "context": "Jumpers"
     }
   ],
   "logo": [
@@ -1185,6 +1214,9 @@
     },
     {
       "nom": "Reventure"
+    },
+    {
+      "nom": "Sun Haven"
     }
   ],
   "description": [
@@ -1235,6 +1267,9 @@
     },
     {
       "nom": "Lost and Found Co."
+    },
+    {
+      "nom": "The Longing"
     }
   ],
   "Avis": [
@@ -1255,6 +1290,12 @@
     },
     {
       "nom": "Overcooked! 2"
+    },
+    {
+      "nom": "Phasmophobia"
+    },
+    {
+      "nom": "Splasher"
     }
   ]
 }
