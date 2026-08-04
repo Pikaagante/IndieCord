@@ -455,6 +455,24 @@
     },
     {
       "nom":"Symphonia"
+    },
+    {
+      "nom":"Emuurom"
+    },
+    {
+      "nom":"Forgotlings"
+    },
+    {
+      "nom":"Into the Pit"
+    },
+    {
+      "nom":"Temtem Swarm"
+    },
+    {
+      "nom":"Free as Birds"
+    },
+    {
+      "nom":"Beat Cop"
     }
   ],
   "concept_art": [
@@ -585,6 +603,99 @@
     },
     {
       "nom": "Choo-Choo Charles"
+    },
+    {
+      "nom": "Trombone Champ"
+    },
+    {
+      "nom": "Wildfrost"
+    },
+    {
+      "nom": "Rollerdrome"
+    },
+    {
+      "nom": "I Expect You To Die 2"
+    },
+    {
+      "nom": "What the Car?"
+    },
+    {
+      "nom": "Shotgun Cop Man"
+    },
+    {
+      "nom": "Venba"
+    },
+    {
+      "nom": "Super Meat Boy 3D"
+    },
+    {
+      "nom": "Botany Manor"
+    },
+    {
+      "nom": "The Last Campfire"
+    },
+    {
+      "nom": "Overcooked! All You Can Eat"
+    },
+    {
+      "nom": "Moonglow Bay"
+    },
+    {
+      "nom": "Downwell"
+    },
+    {
+      "nom": "Sable"
+    },
+    {
+      "nom": "Botworld Adventure"
+    },
+    {
+      "nom": "Propnight"
+    },
+    {
+      "nom": "Disc Room"
+    },
+    {
+      "nom": "Prodeus"
+    },
+    {
+      "nom": "Hell is Other Demons"
+    },
+    {
+      "nom": "Garden of the Sea"
+    },
+    {
+      "nom": "You Suck at Parking"
+    },
+    {
+      "nom": "Shovel Knight Pocket Dungeon"
+    },
+    {
+      "nom": "The Artful Escape"
+    },
+    {
+      "nom": "Olli Olli World"
+    },
+    {
+      "nom": "Spelunky 2"
+    },
+    {
+      "nom": "Curse of the Dead Gods"
+    },
+    {
+      "nom": "Alt-Frequencies"
+    },
+    {
+      "nom": "Oxenfree"
+    },
+    {
+      "nom": "Cozy Grove"
+    },
+    {
+      "nom": "Oceanhorn 2: Knights of the Lost Realm"
+    },
+    {
+      "nom": "Dorfromantik"
     }
   ],
   "covers": [
@@ -719,6 +830,15 @@
     },
     {
       "nom": "Mail Mole"
+    },
+    {
+      "nom": "Voidling Bound"
+    },
+    {
+      "nom": "Pipistrello and the Cursed Yoyo"
+    },
+    {
+      "nom": "Layer of Fear"
     }
   ],
   "personnage": [
@@ -907,6 +1027,24 @@
     },
     {
       "nom": "Death's Door"
+    },
+    {
+      "nom": "CATO: Buttered Cat"
+    },
+    {
+      "nom": "Blue Prince"
+    },
+    {
+      "nom": "Unpacking"
+    },
+    {
+      "nom": "VVVVV"
+    },
+    {
+      "nom": "Who's Lila"
+    },
+    {
+      "nom": "The Roottrees are Dead"
     }
   ],
   "musique": [
@@ -1137,6 +1275,14 @@
     {
       "nom": "Castle Crashers",
       "context": "Jumpers"
+    },
+    {
+      "nom": "River City Girls 2",
+      "context": "Official Music"
+    },
+    {
+      "nom": "There Is No Game Wrong Dimension Soundtrack",
+      "context": "GiGis song"
     }
   ],
   "logo": [
@@ -1217,6 +1363,27 @@
     },
     {
       "nom": "Sun Haven"
+    },
+    {
+      "nom": "Patrick's Parabox"
+    },
+    {
+      "nom": "Patch Quest"
+    },
+    {
+      "nom": "Bō: Path of the Teal Lotus"
+    },
+    {
+      "nom": "Meccha Chameleon"
+    },
+    {
+      "nom": "Rungore"
+    },
+    {
+      "nom": "Chumini: Tiny Army"
+    },
+    {
+      "nom": "Horripilant"
     }
   ],
   "description": [
@@ -1270,6 +1437,15 @@
     },
     {
       "nom": "The Longing"
+    },
+    {
+      "nom": "Splasher"
+    },
+    {
+      "nom": "Samorost"
+    },
+    {
+      "nom": "Sworn"
     }
   ],
   "Avis": [
@@ -1295,7 +1471,16 @@
       "nom": "Phasmophobia"
     },
     {
-      "nom": "Splasher"
+      "nom": "Content Warning"
+    },
+    {
+      "nom": "Kaz"
+    },
+    {
+      "nom": "Go-Go Town"
+    },
+    {
+      "nom": "Pyre"
     }
   ]
 }
