@@ -473,6 +473,27 @@
     },
     {
       "nom":"Beat Cop"
+    },
+    {
+      "nom":"Gestalt: Steam & Cinder"
+    },
+    {
+      "nom":"LOST EMBER: Rekindled Edition"
+    },
+    {
+      "nom":"Pirates Outlaws 2: Heritage"
+    },
+    {
+      "nom":"Sea of Stars: Sunset Edition"
+    },
+    {
+      "nom":"Symphony of War: The Nephilim Saga"
+    },
+    {
+      "nom":"Bloody Hell"
+    },
+    {
+      "nom":"Super Indie Karts"
     }
   ],
   "concept_art": [
@@ -839,6 +860,18 @@
     },
     {
       "nom": "Layer of Fear"
+    },
+    {
+      "nom": "Laika: Aged Through Blood"
+    },
+    {
+      "nom": "LumenTale: Memories of Trey"
+    },
+    {
+      "nom": "Rotwood"
+    },
+    {
+      "nom": "Shovel Knight Dig"
     }
   ],
   "personnage": [
@@ -947,6 +980,38 @@
     {
       "nom": "Supraland",
       "context": "Le Prince Rouge"
+    },
+    {
+      "nom": "Heretic's Fork",
+      "context": "Ruby"
+    },
+    {
+      "nom": "Mika and the Witch's Mountain",
+      "context": "Ruby"
+    },
+    {
+      "nom": "Monster Prom",
+      "context": "Doug Campbell"
+    },
+    {
+      "nom": "Another Crab's Treasure",
+      "context": "Inkerton"
+    },
+    {
+      "nom": "Coral Island",
+      "context": "Raina"
+    },
+    {
+      "nom": "Date Everything",
+      "context": "Henry Hoove"
+    },
+    {
+      "nom": "Rivals of Aether",
+      "context": "Orcane"
+    },
+    {
+      "nom": "Tails Noir",
+      "context": "Howard Lotor"
     }
   ],
   "achievement": [
@@ -1045,6 +1110,24 @@
     },
     {
       "nom": "The Roottrees are Dead"
+    },
+    {
+      "nom": "Haste"
+    },
+    {
+      "nom": "Metal: Hellsinger"
+    },
+    {
+      "nom": "Nice Day for Fishing"
+    },
+    {
+      "nom": "Dead as Disco"
+    },
+    {
+      "nom": "Dorfromantik"
+    },
+    {
+      "nom": "Planet of Lana"
     }
   ],
   "musique": [
@@ -1384,6 +1467,27 @@
     },
     {
       "nom": "Horripilant"
+    },
+    {
+      "nom": "Grime"
+    },
+    {
+      "nom":"Mewgenics"
+    },
+    {
+      "nom":"Funguys Swarm"
+    },
+    {
+      "nom":"Beastieball"
+    },
+    {
+      "nom":"Cartapli : Fold Quest"
+    },
+    {
+      "nom":"Dome Keeper"
+    },
+    {
+      "nom":"Souldiers"
     }
   ],
   "description": [
@@ -1446,6 +1550,21 @@
     },
     {
       "nom": "Sworn"
+    },
+    {
+      "nom": "Inkulinati"
+    },
+    {
+      "nom": "Aethermancer"
+    },
+    {
+      "nom": "DuneCrawl"
+    },
+    {
+      "nom": "Neverway"
+    },
+    {
+      "nom": "Dordogne"
     }
   ],
   "Avis": [
@@ -1481,6 +1600,30 @@
     },
     {
       "nom": "Pyre"
+    }
+  ],
+  "Zoom": [
+    {
+      "nom": "Hollow Knight: Silksong"
+    },
+    {
+      "nom": "Biped"
+    }
+  ],
+  "Emojis": [
+    {
+      "nom": "Bread & Fred"
+    }
+  ],
+  "Objets": [
+    {
+      "nom": "Hades",
+      "context": "Twin Fists"
+    }
+  ],
+  "Mecaniques": [
+    {
+      "nom": "R.E.P.O"
     }
   ]
 }
