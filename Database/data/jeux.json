@@ -172,7 +172,7 @@
       "nom": "Nautical Survival"
     },
     {
-      "nom": "OddSpark"
+      "nom": "Oddsparks An Automation Adventure"
     },
     {
       "nom": "Outpath"
@@ -727,7 +727,7 @@
       "nom": "Nine Sols"
     },
     {
-      "nom": "Oddspark"
+      "nom": "Oddsparks An Automation Adventure"
     },
     {
       "nom": "Risk of Rain 2"
@@ -1366,6 +1366,138 @@
     {
       "nom": "There Is No Game Wrong Dimension Soundtrack",
       "context": "GiGis song"
+    },
+    {
+      "nom": "Caravan SandWitch",
+      "context": "Pensée Dérobée"
+    },
+    {
+      "nom": "Deltarune",
+      "context": "Field of Hopes and Dreams"
+    },
+    {
+      "nom": "Road 96",
+      "context": "The Road by Cocoon"
+    },
+    {
+      "nom": "My Friend Pedro",
+      "context": "Mist of Rage"
+    },
+    {
+      "nom": "Omori",
+      "context": "172 DUET"
+    },
+    {
+      "nom": "Sable",
+      "context": "Glider"
+    },
+    {
+      "nom": "Look Outside",
+      "context": "Exposure"
+    },
+    {
+      "nom": "No, I'm not a Human",
+      "context": "Night Theme"
+    },
+    {
+      "nom": "Void Stranger",
+      "context": "Voided"
+    },
+    {
+      "nom": "Temtem Swarm",
+      "context": "The Shores of Deniz"
+    },
+    {
+      "nom": "Core Keeper",
+      "context": "Living Walls"
+    },
+    {
+      "nom": "Deep Rock Galatic",
+      "context": "RUN!"
+    },
+    {
+      "nom": "Phasmophobia",
+      "context": "Main Theme"
+    },
+    {
+      "nom": "Terraria",
+      "context": "Day"
+    },
+    {
+      "nom": "Peak",
+      "context": "Airport"
+    },
+    {
+      "nom": "Meccha Chameleon",
+      "context": "Seeking Theme"
+    },
+    {
+      "nom": "The Talos Principle",
+      "context": "The Temple of The Sands"
+    },
+    {
+      "nom": "Baba Is You",
+      "context": "Baba Is You Theme"
+    },
+    {
+      "nom": "We Were Here Together",
+      "context": "Main Theme"
+    },
+    {
+      "nom": "Inscryption",
+      "context": "The Scrybe of Magicks"
+    },
+    {
+      "nom": "Viewfinder",
+      "context": "Weather Machine"
+    },
+    {
+      "nom": "Nobody Wants to Die",
+      "context": "Main Theme"
+    },
+    {
+      "nom": "Cozy Grove",
+      "context": "Brambly Beach"
+    },
+    {
+      "nom": "Oddsparks An Automation Adventure",
+      "context": "Title Music"
+    },
+    {
+      "nom": "Gravity Circuit",
+      "context": "Theme of Crash"
+    },
+    {
+      "nom": "Felix The Reaper",
+      "context": "Vetterli"
+    },
+    {
+      "nom": "ScourgeBringer",
+      "context": "CandleMask"
+    },
+    {
+      "nom": "Schedule I",
+      "context": "Morning Psychosis"
+    },
+    {
+      "nom": "Far Far West",
+      "context": "Git the Hell Out"
+    },
+    {
+      "nom": "Forewarned",
+      "context": "Radio Tracks 1"
+    },
+    {
+      "nom": "Rusty Lake",
+      "context": "Family Tune"
+    },
+    {
+      "nom": "IMSCARED",
+      "context": "Title"
+    },
+    {
+      "nom": "Moving Out",
+      "context": "Main Theme"
     }
   ],
   "logo": [
