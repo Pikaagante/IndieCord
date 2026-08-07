@@ -1012,6 +1012,10 @@
     {
       "nom": "Tails Noir",
       "context": "Howard Lotor"
+    },
+    {
+      "nom": "Graveyard Keeper",
+      "context": "Donkey"
     }
   ],
   "achievement": [
@@ -1184,7 +1188,7 @@
       "context": "The First Step"
     },
     {
-      "nom": "Chicory",
+      "nom": "Chicory: A Colorful Tale",
       "context": "The Mount Top"
     },
     {
@@ -1740,22 +1744,178 @@
     },
     {
       "nom": "Biped"
+    },
+    {
+      "nom": "Inscryption"
+    },
+    {
+      "nom": "Balatro"
+    },
+    {
+      "nom": "Hyper Light Drifter"
+    },
+    {
+      "nom": "What Remains of Edith Finch"
+    },
+    {
+      "nom": "Papers, Please"
+    },
+    {
+      "nom": "Loop Hero"
     }
   ],
   "Emojis": [
     {
       "nom": "Bread & Fred"
+    },
+    {
+      "nom": "Untitled Goose Game"
+    },
+    {
+      "nom": "Raft"
+    },
+    {
+      "nom": "Overcooked"
+    },
+    {
+      "nom": "Party Animals"
+    },
+    {
+      "nom": "Keep Talking and Nobody Explodes"
+    },
+    {
+      "nom": "Donut County"
+    },
+    {
+      "nom": "Sons of the Forest"
+    },
+    {
+      "nom": "Getting Over It"
+    },
+    {
+      "nom": "Exit 8"
+    },
+    {
+      "nom": "Cassette Beasts"
+    },
+    {
+      "nom": "Chants of Sennaar"
+    },
+    {
+      "nom": "Wildfrost"
+    },
+    {
+      "nom": "Duck Detective"
+    },
+    {
+      "nom": "Webfishing"
+    },
+    {
+      "nom": "Chained Together"
+    },
+    {
+      "nom": "A Game About Digging A Hole"
+    },
+    {
+      "nom": "Brotato"
+    },
+    {
+      "nom": "Buckshot Roulette"
+    },
+    {
+      "nom": "Risk of Rain"
+    },
+    {
+      "nom": "Rain World"
+    },
+    {
+      "nom": "Night in the Woods"
+    },
+    {
+      "nom": "House Flipper"
+    },
+    {
+      "nom": "Coffee Talk"
+    },
+    {
+      "nom": "Death's Door"
     }
   ],
   "Objets": [
     {
       "nom": "Hades",
       "context": "Twin Fists"
+    },
+    {
+      "nom": "Enter the Gungeon",
+      "context": "Huntsman"
+    },
+    {
+      "nom": "Risk of Rain 2",
+      "context": "Bison Steak"
+    },
+    {
+      "nom": "Vampire Survivors",
+      "context": "King Bible"
+    },
+    {
+      "nom": "Dredge",
+      "context": "Oceanic Perch"
+    },
+    {
+      "nom": "Dead Cells",
+      "context": "Spartan Sandals"
+    },
+    {
+      "nom": "Moonlighter",
+      "context": "Gloves"
+    },
+    {
+      "nom": "Bastion",
+      "context": "Cael Hammer"
+    },
+    {
+      "nom": "A Hat in Time",
+      "context": "Ice Hat"
+    },
+    {
+      "nom": "Astroneer",
+      "context": "Buggy"
     }
   ],
   "Mecaniques": [
     {
       "nom": "R.E.P.O"
+    },
+    {
+      "nom": "Superliminal"
+    },
+    {
+      "nom": "SuperlHuman: Fall Flat"
+    },
+    {
+      "nom": "Unrailed!"
+    },
+    {
+      "nom": "OneShot!"
+    },
+    {
+      "nom": "Crypt of the NecroDancer!"
+    },
+    {
+      "nom": "Kenshi"
+    },
+    {
+      "nom": "Hypnospace Outlaw"
+    },
+    {
+      "nom": "Timberborn"
+    },
+    {
+      "nom": "Poly Bridge"
+    },
+    {
+      "nom": "Teardown"
     }
   ]
 }
