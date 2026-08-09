@@ -494,6 +494,30 @@
     },
     {
       "nom":"Super Indie Karts"
+    },
+    {
+      "nom":"Beton Brutal"
+    },
+    {
+      "nom":"The Séance of Blake Manor"
+    },
+    {
+      "nom":"FTL: Faster Than Light"
+    },
+    {
+      "nom":"Dead Estate"
+    },
+    {
+      "nom":"SUNLESS SEA"
+    },
+    {
+      "nom":"Witch It"
+    },
+    {
+      "nom":"Lucid Blocks"
+    },
+    {
+      "nom":"Mauvaises mains"
     }
   ],
   "concept_art": [
@@ -872,6 +896,39 @@
     },
     {
       "nom": "Shovel Knight Dig"
+    },
+    {
+      "nom": "Tricky Towers"
+    },
+    {
+      "nom": "Megabonk"
+    },
+    {
+      "nom": "Esoteric Ebb"
+    },
+    {
+      "nom": "Forager"
+    },
+    {
+      "nom": "PlateUp!"
+    },
+    {
+      "nom": "Ultimate Chicken Horse"
+    },
+    {
+      "nom": "Streets of Rogue"
+    },
+    {
+      "nom": "Cloverpit"
+    },
+    {
+      "nom": "Ship of Fools"
+    },
+    {
+      "nom": "Berry Bury Berry"
+    },
+    {
+      "nom": "Ring of Pain"
     }
   ],
   "personnage": [
@@ -1624,6 +1681,45 @@
     },
     {
       "nom":"Souldiers"
+    },
+    {
+      "nom":"Straftat"
+    },
+    {
+      "nom":"The End Is Nigh"
+    },
+    {
+      "nom":"Desktop Survivors 98"
+    },
+    {
+      "nom":"For The King"
+    },
+    {
+      "nom":"White Knuckle"
+    },
+    {
+      "nom":"Move or Die"
+    },
+    {
+      "nom":"The Legend of Bum-Bo"
+    },
+    {
+      "nom":"Everhood 2"
+    },
+    {
+      "nom":"Darkest Dungeon"
+    },
+    {
+      "nom":"The Headliners"
+    },
+    {
+      "nom":"Let's Build a Zoo"
+    },
+    {
+      "nom":"Islets"
+    },
+    {
+      "nom":"Thronefall"
     }
   ],
   "description": [
