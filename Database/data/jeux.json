@@ -518,6 +518,12 @@
     },
     {
       "nom":"Mauvaises mains"
+    },
+    {
+      "nom":"Bionic Bay"
+    },
+    {
+      "nom":"Undermine 2"
     }
   ],
   "concept_art": [
@@ -593,7 +599,7 @@
       "nom": "My Time At Portia"
     },
     {
-      "nom": "Ball x Pitt"
+      "nom": "Ball x Pit"
     },
     {
       "nom": "Spiritfarer"
@@ -929,6 +935,60 @@
     },
     {
       "nom": "Ring of Pain"
+    },
+    {
+      "nom": "Dicey Dungeons"
+    },
+    {
+      "nom": "Loddlenaut"
+    },
+    {
+      "nom": "Big Walk"
+    },
+    {
+      "nom": "Smushi Come Home"
+    },
+    {
+      "nom": "Pico Park"
+    },
+    {
+      "nom": "The Karters 2"
+    },
+    {
+      "nom": "Skul: The Hero Slayer"
+    },
+    {
+      "nom": "Ember Knights"
+    },
+    {
+      "nom": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors"
+    },
+    {
+      "nom": "Rift of the NecroDancer"
+    },
+    {
+      "nom": "Sanabi"
+    },
+    {
+      "nom": "Slay the Spire II"
+    },
+    {
+      "nom": "The Mageseeker: A League of Legends Story"
+    },
+    {
+      "nom": "Carrion"
+    },
+    {
+      "nom": "BALL x PIT"
+    },
+    {
+      "nom": "Slay the Princess"
+    },
+    {
+      "nom": "AK-xolotl"
+    },
+    {
+      "nom": "Eastward"
     }
   ],
   "personnage": [
@@ -1073,6 +1133,14 @@
     {
       "nom": "Graveyard Keeper",
       "context": "Donkey"
+    },
+    {
+      "nom": "Nine Sols",
+      "context": "Yi"
+    },
+    {
+      "nom": "Islets",
+      "context": "Tour Frog"
     }
   ],
   "achievement": [
@@ -1189,6 +1257,33 @@
     },
     {
       "nom": "Planet of Lana"
+    },
+    {
+      "nom": "Cairn"
+    },
+    {
+      "nom": "Pacific Drive"
+    },
+    {
+      "nom": "Escape from Duckov"
+    },
+    {
+      "nom": "Eco"
+    },
+    {
+      "nom": "Shotgun King: The Final Checkmate"
+    },
+    {
+      "nom": "Have a Nice Death"
+    },
+    {
+      "nom": "Le Vaillant Petit Page"
+    },
+    {
+      "nom": "Kunai"
+    },
+    {
+      "nom": "CONVERGENCE: A League of Legends Story™"
     }
   ],
   "musique": [
@@ -1720,6 +1815,33 @@
     },
     {
       "nom":"Thronefall"
+    },
+    {
+      "nom":"Sally Face"
+    },
+    {
+      "nom":"Rounds"
+    },
+    {
+      "nom":"The Looker"
+    },
+    {
+      "nom":"Ravenswatch"
+    },
+    {
+      "nom":"Wizard with a Gun"
+    },
+    {
+      "nom":"Absolum"
+    },
+    {
+      "nom":"Wizard of Legend 2"
+    },
+    {
+      "nom":"Ale & Tale Tavern"
+    },
+    {
+      "nom":"Artis Impact"
     }
   ],
   "description": [
@@ -1797,6 +1919,12 @@
     },
     {
       "nom": "Dordogne"
+    },
+    {
+      "nom": "Song of Nunu: A League of Legends Story"
+    },
+    {
+      "nom": "Poppy Playtime"
     }
   ],
   "Avis": [
