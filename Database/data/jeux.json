@@ -524,6 +524,30 @@
     },
     {
       "nom":"Undermine 2"
+    },
+    {
+      "nom":"The Adventure Pals"
+    },
+    {
+      "nom":"Windblown"
+    },
+    {
+      "nom":"DEADBOLT"
+    },
+    {
+      "nom":"Neversong"
+    },
+    {
+      "nom":"Death Howl"
+    },
+    {
+      "nom":"Soulstone Survivors"
+    },
+    {
+      "nom":"TetherGeist"
+    },
+    {
+      "nom":"Slots & Daggers"
     }
   ],
   "concept_art": [
@@ -1141,6 +1165,14 @@
     {
       "nom": "Islets",
       "context": "Tour Frog"
+    },
+    {
+      "nom": "Have a Nice Death",
+      "context": "Maxxx"
+    },
+    {
+      "nom": "Nova Lands",
+      "context": "Emilia"
     }
   ],
   "achievement": [
@@ -1842,6 +1874,21 @@
     },
     {
       "nom":"Artis Impact"
+    },
+    {
+      "nom":"Gambonanza"
+    },
+    {
+      "nom":"Neon Abyss"
+    },
+    {
+      "nom":"Rogue Legacy 2"
+    },
+    {
+      "nom":"Moonlighter 2"
+    },
+    {
+      "nom":"Constance"
     }
   ],
   "description": [
@@ -1925,6 +1972,39 @@
     },
     {
       "nom": "Poppy Playtime"
+    },
+    {
+      "nom": "Risk of Rain Returns"
+    },
+    {
+      "nom": "Cuphead"
+    },
+    {
+      "nom": "Bastion"
+    },
+    {
+      "nom": "Vampire Survivors"
+    },
+    {
+      "nom": "MOUSE: P.I. For Hire"
+    },
+    {
+      "nom": "Lucky Tower Ultimate"
+    },
+    {
+      "nom": "Pepper Grinder"
+    },
+    {
+      "nom": "Die in the Dungeon"
+    },
+    {
+      "nom": "LIMBO"
+    },
+    {
+      "nom": "Little Misfortune"
+    },
+    {
+      "nom": "Mina the Hollower"
     }
   ],
   "Avis": [
@@ -2105,6 +2185,18 @@
     {
       "nom": "Astroneer",
       "context": "Buggy"
+    },
+    {
+      "nom": "Sworn",
+      "context": "Chakrams"
+    },
+    {
+      "nom": "Tears of Metal",
+      "context": "Upgrade"
+    },
+    {
+      "nom": "PowerWash Simulator",
+      "context": "Prime Vista PRO"
     }
   ],
   "Mecaniques": [
