@@ -548,6 +548,18 @@
     },
     {
       "nom":"Slots & Daggers"
+    },
+    {
+      "nom":"Paper Planet"
+    },
+    {
+      "nom":"artisanat magique Magicraft"
+    },
+    {
+      "nom":"GRIME"
+    },
+    {
+      "nom":"Labyrinthine"
     }
   ],
   "concept_art": [
@@ -1173,6 +1185,14 @@
     {
       "nom": "Nova Lands",
       "context": "Emilia"
+    },
+    {
+      "nom": "Cauldron ",
+      "context": "Huntress"
+    },
+    {
+      "nom": "Potion Permit ",
+      "context": "Helene"
     }
   ],
   "achievement": [
@@ -1316,6 +1336,15 @@
     },
     {
       "nom": "CONVERGENCE: A League of Legends Story™"
+    },
+    {
+      "nom": "Trove"
+    },
+    {
+      "nom": "Sketchy's Contract"
+    },
+    {
+      "nom": "We Were Here Forever"
     }
   ],
   "musique": [
@@ -2005,6 +2034,18 @@
     },
     {
       "nom": "Mina the Hollower"
+    },
+    {
+      "nom": "Ballionaire"
+    },
+    {
+      "nom": "Cookie Clicker"
+    },
+    {
+      "nom": "Stacklands"
+    },
+    {
+      "nom": "Astrea: Six-Sided Oracles"
     }
   ],
   "Avis": [
@@ -2197,6 +2238,10 @@
     {
       "nom": "PowerWash Simulator",
       "context": "Prime Vista PRO"
+    },
+    {
+      "nom": "Minishoot Adventures",
+      "context": "Upgrades"
     }
   ],
   "Mecaniques": [
