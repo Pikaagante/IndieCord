@@ -184,7 +184,7 @@
       "nom": "Paleopines"
     },
     {
-      "nom": "Planet Crafter"
+      "nom": "The Planet Crafter"
     },
     {
       "nom": "Phasmophobia"
@@ -502,7 +502,7 @@
       "nom":"The Séance of Blake Manor"
     },
     {
-      "nom":"FTL: Faster Than Light"
+      "nom":"Inside the Backrooms"
     },
     {
       "nom":"Dead Estate"
@@ -560,6 +560,15 @@
     },
     {
       "nom":"Labyrinthine"
+    },
+    {
+      "nom":"INMOST"
+    },
+    {
+      "nom":"GUNTOUCHABLES"
+    },
+    {
+      "nom":"ibb & obb"
     }
   ],
   "concept_art": [
@@ -783,6 +792,30 @@
     },
     {
       "nom": "Dorfromantik"
+    },
+    {
+      "nom": "Sable"
+    },
+    {
+      "nom": "Rock of Ages 3: Make and Break"
+    },
+    {
+      "nom": "Iris and the Giant"
+    },
+    {
+      "nom": "Monument Valley"
+    },
+    {
+      "nom": "Absolute Drift"
+    },
+    {
+      "nom": "Clustertruck"
+    },
+    {
+      "nom": "GONNER2"
+    },
+    {
+      "nom": "Yono and the Celestial Elephants"
     }
   ],
   "covers": [
@@ -1345,6 +1378,9 @@
     },
     {
       "nom": "We Were Here Forever"
+    },
+    {
+      "nom": "HUE"
     }
   ],
   "musique": [
@@ -2184,6 +2220,27 @@
     },
     {
       "nom": "Death's Door"
+    },
+    {
+      "nom": "Little Kitty, Big City"
+    },
+    {
+      "nom": "Chicory: A Colorful Tale"
+    },
+    {
+      "nom": "Mail Time"
+    },
+    {
+      "nom": "Pizza Tower"
+    },
+    {
+      "nom": "APICO"
+    },
+    {
+      "nom": "Bear and Breakfast"
+    },
+    {
+      "nom": "Dave the Diver"
     }
   ],
   "Objets": [
@@ -2277,6 +2334,30 @@
     },
     {
       "nom": "Teardown"
+    },
+    {
+      "nom": "The Planet Crafter"
+    },
+    {
+      "nom": "Into the Breach"
+    },
+    {
+      "nom": "Project Zomboid"
+    },
+    {
+      "nom": "Project Zomboid"
+    },
+    {
+      "nom": "Potion Craft"
+    },
+    {
+      "nom": "Viscera Cleanup Detail"
+    },
+    {
+      "nom": "Sticky Business"
+    },
+    {
+      "nom": "Besiege"
     }
   ]
 }
