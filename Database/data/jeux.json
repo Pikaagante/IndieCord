@@ -61,7 +61,7 @@
       "nom": "Caravan Sandwitch"
     },
     {
-      "nom": "Cat quest III"
+      "nom": "Cat Quest III"
     },
     {
       "nom": "Critter Cove"
@@ -610,6 +610,87 @@
     },
     {
       "nom": "Scrap Mechanic"
+    },
+    {
+      "nom": "Chants of Sennaar"
+    },
+    {
+      "nom": "VVVVVV"
+    },
+    {
+      "nom": "Animal Well"
+    },
+    {
+      "nom": "Dungeons of Hinterberg"
+    },
+    {
+      "nom": "Fruitbus"
+    },
+    {
+      "nom": "Ocean's Heart"
+    },
+    {
+      "nom": "Tinkerlands"
+    },
+    {
+      "nom": "Knightfall: A Daring Journey"
+    },
+    {
+      "nom": "Lobotomy Corporation"
+    },
+    {
+      "nom": "Yoku's Island Express"
+    },
+    {
+      "nom": "Bug Fables: The Everlasting Sapling"
+    },
+    {
+      "nom": "Everhood"
+    },
+    {
+      "nom": "Risk of Rain 2"
+    },
+    {
+      "nom": "Into the Breach"
+    },
+    {
+      "nom": "Pipistrello and the Cursed Yoyo"
+    },
+    {
+      "nom": "Doki Doki Literature Club"
+    },
+    {
+      "nom": "Among Us"
+    },
+    {
+      "nom": "Astroneer"
+    },
+    {
+      "nom": "Owlboy"
+    },
+    {
+      "nom": "Broforce"
+    },
+    {
+      "nom": "Furi"
+    },
+    {
+      "nom": "Not For Broadcast"
+    },
+    {
+      "nom": "In Sound Mind"
+    },
+    {
+      "nom": "Tails of Iron"
+    },
+    {
+      "nom": "Death Coming"
+    },
+    {
+      "nom": "Anarcute"
+    },
+    {
+      "nom": "Titan Souls"
     }
   ],
   "ui": [
@@ -1220,12 +1301,64 @@
       "context": "Emilia"
     },
     {
-      "nom": "Cauldron ",
+      "nom": "Cauldron",
       "context": "Huntress"
     },
     {
-      "nom": "Potion Permit ",
+      "nom": "Potion Permit",
       "context": "Helene"
+    },
+    {
+      "nom": "Spiritfarer",
+      "context": "Gustav"
+    },
+    {
+      "nom": "Blasphemous 2",
+      "context": "Anunciada"
+    },
+    {
+      "nom": "OFF",
+      "context": "Enoch"
+    },
+    {
+      "nom": "The Roottrees Are Dead",
+      "context": "Carly Rhose Roottree"
+    },
+    {
+      "nom": "Cave Story",
+      "context": "Curly Brace"
+    },
+    {
+      "nom": "LISA: THE PAINFUL",
+      "context": "Dick Dickson"
+    },
+    {
+      "nom": "Dungeons of Hinterberg",
+      "context": "Hannah"
+    },
+    {
+      "nom": "Dread Delusion",
+      "context": "Inquisitor Ignavus"
+    },
+    {
+      "nom": "Cat Quest 2",
+      "context": "Governor"
+    },
+    {
+      "nom": "Born of Bread",
+      "context": "Chloe Coldstock"
+    },
+    {
+      "nom": "Sea of Stars",
+      "context": "B'st"
+    },
+    {
+      "nom": "Guacamelee!",
+      "context": "Carlos Calaca"
+    },
+    {
+      "nom": "Lobotomy Corporation",
+      "context": "Tiphereth "
     }
   ],
   "achievement": [
@@ -1381,6 +1514,33 @@
     },
     {
       "nom": "HUE"
+    },
+    {
+      "nom": "Dread Delusion"
+    },
+    {
+      "nom": "Big Helmet Heroes"
+    },
+    {
+      "nom": "Born of Bread"
+    },
+    {
+      "nom": "Nobody Saves the World"
+    },
+    {
+      "nom": "Ocean's Heart"
+    },
+    {
+      "nom": "Strayed Lights"
+    },
+    {
+      "nom": "Tinkerlands"
+    },
+    {
+      "nom": "UFO 50"
+    },
+    {
+      "nom": "Root"
     }
   ],
   "musique": [
@@ -1818,7 +1978,7 @@
       "nom": "Ultimate Chicken Horse"
     },
     {
-      "nom": "ANIMAL WELL"
+      "nom": "Aniaml Well"
     },
     {
       "nom": "Black Book"
@@ -1954,6 +2114,9 @@
     },
     {
       "nom":"Constance"
+    },
+    {
+      "nom":"Nuclear Throne"
     }
   ],
   "description": [
@@ -2082,9 +2245,27 @@
     },
     {
       "nom": "Astrea: Six-Sided Oracles"
+    },
+    {
+      "nom": "Who's Lila?"
+    },
+    {
+      "nom": "The Bloodline"
+    },
+    {
+      "nom": "Super Animal Royale"
+    },
+    {
+      "nom": "Picayune Dreams"
+    },
+    {
+      "nom": "The Textorcist: The Story of Ray Bibbia"
+    },
+    {
+      "nom": "In Stars And Time"
     }
   ],
-  "Avis": [
+  "avis": [
     {
       "nom": "Factorio"
     },
@@ -2119,7 +2300,7 @@
       "nom": "Pyre"
     }
   ],
-  "Zoom": [
+  "zoom": [
     {
       "nom": "Hollow Knight: Silksong"
     },
@@ -2143,9 +2324,27 @@
     },
     {
       "nom": "Loop Hero"
+    },
+    {
+      "nom": "Outer Wilds"
+    },
+    {
+      "nom": "The Looker"
+    },
+    {
+      "nom": "Cuphead"
+    },
+    {
+      "nom": "RimWorld"
+    },
+    {
+      "nom": "Hextech Mayhem: A League of Legends Story"
+    },
+    {
+      "nom": "Hello Neighbor"
     }
   ],
-  "Emojis": [
+  "emojis": [
     {
       "nom": "Bread & Fred"
     },
@@ -2243,7 +2442,7 @@
       "nom": "Dave the Diver"
     }
   ],
-  "Objets": [
+  "objets": [
     {
       "nom": "Hades",
       "context": "Twin Fists"
@@ -2299,9 +2498,65 @@
     {
       "nom": "Minishoot Adventures",
       "context": "Upgrades"
+    },
+    {
+      "nom": "Shovel Knight",
+      "context": "Dust Knuckles"
+    },
+    {
+      "nom": "Backpack Hero",
+      "context": "Chainmail"
+    },
+    {
+      "nom": "Slay the Spire",
+      "context": "Akabeko"
+    },
+    {
+      "nom": "Noita",
+      "context": "Recharge Time"
+    },
+    {
+      "nom": "Darkwood",
+      "context": "Bandages"
+    },
+    {
+      "nom": "LISA: THE PAINFUL",
+      "context": "Velo"
+    },
+    {
+      "nom": "The Longing",
+      "context": "Pictures"
+    },
+    {
+      "nom": "Supraland",
+      "context": "Sword"
+    },
+    {
+      "nom": "Patch Quest",
+      "context": "The Kingpin"
+    },
+    {
+      "nom": "Blasphemous",
+      "context": "Chalice of Inverted Verses"
+    },
+    {
+      "nom": "Skul: The Hero Slayer",
+      "context": "Rock Star"
+    },
+    {
+      "nom": "Neon White",
+      "context": "Soul Card"
+    },
+    {
+      "nom": "Going Under",
+      "context": "Ace of Hearts"
+    },
+    {
+      "nom": "Satisfactory",
+      "context": "Crystal Oscillator"
     }
   ],
-  "Mecaniques": [
+  "mecaniques": [
     {
       "nom": "R.E.P.O"
     },
@@ -2358,6 +2613,36 @@
     },
     {
       "nom": "Besiege"
+    },
+    {
+      "nom": "Monster Train"
+    },
+    {
+      "nom": "SteamWorld Dig 2"
+    },
+    {
+      "nom": "The Forgotten City"
+    },
+    {
+      "nom": "Pony Island"
+    },
+    {
+      "nom": "Windswept"
+    },
+    {
+      "nom": "Rabbit and Steel"
+    },
+    {
+      "nom": "Nobody Saves the World"
+    },
+    {
+      "nom": "Knightfall: A Daring Journey"
+    },
+    {
+      "nom": "ALTF4"
+    },
+    {
+      "nom": "Nuclear Throne"
     }
   ]
 }
