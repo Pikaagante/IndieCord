@@ -6,11 +6,11 @@ const { AttachmentBuilder } = require("discord.js");
 const backupChannelId = "1403119933176549397";
 
 function scheduleJsonBackup(bot) {
-    // Tous les jours à 20h (heure du serveur)
-    // Était : 0 20 * * *  →  20h00
+    // Tous les jours à 20h
     cron.schedule("0 20 * * *", async () => {
         console.log("🕗 Lancement de la sauvegarde JSON...");
 
+        // Liste des fichiers JSON importants à sauvegarder
         try {
             const filesToBackup = [
                 "profil.json",
@@ -18,16 +18,19 @@ function scheduleJsonBackup(bot) {
                 "argent.json"
             ];
 
+            // Transforme chaque nom de fichier en pièce jointe Discord
             const attachments = filesToBackup.map(filename => {
                 const filePath = path.join(__dirname, "..", "Database", "data", filename);
                 return new AttachmentBuilder(filePath);
             });            
 
+            // Récupère le salon Discord où envoyer les sauvegardes
             const channel = await bot.channels.fetch(backupChannelId);
             if (!channel) {
                 return console.error("Salon de backup introuvable !");
             }
 
+            // Envoie les fichiers JSON dans le salon Discord
             await channel.send({
                 content: `**Sauvegarde automatique** - ${new Date().toLocaleDateString("fr-FR")}`,
                 files: attachments

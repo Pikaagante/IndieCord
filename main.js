@@ -12,6 +12,7 @@ const spawnHandler = require(path.join(__dirname, "Systems", "spawnSystem"));
 const loadCommands = require("./Loaders/loadCommands");
 const loadEvents = require("./Loaders/loadEvents");
 
+// Initialise toutes les données nécessaires au fonctionnement du bot
 const initialize = async () => {
     const basePath = path.join(__dirname, 'Database', 'data');
 
@@ -34,6 +35,7 @@ const initialize = async () => {
     console.log("✅ Profil, Mob et Jeux chargés !");
 };
 
+// Charge le système de sauvegarde automatique des fichiers JSON
 const scheduleJsonBackup = require("./Systems/Backup");
 
 bot.once("ready", () => {

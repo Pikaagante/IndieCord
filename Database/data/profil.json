@@ -6881,5 +6881,21 @@
 				"nbr": 1
 			}
 		]
+	},
+	"588989988029595658": {
+		"characters": [
+			{
+				"name": {
+					"fr": "Flinky",
+					"en": "Flinky"
+				},
+				"rarity": "RARE",
+				"img": "906.png",
+				"shiny": false,
+				"licence": "Cult of the Lamb",
+				"isIndie": false,
+				"nbr": 1
+			}
+		]
 	}
 }

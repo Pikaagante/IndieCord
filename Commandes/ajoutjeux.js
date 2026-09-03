@@ -39,6 +39,8 @@ module.exports = {
 
     async run(bot, interaction) {
         try {
+            // Vérifie que l'utilisateur possède la permission nécessaire
+            // pour ajouter un jeu dans la liste des quiz.
             if (!interaction.member.permissions.has(PermissionsBitField.Flags.ManageMessages)) {
                 return interaction.reply({
                     content: "Tu n'as pas la permission de gérer les messages.",
@@ -46,12 +48,15 @@ module.exports = {
                 });
             }
 
+        // Récupération des paramètres fournis avec la commande.
         const jeu = interaction.options.getString("jeu").trim();
         const categorie = interaction.options.getString("categorie");
         const context = interaction.options.getString("context")?.trim() || null;
 
         const jeux = global.jeux;
 
+        // Récupère la liste des jeux correspondant à la catégorie.
+        // Si la catégorie n'existe pas encore, on initialise un tableau vide.
         let data = jeux.getKey(categorie);
         if (!data) data = [];
 
@@ -68,9 +73,11 @@ module.exports = {
         const newEntry = context ? { nom: jeu, context } : { nom: jeu };
         data.push(newEntry);
 
+        // Met à jour la catégorie puis sauvegarde les modifications
         jeux.setKey(categorie, data);
         await jeux.saveFile();
 
+        // Création du message de confirmation.
         const embed = new EmbedBuilder()
             .setTitle("Nouveau jeu ajouté !")
             .addFields(

@@ -47,25 +47,29 @@ module.exports = {
 
         const leaderboard = [];
 
+        // Parcourt les profils de tous les utilisateurs.
         for (const [userId, data] of Object.entries(profil.data)) {
             let characters = data.characters || [];
 
-            // Appliquer les filtres
+            // Filtre les personnages selon la rareté sélectionnée.
             if (rarity) {
                 characters = characters.filter(c => c.rarity === rarity);
             }
+            // Si le filtre shiny est activé, garde uniquement les shiny.
             if (shiny === true) {
                 characters = characters.filter(c => c.shiny);
             }
 
             let value = 0;
 
+            // Pour le classement des personnages uniques
             if (type === "unique") {
                 value = new Set(characters.map(c => c.name)).size;
             } else {
                 value = characters.reduce((sum, c) => sum + (c.nbr || 1), 0);
             }
 
+            // Trie les joueurs du meilleur score au plus faible.
             leaderboard.push({ userId, value });
         }
 

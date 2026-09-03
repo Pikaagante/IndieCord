@@ -24,16 +24,21 @@ module.exports = {
             });
         }
 
+        // Récupère le mot recherché et le met en minuscules
+        // afin que la recherche ne soit pas sensible aux majuscules.
         const motcle = interaction.options.getString("motcle").trim().toLowerCase();
         const jeux = global.jeux;
         const data = jeux.data;
 
         let resultats = [];
 
+        // Parcourt toutes les catégories du fichier JSON.
         for (const [categorie, jeuxListe] of Object.entries(data)) {
+            // Parcourt chaque jeu présent dans la catégorie actuelle.
             for (const jeu of jeuxListe) {
                 const nom = jeu.nom.toLowerCase();
 
+                // Vérifie si le mot recherché est présent dans le nom du jeu.
                 if (nom.includes(motcle)) {
                     resultats.push({
                         categorie,
@@ -44,6 +49,7 @@ module.exports = {
             }
         }
 
+        // Si aucun jeu ne correspond à la recherche,
         if (resultats.length === 0) {
             return interaction.reply({
                 content: `Aucun jeu trouvé contenant **"${motcle}"**.`,

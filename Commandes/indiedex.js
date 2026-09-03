@@ -58,6 +58,7 @@ module.exports = {
                 return interaction.reply("Erreur : Impossible de récupérer les données.");
             }
 
+            // Récupération des différents filtres choisis par l'utilisateur.
             const charSearch = interaction.options.getString("character")?.trim()?.toLowerCase();
             const filter = interaction.options.getString("filter") || "all";
             const licence = interaction.options.getString("licence");
@@ -71,6 +72,7 @@ module.exports = {
             const allCharacters = [];
             for (const rarityKey of ["COMMON", "RARE", "EPIC", "LEGENDARY", "SPECIAL"]) {
                 const characters = global.mob.getMob(rarityKey);
+                // Parcourt chaque personnage de la catégorie actuelle.
                 for (const [characterName, characterData] of Object.entries(characters)) {
                     const userCharacter = userCharacters.find(c => {
                         const fr = c.name?.fr?.toLowerCase?.() ?? c.name?.toLowerCase?.();
@@ -80,6 +82,7 @@ module.exports = {
                         return fr === mobFr || fr === mobEn || en === mobFr || en === mobEn;
                     });
 
+                    // Ajoute le personnage à la liste avec les informations
                     allCharacters.push({
                         name: {
                             fr: characterData.names?.fr ?? characterName,
@@ -111,10 +114,14 @@ module.exports = {
                 if (filter === "unlock") filteredCharacters = filteredCharacters.filter(c => c.isUnlocked);
                 else if (filter === "lock") filteredCharacters = filteredCharacters.filter(c => !c.isUnlocked);
 
+                // Filtre par licence
                 if (licence) filteredCharacters = filteredCharacters.filter(c => c.licence.toLowerCase() === licence.toLowerCase());
+                // Filtre par rareté.
                 if (rarity) filteredCharacters = filteredCharacters.filter(c => c.rarity === rarity);
+                // Filtre pour afficher uniquement les personnages shiny.
                 if (shinyFilter) filteredCharacters = filteredCharacters.filter(c => c.isShiny);
 
+                // Aucun personnage ne correspond aux filtres sélectionnés.
                 if (filteredCharacters.length === 0) {
                     return interaction.reply({ content: `Aucun personnage trouvé avec ces filtres.`, ephemeral: true });
                 }
@@ -162,6 +169,7 @@ module.exports = {
                 return embed;
             };
 
+            // Création des boutons permettant de changer de page.
             const row = new ActionRowBuilder().addComponents(
                 new ButtonBuilder()
                     .setCustomId("prevPage")
@@ -181,6 +189,7 @@ module.exports = {
                 fetchReply: true
             });
 
+            // Les boutons restent utilisables pendant 60 secondes.
             const collector = message.createMessageComponentCollector({ time: 60000 });
 
             collector.on("collect", async (buttonInteraction) => {
@@ -188,8 +197,10 @@ module.exports = {
                     return buttonInteraction.reply({ content: "Vous ne pouvez pas utiliser ces boutons.", ephemeral: true });
                 }
 
+                // Retourne à la page précédente.
                 if (buttonInteraction.customId === "prevPage") {
                     currentPage = Math.max(currentPage - 1, 0);
+                // Passe à la page suivante.
                 } else if (buttonInteraction.customId === "nextPage") {
                     currentPage = Math.min(currentPage + 1, totalPages - 1);
                 }
