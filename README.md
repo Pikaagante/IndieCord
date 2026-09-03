@@ -32,7 +32,7 @@ Le fonctionnement général est le suivant :
 
 ---
 
-# 📋 Commandes
+# Commandes
 
 ## `/help`
 
@@ -262,7 +262,7 @@ Chaque jour à 20h, le bot effectue une sauvegarde des données importantes afin
 
 ---
 
-# 🚀 Installation
+# Installation
 
 ## Prérequis
 
@@ -295,3 +295,5 @@ config.js
 
 n'est volontairement pas présent sur GitHub.
 Il contient des informations sensibles nécessaires au fonctionnement du bot, notamment le token du bot Discord.
+
+---
